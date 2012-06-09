@@ -3,19 +3,5 @@ layout: index
 title: "Nikolaus Piccolotto"
 ---
 {% for post in site.posts %}
-<article class="row-fluid">
-	<div class="span2 visible-desktop"></div>
-	<div class="span10">
-		<div class="row-fluid">
-			<div class="span2 visible-desktop">
-				<h2>{{ post.title }}</h2>
-				{{ post.date }}<br/>
-				<a href="{{post.url}}">permalink</a>
-			</div>
-			<div class="span8 content">
-				{{ post.content }}
-			</div>
-		</div>
-	</div>
-</article>
+	{% include post.html %}
 {% endfor %}
