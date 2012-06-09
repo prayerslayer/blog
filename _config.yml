@@ -6,7 +6,7 @@ baseurl:    /
 url: localhost
 name: "Nikolaus Piccolotto"
 description: "a bit of everything"
-host: http://localhost:4000/
+host: http://nikolaus-piccolotto.info/
 
 source:      .
 destination: ./_site
