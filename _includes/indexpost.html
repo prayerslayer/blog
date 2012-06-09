@@ -7,7 +7,10 @@
 				{{ post.date | date: "%d.%m.%Y"}}<br/>
 				<a href="{{ post.url }}">permalink</a>
 			</div>
-			<div class="span8 content">
+			<div class="span7 content">
+				{% if post.video %}				
+				<p><object><param name="movie" value="{{ post.video }}?version=3&feature=player_detailpage"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="{{ post.video }}?version=3&feature=player_detailpage" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="320px" height="480px"></object></p>
+				{% endif %}
 				{{ post.content }}
 			</div>
 		</div>

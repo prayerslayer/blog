@@ -1,7 +1,3 @@
-h1 {
-	font: 48pt Georgia;
-}
-
 .social {
 	min-width: 16px;
 	margin-top: 1.5em;
@@ -19,18 +15,35 @@ h1 {
 	margin: 1.5em;
 }
 
+object, embed {
+	min-width: 320px;
+	min-height: 480px;
+	width: 100%;
+	height: auto;
+}
+
 article {
 	margin-top: 3em;
 	margin-bottom: 3em;
 }
 
-blockquote {
-	border-left: 5px solid darkgray;
+blockquote{
+	border-left: 1px solid darkgray;
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
+	color: gray;
 }
 
 body {
-	font: 1.5em "Lato";
+	font-size: 1.5em;
+	font-family:"Lato", sans-serif;
 	line-height: 1.5em;
+}
+
+header {
+	cursor: pointer;
+}
+
+h1 {
+	font: 48pt Georgia, serif;
 }
