@@ -4,6 +4,7 @@ server:      false
 server_port: 4000
 baseurl:    /
 url: localhost
+host: http://nikolaus-piccolotto.info/
 
 source:      .
 destination: ./_site

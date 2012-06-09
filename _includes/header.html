@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	{% capture root %}{% if page.root %}{{ page.root }}{% else %}{{ post.root }}{% endif %}{%endcapture%}
-
 	<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="{{root}}css/bootstrap-responsive.min.css">
-	<link rel="stylesheet" type="text/css" href="{{root}}css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="{{root}}css/style.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.host }}css/bootstrap-responsive.min.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.host }}css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.host }}css/style.css">
 
 	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-	<script type="text/javascript" src="{{root}}js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="{{root}}js/code.js"></script>
+	<script type="text/javascript" src="{{ site.host }}js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="{{ site.host }}js/code.js"></script>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ page.title }} Nikolaus Piccolotto</title>
@@ -27,13 +25,13 @@
 	</div>
 	<div class="span4">
 		<div class="span1">
-			<a href="https://twitter.com/#!/prayerslayer" id="twitter" title="Twitter"><img  class="social" src="{{root}}img/twitter-small.png"></a>
+			<a href="https://twitter.com/#!/prayerslayer" id="twitter" title="Twitter"><img  class="social" src="{{ site.host }}img/twitter-small.png"></a>
 		</div>
 		<div class="span1">
-			<a href="https://github.com/prayerslayer"><img class="social" title="GitHub" src="{{root}}img/octocat-small.png" ></a>
+			<a href="https://github.com/prayerslayer"><img class="social" title="GitHub" src="{{ site.host }}img/octocat-small.png" ></a>
 		</div>
 		<div class="span1">
-			<a href="https://soundcloud.com/prayerslayer"><img class="social" title="SoundCloud" src="{{root}}img/soundcloud-small.png"></a>
+			<a href="https://soundcloud.com/prayerslayer"><img class="social" title="SoundCloud" src="{{ site.host }}img/soundcloud-small.png"></a>
 		</div>
 	</div>
 </div>
