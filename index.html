@@ -2,6 +2,8 @@
 layout: index
 title: "Nikolaus Piccolotto"
 ---
-{% for post in site.posts %}
-	{% include post.html %}
+{% for post in paginator.posts %}
+	{% include indexpost.html %}
 {% endfor %}
+
+{% include pagination.html %}

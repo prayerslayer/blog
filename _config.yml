@@ -4,6 +4,8 @@ server:      false
 server_port: 4000
 baseurl:    /
 url: localhost
+name: "Nikolaus Piccolotto"
+description: "a bit of everything"
 host: http://nikolaus-piccolotto.info/
 
 source:      .
@@ -13,8 +15,9 @@ plugins:     ./_plugins
 future:      true
 lsi:         false
 pygments:    false
-markdown:    maruku
-permalink:   date
+markdown:    rdiscount
+paginate:    10
+permalink:   /:year/:month/:title.html
 
 maruku:
   use_tex:    false

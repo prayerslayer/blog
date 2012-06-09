@@ -1,0 +1,15 @@
+<article class="row-fluid">
+	<div class="span2 visible-desktop"></div>
+	<div class="span10">
+		<div class="row-fluid">
+			<div class="span2">
+				<h2>{{ page.title }}</h2>
+				{{ page.date | date: "%d.%m.%Y"}}<br/>
+				<a href="{{ page.url }}">permalink</a>
+			</div>
+			<div class="span8 content">
+				{{ page.content }}
+			</div>
+		</div>
+	</div>
+</article>
