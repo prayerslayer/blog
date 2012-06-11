@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+-
+- phpMyAdmin XML Dump
+- version 3.2.4
+- http://www.phpmyadmin.net
+-
+- Host: localhost
+- Erstellungszeit: 09. Juni 2012 um 22:42
+- Server Version: 5.1.41
+- PHP-Version: 5.3.1
+-->
+
+<!--
+- Datenbank: 'piccolo'
+-->
+<piccolo>
+  <!-- Tabelle wp_posts -->
+    <wp_posts>
+        <ID>14</ID>
+        <post_date>2012-03-10 10:46:23</post_date>
+        <post_title>cv</post_title>
+        <post_content></post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>44</ID>
+        <post_date>2012-03-10 10:59:59</post_date>
+        <post_title>malware support chat</post_title>
+        <post_content>Technisch bestimmt super-schwierig zu machen und dann sind Grammatikfehler im User Interface. Security Pro-Tip #131: Sitzung abbrechen, wenn das Gegenüber seine Sprache nicht spricht.
+
+&lt;blockquote&gt;The following message is displayed in the victim’s browser:
+The system couldn't identify your PC
+You will be contacted by a representative of bank to confirm your personality.
+Please pass the process of additional verification otherwise your account will be locked.
+Sorry for any inconvenience, &lt;em&gt;we are carrying about security of our clients&lt;/em&gt;.&lt;/blockquote&gt;
+Sollte doch eher heißen:
+&lt;blockquote&gt;
+we are caring about the security of our clients
+&lt;/blockquote&gt;
+Und ich glaube, selbst dann wäre folgendes korrekter:
+&lt;blockquote&gt;
+we care about the security of our clients
+&lt;/blockquote&gt;
+&lt;a href=&quot;http://www.trusteer.com/blog/speaking-devil-%E2%80%93-malware-adds-live-chat-commit-fraud&quot; title=&quot;malware live chat&quot;&gt;trusteer.com&lt;/a&gt; via fefe</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>46</ID>
+        <post_date>2012-03-10 11:04:02</post_date>
+        <post_title>this is madness...</post_title>
+        <post_content>Alex Payne über den perfekten und reproduzierbaren Weg zu einem erfolgreichen Unternehmen, den es nicht gibt. &quot;Business Madness&quot;.
+
+&lt;blockquote&gt;I am not a business person. I don’t know what makes a good business. It seems like it helps to have a good idea, great people, the willingness to work hard, and an absolute shit-ton of luck. Being certain about much beyond that seems, well, a bit crazy to me.&lt;/blockquote&gt;
+
+&lt;a href=&quot;http://al3x.net/2012/02/12/on-business-madness.html&quot; title=&quot;al3x.net&quot;&gt;al3x.net&lt;/a&gt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>47</ID>
+        <post_date>2012-03-10 11:05:09</post_date>
+        <post_title>gereferenced lives</post_title>
+        <post_content>&lt;blockquote&gt;Here we are proposing to georeference the lives of famous people (in the paper, Newton and Schiaparelli) for teaching purposes, to increase the appeal of some scientific disciplines.&lt;/blockquote&gt;
+&lt;a href=&quot;http://arxiv.org/abs/1203.0500&quot; title=&quot;Paper&quot;&gt;Paper&lt;/a&gt;
+
+Dank Tools wie DBpedia und OpenStreetMap (Google ist ja evil, seitdem Geld verlangt wird) sollte das eigentlich nicht so das Problem sein. Ein paar SPARQL-Queries an DBpedia, der eine oder andere Maps API-Call und schwupps… Profit!</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>50</ID>
+        <post_date>2012-03-10 11:07:33</post_date>
+        <post_title>enterprise websites</post_title>
+        <post_content>Alex Payne genau darüber:
+
+&lt;blockquote&gt;Don't make me read a whitepaper in order to get essential information about your product. Put it on your website. In HTML. Not in a PDF, not in Flash, not in Silverlight or ActiveX or whatever. What your product does, on your website, in HTML.&lt;/blockquote&gt;
+
+&lt;a href=&quot;http://al3x.net/2012/02/29/how-not-to-sell-software-in-2012.html&quot;&gt;al3x.net&lt;/a&gt;
+
+Früher (Januar 2010), als ich als studentische Hilfskraft eine Zusammenfassung von Business Intelligence Software machen sollte, hatte ich dieselben Probleme. Testversion nur gegen Daten (Email, manchmal auch Adresse und Telefonnummer) oder Preise nur auf Anfrage sind üblich. Oder mangelnde Beschreibungen, praktisch überall.
+
+Zum Beispiel SAP Business Objects. Die priesen ihre revolutionären Visualisierungen an, boten mir aber nur eine Textbeschreibung an. Screenshots hätten die Revolution leichter verständlich gemacht.
+
+Einige schafften es auch nicht, eine ordentliche technische Beschreibung zur Verfügung zu stellen. Soll ich raten, ob das eine in Delphi geschriebene ausführbare Datei oder eine Web-API ist und mit welcher Datenbank ich es verwenden kann? Damit wollen sie vermutlich Menschen dazu bringen, mit ihnen in Kontakt zu treten, erreichen damit zumindest bei mir aber das Gegenteil.
+
+Dann waren da mal Tutorialvideos, die einem erklärten, wie man mit horizontalen und vertikalen Scrollbars umgeht. &lt;a href=&quot;http://managepro.com/&quot;&gt;Die&lt;/a&gt; hier waren das laut meinen Aufzeichnungen.
+
+Man erlebt einiges – und nicht nur schönes – auf Websites für Enterprise Software.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>51</ID>
+        <post_date>2012-03-10 11:10:50</post_date>
+        <post_title>oblivious transfer</post_title>
+        <post_content>In der Vorlesung kam eine Variante von &lt;a title=&quot;Oblivious Transfer&quot; href=&quot;http://en.wikipedia.org/wiki/Oblivious_transfer&quot;&gt;Oblivious Transfer&lt;/a&gt;, die &lt;em&gt;nicht&lt;/em&gt; in der englischen Wikipedia steht. Ich dachte, das sei erwähnenswert.
+
+Das Setting von Oblivious Transfer ist, dass es einen Sender (Alice) und einen Empfänger (Bob) gibt. Alice hat zwei Nachrichten m1 und m2. Bob möchte eine davon bekommen, aber Alice soll nicht wissen, welche. Gleichzeitig soll Bob nichts über die andere Nachricht erfahren. Klingt erstmal komisch (wer sollte das wollen?) und unmöglich, da man &lt;em&gt;ja irgendwie sagen muss&lt;/em&gt;, welche Nachricht gesendet werden soll.
+
+Das geht! Alice generiert zwei Public/Private Key Paare E1 und D1 sowie E2 und D2, Bob generiert einen symmetrischen Schlüssel K. Alice sendet die zwei öffentlichen Schlüssel an Bob. Wenn Bob m1 haben möchte, verschlüsselt er seinen (symmetrischen) Schlüssel mit E1 und sendet das Ergebnis X=E1(K) an Alice. Will Bob aber m2 bekommen, sendet er X=E2(K). Alice entschlüsselt nun das Ergebnis einmal mit D1 und einmal mit D2, da sie nicht weiß, welchen öffentlichen Schlüssel Bob benutzt hat. Sie erhält K1=D1(X) und K2=D2(X). Für die richtige Kombination von X und D1/D2 erhält Alice den Schlüssel von Bob, für die andere eine zufällige Zeichenfolge. Diese kann sie nicht voneinander unterscheiden, da sie den Schlüssel nicht kennt. Sie benutzt beide Ergebnisse um die Nachrichten zu verschlüsseln und erhält Y1=K1(m1) und Y2=K2(m2), welche sie an Bob schickt. Wenn Bob E1 benutzt hat, ist K1=K und er kann m1 lesen, erfährt aber nichts über m2, da dies mit einem anderen Key entschlüsselt als verschlüsselt wurde. Analog, wenn Bob seinen Schlüssel mit E2 verschlüsselt hat.
+
+Hell yeah, Computer Science!</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>54</ID>
+        <post_date>2012-03-10 12:04:52</post_date>
+        <post_title>teleskope aus quecksilber</post_title>
+        <post_content>Die Spiegel sind aus rotierendem Quecksilber, genau genommen.
+
+&lt;blockquote&gt;In Kanada, in der Nähe von Vancouver, steht das Large Zenith Telescope (LZT). Das LZT hat einen sechs Meter großen Spiegel aus flüssigen Quecksilber. Es gehört damit zu den größten optischen Teleskopen der Welt und hätte man einen normalen Spiegel eingebaut, dann wäre der Bau etwa fünfzigmal teurer gewesen. Am LZT sucht man nach Supernovae und vermisst die Position und Spektren von hundertausenden Galaxien.&lt;/blockquote&gt;
+&lt;a href=&quot;http://www.scienceblogs.de/astrodicticum-simplex/2012/03/achtung-nicht-ausleeren-flussige-spiegelteleskope.php&quot;&gt;astrodicticum&lt;/a&gt;
+
+Ich lass das mal so stehen. Auf alle F</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>58</ID>
+        <post_date>2012-03-10 12:11:26</post_date>
+        <post_title>https everywhere</post_title>
+        <post_content>Ein &lt;a href=&quot;https://www.eff.org/https-everywhere&quot;&gt;Browser Plugin&lt;/a&gt; von der Electronic Frontier Foundation, welches - wenn möglich - die HTTPS-Variante eurer Seite aufruft. So macht ihr es Angreifern zumindest schwerer, euren Internetverkehr abzuhören.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>59</ID>
+        <post_date>2012-03-10 11:11:47</post_date>
+        <post_title>usability tests crowsourcen</post_title>
+        <post_content>Hier wurde untersucht, ob Crowdsourcing-Plattformen wie Amazon Mechanical Turks dazu geeignet sind, einen Usability Test einer Website durchzuführen.
+
+Ließe sich das Konzept verallgemeinern, hätte das wahnsinnige Vorteile! Es können sehr viele Leute erreicht werden, diese sind im Vergleich sehr günstig und zu guter Letzt geht durch parallele Ausführung auch alles schneller. Für klassische Usability Tests müssen zuerst Teilnehmer gefunden werden, die etwa eine Stunde Zeit haben. Diese wollen selbstverständlich Fahrtkosten und Zeit zumindest annähernd ersetzt bekommen. Der Test wird in einem Labor durchgeführt, das heißt immer nur einer gleichzeitig. Die ganze Geschichte wird zusätzlich teuer, weil in einem iterativen (nutzerzentrierten) Designprozess beliebig viele Tests durchgeführt werden müssen: So oft bis es passt.
+
+&lt;blockquote&gt;We compared a single round of each type of test looking at a largely static website. While crowdsourcing tapped into a larger pool of respondents, feedback received from crowd workers was both shorter and less useful than that from lab test participants (…)&lt;/blockquote&gt;
+&lt;a href=&quot;http://arxiv.org/abs/1203.1468&quot;&gt;Paper&lt;/a&gt;
+
+Also doch nicht der Messias. Außerdem müssen im Fragebogen Kontrollfragen gegen Spammer untergebracht werden. Aber für frühe Phasen der Entwicklung, wo auch schon grobe Ergebnisse helfen, ist es eine Option, denke ich.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>69</ID>
+        <post_date>2012-03-10 18:15:18</post_date>
+        <post_title>impressum</post_title>
+        <post_content>Angaben gemäß § 5 TMG:
+Nikolaus Piccolotto
+Kamenzer Straße 44
+01099 Dresden
+Email: nikolaus punkt piccolotto ät gmail punkt com
+Haftungsausschluss:
+
+Haftung für Inhalte
+
+Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+
+Haftung für Links
+
+Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
+
+Urheberrecht
+
+Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+
+Datenschutz
+
+Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.
+
+Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
+
+Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
+
+ 
+
+Datenschutzerklärung für die Nutzung von Google Analytics
+
+Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. (&quot;Google&quot;). Google Analytics verwendet sog. &quot;Cookies&quot;, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglicht. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website (einschließlich Ihrer IP-Adresse) wird an einen Server von Google in den USA übertragen und dort gespeichert.
+
+Google wird diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten für die Websitebetreiber zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen zu erbringen. Auch wird Google diese Informationen gegebenenfalls an Dritte übertragen, sofern dies gesetzlich vorgeschrieben ist oder soweit Dritte diese Daten im Auftrag von Google verarbeiten. Google wird in keinem Fall Ihre IP-Adresse mit anderen Daten der Google Inc. in Verbindung bringen.
+
+Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: http://tools.google.com/dlpage/gaoptout?hl=de.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>98</ID>
+        <post_date>2012-03-10 19:34:00</post_date>
+        <post_title>random function</post_title>
+        <post_content>Nur falls jemand wissen wollte, wie eine Funktion aussieht, bei der Zufallszahlen herauskommen. WolframAlpha hat die Interpolation durchgeführt, der Input kam von &lt;a href=&quot;http://random.org&quot;&gt;random.org&lt;/a&gt;.
+
+&lt;a href=&quot;wp-content/uploads/2012/03/randomness.png&quot;&gt;&lt;img src=&quot;wp-content/uploads/2012/03/randomness-crop.png&quot;/&gt;&lt;/a&gt;
+
+&lt;a href=&quot;http://bit.ly/wQ4XX1&quot;&gt;Wolfram&lt;/a&gt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>100</ID>
+        <post_date>2012-03-10 18:43:40</post_date>
+        <post_title>info</post_title>
+        <post_content>Hallo!
+
+Ich studiere Medieninformatik an der TU Dresden im achten Semester und hoffe, Ende 2013 beziehungsweise Anfang 2014 mein Diplom zu bekommen. Für weitere Informationen verweise ich auf meinen &lt;a href=&quot;http://nikolaus-piccolotto.info/info/cv&quot;&gt;Lebenslauf&lt;/a&gt;. Falls Sie &lt;a href=&quot;http://nikolaus-piccolotto.info/info/contact&quot; title=&quot;Kontakt&quot;&gt;Kontakt&lt;/a&gt; mit mir aufnehmen wollen, ich spreche und schreibe Deutsch und Englisch fließend.
+
+Mein Hauptinteresse in der Informatik gilt dem Web und alles, was es einem ambitionierten Entwickler bieten kann. Das ist hauptsächlich JavaScript in all seinen Höhen und Tiefen, JavaScript Frameworks (jQuery, ExtJS, backbone und die anderen 1241), hilfreiche kleine Mini-Teilchen JavaScript auf GitHub, Web Application Server (Ruby on Rails, Python/Django) und wahrscheinlich viele andere Dinge, die mir gerade nicht einfallen. Leider sind meine Kenntnisse dieser wunderbaren Dinge noch sehr beschränkt, da ich Vollzeitstudent bin. Aber ich möchte auf alle Fälle in diesem Bereich arbeiten.
+
+Das Web ist nicht alles, ich interessiere mich noch für andere Dinge. Im Bereich Informatik wäre das Mensch-Computer Interaktion, User Interface Design und Softwareentwicklung (nicht in dieser Reihenfolge). Sportlich betätige ich mich hauptsächlich auf der 1 oder 2 im Basketball und verfolge auch das Geschehen in der NBA. Außerdem bin ich Hobbyfotograf.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>101</ID>
+        <post_date>2012-03-10 11:00:33</post_date>
+        <post_title>reboot</post_title>
+        <post_content>Ich mache also wieder einen Blog auf. Man errät es leicht, es ist nicht der Erste. Einmal war einer, damals vor zwei Jahren, da hab ich im Prinzip Nerdcore ge-rebloggt. Irgendwann fand ich das sinnlos und habe aufgehört. Der Zweite war ein Fotoblog, er sollte mich dazu animieren, Fotos zu machen. Fotografieren und coole Bilder erzeugen macht nämlich Spaß, braucht aber Zeit, Geld und eine gewisse Portion Hartnäckigkeit. Wie ein Blog, den niemand liest, mich motivieren sollte, fragte ich (aus Gründen?) nicht. Weil ich nun hauptsächlich Medieninformatikstudent bin und im Laufe des Tages auf viele meist technische Dinge stoße, die ich gerne einfach teilen oder auch ein paar Worte dazu sagen möchte, aber oft nicht sicher bin, auf welche Plattform es nun gehört, starte ich den dritten Blog. (Die Plattformfrage lässt sich so zusammenfassen: Auf Twitter ist nicht genug Platz, auf Facebook interessiert es keinen, auf Google+ liest es niemand.) Thematisch will ich mich gar nicht so festlegen. Ich lese entsprechend viel im Internet, da findet sich immer etwas: Papers im arxiv, Astronomie, Software, Design, Tech News, Basketball...
+
+Gleichzeitig ist das hier meine neue Website, weil ich endlich ein CMS dahinter haben wollte. Informationen in HTML zu verwalten, macht keinen Spaß. Bei der Gelegenheit habe ich auch visuell ein bisschen reduziert, das kommt dem Zeitgeist näher und sieht besser aus (&lt;a href=&quot;old&quot;&gt;Vergleich&lt;/a&gt;). Showcase meines Schaffens, Infos für Arbeitgeber über mich und Links zu allen wichtigen (und unwichtigen) Netzwerken finden sich also ebenfalls hier. Allerdings auf Englisch, damit niemand traurig ist. Bloggen geht auf Deutsch aber effizienter. Was auch effizient ist: Der ganze Tag ohne Spam, weswegen es wie bei Fefe oder John Gruber hier keine Kommentare gibt. Pech gehabt, schreibt ein Mail oder so.
+
+Des weiteren bin ich auf &lt;a href=&quot;http://uberspace.de&quot; title=&quot;uberspace&quot;&gt;uberspace&lt;/a&gt; umgezogen. Ich wollte es schon länger ausprobieren und nachdem Wordpress meinen Login verweigerte (Invalid Username, auch nachdem er manuell im phpMyAdmin geändert wurde), war die Gelegenheit da.
+
+Also, auf gehts!</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>102</ID>
+        <post_date>2012-03-11 11:54:12</post_date>
+        <post_title>social</post_title>
+        <post_content>Wenn Sie wollen, können Sie mich auch woanders befreunden.
+
+&lt;em&gt;You can find me elsewhere too, if you like:&lt;/em&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://twitter.com/prayerslayer&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://github.com/prayerslayer&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.linkedin.com/pub/nikolaus-piccolotto/36/89b/426&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.flickr.com/photos/prayerslayer/&quot;&gt;Flickr&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.lastfm.de/user/prayerslayer&quot;&gt;Last.fm&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://delicious.com/prayerslayer&quot;&gt;Delicious&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://soundcloud.com/prayerslayer&quot;&gt;SoundCloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>103</ID>
+        <post_date>2012-03-10 18:14:38</post_date>
+        <post_title>contact</post_title>
+        <post_content>Der beste und wahrscheinlich schnellste Weg, mich zu erreichen, ist via &lt;a href=&quot;mailto:hallo@nikolaus-piccolotto.info&quot;&gt;good ol' Email&lt;/a&gt;. Es wäre toll, wenn ich meine Encoding-Einstellungen nicht ändern müsste und Mails in plain UTF-8 empfinge (vielen Dank im Voraus). Für den Fall, dass Ihre Nachricht top secret ist oder Sie einfach nur vorsichtig sind - was völlig in Ordnung ist - benutzen Sie bitte meinen &lt;a href=&quot;http://pgp.mit.edu:11371/pks/lookup?op=vindex&amp;search=0xB26F80893C932107&quot;&gt;öffentlichen PGP Schlüssel&lt;/a&gt;.
+
+Das Impressum finden Sie &lt;a href=&quot;http://nikolaus-piccolotto.info/info/contact/impressum&quot;&gt;hier&lt;/a&gt;, nur für alle Fälle.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>140</ID>
+        <post_date>2012-03-12 14:57:27</post_date>
+        <post_title>chameleon android tablet ui</post_title>
+        <post_content>Das ist eine Demo, eine unvollendete Software, weswegen es einfach ist, das Video auseinanderzunehmen. Aber trotzdem.
+
+http://www.youtube.com/watch?feature=player_embedded&amp;v=eWZ7guxro2g
+
+Erstens: Das User Interface ist langsam. Nach dem Tap auf den Gmail Button dauert es ein Stück, bis die App aufgerufen wurde: Laden, laden, Animation, Icon, weißer Screen, App. Das sieht schick aus, aber ich würde ausrasten, wenn ich es verwende. Auch im weiteren Verlauf des Videos ist immer ein deutlich merkbarer Delay drin, wenn er einen Button betätigt.
+
+Zweitens: Was ist auf dem Screen zu sehen, nachdem das Video an den Fernseher gesendet wurde? Wo scrollt er da herum? Wenn sowas nicht aus dem Video hervorgeht, macht man Untertitel. Und wenn die gezeigte Funktion nicht wichtig ist, warum ist sie im Video?
+
+Drittens: Wie sie die Widgets optisch trennen, finde ich beim gezeigten Setup nicht optimal gelöst. Der holzfarbene Hintergrund schlägt sich mit den Farben am Rand der Widgets, zu sehen in der Mitte des blauen Streifens von Facebook. Aber gut, muss man als Benutzer ja nicht so machen. Das große vertikale Widget ganz links stört die Aufteilung aber total. Ich denke immer, dass die &quot;Recommended Titles&quot; von Netflix was eigenes seien. Überall sonst auf dem Bildschirm werden die Widgets von der vertikalen Mitte getrennt. Außer ganz links. Dieses Widget nimmt die komplette Höhe, ist auch in der Mitte getrennt, aber eben nicht zwei sondern ein Widget. Da wäre es unter Umständen besser, wenn der farbige Rand dünner und an der Seite und nicht oben dran ist. Wo er sowieso nicht auffällt, davon mal abgesehen. Das Blickfeld ist in der Mitte, nicht am Rand. Das alles sieht im zweiten Bild besser aus.
+
+&lt;img src=&quot;http://www.android-profis.de/wp-content/uploads/chameleon-dashboard.jpg&quot;/&gt;
+
+&lt;img src=&quot;http://www.android-profis.de/wp-content/uploads/chameleon-tablet.png&quot;/&gt;
+
+Viertens: Das ist ein Android Tablet und ich hatte noch nie eins in der Hand, schon gar nicht mit Chameleon, aber ich würde als Entwickler auf eine Sache aufpassen: Dass nicht zu viel auf den Bildschirm gepackt wird, nur weil genug Platz dafür ist. Die Controls wirken im Video ein Stück zu klein, die sollten auf Kosten der Bilder größer werden, damit man leichter drauftapsen kann.
+
+Naja, wait and see. Vielleicht verkacken sie es ja nicht und die im &lt;a href=&quot;http://www.android-profis.de/allgemein/software/projekt-chameleon-so-sollten-android-tablets-aussehen/&quot;&gt;Artikel&lt;/a&gt; erwähnten Smart Agents werden auch was ordentliches (seriously, stelle ich mir total gut vor, wenn ich grad ein langes Mail schreibe und auf einmal poppt ungefragt der Kalender auf).
+
+via &lt;a href=&quot;http://www.neunetz.com/2012/03/12/aktuelles-12-maerz-2012/&quot;&gt;neunetz&lt;/a&gt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>154</ID>
+        <post_date>2012-03-13 08:59:54</post_date>
+        <post_title>über the next big thing &quot;kuration&quot;</post_title>
+        <post_content></post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>156</ID>
+        <post_date>2012-03-13 09:01:28</post_date>
+        <post_title>curation equals sharing</post_title>
+        <post_content>&lt;blockquote&gt;But we should not delude ourselves for a moment into bestowing any special significance on this, because when we do this thing that so many of us like to call “curation” we’re not providing any sort of ontology or semantic continuity beyond that of our own whimsy or taste or desire. “Interesting things” or “smart things” are not rubrics that make the collection and dissemination of data that happens on the internet anything closer to a curatorial act.&lt;/blockquote&gt;
+
+&lt;a href=&quot;http://blog.mattlanger.com/post/19184734567&quot;&gt;Matt Langer&lt;/a&gt;
+
+Jep.
+</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>162</ID>
+        <post_date>2012-03-13 09:27:25</post_date>
+        <post_title>basketball analytics</post_title>
+        <post_content>Kirk Goldsberry untersuchte den geografischen Aspekt der Würfe von NBA Spielern. Das Bild zeigt den durchschnittlichen Spieler, große Kacheln bedeuten viele Versuche, rot heißt hohe Trefferqute. Deutlich zu sehen ist die Dreierlinie. Es ist keine gute Idee nahe an ihr zu werfen, weil leicht ein Fuß auf der Linie stehen bleibt und nur zwei Punkte gezählt werden anstatt drei. Außerdem fällt dieses Dreieck um den Korb herum auf. Ich denke, es hat damit zu tun, dass dort meistens wenig Platz für einen offenen Wurf ist, wenn der Korb gut verteidigt wird. Zu guter Letzt ist auch der Bereich sichtbar, in dem die Layups gemacht werden (roter Knubbel unterm Korb).
+
+&lt;img src=&quot;http://flowingdata.com/wp-content/uploads/2012/03/Shooting-heatmap-by-Goldsberry-625x377.png&quot;/&gt;
+
+In seinem &lt;a href=&quot;http://www.kirkgoldsberry.com/courtvision.htm&quot;&gt;Artikel&lt;/a&gt; redet Kirk Goldsberry auch noch über einzelne Spieler. Hier ist das Bild für Rajon Rondo: Wirft wie ein Center, spielt aber Point Guard.
+
+&lt;img src=&quot;http://www.kirkgoldsberry.com/images/rondochart.jpg&quot;/&gt;
+
+Außerdem könnte mit dieser Methode die Effektivität von NBA Defenses dargestellt werden. Wer sich für Basketball und Infografiken interessiert, sollte das lesen.
+
+&lt;a href=&quot;http://www.sloansportsconference.com/wp-content/uploads/2012/02/Goldsberry_Sloan_Submission.pdf&quot;&gt;Paper&lt;/a&gt; via &lt;a href=&quot;http://flowingdata.com/2012/03/12/geography-of-the-basketball-court&quot;&gt;Flowing Data&lt;/a&gt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>164</ID>
+        <post_date>2012-03-13 09:26:55</post_date>
+        <post_title>block/steal</post_title>
+        <post_content>Ich kann das oft nicht mit ansehen, wenn riesige Center den Ball ins Publikum schlagen (*hust* Dwight Howard *ähem*), obwohl sie ihn genau so gut fangen könnten und ihrem Team damit ein Fast Break ermöglichen würden. DeAndre Jordan macht es einmal richtig.
+
+http://www.youtube.com/watch?v=aS-Bb2Vos1M&amp;feature=player_detailpage#t=84s</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>168</ID>
+        <post_date>2012-03-13 21:39:51</post_date>
+        <post_title>hacking barbarians</post_title>
+        <post_content>&lt;blockquote&gt;Facebook’s letter documents its core values: focus on impact, move fast, be bold, be open, and build social value. And as I read those bullets, I see two people at the table defining them. A high impact, fast moving and bold Barbarian who couldn’t care less about the Biz Dev guy who is arguing for being open and building social value.
+
+
+Both people are essential to a business thriving, but only one of them knows that hacking is important.&lt;/blockquote&gt;
+
+&lt;a href=&quot;http://www.randsinrepose.com/archives/2012/03/13/hacking_is_important.html&quot;&gt;Rands in Repose&lt;/a&gt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>183</ID>
+        <post_date>2012-03-14 00:07:11</post_date>
+        <post_title>einkommen durch streaming</post_title>
+        <post_content>&lt;blockquote&gt;Von solchen Mikro-Beträgen können Musiker nicht überleben. Im November 2011 haben Bodi Bill für 5300 Streams bei Simfy gerade einmal 6,20 Euro verdient. Klingt wenig, ist es auch. Mit zwei verkauften CDs verdient die Band fast genauso viel.&lt;/blockquote&gt;
+
+&lt;a href=&quot;http://on3.de/#/element/12940/on3-schaut-bodi-bill-in-die-geldboerse-je-digitaler-desto-aermer&quot;&gt;on3&lt;/a&gt;
+
+Ein Song wird einmal bezahlt und kann beliebig oft gehört werden, aber beim Streaming wird pro Aufruf abgerechnet. Deswegen sind dort die Preise wesentlich niedriger. Zweitens erscheinen mir 5300 Aufrufe in einem Monat bei einem Dienst, der jetzt etwa 2.5 Millionen Nutzer* hat (Datum des Artikels ist unbekannt), nicht wirklich viel. Durch die Digitalisierung verschieben sich die Einkommensquellen von Musikern, wie viel Bodi Bill durch Merchandise und Konzerte machen, steht aber nicht im Artikel. Wer sagt, dass man allein vom Verkauf leben können soll/muss?
+
+* Der Wert kommt durch Extrapolation der &lt;a href=&quot;http://de.wikipedia.org/wiki/Simfy&quot;&gt;Wikipedia Angaben&lt;/a&gt;: 1 Million plus 10 % jeden Monat von Mai 2011 bis März 2012, also 10 Monate.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>194</ID>
+        <post_date>2012-03-14 01:01:51</post_date>
+        <post_title>work</post_title>
+        <post_content>&lt;em&gt;(English part below)&lt;/em&gt;
+
+Auf den folgenden Seiten finden Sie Sachen, an denen ich während meines Studiums, aber auch in meiner Freizeit gearbeitet habe.
+
+___________
+
+On the following pages you'll find stuff that I've worked on. It was for courses in university as well as in my spare time for fun.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>249</ID>
+        <post_date>2012-03-15 16:45:01</post_date>
+        <post_title>rechner</post_title>
+        <post_content>&lt;blockquote&gt;Math is beautiful. Arithmetic is simple. Rechner is both. Experience the world's first gesture based calculator.&lt;/blockquote&gt;
+
+&lt;a href=&quot;http://www.rechner-app.com/&quot;&gt;rechner-app.com&lt;/a&gt; via &lt;a href=&quot;http://ignorethecode.net&quot;&gt;ignore the code&lt;/a&gt;
+
+Der Taschenrechner mit Gesten sieht auf alle Fälle todschick aus, weil die hässlichen Knöpfe für die Operatoren versteckt sind. Und weil sie &lt;a href=&quot;https://www.fontfont.com/fonts/din&quot;&gt;FF DIN&lt;/a&gt; verwenden, soweit ich das beurteilen kann. Die Gesten finde ich auf Anhieb leider nicht so eingängig.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>219</ID>
+        <post_date>2012-03-15 10:22:08</post_date>
+        <post_title>fox rant</post_title>
+        <post_content>&lt;blockquote&gt;So, yeah. You go to a mall (physical) and download a special app (digital) which you then use to scan a silly QR code (digital) to be sent to a website (digital) to order a DVD (physical) to be shipped to your home (physical). There are a bunch of ridiculous extra steps here and I can't figure out how any of this makes sense. If you have people in a mall already and you're trying to get people to buy physical product, why not just let them scan and pick up the physical product? If you're focusing on the digital components, why require a specialized app that no one's going to want to download, and then not offer a digital version of the film?&lt;/blockquote&gt;
+&lt;a href=&quot;http://www.techdirt.com/articles/20120314/01453118097/does-anyone-who-develops-new-products-hollywood-ask-would-i-ever-actually-use-this.shtml&quot;&gt;techdirt&lt;/a&gt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>221</ID>
+        <post_date>2012-03-15 10:23:49</post_date>
+        <post_title>fox executives</post_title>
+        <post_content>&lt;blockquote&gt;So, yeah. You go to a mall (physical) and download a special app (digital) which you then use to scan a silly QR code (digital) to be sent to a website (digital) to order a DVD (physical) to be shipped to your home (physical). There are a bunch of ridiculous extra steps here and I can't figure out how any of this makes sense. If you have people in a mall already and you're trying to get people to buy physical product, why not just let them scan and pick up the physical product? If you're focusing on the digital components, why require a specialized app that no one's going to want to download, and then not offer a digital version of the film?&lt;/blockquote&gt;
+&lt;a href=&quot;http://www.techdirt.com/articles/20120314/01453118097/does-anyone-who-develops-new-products-hollywood-ask-would-i-ever-actually-use-this.shtml&quot;&gt;techdirt&lt;/a&gt;
+
+Bescheuerte Idee.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>228</ID>
+        <post_date>2012-03-15 11:02:18</post_date>
+        <post_title>borderlands: user testing</post_title>
+        <post_content>&lt;blockquote&gt;Finally: Testers have expectations that may not match the developer's.
+
+&quot;For instance, Borderlands is a game about wanting things,&quot; Armstrong explained. &quot;But one of the common things we hear people say is 'Boy, I'd like to build my own gun.' Okay, you can build your own gun. Now the game's over, congratulations. The quest for the perfect gun is over. It ends when you can build your own gun, and if you can do that in the first hour of the game, the game's over.&quot;&lt;/blockquote&gt;
+
+In dem Artikel stehen noch andere interessante Dinge, zum Beispiel wie Gearbox mit der Wahrnehmung (Laufgeschwindigkeit, Nachladezeit der Waffen...) spielt.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>247</ID>
+        <post_date>2012-03-15 16:42:31</post_date>
+        <post_title>rechner reloaded</post_title>
+        <post_content>Mich stört an der &lt;a href=&quot;http://nikolaus-piccolotto.info/2012/03/rechner&quot;&gt;Rechner App&lt;/a&gt; (ohne sie probiert zu haben, da kein iPhone), dass nur Addition und Subtraktion effizient ausgeführt werden können. Für Multiplikation und Division muss erst mit einem Swipe das &quot;Menü&quot; aufgerufen und mit einem Tap die Operation gewählt werden.
+
+Außerdem wirkt die App sehr minimalistisch, bietet aber an, Wurzeln zu berechnen. Das passt wie ich finde nicht ganz zusammen, denn zumindest ich habe in meinem alltäglichen Leben außerhalb der Universität noch nie die Wurzel einer Zahl benötigt. Schon eher hilfreich wären Klammern und Exponenten, zum Beispiel zur Zinseszinsberechnung, gewesen.
+
+Um das (visuell) minimalistische Versprechen zu halten und Grundrechenarten schnell ausführen zu können, hätte ich folgendes getan: Zuerst werden die vier Swipe-Achsen freigemacht, indem die &lt;a href=&quot;http://de.wikipedia.org/wiki/Polnische_Notation&quot;&gt;umgekehrte polnische Notation&lt;/a&gt; verwendet wird. Die in der Schule gelernte Form 2+2= wird als 2_2+ geschrieben. So wird die Geste für = obsolet, es wird gerechnet sobald ein Operator eingegeben wird. Es braucht ein Trennsymbol (_), damit die Operanden unterschieden werden können. Dieses wird zwischen 0 und Komma eingefügt. Etwas anderes als die vier Grundrechenarten wird nicht unterstützt, so erspart man sich das Menü. Nun sind alle vier Achsen für Operatoren frei (siehe Bild). Ein 2-Finger-Swipe setzt alles zurück.
+
+&lt;img src=&quot;http://nikolaus-piccolotto.info/wp-content/uploads/2012/03/rechner-app.png&quot; alt=&quot;&quot; /&gt;
+
+Einziger Nachteil an der Geschichte: Die polnische Notation ist für die meisten Menschen ein ziemlicher Dealbreaker, weil sie praktisch unbekannt ist. Und die gedankliche Form einer Rechnung umlernen, für einen Taschenrechner? Eben.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>251</ID>
+        <post_date>2012-03-16 12:10:37</post_date>
+        <post_title>pokemoncoffee</post_title>
+        <post_content></post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>269</ID>
+        <post_date>2012-03-17 14:21:28</post_date>
+        <post_title>steve nash</post_title>
+        <post_content>Ganz im Ernst: Dass #2 als Assist zählt, ist ridikulös. Ein Beispiel dafür, dass Statistiken allein &lt;em&gt;nichts&lt;/em&gt; aussage.
+
+http://www.youtube.com/watch?feature=player_detailpage&amp;v=UpXLUm2wakI
+
+</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>261</ID>
+        <post_date>2012-03-16 12:14:55</post_date>
+        <post_title>bdg gründerfibel</post_title>
+        <post_content>&lt;blockquote&gt;Sind 20 € Stundenhonorar nicht ein bisschen übertrieben? Sind 7 % Mehrwertsteuer für ein Logo der richtige Steuersatz? Muss ich eine Rechnung von Hand unterschreiben? Und vor allem: Wann kann ich endlich in Ruhe gestalten? Viele Designer sind leidenschaftliche Gestalter, für das Kaufmännische jedoch fehlt verständlicherweise die Motivation und – fataler noch – notwendige Kenntnisse.&lt;/blockquote&gt;
+
+&lt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>266</ID>
+        <post_date>2012-03-16 12:23:51</post_date>
+        <post_title>einen turtok frozen vanille soja macchiato bitte</post_title>
+        <post_content>&lt;a href=&quot;http://nikolaus-piccolotto.info/2012/03/einen-turtok-frozen-vanille-soja-macchiato-bitte/pokemoncoffee/&quot; rel=&quot;attachment wp-att-251&quot;&gt;&lt;img src=&quot;http://nikolaus-piccolotto.info/wp-content/uploads/2012/03/pokemoncoffee.jpg&quot; alt=&quot;&quot; title=&quot;pokemoncoffee&quot; class=&quot;alignnone size-full wp-image-251&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://www.epicponyz.com/2012/03/pokemon-coffee-sizes.html&quot;&gt;source&lt;/a&gt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>288</ID>
+        <post_date>2012-03-17 18:28:01</post_date>
+        <post_title>mobile password manager</post_title>
+        <post_content>&lt;blockquote&gt;The app also maintains a file which contains public and private RSA keys (same ones as 
+in the keychain), master password, and answer to secret question, both encrypted using 
+aforementioned RSA keys. The fact that private RSA key is stored in the file allows to 
+instantly decrypt master password (as well as any other record in the database).&lt;/blockquote&gt;
+&lt;a href=&quot;http://www.elcomsoft.com/WP/BH-EU-2012-WP.pdf&quot;&gt;&quot;Secure Password Managers&quot; and &quot;Military-Grade Encryption&quot; on Smartphones: Oh, Really?&lt;/a&gt;
+
+Ich lese das so als ob die RSA Keys als Klartext in der Datei stehen und nur Masterpasswort sowie Antwort auf geheime Frage verschlüsselt werden. Was ungefähr so sicher ist wie die Kombination als Post-it an den Safe zu kleben. Aber es gibt auch einige, die gleich alles als Klartext speichern. Was dann etwa die Sicherheit einer Plastikfolie bietet. Oder einer Käseglocke.
+
+1Password hingegen hat eine recht versteckte Schwachstelle: Durch den gewählten Paddingalgorithmus haben die letzten 16 Bytes des korrekten Schlüssels immer die Form 0x10, was die Validierung eines geratenen Passworts beschleunigt.
+
+Also, passt auf das Gerät auf. Die sind schneller weg als man glaubt. Und verschlüsselt das Backup, wenn es möglich ist.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>298</ID>
+        <post_date>2012-03-23 10:14:02</post_date>
+        <post_title>mouse + keyboard tracking</post_title>
+        <post_content>Für meinen Großen Beleg musste ich bis jetzt eine Nutzerstudie durchführen, eine Zweite wird folgen. Zu diesem Zweck sollte ich Maus- und Tastatureingaben der Benutzer aufnehmen. Meine Recherche damals hat aber nicht wirklich viel zu Tage gefördert. Ein paar gehostete Lösungen, die weniger für den Einzelfall einer Nutzerstudie und mehr für die allgemeine Analyse der eigenen Website gedacht waren, und sonst halt eben nichts. &lt;a href=&quot;http://www.techsmith.com/morae.html&quot;&gt;Morae&lt;/a&gt; könnte eine Möglichkeit, aber auch Overkill sein.
+
+Jedenfalls habe ich zu diesem Zweck eine kleine Chrome Extension geschrieben: &lt;a href=&quot;https://github.com/prayerslayer/tracker&quot;&gt;Tracker auf Github&lt;/a&gt;. Sie nimmt für einen gegebenen Zeitraum die Nutzereingaben auf: Welche Tasten gedrückt wurden, wie viel Pixel der Mauszeiger zurückgelegt hat, wie oft geklickt wurde etc. Das Ergebnis wird im JSON Format in eine Textarea in der untersuchten Seite eingefügt.
+
+Vielleicht kann es ja noch jemand brauchen.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>303</ID>
+        <post_date>2012-03-23 18:34:40</post_date>
+        <post_title>hr abgründe</post_title>
+        <post_content>&lt;blockquote&gt;Today a woman came in to reapply for a job. She wrote that she’d quit last month but now wanted her job back. On “reason for leaving” she wrote: &quot;That job sucked. Plus, my supervisor was a douche-nugget.&quot; She was reapplying for the exact same job. I rehired her and reassigned her to her old supervisor, because I totally agreed with her. That guy was totally a douche-nugget.&lt;/blockquote&gt;
+&lt;a href=&quot;http://thebloggess.com/2012/03/excerpt-of-lets-pretend-this-never-happened-a-mostly-true-memoir&quot;&gt;Source&lt;/a&gt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>316</ID>
+        <post_date>2012-03-27 14:49:59</post_date>
+        <post_title>schwarze löcher</post_title>
+        <post_content>Public Service Announcement:
+&lt;blockquote&gt;
+Yang Luo und sein Kollegen von der Universität Princeton bzw. dem Max-Planck-Institut für Sonnensystemforschung in Katlenburg-Lindau haben genau untersucht, was im Falle einer Kollision zwischen Erde und schwarzem Loch passieren würde. Was auch immer passiert, es dauert auf jeden Fall nicht lange. So ein primordiales schwarzes Loch bewegt sich mit 200 bis 400 Kilometer pro Sekunde. Es wäre also in knapp einer Minute durch die Erde hindurch gerauscht. Was es in dieser Zeit anstellt, haben Luo &amp; Co in detallierten Computersimulationen untersucht. Auf seinem Weg durch die Erde regt das schwarze Loch seismische Wellen an. &lt;em&gt;Es würden Erdbeben entstehen, allerdings keine sehr starken.&lt;/em&gt; Ein typisches primordiales schwarzes Loch mit einer Masse von 1015 Gramm erzeugt höchstens ein Beben der Stärke 4.
+&lt;/blockquote&gt;&lt;a href=&quot;http://www.scienceblogs.de/astrodicticum-simplex/2012/03/was-passiert-wenn-die-erde-mit-einem-kleinen-schwarzen-loch-kollidiert.php&quot;&gt;Astrodicticum Simplex&lt;/a&gt;
+
+Eine Sorge weniger.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>319</ID>
+        <post_date>2012-03-27 16:40:32</post_date>
+        <post_title>nintendo</post_title>
+        <post_content>Nicht nur Samsung, HP, Asus und die anderen Tablethersteller spüren die &lt;a href=&quot;http://techcrunch.com/2012/03/20/ipad-sales-may-reach-66-million-in-2012/&quot;&gt;Verkaufszahlen des iPads&lt;/a&gt;, sondern auch Nintendo:
+
+&lt;blockquote&gt;
+The data points a bleak picture for Nintendo. The Wii was a success due to its competitiveness vs. non-consumption of gaming. But another low end disruption took hold in 2007. Good enough games on phones and mobile computers are taking consumption away from dedicated consoles, both fixed and mobile.
+
+In addition, the rate at which game experiences are improving on iOS imply that they will overtake the “quality” of consoles in the not too distant future. Differences in distribution models also guarantee lower pricing for software for end users and enabling a far larger catalog of titles.
+&lt;/blockquote&gt;
+ &lt;a href=&quot;http://www.asymco.com/2012/03/26/staying-satiated-and-smart/&quot;&gt;asymco&lt;/a&gt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>327</ID>
+        <post_date>2012-03-29 19:22:14</post_date>
+        <post_title>zum brief der tatort autoren</post_title>
+        <post_content>&lt;blockquote&gt;Und diese DRM-Grütze und der Mangel an offenen Formaten, das sind die Probleme, und beides hat einen Zusammenhang zu Schutzfristen. Nicht nur deswegen müssen sie radikal verkürzt werden, sondern auch, weil selbst Ihr auf den Schultern von Riesen steht, denen Ihr gefälligst Tribut zu zahlen habt.&lt;/blockquote&gt;
+&lt;a href=&quot;http://ccc.de/updates/2012/drehbuchautoren&quot;&gt;CCC&lt;/a&gt;, &lt;a href=&quot;http://www.drehbuchautoren.de/nachrichten/2012/03/offener-brief-von-51-tatort-autoren-0&quot;&gt;Kontext&lt;/a&gt;
+
+Jop. Eine Eigenschaft bei den Diskussionen um Urheberrecht, Vergütung und dergleichen: Es wird immer vom einzelnen Genie im Kämmerlein ausgegangen, was noch nie im Leben Musik gehört oder Bücher gelesen hat, die es beeinflussen hätten können.
+
+&lt;em&gt;&quot;Great artists steal.&quot;&lt;/em&gt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>329</ID>
+        <post_date>2012-03-30 19:06:42</post_date>
+        <post_title>dell stellt smartphoneverkauf ein</post_title>
+        <post_content>Ich wusste gar nicht, dass die welche produzieren.
+
+&lt;blockquote&gt;Dell has nixed its last standing Venue and Venue Pro smartphones and no replacements have been announced. The smartphones had run their course, a Dell spokesman said. &quot;Mobility products have shorter lifecycles than laptops and desktops,&quot; he said.&lt;/blockquote&gt;
+&lt;a href=&quot;http://www.pcworld.com/article/252824/dell_ends_smartphone_sales_in_the_us.html&quot;&gt;pcworld&lt;/a&gt;
+
+Das Streak 5 haben sie sogar nur ein Jahr lang verkauft. 
+
+Passt jedenfalls gut zum kürzlich angekündigten &lt;a href=&quot;http://www.datacenterknowledge.com/archives/2012/02/28/new-dell-servers-reflect-focus-on-enterprise/&quot;&gt;Fokus auf Enterprise-Produkte&lt;/a&gt;. Ich weiß, wo ich in Zukunft nichts mehr kaufen werde. </post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>336</ID>
+        <post_date>2012-03-30 20:38:28</post_date>
+        <post_title>google street car</post_title>
+        <post_content>Etwas, was Google kann: Algorithmen. Datenverarbeitung. Machine Learning.
+
+http://www.youtube.com/watch?feature=player_embedded&amp;v=cdgQpa1pUUE
+
+Was sie nicht können: Irgendwas mit Menschen.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>349</ID>
+        <post_date>2012-03-30 20:40:37</post_date>
+        <post_title>google autopilot</post_title>
+        <post_content>Etwas, das Google kann: Algorithmen. Datenverarbeitung. Machine Learning.
+
+http://www.youtube.com/watch?feature=player_embedded&amp;v=cdgQpa1pUUE
+
+Alles ist gut, solange sie nicht Android oder Google+ in das Auto einbauen wollen.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>350</ID>
+        <post_date>2012-03-30 22:14:15</post_date>
+        <post_title>dell stellt smartphoneverkauf in USA ein</post_title>
+        <post_content>Ich wusste gar nicht, dass die welche produzieren.
+
+&lt;blockquote&gt;Dell has nixed its last standing Venue and Venue Pro smartphones and no replacements have been announced. The smartphones had run their course, a Dell spokesman said. &quot;Mobility products have shorter lifecycles than laptops and desktops,&quot; he said.&lt;/blockquote&gt;
+&lt;a href=&quot;http://www.pcworld.com/article/252824/dell_ends_smartphone_sales_in_the_us.html&quot;&gt;pcworld&lt;/a&gt;
+
+Passt zum kürzlich angekündigten &lt;a href=&quot;http://www.datacenterknowledge.com/archives/2012/02/28/new-dell-servers-reflect-focus-on-enterprise/&quot;&gt;Fokus auf Enterprise-Produkte&lt;/a&gt;.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>354</ID>
+        <post_date>2012-04-03 15:57:38</post_date>
+        <post_title>random rant</post_title>
+        <post_content>Spiegel Online: Icons nach Firmennamen -&gt; totale Rage weil Lesefluss böse unterbrochen wird.
+
+NYTimes.com: Lookup Funktion im Prinzip nett, verhindert aber Kontextmenü auf Selektion m(
+
+Die meisten Küchengeräte im Allgemeinen. ZB unsre orange Rührschüssel. Warum nicht </post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>530</ID>
+        <post_date>2012-05-08 16:49:49</post_date>
+        <post_title>Softwarepatente sind sinnlos</post_title>
+        <post_content>Ars Technica:
+&lt;blockquote&gt;What is clear is that the jury believes that Google did copy something important. Even though Google's code in Android was original or borrowed from other open source code, the jury found that the Android APIs copied the &lt;em&gt;&quot;structure, sequence, and organization&quot;&lt;/em&gt; of Java APIs.&lt;/blockquote&gt;
+
+Das ist aus verschiedenen Gründen bedenklich.
+
+APIs sind dazu da, einfache Schnittstellen zu komplexen Sachverhalten anzubieten. Wenn ich als Softwareentwickler beispielsweise einen Browser schreibe, habe ich weder dazu Lust noch ist es sinnvoll, dass ich mich mit den Untiefen des TCP/IP-Stacks auseinander setze. Oder mit den Spezialfällen bei Interaktion mit dem Dateisystem, wenn ich zum Beispiel auf ein Netzlaufwerk schreibe und die Verbindung abbricht oder auf einen USB Stick, der gerade ausgeworfen wird. Stattdessen benutze ich eine API, die Funktionen für die nötigen Bedürfnisse anbietet. Bei Dateien will ich meistens schreiben, lesen, löschen und Neue erstellen.
+
+
+
+APIs können nicht beliebig gemacht werden, Beispiel Dateisystem.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>371</ID>
+        <post_date>2012-04-05 08:05:21</post_date>
+        <post_title>google glass</post_title>
+        <post_content>&lt;blockquote&gt;1. I fail to see how wearing this technology on your face means it’s out of the way.&lt;/blockquote&gt;
+Jep.
+
+&lt;blockquote&gt;2. There’s some incredible Orwellian doublespeak at work here, e.g., technology that “helps you explore and share your world, putting you back in the moment.” As far as I can tell, it doesn’t help you to explore your world at all. It helps Google to explore your world.&lt;/blockquote&gt;
+
+War auch mein erster Gedanke.
+
+http://www.youtube.com/watch?feature=player_embedded&amp;v=9c6W4CCU9M4
+&lt;a href=&quot;http://joestracci.org/post/20473908742/google-has-finally-unveiled-project-glass-i-say&quot;&gt;joestracci&lt;/a&gt;
+
+Ich glaube außerdem weder an Sprachsteuerung in der Öffentlichkeit noch an manuelles Einchecken bei Foursquare in 10 Jahren.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>373</ID>
+        <post_date>2012-04-06 10:35:05</post_date>
+        <post_title>google glass remixed</post_title>
+        <post_content></post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>384</ID>
+        <post_date>2012-04-10 16:18:07</post_date>
+        <post_title>what's wrong with php?</post_title>
+        <post_content>&lt;blockquote&gt;In C, functions like strpos return -1 if the item isn’t found. If you don’t check for that case and try to use that as an index, you’ll hit junk memory and your program will blow up. (Probably. It’s C. Who the fuck knows. I’m sure there are tools for this, at least.)
+
+In, say, Python, the equivalent .index methods will raise an exception if the item isn’t found. If you don’t check for that case, your program will blow up.
+
+In PHP, these functions return false. If you use FALSE as an index, or do much of anything with it except compare with ===, PHP will silently convert it to 0 for you. Your program will not blow up; it will, instead, do the wrong thing with no warning, unless you remember to include the right boilerplate around every place you use strpos and certain other functions.&lt;/blockquote&gt;
+&lt;a href=&quot;http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/&quot;&gt;veekun&lt;/a&gt;
+
+Ich persönlich konnte PHP großteils aus dem Weg gehen.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>389</ID>
+        <post_date>2012-04-11 13:56:56</post_date>
+        <post_title>maptiles</post_title>
+        <post_content></post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>399</ID>
+        <post_date>2012-04-11 14:00:39</post_date>
+        <post_title>Alternative Tiles für OpenStreetMap</post_title>
+        <post_content>Echt gutaussehend! Die &lt;a href=&quot;http://www.refnum.com/tmp/apple.html&quot;&gt;Neuen von Apple&lt;/a&gt; finde ich aber trotzdem besser, wegen dem Retro-Look.
+
+&lt;a href=&quot;http://maps.stamen.com/#terrain/10/40.8754/-73.8050&quot; rel=&quot;attachment wp-att-389&quot;&gt;&lt;img src=&quot;http://nikolaus-piccolotto.info/wp-content/uploads/2012/04/maptiles.png&quot; alt=&quot;osm map tiles&quot; title=&quot;maptiles&quot; class=&quot;alignnone size-full wp-image-389&quot; /&gt;&lt;/a&gt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>406</ID>
+        <post_date>2012-04-14 21:02:44</post_date>
+        <post_title>Instant Feedback while Coding</post_title>
+        <post_content>Den Talk von Bret Victor (&lt;a href=&quot;http://www.youtube.com/watch?v=PUv66718DII&quot;&gt;Inventing on Principle&lt;/a&gt;) haben wir alle noch in guter Erinnerung. Seine Demos waren awesome, JavaScript schreiben auf einmal nicht mehr dasselbe.
+
+Nun, für D3.js hat Gabriel Florit so eine Entwicklungsumgebung geschrieben: &lt;a href=&quot;http://gabrielflor.it/water&quot;&gt;Water&lt;/a&gt;. Und eine andere Umsetzung für Animationen findet sich bei &lt;a href=&quot;http://danielchasehooper.github.com/CodeBook/&quot;&gt;CodeBook&lt;/a&gt;.
+
+Es tut sich etwas und ich hoffe, dass da noch mehr kommen wird. Hat tip an &lt;a href=&quot;http://flowingdata.com/2012/03/19/live-coding-implemented/&quot;&gt;flowing data&lt;/a&gt;.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>419</ID>
+        <post_date>2012-04-17 08:38:16</post_date>
+        <post_title>for fun</post_title>
+        <post_content>&lt;a href=&quot;https://github.com/prayerslayer/SCPlaylist&quot;&gt;Dieses jQuery Plugin&lt;/a&gt; verbindet mehrere eingebundene Tracks von &lt;a href=&quot;http://soundcloud.com&quot;&gt;SoundCloud&lt;/a&gt; zu einer Playliste. Sobald ein Titel fertig ist, startet der nächste automatisch.
+
+Es wurde für einen &lt;a href=&quot;https://github.com/prayerslayer/favematic&quot;&gt;Musikabspieler&lt;/a&gt; geschrieben, welcher die Favoriten der Leute, denen man auf SoundCloud folgt, verwertet. Er befindet sich noch in Entwicklung.
+
+&lt;a href=&quot;https://prayerslayer.github.com/tracker&quot;&gt;Tracker&lt;/a&gt; ist eine kleine Chrome Extension, die für Nutzerstudien eingesetzt werden kann. Sie nimmt Maus- und Tastatureingaben auf einer Website für einen gegebenen Zeitraum auf.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>422</ID>
+        <post_date>2012-04-17 08:39:34</post_date>
+        <post_title>Komplexe Medienproduktionen</post_title>
+        <post_content>&lt;a href=&quot;http://www.neunetz.com/2012/04/16/eine-alltagswelt-aus-urheberrechtlich-geschuetzten-dingen/&quot;&gt;Marcel Weiss&lt;/a&gt;:
+&lt;blockquote&gt;Tatsächlich leben wir in einer Welt, in der die Industrialisierung der Kulturproduktion zu einer Verstärkung von exklusiven Rechten geführt hat, die mittlerweile so weit geht, dass komplexere Werke wie Filme nicht ohne großen Aufwand für Umschiffen oder Klären der Rechte möglich ist. Den Alltag der Menschen darstellen? Gern, aber bitte dafür bezahlen.&lt;/blockquote&gt;
+
+Ich möchte einen Extremfall der angesprochenen &quot;komplexen Werke&quot; vorstellen. Damals, Mitte der Nuller, hatten wir im österreichischen Fernsehen ein tolles Sendungsformat, die &lt;a href=&quot;http://de.wikipedia.org/wiki/Sendung_ohne_Namen&quot;&gt;Sendung ohne Namen&lt;/a&gt;. Den Reiz daran beschreibt die Wikipedia besser als ich es könnte:
+
+&lt;blockquote&gt;...gekennzeichnet durch ihren thematischen Plot und assoziative Bildbeiträge dazu, begleitet mit einem kritischen, teils (auch selbst-) ironischen bis zynischen Text. Zu einzelnen Begriffen wurden mehr oder weniger klar assoziative, sehr kurze Filmausschnitte von einer Sekunde bis circa zehn Sekunden gezeigt. Für die Zuschauer ist es meist schwierig, alle Darstellungen zu erkennen. Vielfach lösen Sätze und/oder Bilder Assoziationen und weiter führende Gedankenketten aus, während bereits weitere gefolgt sind.&lt;/blockquote&gt;
+
+http://www.youtube.com/watch?feature=player_detailpage&amp;v=X-lyiQEQyq4
+
+Die Sendung ohne Namen habe ich GELIEBT! Und deswegen auch immer wieder nach einer DVD-Box gesucht, um die 113 Folgen zu Hause stehen haben zu können. Etwas konkretes finde ich dazu im Internet nicht mehr. Aber damals munkelte man, dass es wohl zu viel Aufwand für den ORF wäre, die &quot;auf DVD pressen und verkaufen&quot; Rechte für jedes einzelne verwendete Schnipsel zu klären. Natürlich kann eine DVD-Box auf legale Weise selbst gebastelt werden: Dazu überspielt der ORF jede einzelne Folge &lt;a href=&quot;http://kundendienst.orf.at/service/angebote/video.html&quot;&gt;auf DVD&lt;/a&gt;, das kostet dann insgesamt auch nur ca. 7354 Euro.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>427</ID>
+        <post_date>2012-04-19 09:07:13</post_date>
+        <post_title>I hate my code</post_title>
+        <post_content>&lt;a href=&quot;http://www.codinghorror.com/blog/2009/07/nobody-hates-software-more-than-software-developers.html&quot;&gt;Der Post&lt;/a&gt; ist von 2009, hat aber nichts an Wahrheitsgehalt verloren.
+
+&lt;blockquote&gt;Let me share a recurring nightmare I have with you. In this dream, I'm sitting down in front of a computer which boots up, running an operating system I've written. I then launch a web browser I've created from scratch, all by myself, and navigate to a website I've constructed.&lt;/blockquote&gt;
+
+Ich hab mal geträumt, dass lauter kleiner Bärenfallen mich fressen wollten und ich konnte mich nicht bewegen. Aber das ist nichts dagegen.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>434</ID>
+        <post_date>2012-04-19 11:15:39</post_date>
+        <post_title>Edge cases</post_title>
+        <post_content>Eine &lt;a href=&quot;http://stackoverflow.com/questions/4246077/simple-problem-with-regular-expression-only-digits-and-commas&quot;&gt;Regular Expression für eine Zahl&lt;/a&gt; bitte, danke!
+
+&lt;blockquote&gt;
+Is −0 a number?
+How do you feel about √−1?
+Is ⅝ or ⅔ a number?
+Is 186,282.42±0.02 miles/second one number — or is it two or three of them?
+Is 6.02e23 a number?
+How many numbers in 0.083?
+How many numbers in 128.0.0.1?
+Does 10,5 mm have one number in it — or does it have two?
+Is ∛8³ a number — or is it three of them?
+Are ४५६७ and ৭৮৯৮ numbers?
+What about 0377, 0xDEADBEEF, and 0b111101101?
+Is Inf a number? Is NaN?
+How do you feel about ㊅?
+What do ℵ₀ and ℵ₁ have to do with numbers? Or ℝ, ℚ, and ℂ?&lt;/blockquote&gt;
+
+Das passiert &lt;em&gt;so&lt;/em&gt; oft: Ein Problem sieht einfach aus (&quot;wie schwer kann das schon sein&quot;) und je tiefer man in die Materie eintaucht, desto komplexer wird es auf einmal. Das ist wahrscheinlich derselbe Grund, warum der Zeitplan bei Projekten &lt;a href=&quot;http://www.quora.com/Engineering-Management/Why-are-software-development-task-estimations-regularly-off-by-a-factor-of-2-3/answer/Michael-Wolfe&quot;&gt;nie der Realität entspricht&lt;/a&gt; (bzw. entsprechen kann).</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>441</ID>
+        <post_date>2012-04-19 14:58:49</post_date>
+        <post_title>Passagierdaten</post_title>
+        <post_content>&lt;a href=&quot;http://www.zeit.de/digital/datenschutz/2012-04/fluggastdaten-usa-eu-parlament&quot;&gt;Oh Mann.&lt;/a&gt;
+&lt;blockquote&gt;Das EU-Parlament hat die Weitergabe von Fluggastdaten an die USA gebilligt. Persönliche Daten von Passagieren werden nun jahrelang gespeichert.&lt;/blockquote&gt;
+
+Aber wehe eure Partybilder sind auf Facebook!!1
+</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>451</ID>
+        <post_date>2012-04-20 13:09:12</post_date>
+        <post_title>Hörsaalbesetzungen</post_title>
+        <post_content>Der Studiengang &quot;Internationale Entwicklung&quot; an der Uni Wien soll nach vier Jahren wieder abgeschafft werden. &lt;a href=&quot;http://www.scienceblogs.de/astrodicticum-simplex/2012/04/was-bringt-die-besetzung-von-horsalen.php&quot;&gt;Florian Freistetter&lt;/a&gt;:
+
+&lt;blockquote&gt;Wenn der Studiengang &quot;Internationale Entwicklung&quot; abgeschafft werden soll, dann stürmt keine Rektorate und Hörsääle - sondern geht in die Fußgängerzonen oder zu den Medien und erklärt dort, warum es für die Gesellschaft wichtig ist, dass Leute weiterhin diese Ausbildung bekommen können! Warum soll sich irgendwer dafür interessieren, ob ein Studiengang bleibt oder abgeschafft wird, wenn niemand eine Ahnung hat, wozu dieses Studium überhaupt gut ist?&lt;/blockquote&gt;
+
+Vollste Zustimmung. Ich weiß nämlich nicht und mir ist es ziemlich wurscht, auch wenn ich weiß, dass es das nicht sein sollte. Wahrscheinlich.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>452</ID>
+        <post_date>2012-04-20 12:35:40</post_date>
+        <post_title>Patching Linked Data</post_title>
+        <post_content>Der große &quot;Semantic Web&quot; Hype ist zwar vorbei, aber trotzdem werden immer mehr semantische Daten ins Internet gestellt. Ob das jetzt durch die DBpedia, die Geonames Ontologie (ein tolles Beispiel, um das Prinzip zu erklären) oder euren Blog mit HTML5 Markup und Microformats geschieht, ist egal.
+
+Das Problem an dem Datenberg ist, dass er nicht konsistent ist. Da sind Fehler drin. Die Herausforderungen zur Lösung sind also erst das Auffinden und danach die Korrektur der Fehler. Für letzteres kann auf Conditional Functional Dependencies (CFDs) zurückgegriffen werden. Das sind im Prinzip Ersetzungsregeln, die aber einen korrekten, konsistenten Datensatz zum Erlernen der Regeln benötigen, was im Falle der DBpedia unrealistisch ist.
+
+Ein Ansatz zur kollaborativen Korrektur wird &lt;a href=&quot;http://arxiv.org/abs/1204.2715&quot;&gt;hier&lt;/a&gt; vorgestellt. Hauptsächlich geht es - denke ich - um die PatchR Ontologie, mit der sie &quot;Patch Requests&quot; darstellen. Die Autoren bringen aber auch ein Beispiel, in dem diese Patches von einem Quiz generiert werden. Dort werden die Tripel in Fragen &quot;umgewandelt&quot; und den Benutzern gestellt. Diese können dann einfach antworten oder Feedback zu den Antwortmöglichkeiten geben.
+
+Die Idee zum Crowdsourcing finde ich prinzipiell gut, aber ich sehe noch Schwächen. Erstens, wie die Autoren auch selbst im Ausblick sagen, müssen die Quizfragen auf mögliche Fehler eingeschränkt werden, denn sonst sind die User schneller weg, als sie &quot;Ontologie&quot; sagen können. Zweitens müssen die ganzen Patch Requests irgendwie automatisiert aufgearbeitet und überprüft werden. Ich würde automatisierten Vorschlägen von gelangweilten Menschen grundsätzlich nicht ohne weiteres trauen.
+
+Und der größte Nachteil am Prinzip: Crowdsourcing funktioniert nur, wenn die Crowd dabei auch einen wahrnehmbaren Nutzen hat. Ich mache ab und zu eine Änderung in der Wikipedia, weil ich selbst täglich etwas nachschlage. Ich unterstütze Projekte bei Kickstarter, weil ich etwas dafür bekomme. Bei GuttenPlag hat das öffentliche Interesse den Ansporn gegeben. Aber ein Quiz spielen, das Fehler in Daten korrigiert, die ich so eh nie zu Gesicht bekomme? Dann doch lieber Angry Birds.
+
+Ein anderer Ansatz verwendet &lt;a href=&quot;http://arxiv.org/abs/1204.3677&quot;&gt;Bayes-Netzwerke&lt;/a&gt; und verzichtet auf Menschen, was in dem Kontext bei mir Pluspunkte gibt. Für die Evaluation haben die Autoren einen sauberen Datensatz genommen und mit Noise versehen, indem sie Tippfehler, versehentliche Löschungen etc. simulieren. Kurz gesagt scheint die Lösung im Gegensatz zu CFDs zu funktionieren: Bei 1 % Noise konnten sie 30 % der Fehler korrigieren.
+
+Natürlich hat der rechnergestützte Ansatz noch einen Nachteil: Die benötigte Zeit scheint exponentiell mit dem Anteil an Fehlern zu steigen, bei 5 % Noise in 10K Tripeln benötigten sie etwa eine Stunde (und finden dann zwischen 15 und 20 % der Fehler). Hier muss definitiv an der Optimierung geforscht werden.
+
+</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>458</ID>
+        <post_date>2012-04-24 15:49:34</post_date>
+        <post_title>Three Strikes</post_title>
+        <post_content>&lt;a href=&quot;&quot;&gt;Marcel Weiss&lt;/a&gt;:
+
+&lt;blockquote&gt;Bis heute wurde allerdings keine einzige Warnung verschickt. Warum? Weil die Rechteinhaber sich mit 25$ an jeder verschickten Notiz beteiligen müssen. Die ISPs hatten ursprünglich 40$ pro Notiz gefordert.&lt;/blockquote&gt;
+
+Das find ich total interessant. Aus dem verlinkten Artikel:
+
+&lt;blockquote&gt;The rights holders in New Zealand put together an ad campaign based on the destruction of value of New Zealand content, yet it hasn’t defended a single New Zealand artist. I find that very interesting – from a PR point of view it’s a massive cock-up because at the very least they could have found one to point to. &lt;strong&gt;Either they don’t care enough to pay $25&lt;/strong&gt; or there simply isn’t any piracy of New Zealand artists going on in New Zealand. Isn’t that an interesting thought?&lt;/blockquote&gt;
+
+Eine feste, pauschale, unbedingte Gebühr ist anscheinend ein wirksames Mittel gegen massenhafte Abmahnungen/Warnungen, deren eigentlicher Zweck Geld verdienen ist. Wäre schön, wenn das bei uns auch mal jemand fordert.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>463</ID>
+        <post_date>2012-04-27 08:48:18</post_date>
+        <post_title>More inventing on principle</post_title>
+        <post_content>&lt;a href=&quot;http://www.kickstarter.com/projects/ibdknox/light-table&quot;&gt;Light Table&lt;/a&gt;:
+&lt;blockquote&gt;Light Table is based on a very simple idea: we need a real work surface to code on, not just an editor and a project explorer. We need to be able to move things around, keep clutter down, and bring information to the foreground in the places we need it most.&lt;/blockquote&gt;
+&lt;a href=&quot;http://www.kickstarter.com/projects/ibdknox/light-table&quot;&gt;&lt;img alt=&quot;LightTable&quot; src=&quot;http://www.chris-granger.com/images/lightable/game-example.png&quot; title=&quot;LightTable&quot; class=&quot;alignnone size-full&quot; /&gt;&lt;/a&gt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>472</ID>
+        <post_date>2012-04-28 14:31:42</post_date>
+        <post_title>Opera wird -webkit Präfix unterstützen</post_title>
+        <post_content>&lt;a href=&quot;http://farukat.es/journal/2012/04/650-opera-confirms-webkit-prefix-usage&quot;&gt;Faruk Ateş&lt;/a&gt;:
+&lt;blockquote&gt;Opera, the browser with a small desktop market share but huge mobile market share, particularly in developing and less-opulent countries, has confirmed today that they will start implementing support for the -webkit- prefix.&lt;/blockquote&gt;
+
+Gut für Developer: Nur noch ein browserspezifischer Präfix im CSS. Schlecht für Developer: Es ist immer noch ein browserspezifischer Präfix nötig. CSS wird jetzt noch uneinheitlicher. Zum Beispiel schreiben wir &lt;code&gt;position: relative;&lt;/code&gt; und nicht &lt;code&gt;-webkit-position:relative;&lt;/code&gt;, aber eben schon &lt;code&gt;-webkit-transform-rotate:10deg;&lt;/code&gt; und nicht &lt;code&gt;transform-rotate:10deg;&lt;/code&gt;.
+
+Hoffentlich wird das wieder einheitlicher. Kraut &amp; Rüben mit einer neuen Abstraktionsebene in Form von CSS Präprozessoren zu verstecken, kann irgendwie auch nicht die Lösung sein.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>493</ID>
+        <post_date>2012-05-02 08:22:32</post_date>
+        <post_title>Denial of Money Attack</post_title>
+        <post_content>Ich mag den Begriff.
+
+&lt;blockquote&gt;Ipeirotis, an information operations professor at New York University, had created a pretty unusual spreadsheet. As part of an experiment in how to use crowdsourcing to generate descriptions of images, he had posted thumbnails of 25,000 pictures into a Google document, and then he invited people to describe the images. The problem was that these thumbnails linked back to original images stored on Amazon’s S3 storage service, and apparently, Google’s servers went slightly bonkers. “Google just very aggressively grabbed the images from Amazon again and again and again,” he says.&lt;/blockquote&gt;
+
+&lt;a href=&quot;http://www.wired.com/wiredenterprise/2012/04/aws-bill-in-minutes/all/1&quot;&gt;wired&lt;/a&gt;
+
+Auf der anderen Seite sehe ich noch nicht ganz, wie das als Attacke eingesetzt werden kann. Davon ausgehend, dass ich nicht x-beliebigen Leuten Dateien in die Cloud legen kann, müsste der Angegriffene dieses Dokument selbst dort speichern. Dazu muss man erstmal jemanden bringen. Andererseits finden Menschen auch &lt;em&gt;FUNNIEST_VIDEO_EVER_NO_VIRUS.exe&lt;/em&gt; als Email-Attachement vollkommen unverdächtig.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>495</ID>
+        <post_date>2012-05-02 08:28:36</post_date>
+        <post_title>Bad company names</post_title>
+        <post_content>&lt;a href=&quot;http://leanderwattig.de/index.php/2012/04/30/self-publishing-dienstleister-lulu-bietet-ein-klick-publikation-von-google-drive-dokumenten/&quot;&gt;Leander Wattig&lt;/a&gt;:
+&lt;blockquote&gt;Das neue Google Drive hat gleich für viel Wirbel gesorgt. Interessant ist, dass der Self-Publishing-Dienstleister Lulu von Anfang an auf Google Drive setzt.&lt;/blockquote&gt;
+
+&lt;a href=&quot;http://ostarrichi.org/wort-11525-reise-at-Lulu.html&quot;&gt;Lulu&lt;/a&gt; finde ich ungefähr so ansprechend wie Kacka oder Pipi. Aber kein Name funktioniert in allen k</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>498</ID>
+        <post_date>2012-05-02 09:27:58</post_date>
+        <post_title>Pain is temporary</post_title>
+        <post_content></post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>499</ID>
+        <post_date>2012-05-02 09:27:22</post_date>
+        <post_title>&quot;Pain is temporary, suck is forever&quot;</post_title>
+        <post_content>https://twitter.com/#!/larrybuch/status/197491866424446976/photo/1</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>501</ID>
+        <post_date>2012-05-02 09:28:51</post_date>
+        <post_title>&quot;Pain is temporary, but necessary&quot;</post_title>
+        <post_content>&lt;a href=&quot;http://nikolaus-piccolotto.info/?attachment_id=498&quot; rel=&quot;attachment wp-att-498&quot;&gt;&lt;img src=&quot;http://nikolaus-piccolotto.info/wp-content/uploads/2012/05/pain.jpg&quot; alt=&quot;&quot; title=&quot;Pain is temporary&quot; class=&quot;alignnone size-full wp-image-498&quot; /&gt;&lt;/a&gt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>504</ID>
+        <post_date>2012-05-02 09:29:41</post_date>
+        <post_title>Pain is temporary, but necessary</post_title>
+        <post_content>&lt;a href=&quot;https://twitter.com/#!/larrybuch/status/197491866424446976/photo/1&quot; rel=&quot;attachment wp-att-498&quot;&gt;&lt;img src=&quot;http://nikolaus-piccolotto.info/wp-content/uploads/2012/05/pain.jpg&quot; alt=&quot;&quot; title=&quot;Pain is temporary&quot; class=&quot;alignnone size-full wp-image-498&quot; /&gt;&lt;/a&gt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>512</ID>
+        <post_date>2012-05-02 14:40:39</post_date>
+        <post_title>Cyberkriminelle werden nicht reich</post_title>
+        <post_content>Schätzungen zum Verdienst Cyberkrimineller liegen viel zu hoch. Der Grund ist dass Fehler nur nach oben gehen und durch zu niedrige Angaben nicht ausgeglichen werden können.
+
+&lt;a href=&quot;http://www.nytimes.com/2012/04/15/opinion/sunday/the-cybercrime-wave-that-wasnt.html&quot; title=&quot;NYT&quot;&gt;NYT&lt;/a&gt;:
+&lt;blockquote&gt;One recent estimate placed annual direct consumer losses at $114 billion worldwide. It turns out, however, that such widely circulated cybercrime estimates are generated using absurdly bad statistical methods, making them wholly unreliable.
+
+Suppose we asked 5,000 people to report their cybercrime losses, which we will then extrapolate over a population of 200 million. Every dollar claimed gets multiplied by 40,000. A single individual who falsely claims $25,000 in losses adds a spurious $1 billion to the estimate. And since no one can claim negative losses, the error can’t be canceled.&lt;/blockquote&gt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>519</ID>
+        <post_date>2012-05-03 09:42:47</post_date>
+        <post_title>Sony Ultrabook</post_title>
+        <post_content>Ich dachte bis jetzt, dass die Vaio Z Serie die Ultrabooks von Sony wären. Aber jetzt haben sie ein dezidiertes Ultrabook &lt;a href=&quot;http://www.wired.com/gadgetlab/2012/05/sonys-first-ultrabook-is-thicker-and-heavier-than-existing-sony-laptop/&quot;&gt;vorgestellt&lt;/a&gt;.
+
+&lt;blockquote&gt;The irony? The 13-inch model in Sony’s new ultrabook line-up is a bit thicker and much heavier than the company’s existing super-thin Z series notebook. It’s a curious data point given device thinness and lightness is an ultrabook calling card. The new T13 weighs 1.6kg. That’s about 3.5 pounds — nearly a full pound heavier than the Vaio Z series notebook.&lt;/blockquote&gt;
+
+Warum hat Sony nicht einfach den Body der Z Serie mit schwächerer Hardware bestückt? Vielleicht um die Verkäufe der Z Serie nicht zu kannibalisieren?</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>520</ID>
+        <post_date>2012-03-10 11:11:05</post_date>
+        <post_title>instaprint</post_title>
+        <post_content>Ein Projekt auf &lt;a href=&quot;http://www.kickstarter.com/projects/breakfastny/instaprint-the-location-based-photo-booth-for-inst/&quot; title=&quot;instaprint&quot;&gt;Kickstarter&lt;/a&gt;:
+
+&lt;blockquote&gt;Instaprint is a photo booth that puts a camera in everyone's hand. By setting Instaprint to look out for specific locations or hashtags, any Instagram tagged appropriately will automatically be printed out on inkless paper.&lt;/blockquote&gt;
+
+Das ist auf alle Fälle praktischer und stilvoller als der &lt;a href=&quot;http://www.voxy.co.nz/technology/lady-gaga-launches-mobile-printer/5/101310&quot; title=&quot;polaroid pl10&quot;&gt;mobile Drucker&lt;/a&gt; &lt;del&gt;&quot;Lady Gaga&quot;&lt;/del&gt; PL10 von Polaroid.
+
+Ich kann mir so ein Gerät im Flur richtig gut vorstellen. Man kommt da nur wenige Male am Tag vorbei und kann sich dann jedes Mal neue Fotos von Menschen anschauen, die man nicht kennt. Total super!</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>616</ID>
+        <post_date>2012-06-08 18:53:48</post_date>
+        <post_title>Vizboard Preselection</post_title>
+        <post_content></post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>615</ID>
+        <post_date>2012-03-14 10:14:23</post_date>
+        <post_title>university</post_title>
+        <post_content>Im Komplexpraktikum für Multitouch-Anwendungen mit Microsoft Surface habe ich zusammen mit Fabian Prager einen Prototypen erstellt, der es einfacher macht, seine Wohnung zu planen.
+
+http://www.youtube.com/watch?v=u4w23j7x35c
+
+Zusammen mit drei Studienkollegen habe ich am Imagine Cup 2011 teilgenommen. Unser Beitrag war eine Windows Phone 7 Applikation, die es Analphabeten ermöglichte, Text in einfach verständliche Piktogramme zu übersetzen. Um das Gelernte auf Dauer zu festigen, wurde auch ein Lernspiel (Memory) implementiert. Wir belegten den &lt;a href=&quot;http://msdn.microsoft.com/de-de/academic/gg625385&quot;&gt;dritten Platz im Deutschlandfinale in der Kategorie Software Design&lt;/a&gt;.
+
+&lt;img src=&quot;http://nikolaus-piccolotto.info/wp-content/uploads/2012/03/youread.jpg&quot;/&gt;
+
+Für meine Studienarbeit über Navigation in großen semantischen Datensätzen habe ich eine &lt;a href=&quot;http://nikolaus-piccolotto.info/sunburst&quot;&gt;Kreuzung&lt;/a&gt; aus Treemap und Sunburst ausprobiert. Dafür wurde das Framework D3 benutzt.
+
+&lt;a href=&quot;http://nikolaus-piccolotto.info/sunburst&quot;&gt;&lt;img src=&quot;http://nikolaus-piccolotto.info/wp-content/uploads/2012/03/sunburst.png&quot;/&gt;&lt;/a&gt;
+
+Gemeinsam mit Fabian Prager habe ich ein Konzept für ein Spiel, welches auf Räumlichkeit und spielerischer Logik basiert, erstellt.
+
+http://www.youtube.com/watch?v=VNCy-Z6FANk</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>554</ID>
+        <post_date>2012-05-09 22:47:52</post_date>
+        <post_title>Softwarepatente</post_title>
+        <post_content>&lt;a href=&quot;http://arstechnica.com/tech-policy/news/2012/05/jury-rules-google-violated-copyright-law-google-moves-for-mistrial.ars&quot; title=&quot;ars technica&quot;&gt;Ars Technica&lt;/a&gt;:
+&lt;blockquote&gt;What is clear is that the jury believes that Google did copy something important. Even though Google's code in Android was original or borrowed from other open source code, the jury found that the Android APIs copied the &lt;em&gt;&quot;structure, sequence, and organization&quot;&lt;/em&gt; of Java APIs.&lt;/blockquote&gt;
+
+Das ist aus verschiedenen Gründen bedenklich.
+
+APIs sind dazu da, einfache Schnittstellen zu komplexen Sachverhalten anzubieten. Ein Vergleich im echten Leben wäre zum Beispiel, dass ich keine Ahnung habe, wie man einen Baum fällt. Wo schneidet man ab? Was ist mit dem Wind? Wie weiß ich, wo er hinfällt? Eine API ist eine Maschine mit einem Knopf &quot;Baum fällen&quot;. Da drücke ich drauf und sie macht den Rest.
+
+Jetzt ist es aber so, dass APIs realistischerweise nicht beliebig entworfen werden. Eine API für den Wald muss nun mal Bäume fällen können. Der Knopf dafür ist mit &quot;Bäume fällen&quot; beschriftet, weil es das ist, was er macht. Klar könnte er &quot;Streichholz knicken&quot; heißen, das würde die Funktion nicht einschränken. Aber wer benutzt gern Geräte, wo nicht mal die Knöpfe ordentlich beschriftet sind? Die Maschine muss auch irgendwie wissen, welchen Baum sie fällen muss. Das sollte die einzige Voraussetzung sein, um den Knopf drücken zu können. Zusätzliche Angaben, wie in welche Richtung er umfallen soll, sollten zwecks einfacher Bedienung in einer Art Konfigurationsmenü eingestellt werden können.
+
+Um von dem Real Life Beispiel wieder zurück zu kommen: Neben Aufbau der API, Benennung und Parameter der Funktionen gibt es noch anderes zu bedenken. Bei funktionaler Programmierung &lt;em&gt;können&lt;/em&gt; Parameter unter Umständen gar nicht variiert werden, weil das formale Modell dafür nur so definiert ist (vgl Liste als erstes Element und Rest). Was ist außerdem mit C++/C# Wrappern für C-Bibliotheken? Oder Ports in verschiedene Sprachen? Oder &lt;a href=&quot;http://en.wikipedia.org/wiki/Libstdc%2B%2B&quot;&gt;libstdc++&lt;/a&gt;?
+
+&lt;blockquote&gt;The C++ Standard Library also incorporates 18 headers of the ISO C90 C standard library ending with &quot;.h&quot;, but their use is deprecated.[2] All other headers in the C++ Standard Library do not end in &quot;.h&quot;.&lt;/blockquote&gt;
+
+Es gibt einige gute Gründe, warum APIs so aussehen, wie sie aussehen. Keiner hat etwas mit geistigem Eigentum zu tun, sondern mehr mit Common Sense, Geschichte und Stand der Forschung. Das Urteil geht wieder mal in die falsche Richtung.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>559</ID>
+        <post_date>2012-05-10 15:22:32</post_date>
+        <post_title></post_title>
+        <post_content>&lt;a href=&quot;http://blog.fefe.de/?ts=b1540dda&quot;&gt;Fefe&lt;/a&gt;:
+&lt;blockquote&gt;Keine Firma darf ihren Kunden vorschreiben, dass ihr Telefon nur in Mobilnetz A geht, dass auf ihrer Spielekonsole nur Spiele und kein Linux laufen darf, dass in ihren Drucker nur Patronen der eigenen Abzockmarke funktionieren.&lt;/blockquote&gt;
+
+Da gehe ich voll mit.
+
+&lt;blockquote&gt;Ja, da werden Geschäftsmodelle implodieren, aber die gehören auch entsorgt, diese Geschäftsmodelle. Firmen müssen sich wieder darauf konzentrieren, Produkte zu bauen, die ihre Kunden haben wollen.&lt;/blockquote&gt;
+
+Apple baut Produkte, die ihre Kunden haben wollen. Deswegen sind sie das höchstbewerteste Unternehmen auf der Welt. Ich bin mir aber ziemlich sicher, dass Fefe die nicht gemeint hat...</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>562</ID>
+        <post_date>2012-05-10 15:24:31</post_date>
+        <post_title>Forenhaftung bei Facebook?</post_title>
+        <post_content>&lt;a href=&quot;http://zeit.de/digital/internet/2012-05/facebook-forenhaftung&quot;&gt;Zeit Online&lt;/a&gt;:
+&lt;blockquote&gt;Im April gab es den ersten entsprechenden Fall. Das Bild einer Plastikente wurde von einem Dritten auf die Facebookseite des Abgemahnten hochgeladen. &lt;strong&gt;Noch ist die Sache nicht entschieden&lt;/strong&gt;, aber alles deutet darauf hin, dass der Betreiber der Seite auch für Bilder von anderen verantwortlich ist.&lt;/blockquote&gt;
+
+Wenn jemand ein Bild auf meine öffentliche Facebook Pinnwand stellt, müsste ich dafür geradestehen, wenn damit Urheberrechte verletzt werden? Ich müsste wissen/herausfinden, ob das Bild Urheberrechte verletzt? Was meistens nicht so einfach ist und manchmal auch gar nicht feststeht? Grotesk.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>563</ID>
+        <post_date>2012-05-10 15:23:01</post_date>
+        <post_title>Was Kunden wollen</post_title>
+        <post_content>&lt;a href=&quot;http://blog.fefe.de/?ts=b1540dda&quot;&gt;Fefe&lt;/a&gt;:
+&lt;blockquote&gt;Keine Firma darf ihren Kunden vorschreiben, dass ihr Telefon nur in Mobilnetz A geht, dass auf ihrer Spielekonsole nur Spiele und kein Linux laufen darf, dass in ihren Drucker nur Patronen der eigenen Abzockmarke funktionieren.&lt;/blockquote&gt;
+
+Da gehe ich voll mit.
+
+&lt;blockquote&gt;Ja, da werden Geschäftsmodelle implodieren, aber die gehören auch entsorgt, diese Geschäftsmodelle. Firmen müssen sich wieder darauf konzentrieren, Produkte zu bauen, die ihre Kunden haben wollen.&lt;/blockquote&gt;
+
+Apple baut Produkte, die ihre Kunden haben wollen. Deswegen sind sie das höchstbewerteste Unternehmen auf der Welt. Ich bin mir aber ziemlich sicher, dass Fefe die nicht gemeint hat...</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>567</ID>
+        <post_date>2012-05-10 22:20:43</post_date>
+        <post_title>ES Harmony</post_title>
+        <post_content>Es gibt ein Wiki mit Vorschlägen für die nächste Version von JavaScript (ECMAScript 6). Da sind viele gute dabei, die ich mir auch wünschen würde.
+
+Iteratoren, weil für &lt;code&gt;for in&lt;/code&gt; die Reihenfolge nicht definiert ist. Block Scope, weil es nicht okay ist, Variablen irgendwo in der Funktion deklarieren zu können. Module, Sets! &lt;a href=&quot;http://javascriptweblog.wordpress.com/2012/04/09/javascript-fat-city/&quot;&gt;Fat Arrow Syntax&lt;/a&gt;! Außerdem wäre es toll, wenn sie &lt;code&gt;typeof&lt;/code&gt; fixen und &lt;code&gt;==&lt;/code&gt; töten.
+
+&lt;pre&gt;
+{
+  myfunc: function(lolz, omg) {
+    //your style is solid, bro
+    var i = 0,
+        j = 1;
+    for (;i&lt;100;i++) {
+      alert(&quot;something&quot;);
+    }
+  }
+}
+&lt;/pre&gt;
+
+Sieht alles in allem sehr cool aus, aber ich frage mich, warum sie Klassen da hineinbringen müssen. JavaScript kennt so etwas wie Klassen nicht. Es gibt Objekte, die Prototypen für andere Objekte sind. Ich sehe ein, dass die Klassensyntax schöner zu lesen ist und auch viele begeistern wird, die von der klassischen objektorientierten Programmierung kommen (nicht umgewöhnen und weitermachen wie bisheryaaaay!). Aber es täuscht halt etwas vor, was da nicht ist. Und das ist nicht nett.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>570</ID>
+        <post_date>2012-05-12 10:14:57</post_date>
+        <post_title>Leica M9, S/W</post_title>
+        <post_content>Nicht nur das Gehäuse, &lt;a href=&quot;http://www.heise.de/newsticker/meldung/Leica-Monochrome-M9-und-Edelkompakte-X2-vorgestellt-1573114.html&quot;&gt;auch der Sensor&lt;/a&gt;.
+
+&lt;blockquote&gt;Doch anstelle der Rot-, Grün- und Blaufilter verwende die Kamera optisch klare Filter. Die Folge: Da der Sensor keine Farbe &quot;sieht&quot;, lägen nun für jedes einzelne Pixel reale Helligkeitswerte vor – so entstünden echte Schwarzweiß-Bilder, und dies sogar mit gesteigertem Dynamikumfang.&lt;/blockquote&gt;
+
+Was &quot;optisch klare Filter&quot; sein sollen, weiß ich nicht, aber für mich klingt das nach S/W HDR out-of-the-box. Sehr sexy und M9-typisch für Sterbliche unleistbar:
+
+&lt;blockquote&gt;Die Leica M Monochrom soll in einer schwarz verchromten Ausführung ab Ende Juli 2012 für 6800 Euro in den Fotofachhandel kommen, also rund 800 Euro teurer sein als die normale M9.&lt;/blockquote&gt;
+
+</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>573</ID>
+        <post_date>2012-05-17 11:33:56</post_date>
+        <post_title>The trouble with profiling</post_title>
+        <post_content>Bruce Schneier &lt;a href=&quot;http://www.schneier.com/blog/archives/2012/05/the_trouble_wit.html&quot;&gt;erklärt&lt;/a&gt; die Fallen bei Minority Report ähnlicher Klassfikation (speziell an Flughäfen, aber die Problematik ist generalisierbar).
+&lt;blockquote&gt;And fourth, sheep don't care if they offend innocent wolves; the two species are never going to be friends. At airports, though, there is an enormous social and political cost to the millions of false alarms.&lt;/blockquote&gt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>581</ID>
+        <post_date>2012-05-17 15:34:58</post_date>
+        <post_title>CAPTCHA Usability</post_title>
+        <post_content>Niemand mag CAPTCHAs. Aus Gründen, wie die Autoren &lt;a href=&quot;http://homepages.cs.ncl.ac.uk/jeff.yan/soups08.pdf&quot;&gt;des Papers&lt;/a&gt; zeigen. Money Quote am Schluss:
+&lt;blockquote&gt;Overall, the design of CAPTCHA is still an art, rather than a science. It requires considerable study to evolve the design of secure and usable CAPTCHAs into a science.&lt;/blockquote&gt;</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>583</ID>
+        <post_date>2012-05-18 12:57:00</post_date>
+        <post_title>jambalaya-ops</post_title>
+        <post_content></post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>587</ID>
+        <post_date>2012-05-18 13:00:33</post_date>
+        <post_title>Großer Beleg</post_title>
+        <post_content>Ich bin mit meinem Großen Beleg fertig. Das Thema der Arbeit war &lt;a href=&quot;http://nikolaus-piccolotto.info/files/GB_Nikolaus_Piccolotto_TUD.pdf&quot; title=&quot;Großer Beleg, PDF Datei&quot;&gt;&quot;Navigation und Selektion in großen semantischen Datensätzen&quot;&lt;/a&gt;. Das Problem mit großen semantischen Datensätzen ist folgendes:
+
+&lt;a href=&quot;http://nikolaus-piccolotto.info/?attachment_id=583&quot; rel=&quot;attachment wp-att-583&quot;&gt;&lt;img src=&quot;http://nikolaus-piccolotto.info/wp-content/uploads/2012/05/jambalaya-ops.jpg&quot; alt=&quot;&quot; title=&quot;jambalaya-ops&quot; class=&quot;alignnone size-full wp-image-583&quot; /&gt;&lt;/a&gt;
+
+Die Frage, wie man sich in so großen Datensätzen einen Überblick verschaffen und relevante Informationen finden kann, habe ich in der Arbeit behandelt.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>595</ID>
+        <post_date>2012-05-22 14:33:12</post_date>
+        <post_title>Github for Windows</post_title>
+        <post_content>Sie ist da. Die einzige Metro-App neben &lt;a href=&quot;http://www.metrotwit.com/&quot;&gt;MetroTwit&lt;/a&gt; und Zune, die ich bis jetzt sehe.
+
+&lt;a href=&quot;http://nikolaus-piccolotto.info/?attachment_id=589&quot; rel=&quot;attachment wp-att-589&quot;&gt;&lt;img src=&quot;http://nikolaus-piccolotto.info/wp-content/uploads/2012/05/github.png&quot; title=&quot;github for windows&quot; class=&quot;alignnone size-full wp-image-589&quot; /&gt;&lt;/a&gt;
+
+Bei mir findet sie allerdings noch nicht alle Repositorys und manuelles Hinzufügen geht meines Wissens nicht. Wird bestimmt in späteren Versionen behoben.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>598</ID>
+        <post_date>2012-06-06 14:16:58</post_date>
+        <post_title>The Story of Palm</post_title>
+        <post_content>Chris Ziegler bei &lt;a href=&quot;http://www.theverge.com/2012/6/5/3062611/palm-webos-hp-inside-story-pre-postmortem&quot;&gt;The Verge&lt;/a&gt;:
+
+&lt;blockquote&gt;While this influx of talent continued in late 2007 and early 2008, Mercer and his small team from Iventor had been plugging away on their vision for Nova, codenamed &quot;Prima.&quot; In some respects, Prima borrowed from Mercer's time tested playbook: it was a lightweight operating system designed for resource-constrained devices. But it wasn't what Nova needed. &quot;Mercer's stuff was garbage,&quot; one source bluntly told us. &quot;All he had was a nice demo, but nothing really worked,&quot; said another. &quot;The software team was getting close to mutiny. It was untenable to build what we wanted to build.&quot; Simple tasks like centering text on the screen required five lines of code. If a single app crashed, it would often take every running app down with it. Palm engineers trying to write apps and services for Prima were stymied by an archaic debugging scheme that required the entire UI layer to be stopped and restarted each time, a process which took about a minute and a half. Though it was Java-based, writing Prima code required the use of &quot;custom keywords that no one could understand.&quot;&lt;/blockquote&gt;
+
+Unbedingt lesen!</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>601</ID>
+        <post_date>2012-06-06 14:24:21</post_date>
+        <post_title>Windows 8</post_title>
+        <post_content>&lt;a href=&quot;http://mobileopportunity.blogspot.de/2012/05/fear-and-loathing-and-windows-8.html&quot;&gt;Michael Mace&lt;/a&gt; über Windows 8, nach der Palm-Story noch ein Must-Read.
+
+
+
+&lt;blockquote&gt;So when Microsoft announced that it was releasing a &quot;consumer preview&quot; of Windows 8, I couldn't wait to play with it.  So far I've installed Windows 8 on two computers, a middle of the road HP laptop and a mini tablet PC from Japan.  I've browsed the web and used Office and even tested our new app, Zekira, on it.  My conclusion is that Windows 8 in its current form is very different; attractive in some ways, and disturbing in others.  It combines an interesting new interface with baffling changes to Windows compatibility, and amateur mistakes in customer messaging.  Add up all the changes, and I am very worried that Microsoft may be about to shoot itself in the foot spectacularly.&lt;/blockquote&gt;
+
+</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>602</ID>
+        <post_date>2012-06-07 11:48:09</post_date>
+        <post_title>Auto Draft</post_title>
+        <post_content></post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>605</ID>
+        <post_date>2012-06-07 11:50:17</post_date>
+        <post_title>Dancing Quadrocopter</post_title>
+        <post_content>Habe ich gerade während der Recherche gefunden (&lt;a href=&quot;http://www.idsc.ethz.ch/Research_DAndrea/Music_In_Motion/Schoellig_ICRA2010.pdf&quot;&gt;Paper [PDF]&lt;/a&gt;).
+
+http://www.youtube.com/watch?v=Kx4DtXv_bPo</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>609</ID>
+        <post_date>2012-06-08 07:58:42</post_date>
+        <post_title>Softwarepatente Follow-up</post_title>
+        <post_content>&lt;a href=&quot;http://www.economist.com/blogs/babbage/2012/06/oracle-v-google&quot;&gt;Glenn Fleishman&lt;/a&gt;:
+
+&lt;blockquote&gt;Either way, though, the jury decided on the question of fact: if copyright works in the way Judge Alsup told them to assume, then Google was indeed guilty of infringement. That still left unanswered the question of law: whether the assumption was valid. That is for a judge to decide. And on May 31st Judge Alsup did. Valid it is not.&lt;/blockquote&gt;
+
+Der Richter hat selbst Java programmieren gelernt, um den Sachverhalt besser verstehen zu können. Das finde ich sehr lobenswert, so viel Einsatz bringt z.B. das LG Hamburg bestimmt nicht.</post_content>
+    </wp_posts>
+    <wp_posts>
+        <ID>614</ID>
+        <post_date>2012-06-08 08:16:29</post_date>
+        <post_title>DE-FENSE!</post_title>
+        <post_content>http://www.youtube.com/watch?v=6Tww6YgiIZ8
+
+Die '12er Season wird sowieso interessant. Holen die Bulls diesmal den Titel, wenn Rose zurückkehrt und unverletzt bleibt (sie hatten ja wirklich Pech)? Kann OKC den Bart und Ibaka halten? Verlassen Paul und Griffin LA mangels Zukunftsaussichten, weil Donald &quot;Dagobert&quot; Sterling &lt;a href=&quot;http://espn.go.com/los-angeles/nba/story/_/id/7984737/vinny-del-negro-return-los-angeles-clippers-coach-2012-13&quot;&gt;nichts investieren will&lt;/a&gt;? Wie reagieren die Heat, nachdem sie wieder keinen der &lt;a href=&quot;http://www.youtube.com/watch?v=swfD5uFSg_E&quot;&gt;&quot;nicht fünf, nicht sechs, nicht sieben&quot;&lt;/a&gt; Titel geholt haben? Werden die Mavericks in die Bedeutungslosigkeit stürzen, weil sie mit D-Will &lt;a href=&quot;http://go-to-guys.de/Wordpress/2012/05/17/facebox-dallas-mavericks/&quot;&gt;keinen vernünftigen Kader&lt;/a&gt; haben können? Wie geht es mit dem ballsiest Rebuild ever der Bobcats weiter? Welche geheimen Verhandlungsprotokolle kommen ans Licht und erklären, warum ausgerechnet das NBA-eigene Team New Orleans die Draft Lottery gewonnen hat?
+
+Für Spannung ist gesorgt. Bringt Popcorn mit.</post_content>
+    </wp_posts>
+</piccolo>
