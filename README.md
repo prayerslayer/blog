@@ -9,4 +9,3 @@ This is a repository of my Jekyll-powered blog at http://nikolaus-piccolotto.inf
 * Seite sieht auf Tablets beschissen aus
 * cv / projects page
 * JS late parsing
-* Komprimierung?
