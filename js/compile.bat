@@ -1,0 +1,1 @@
+java -jar compiler.jar --js jquery.min.js --js bootstrap.min.js --js code.js --js_output_file javascripts.min.js
