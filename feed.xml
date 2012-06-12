@@ -13,7 +13,7 @@ layout: rss-feed
 				<title>{{ post.title }}</title>
 				<author>prayerslayer@gmail.com</author>
 				<description>{{ post.content | xml_escape }}</description>
-				<pubDate>{{ post.date }}</pubDate>
+				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %Z"}}</pubDate>
 				<link>{{ site.host }}{{ post.url }}</link>
 				<guid isPermaLink="true">{{ site.host }}{{ post.url }}</guid>
 				<source url="{{ site.host }}/feed.xml">Nikolaus Piccolotto</source>
