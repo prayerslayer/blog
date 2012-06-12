@@ -7,12 +7,16 @@ layout: rss-feed
 		<title>{{ site.name }}</title>
 		<description>{{ site.description }}</description>
 		<link>{{ site.host }}</link>
+		<language>de-de</language>
 		{% for post in site.posts limit:10 %}
 			<item>
 				<title>{{ post.title }}</title>
+				<author>prayerslayer@gmail.com</author>
 				<description>{{ post.content | xml_escape }}</description>
-				<published>{{ post.date }}</published>
+				<pubDate>{{ post.date }}</pubDate>
 				<link>{{ site.host }}{{ post.url }}</link>
+				<guid isPermaLink="true">{{ site.host }}{{ post.url }}</guid>
+				<source url="{{ site.host }}/feed.xml">Nikolaus Piccolotto</source>
 			</item>
 		{% endfor %}
 	</channel>
