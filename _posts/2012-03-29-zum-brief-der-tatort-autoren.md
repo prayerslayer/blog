@@ -1,6 +1,6 @@
 ---
 layout: singlepost
-title: "Nintendo"
+title: "Zum Brief der Tatort Autoren"
 date: 2012-03-29 19:22:14
 ---
 [CCC](http://ccc.de/updates/2012/drehbuchautoren):
