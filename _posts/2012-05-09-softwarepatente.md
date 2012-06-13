@@ -14,6 +14,6 @@ Jetzt ist es aber so, dass APIs realistischerweise nicht beliebig entworfen werd
 
 Um von dem Real Life Beispiel wieder zurück zu kommen: Neben Aufbau der API, Benennung und Parameter der Funktionen gibt es noch anderes zu bedenken. Bei funktionaler Programmierung können Parameter unter Umständen gar nicht variiert werden, weil das formale Modell dafür nur so definiert ist (vgl Liste als erstes Element und Rest). Was ist außerdem mit C++/C# Wrappern für C-Bibliotheken? Oder Ports in verschiedene Sprachen? Oder [libstdc++](http://en.wikipedia.org/wiki/Libstdc%2B%2B")?
 
->he C++ Standard Library also incorporates 18 headers of the ISO C90 C standard library ending with ".h", but their use is deprecated.[2] All other headers in the C++ Standard Library do not end in ".h".
+>The C++ Standard Library also incorporates 18 headers of the ISO C90 C standard library ending with ".h", but their use is deprecated. All other headers in the C++ Standard Library do not end in ".h".
 
 Es gibt einige gute Gründe, warum APIs so aussehen, wie sie aussehen. Keiner hat etwas mit geistigem Eigentum zu tun, sondern mehr mit Common Sense, Geschichte und Stand der Forschung. Das Urteil geht wieder mal in die falsche Richtung.
