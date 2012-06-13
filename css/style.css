@@ -11,13 +11,17 @@
 	margin-bottom: 3em;
 }
 
+div.content {
+	max-width: 800px;
+}
+
 .content > img, .content > iframe, .content > object {
 	margin: 1.5em;
 }
 
 object, embed {
-	min-width: 320px;
-	min-height: 480px;
+	min-width: 480px;
+	min-height: 320px;
 	width: 100%;
 	height: auto;
 }
