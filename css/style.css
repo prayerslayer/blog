@@ -20,11 +20,11 @@ div.content {
 	max-width: 800px;
 }
 
-.content > img, .content > iframe, .content > object {
+.content > img {
 	margin: 1.5em;
 }
 
-object, embed {
+object, embed, iframe {
 	min-width: 480px;
 	min-height: 320px;
 	width: 100%;
