@@ -5,4 +5,4 @@ AddOutputFilterByType DEFLATE text/xml
 AddOutputFilterByType DEFLATE text/css 
 AddOutputFilterByType DEFLATE text/javascript
 
-DeflateCompressionLevel 7
+# DeflateCompressionLevel 7

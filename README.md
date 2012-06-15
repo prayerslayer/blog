@@ -4,7 +4,6 @@ This is a repository of my Jekyll-powered blog at http://nikolaus-piccolotto.inf
 
 # TODO
 
-
 * RSS funktioniert im Google Reader nicht?
-* cv / projects page
+* Videos in RSS
 * minify CSS

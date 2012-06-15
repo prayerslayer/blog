@@ -12,7 +12,6 @@ layout: rss-feed
 		{% for post in site.posts limit:10 %}
 			<item>
 				<title>{{ post.title }}</title>
-				<author>prayerslayer@gmail.com (Nikolaus Piccolotto)</author>
 				<description>{{ post.content | xml_escape }}</description>
 				<!-- TODO zeitzone -->
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S +0200"}}</pubDate>
