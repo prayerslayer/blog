@@ -1,5 +1,6 @@
 ---
 layout: singlepost
+date: 2012-06-19 09:00:00
 title: "Tablet statt Laptop"
 ---
 [Sam Grobart](http://bits.blogs.nytimes.com/2012/06/18/microsofts-not-competing-with-the-ipadnot-entirely/):
