@@ -11,4 +11,5 @@ $(document).ready(function() {
 		window.location.replace("http://nikolaus-piccolotto.info");
 	});
 	$(".social").tooltip();
+	$(".social").fadeIn(200);
 });
