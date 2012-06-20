@@ -10,6 +10,7 @@ $(document).ready(function() {
 	$("header").click(function() {
 		window.location.replace("http://nikolaus-piccolotto.info");
 	});
-	$(".social").tooltip();
-	$(".social").fadeIn(200);
+	$(".social")
+		.tooltip()
+		.fadeIn(200);
 });
