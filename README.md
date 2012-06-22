@@ -4,6 +4,7 @@ This is a repository of my Jekyll-powered blog at http://nikolaus-piccolotto.inf
 
 # TODO
 
+* 404 Seite
 * CSS bruchlinie, wenn bilder zu hoch sind
 * RSS funktioniert im Google Reader nicht?
 * Videos in RSS
