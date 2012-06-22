@@ -1,0 +1,1 @@
+java -jar yuicompressor.jar --type css --charset UTF-8 bootstrap.css style.css bootstrap-responsive.min.css -o stylesheet.min.css
