@@ -5,7 +5,6 @@ This is a repository of my Jekyll-powered blog at http://nikolaus-piccolotto.inf
 # TODO
 
 * CSS bruchlinie, wenn bilder zu hoch sind
-* metatags für facebook etc
 * RSS funktioniert im Google Reader nicht?
 * Videos in RSS
 * minify CSS
