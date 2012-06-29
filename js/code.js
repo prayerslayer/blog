@@ -1,4 +1,10 @@
+
 $(document).ready(function() {
+	$(".social")
+		.tooltip()
+		.fadeIn(200);
+
+	var host = "http://nikolaus-piccolotto.info";
 	$("img").hover(
 		function() {
 			$(this).css("opacity", 0.7);
@@ -8,9 +14,7 @@ $(document).ready(function() {
 		}
 	);
 	$("header").click(function() {
-		window.location.replace("http://nikolaus-piccolotto.info");
+		window.location.replace(host);
 	});
-	$(".social")
-		.tooltip()
-		.fadeIn(200);
+	
 });
