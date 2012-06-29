@@ -1,5 +1,5 @@
-var host = "http://localhost:4000";
-//var host = "http://nikolaus-piccolotto.info";
+//var host = "http://localhost:4000";
+var host = "http://nikolaus-piccolotto.info";
 var folder = "/js";
 
 (function() {
