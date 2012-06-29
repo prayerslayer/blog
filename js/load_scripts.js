@@ -4,7 +4,7 @@ var folder = "/js";
 
 (function() {
     function async_load(){
-        
+        //drop me a comment
         var s = document.createElement('script');
         s.type = 'text/javascript';
         s.async = true;
