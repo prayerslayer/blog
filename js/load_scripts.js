@@ -4,7 +4,7 @@ var folder = "/js";
 
 (function() {
     function async_load(){
-        //me dont like comments
+        //me dont like comments, almost
         var s = document.createElement('script');
         s.type = 'text/javascript';
         s.async = true;
