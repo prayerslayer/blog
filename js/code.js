@@ -1,8 +1,7 @@
 
 $(document).ready(function() {
 	$(".social")
-		.tooltip()
-		.fadeIn(200);
+		.tooltip();
 
 	var host = "http://nikolaus-piccolotto.info";
 	$("img").hover(
