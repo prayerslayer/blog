@@ -20,10 +20,6 @@ div.content {
 	max-width: 800px;
 }
 
-.content img {
-	margin: 1.5em;
-}
-
 object, embed, iframe {
 	min-width: 480px;
 	min-height: 320px;
@@ -68,8 +64,13 @@ p + p {
 ul, ol {
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
+	list-style-position: inside;
 }
 
 li {
 	line-height: 1.5em;
+}
+
+li + li {
+	margin-top: 0.5em;
 }

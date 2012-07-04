@@ -20,10 +20,10 @@ Ziel war eine Software, welche es dem Benutzer ermöglicht:
 
 Diese Fragen habe ich in der Arbeit behandelt und prototypisch implementiert. Zusammenfassend lässt sich sagen, dass viele Hilfsmittel eingesetzt werden müssen, um die Ziele zu erreichen. Im Prototypen (siehe Abbildung) habe ich die Ziele mit folgenden HIlfsmitteln umgesetzt:
 
-1.	Key Concept Extraction, Clustering, umfangreiche (teils automatische) Filter
-2.	Eigenes "Werkzeug", welches Relationen zwischen ausgewählten Daten anzeigt (ähnlich RelFinder)
+1.	[Key Concept Extraction](http://people.kmi.open.ac.uk/motta/papers/key_concepts_aswc.pdf), [Clustering](http://semantic.cs.put.poznan.pl/RMonto/doku.php?id=start), umfangreiche (teils automatische) Filter
+2.	Eigenes "Werkzeug", welches Relationen zwischen ausgewählten Daten anzeigt (ähnlich [RelFinder](http://www.visualdataweb.org/relfinder.php))
 3.	Zeitleiste, auf der Aktionen des Benutzers aufgetragen werden und die Undo/Redo ermöglicht
 
 ![Preselection]({{ site.host }}/media/img/awesome_screenshot.png)
 
-Die Evaluation des User Interfaces war vielversprechend, aber die Performance des Backends lässt stark zu wünschen übrig.
+Die Evaluation des User Interfaces war vielversprechend, aber die Performance des Backends lässt stark zu wünschen übrig. Die Arbeit wurde mit 1.3 bewertet.
