@@ -24,6 +24,6 @@ Diese Fragen habe ich in der Arbeit behandelt und prototypisch implementiert. Zu
 2.	Eigenes "Werkzeug", welches Relationen zwischen ausgewählten Daten anzeigt (ähnlich RelFinder)
 3.	Zeitleiste, auf der Aktionen des Benutzers aufgetragen werden und die Undo/Redo ermöglicht
 
-![{{ site.host }}/media/img/awesome_screenshot.png]
+![Preselection]({{ site.host }}/media/img/awesome_screenshot.png)
 
 Die Evaluation des User Interfaces war vielversprechend, aber die Performance des Backends lässt stark zu wünschen übrig.
