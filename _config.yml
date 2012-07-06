@@ -17,7 +17,7 @@ lsi:         false
 pygments:    false
 markdown:    maruku
 paginate:    10
-permalink:   /:year/:month/:title.html
+permalink:   /:year/:month/:title
 
 maruku:
   use_tex:    false
