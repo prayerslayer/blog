@@ -1,8 +1,8 @@
+#RewriteEngine On
+#RewriteRule ^(.*)[^.html]$ $1
+
 # compress text, html, javascript, css, xml:
-AddOutputFilterByType DEFLATE text/html 
-AddOutputFilterByType DEFLATE text/plain 
-AddOutputFilterByType DEFLATE text/xml 
-AddOutputFilterByType DEFLATE text/css 
-AddOutputFilterByType DEFLATE text/javascript
-# error page
-ErrorDocument 404 /error.html
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript
+
+# content negotiation
+Options +MultiViews
