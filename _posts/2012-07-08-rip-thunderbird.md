@@ -12,4 +12,4 @@ Erst kürzlich habe ich mich darüber gewundert, wieso es eigentlich keine Freew
 
 Da ist Outlook Express, das konnte aber damals kein IMAP, also. Falls Bezahlen eine Alternative ist, gibt es noch das richtige Outlook. Das ist wiederum überladen, weil Termine, Notizen, Todo-Listen und eh alles integriert wird. Und sonst? Gar nichts.
 
-Es scheint tatsächlich so zu sein, dass mit Email-Clients weniger Geld (verdient werden kann)[http://www.marco.org/2012/07/07/bye-thunderbird] als mit Browsern (Firefox geht es gut) oder anderer Software. Deswegen kosten sie entweder was (Outlook, Sparrow) oder sind subventioniert (Outlook Express, Mail). Und für Mozilla rechnet es sich offensichtlich nicht.
+Es scheint tatsächlich so zu sein, dass mit Email-Clients weniger Geld [verdient werden kann](http://www.marco.org/2012/07/07/bye-thunderbird) als mit Browsern (Firefox geht es gut) oder anderer Software. Deswegen kosten sie entweder was (Outlook, Sparrow) oder sind subventioniert (Outlook Express, Mail). Und für Mozilla rechnet es sich offensichtlich nicht.
