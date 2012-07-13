@@ -28,6 +28,10 @@ div.date {
 	border-bottom: 2px dotted black;
 }
 
+.permalink {
+	margin-bottom: 1.5em;
+}
+
 object, embed, iframe {
 	min-width: 480px;
 	min-height: 320px;
