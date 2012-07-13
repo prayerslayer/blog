@@ -24,8 +24,9 @@ div.date {
 	color: gray;
 }
 
-.title {
+h2.title {
 	border-bottom: 2px dashed black;
+	font-size: inherit;
 }
 
 object, embed, iframe {
