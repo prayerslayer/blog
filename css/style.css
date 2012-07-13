@@ -25,7 +25,7 @@ div.date {
 }
 
 h2.title {
-	border-bottom: 2px dashed black;
+	border-bottom: 1px solid black;
 	font-size: inherit;
 }
 
@@ -42,7 +42,7 @@ article {
 }
 
 blockquote{
-	border-left: 1px solid darkgray;
+	border-left: 1px solid gray;
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 	margin-left: 1.5em;
