@@ -25,11 +25,7 @@ div.date {
 }
 
 .title {
-	border-bottom: 2px dotted black;
-}
-
-.permalink {
-	margin-bottom: 1.5em;
+	border-bottom: 2px dashed black;
 }
 
 object, embed, iframe {
@@ -53,8 +49,8 @@ blockquote{
 }
 
 body {
-	font-size: 1.5em;
-	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Lato", Verdana, sans-serif;
+	font-size: 20px;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Lato", Arial, sans-serif;
 	line-height: 1.5em;
 	color: black;
 }
