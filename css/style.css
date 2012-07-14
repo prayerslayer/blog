@@ -20,6 +20,11 @@ div.content {
 	max-width: 800px;
 }
 
+div.content h1 {
+	font-size: 24px;
+	line-height: 3em;
+}
+
 div.date {
 	color: gray;
 }
@@ -60,7 +65,8 @@ header {
 	cursor: pointer;
 }
 
-h1 {
+h1#header {
+
 	font: 48pt Georgia, serif;
 }
 
