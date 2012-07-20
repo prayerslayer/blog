@@ -1,0 +1,82 @@
+//Variables
+line_height = 1.5em
+font_color = black
+quote_color = grey
+
+//Styles on tags
+
+object, embed, iframe
+  min-width: 480px
+  min-height: 320px
+  width: 100%
+  height: auto
+
+article
+  margin-top: 6em
+  margin-bottom: 6em
+
+blockquote
+  border-left: 1px dashed quote_color
+  margin-top: line_height
+  margin-bottom: line_height
+  margin-left: line_height
+  color: quote_color
+
+body
+  font-size: 20px
+  font-family: "Lato", sans-serif
+  line-height: line_height
+  color: font_color
+
+header
+  cursor: pointer
+
+p + p
+  margin-top: line_height
+
+ul, ol
+  margin-top: line_height
+  margin-bottom: line_height
+  list-style-position: inside
+
+li
+  line-height: line_height
+
+li + li
+  margin-top: 0.5em
+
+//Styles on selectors
+
+.social
+  min-width: 8px
+  min-height: 8px
+  max-width: 32px
+  max-height: 32px
+  margin-top: line_height
+  float: none
+  padding: 5px
+
+.menu
+  margin-top: line_height
+
+.navigation
+  margin-bottom: 2*line_height
+
+div.content
+  max-width: 800px
+
+div.content h1
+  font-size: 24px
+  line-height: 2*line_height
+
+div.date
+  color: quote_color
+
+h2.title
+  border-bottom: 1px solid font_color
+  font-size: inherit
+  line-height: line_height
+  margin-bottom: line_height
+
+h1#header
+  font: 48pt Georgia, serif
