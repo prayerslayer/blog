@@ -1,15 +1,6 @@
-_site/*
+_site/
 
-_site/css/style.css
-
-_site/img/octocat-small.png
-
-_site/img/soundcloud-small.png
-
-_site/img/twitter-small.png
-
-_site/index.html
-
-_site/js/code.js
 
 .DS_Store
+
+/_config.yml
