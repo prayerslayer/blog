@@ -24,7 +24,8 @@ blockquote
 
 body
   font-size: 20px
-  font-family: "Lato", sans-serif
+  font-family: "Source Sans Pro", sans-serif
+  font-weight: 300
   line-height: line_height
   color: font_color
 
@@ -60,7 +61,7 @@ li + li
   margin-top: line_height
 
 .navigation
-  margin-bottom: 2*line_height
+  padding-bottom: 2*line_height
 
 div.content
   max-width: 800px
@@ -72,11 +73,19 @@ div.content h1
 div.date
   color: quote_color
 
+div.metadata
+  padding-bottom: line_height
+
 h2.title
   border-bottom: 1px solid font_color
   font-size: inherit
   line-height: line_height
   margin-bottom: line_height
+  font-weight: 600
 
 h1#header
-  font: 48pt Georgia, serif
+  font-size: 48pt
+  line-height: line_height
+
+div#top
+  //nichts

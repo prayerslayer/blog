@@ -1,91 +1,84 @@
-.social {
-	min-width: 8px;
-	min-height: 8px;
-	max-width: 32px;
-	max-height: 32px;
-	margin-top: 1.5em;
-	float:none;
-	padding: 5px;
+object,
+embed,
+iframe {
+  min-width: 480px;
+  min-height: 320px;
+  width: 100%;
+  height: auto;
 }
-
-.menu {
-	margin-top: 1.5em;
-}
-
-.navigation {
-	margin-bottom: 3em;
-}
-
-div.content {
-	max-width: 800px;
-}
-
-div.content h1 {
-	font-size: 24px;
-	line-height: 3em;
-}
-
-div.date {
-	color: gray;
-}
-
-h2.title {
-	border-bottom: 1px solid black;
-	font-size: inherit;
-	line-height: 1.5em;
-	margin-bottom: 1.5em;
-}
-
-object, embed, iframe {
-	min-width: 480px;
-	min-height: 320px;
-	width: 100%;
-	height: auto;
-}
-
 article {
-	margin-top: 6em;
-	margin-bottom: 6em;
+  margin-top: 6em;
+  margin-bottom: 6em;
 }
-
-blockquote{
-	border-left: 1px dashed gray;
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
-	margin-left: 1.5em;
-	color: gray;
+blockquote {
+  border-left: 1px dashed #808080;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: 1.5em;
+  color: #808080;
 }
-
 body {
-	font-size: 20px;
-	font-family: "Lato", Tahoma, sans-serif;
-	line-height: 1.5em;
-	color: black;
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #000;
 }
-
 header {
-	cursor: pointer;
+  cursor: pointer;
 }
-
-h1#header {
-
-	font: 48pt Georgia, serif;
-}
-
 p + p {
-	margin-top: 1.5em;
+  margin-top: 1.5em;
 }
-
-ul, ol {
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
-	list-style-position: inside;
+ul,
+ol {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  list-style-position: inside;
 }
-
 li {
-	line-height: 1.5em;
+  line-height: 1.5em;
+}
+li + li {
+  margin-top: 0.5em;
+}
+.social {
+  min-width: 8px;
+  min-height: 8px;
+  max-width: 32px;
+  max-height: 32px;
+  margin-top: 1.5em;
+  float: none;
+  padding: 5px;
+}
+.menu {
+  margin-top: 1.5em;
+}
+.navigation {
+  padding-bottom: 3em;
+}
+div.content {
+  max-width: 800px;
+}
+div.content h1 {
+  font-size: 24px;
+  line-height: 3em;
+}
+div.date {
+  color: #808080;
+}
+div.metadata {
+  padding-bottom: 1.5em;
+}
+h2.title {
+  border-bottom: 1px solid #000;
+  font-size: inherit;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+  font-weight: 600;
+}
+h1#header {
+  font-size: 48pt;
+  line-height: 1.5em;
 }
 
-li + li {
-	margin-top: 0.5em;
-}
