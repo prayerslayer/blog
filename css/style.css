@@ -7,8 +7,8 @@ iframe {
   height: auto;
 }
 article {
-  margin-top: 6em;
-  margin-bottom: 6em;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 blockquote {
   border-left: 1px dashed #808080;
@@ -47,12 +47,13 @@ li + li {
   min-height: 8px;
   max-width: 32px;
   max-height: 32px;
-  margin-top: 1.5em;
   float: none;
   padding: 5px;
 }
-.menu {
+.social-icons {
   margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  border-bottom: 3px solid #000;
 }
 .navigation {
   padding-bottom: 3em;
@@ -80,5 +81,9 @@ h2.title {
 h1#header {
   font-size: 48pt;
   line-height: 1.5em;
+  border-bottom: 3px solid #000;
+}
+h2#slogan {
+  line-height: 3em;
 }
 

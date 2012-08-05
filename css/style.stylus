@@ -12,8 +12,8 @@ object, embed, iframe
   height: auto
 
 article
-  margin-top: 6em
-  margin-bottom: 6em
+  margin-top: 2*line_height
+  margin-bottom: 2*line_height
 
 blockquote
   border-left: 1px dashed quote_color
@@ -53,12 +53,12 @@ li + li
   min-height: 8px
   max-width: 32px
   max-height: 32px
-  margin-top: line_height
   float: none
   padding: 5px
 
-.menu
+.social-icons
   margin-top: line_height
+  margin-bottom: line_height
 
 .navigation
   padding-bottom: 2*line_height
@@ -86,6 +86,10 @@ h2.title
 h1#header
   font-size: 48pt
   line-height: line_height
+  border-bottom: 3px solid black
+
+h2#slogan
+  line-height: 2*line_height
 
 div#top
   //nichts
