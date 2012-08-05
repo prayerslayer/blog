@@ -1,6 +1,6 @@
 ---
 layout: singlepost
-title: "Oblivious Transfer"
+title: "Block/Steal"
 date: 2012-03-13 09:26:55
 video: http://www.youtube.com/v/aS-Bb2Vos1M
 ---

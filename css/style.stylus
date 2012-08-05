@@ -46,6 +46,9 @@ li
 li + li
   margin-top: 0.5em
 
+b, strong
+  font-weight: 600
+
 //Styles on selectors
 
 .social
