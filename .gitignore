@@ -1,5 +1,7 @@
 _site/
 
+*.ai
+*.psd
 
 .DS_Store
 
