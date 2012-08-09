@@ -12,7 +12,6 @@ Options +MultiViews
 Options +FollowSymlinks
 
 # ignore these directories
-RewriteCond %{REQUEST_URI} !img
 RewriteCond %{REQUEST_URI} !ai_cache
 
 # send requests to images to adaptive-images
