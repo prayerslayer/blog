@@ -7,3 +7,15 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javasc
 
 # content negotiation
 Options +MultiViews
+
+# adaptive images begin
+Options +FollowSymlinks
+
+# ignore these directories
+RewriteCond %{REQUEST_URI} !img
+RewriteCond %{REQUEST_URI} !ai_cache
+
+# send requests to images to adaptive-images
+RewriteRule /.(?:jpeg?g|gif|png)$ adaptive-images.php
+
+# adaptive images end
