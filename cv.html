@@ -49,19 +49,16 @@ title: "CV"
 			Geboren in Deutschlandsberg, Österreich.
 		</p>
 		<p>
-			<script src="http://www.openlayers.org/api/OpenLayers.js"></script>
-		    <script>
-		     function initOSMap() {
-		     	map = new OpenLayers.Map("map");
-		        var mapnik         = new OpenLayers.Layer.OSM();
-		        var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
-		        var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
-		        var position       = new OpenLayers.LonLat(46.81181, 15.2306).transform( fromProjection, toProjection);
-		        var zoom           = 10; 
-		 
-		        map.addLayer(mapnik);
-		        map.setCenter(position, zoom );
-		    }
+			<script type="text/javascript" src="https://raw.github.com/modestmaps/modestmaps-js/master/modestmaps.js"></script>
+			<script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.1.2"></script>
+			
+		    <script type="text/javascript">
+		    	function initMap() {
+			    	// replace "toner" here with "terrain" or "watercolor"
+					var layer = new MM.StamenTileLayer("toner");
+					var map = new MM.Map("map", layer);
+					map.setCenterZoom(new MM.Location(46.81181, 15.2306), 10);
+				}
 		    </script>
 		    <div id="map"></div>
 		</p>
