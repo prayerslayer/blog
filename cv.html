@@ -51,7 +51,7 @@ title: "CV"
 		<p>
 			<script src="http://www.openlayers.org/api/OpenLayers.js"></script>
 		    <script>
-		     $(document).ready(function() {
+		     function initOSMap {
 		     	map = new OpenLayers.Map("map");
 		        var mapnik         = new OpenLayers.Layer.OSM();
 		        var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
@@ -61,7 +61,7 @@ title: "CV"
 		 
 		        map.addLayer(mapnik);
 		        map.setCenter(position, zoom );
-		    });
+		    }
 		    </script>
 		    <div id="map"></div>
 		</p>

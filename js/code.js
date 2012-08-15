@@ -1,5 +1,8 @@
-
 $(document).ready(function() {
+	if ( initOSMap ) //should return true on /cv
+		initOSMap();
+
+
 	$(".social")
 		.tooltip({
 			"placement": "bottom"
