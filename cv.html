@@ -49,7 +49,21 @@ title: "CV"
 			Geboren in Deutschlandsberg, Österreich.
 		</p>
 		<p>
-			<iframe id="map" scrolling="no" width="500" height="400" frameborder="0" src="http://www.bing.com/maps/embed/?v=2&amp;cp=46.82357889817245~15.210430145263691&amp;lvl=16&amp;sty=r&amp;where1=deutschlandsberg österreich&amp;pp=46.82357889817245~15.210430145263691&amp;emid=22860556-3bb8-281d-c962-da649b055d48"></iframe>
+			<script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+		    <script>
+		      function init() {
+		        map = new OpenLayers.Map("map");
+		        var mapnik         = new OpenLayers.Layer.OSM();
+		        var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
+		        var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+		        var position       = new OpenLayers.LonLat(46.81181, 15.2306).transform( fromProjection, toProjection);
+		        var zoom           = 10; 
+		 
+		        map.addLayer(mapnik);
+		        map.setCenter(position, zoom );
+		      }
+		    </script>
+		    <div id="map"></div>
 		</p>
 	</div>
 </article>
