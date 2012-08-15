@@ -2,12 +2,14 @@
 line_height = 1.5em
 font_color = black
 quote_color = grey
+elem_minheight = 320px
+elem_minwidth = 480px
 
 //Styles on tags
 
 object, embed, iframe
-  min-width: 480px
-  min-height: 320px
+  min-width: elem_minwidth
+  min-height: elem_minheight
   width: 100%
   height: auto
 
@@ -50,6 +52,12 @@ b, strong
   font-weight: 600
 
 //Styles on selectors
+
+#map
+  height: auto
+  min-height: elem_minheight
+  width: 100%
+  min-width: elem_minwidth
 
 .social
   min-width: 8px

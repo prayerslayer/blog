@@ -46,6 +46,12 @@ b,
 strong {
   font-weight: 600;
 }
+#map {
+  height: auto;
+  min-height: 320px;
+  width: 100%;
+  min-width: 480px;
+}
 .social {
   min-width: 8px;
   min-height: 8px;
