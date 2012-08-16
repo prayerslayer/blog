@@ -49,7 +49,18 @@ title: "CV"
 			Geboren in Deutschlandsberg, Österreich.
 		</p>
 		<p>
-			<iframe width='500' height='300' frameBorder='0' src='http://a.tiles.mapbox.com/v3/prayerslayer.map-zrw0mtj0.html#11/46.797/15.185'></iframe>
+			<script type="text/javascript" src="https://raw.github.com/modestmaps/modestmaps-js/master/modestmaps.js"></script>
+			<script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.1.2"></script>
+
+		    <script type="text/javascript">
+		    	function initMap() {
+			    	// replace "toner" here with "terrain" or "watercolor"
+					var layer = new MM.StamenTileLayer("toner");
+					var map = new MM.Map("map", layer);
+					map.setCenterZoom(new MM.Location(46.81181, 15.2306), 10);
+				}
+		    </script>
+		    <div id="map"></div>
 		</p>
 	</div>
 </article>

@@ -1,4 +1,8 @@
 $( document ).ready( function() {
+	if ( initMap ) { //returns true on /cv
+		initMap();
+	}
+
 	$( ".social" )
 		.tooltip({
 			"placement": "bottom"
