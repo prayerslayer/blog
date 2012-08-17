@@ -1,5 +1,5 @@
 $( document ).ready( function() {
-	if ( !( typeof( initMap ) === "undefined" ) ) { //returns true on /cv
+	if ( typeof initMap !== "undefined" ) { //returns true on /cv
 		initMap();
 	}
 
