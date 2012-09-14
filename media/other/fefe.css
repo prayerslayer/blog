@@ -1,5 +1,5 @@
 blockquote {
-    font-family: Georgia, serif;
+    font-family: Georgia;
     border: none;
     border-left: 1px dashed black;
     margin: 1.5em 0em 1.5em 0em;
@@ -42,11 +42,26 @@ li > a:first-child {
     position: relative;
 }
 
+li ul {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
 li, li p {
     font-family: inherit;
     position: relative;
     line-height: 2em;
     font-size: 1em;
+    background-color: white;
+}
+
+pre {
+    font-family: Courier;
+    font-size: 0.8em;
+    border: none;
+    border-left: 1px dashed black;
+    margin: 1.5em 0em 1.5em 0em;
+    padding-left: 3em;
     background-color: white;
 }
 
@@ -56,3 +71,4 @@ h2 {
     line-height: 4.5em;
     font-family: inherit;
 }
+
