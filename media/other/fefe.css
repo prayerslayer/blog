@@ -1,39 +1,29 @@
 blockquote {
-    border-left: 5px solid gray;
-    border-right: none;
-    border-top: none;
-    border-bottom: none;
-    font-family: HelveticaNeue, Verdana, sans-serif;
-    font-size: 1em;
-    color: gray;
+    font-family: Georgia;
+    border: none;
+    border-left: 1px dashed black;
+    margin: 1.5em 0em 1.5em 0em;
+    padding-left: 3em;
+    font-style: italic;
     background-color: white;
 }
 
 body {
-    font-family: Georgia, serif;
+    font-family: HelveticaNeue, Verdana, sans-serif;
     max-width: 600px;
     left: 30%;
     position: relative;
 }
 
 h3 {
+    font-family: inherit;
     text-align: center;
     font-size: 2em;
     line-height: 3em;
-    font-family: HelveticaNeue, Verdana, sans-serif;
     border-bottom: 1px solid black;
 }
 
-li {
-    position: relative;
-    line-height: 2em;
-    font-family: Georgia, serif;
-    font-size: 1em;
-    background-color: white;
-}
-
 body > b:first-of-type {
-    font-family: HelveticaNeue, Verdana, serif;
     font-weight: normal;
     text-align: left;
     font-size: 0.8em;
@@ -41,15 +31,7 @@ body > b:first-of-type {
 
 body > p:first-of-type {
     text-align: left;
-    font-family: HelveticaNeue, Verdana, sans-serif;
     font-size: .8em;
-}
-
-h2 {
-    text-align: center;
-    font-family: HelveticaNeue, Verdana, sans-serif;
-    font-size: 3em;
-    line-height: 4.5em;
 }
 
 li > a:first-child {
@@ -58,4 +40,19 @@ li > a:first-child {
     left: -5%;
     top: 0.5em;
     position: relative;
+}
+
+li, li p {
+    font-family: inherit;
+    position: relative;
+    line-height: 2em;
+    font-size: 1em;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    line-height: 4.5em;
+    font-family: inherit;
 }
