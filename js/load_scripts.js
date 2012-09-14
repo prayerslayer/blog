@@ -1,5 +1,9 @@
-//var host = "http://localhost:4000";
-var host = "http://nikolaus-piccolotto.info";
+---
+title: "YAML Frontmatter"
+layout: none
+---
+
+var host = "{{ site.host }}";
 var folder = "/js";
 
 (function() {
