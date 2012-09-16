@@ -1,8 +1,6 @@
 object,
 embed,
-iframe,
-div.embed.youtube,
-div.embed.vimeo {
+iframe {
   min-width: 480px;
   min-height: 320px;
   width: 100%;
