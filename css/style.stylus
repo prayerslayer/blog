@@ -7,7 +7,7 @@ elem_minwidth = 480px
 
 //Styles on tags
 
-object, embed, iframe
+p object, p embed, p iframe
   min-width: elem_minwidth
   min-height: elem_minheight
   width: 100%
@@ -76,6 +76,10 @@ b, strong
 
 div.content
   max-width: 800px
+
+div.embed
+  margin-top: line_height
+  margin-bottom: line_height
 
 div.content h1
   font-size: 24px

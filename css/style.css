@@ -1,6 +1,6 @@
-object,
-embed,
-iframe {
+p object,
+p embed,
+p iframe {
   min-width: 480px;
   min-height: 320px;
   width: 100%;
@@ -69,6 +69,10 @@ strong {
 }
 div.content {
   max-width: 800px;
+}
+div.embed {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 div.content h1 {
   font-size: 24px;
