@@ -26,14 +26,18 @@ require 'uri'
 ::OEmbed::Providers.register_fallback(::OEmbed::ProviderDiscovery, ::OEmbed::Providers::Embedly, ::OEmbed::Providers::OohEmbed)
 
 module Jekyll
-  class OEmbed < Liquid::Tag
+  class OEmbedTag < Liquid::Tag
 
     def initialize(tag_name, text, tokens)
        super
+       puts "initializing oembed tag"
        @text = text
     end
     
     def render(context)
+
+      puts "rendering oembed tag"
+
       # pipe param through liquid to make additional replacements possible
       url = Liquid::Template.parse(@text).render context
 
@@ -48,4 +52,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('oembed', Jekyll::OEmbed)
+Liquid::Template.register_tag('oembed', Jekyll::OEmbedTag)
