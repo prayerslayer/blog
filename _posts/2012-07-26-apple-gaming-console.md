@@ -4,7 +4,7 @@ title: "Apple Gaming Console"
 ---
 
 [MG Siegler](http://parislemon.com/post/27949484317):
->When — yes, when — Apple adds apps to this thing, wonder what will happen… If they added them tomorrow, the Apple TV would instantly be the number one gaming console. Think about that for a second.
+> Then — yes, when — Apple adds apps to this thing, wonder what will happen… If they added them tomorrow, the Apple TV would instantly be the number one gaming console. Think about that for a second.
 
 Ich sehe den Punkt, den er machen will - Apple hat schon einen relativ großen Fuß im amerikanischen Wohnzimmer (Apple TV), alles was fehlt, ist die passende Software. Trotzdem finde ich sein Statement zu stark übertrieben. 
 

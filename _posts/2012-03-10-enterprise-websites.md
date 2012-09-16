@@ -5,7 +5,7 @@ date: 2012-03-10 11:07:33
 ---
 
 [Alex Payne](http://al3x.net/2012/02/29/how-not-to-sell-software-in-2012.html):
->Don't make me read a whitepaper in order to get essential information about your product. Put it on your website. In HTML. Not in a PDF, not in Flash, not in Silverlight or ActiveX or whatever. What your product does, on your website, in HTML.
+> Don't make me read a whitepaper in order to get essential information about your product. Put it on your website. In HTML. Not in a PDF, not in Flash, not in Silverlight or ActiveX or whatever. What your product does, on your website, in HTML.
 
 Früher (Januar 2010), als ich als studentische Hilfskraft eine Zusammenfassung von Business Intelligence Software machen sollte, hatte ich dieselben Probleme. Testversion nur gegen Daten (Email, manchmal auch Adresse und Telefonnummer) oder Preise nur auf Anfrage sind üblich. Oder mangelnde Beschreibungen, praktisch überall.
 
