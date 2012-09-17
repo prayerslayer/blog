@@ -4,6 +4,7 @@ title: "Edge Cases"
 date: 2012-04-19 11:15:39
 ---
 Eine [Regex für eine Zahl](http://stackoverflow.com/questions/4246077/simple-problem-with-regular-expression-only-digits-and-commas) bitte, danke!
+
 > Is −0 a number?
 > How do you feel about √−1?
 > Is ⅝ or ⅔ a number?

@@ -3,6 +3,7 @@ layout: singlepost
 title: "Berliner Mieten"
 ---
 [Christine McLaren](http://americancity.org/daily/entry/the-history-behind-berlins-cheap-rents):
+
 > Then the wall fell. Berlin became the capital of Germany again. Everyone expected a massive economic boom.
 >
 > But the boom didn’t come.

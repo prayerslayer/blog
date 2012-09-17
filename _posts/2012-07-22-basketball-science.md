@@ -4,6 +4,7 @@ title: "Basketball Science"
 ---
 
 [Sharon Begley](http://www.msnbc.msn.com/id/48270436/ns/technology_and_science-science):
+
 > In a multibillion-dollar sport like basketball, one might expect that trainers had figured out every nuance of aerodynamics, mechanics and all things Newtonian to increase the rate at which the ball goes through the hoop.
 >
 > Think again.
