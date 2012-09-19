@@ -71,7 +71,7 @@ b, strong
   margin-top: line_height
   margin-bottom: line_height
 
-.navigation, .pagination
+.navigation, .paginate
   padding-bottom: 2*line_height
 
 div.content
