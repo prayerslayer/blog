@@ -68,6 +68,10 @@ strong {
 .paginate {
   padding-bottom: 3em;
 }
+.page_number {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
 div.content {
   max-width: 800px;
 }

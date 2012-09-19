@@ -74,6 +74,10 @@ b, strong
 .navigation, .paginate
   padding-bottom: 2*line_height
 
+.page_number
+  margin-left: line_height
+  margin-right: line_height
+
 div.content
   max-width: 800px
 
