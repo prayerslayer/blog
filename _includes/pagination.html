@@ -2,16 +2,16 @@
   <div class="span4 visible-desktop"></div>
   <div class="span4">
     {% if paginator.next_page %}
-      <a href="{{ site.host }}/page{{paginator.next_page}}" class="next">&lt; Older</a>
+      <a href="{{ site.host }}/page{{paginator.next_page}}" class="next">&lt; Älter</a>
     {% endif %}
 
     <span class="page_number ">Seite {{paginator.page}} von {{paginator.total_pages}}</span>
 
     {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
-        <a href="{{ site.host }}" class="previous">Newer &gt;</a>
+        <a href="{{ site.host }}" class="previous">Neuer &gt;</a>
       {% else %}
-        <a href="{{ site.host }}/page{{paginator.previous_page}}" class="previous">Newer</a>
+        <a href="{{ site.host }}/page{{paginator.previous_page}}" class="previous">Neuer</a>
       {% endif %}
     {% endif %}
   </div>
