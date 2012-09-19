@@ -64,7 +64,8 @@ strong {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
-.navigation {
+.navigation,
+.pagination {
   padding-bottom: 3em;
 }
 div.content {
