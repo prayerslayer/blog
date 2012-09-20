@@ -24,6 +24,9 @@ body {
   line-height: 1.5em;
   color: #000;
 }
+img {
+  max-width: inherit !important;
+}
 header {
   cursor: pointer;
 }
@@ -47,10 +50,16 @@ strong {
   font-weight: 600;
 }
 #map {
-  height: auto;
-  min-height: 320px;
-  width: 100%;
-  min-width: 480px;
+  height: 320px;
+  width: 480px;
+  border: 2px solid #000;
+}
+.olControlAttribution {
+  display: none !important;
+}
+.olButton {
+  background-color: #000 !important;
+  font-family: "Source Sans Pro", sans-serif;
 }
 .social {
   min-width: 8px;

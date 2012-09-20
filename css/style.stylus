@@ -1,6 +1,7 @@
 //Variables
 line_height = 1.5em
 font_color = black
+font_family = "Source Sans Pro", sans-serif
 quote_color = grey
 elem_minheight = 320px
 elem_minwidth = 480px
@@ -26,10 +27,13 @@ blockquote
 
 body
   font-size: 20px
-  font-family: "Source Sans Pro", sans-serif
+  font-family: font_family
   font-weight: 300
   line-height: line_height
   color: font_color
+
+img
+  max-width: inherit !important //overwriting bootstrap style here
 
 header
   cursor: pointer
@@ -54,10 +58,16 @@ b, strong
 //Styles on selectors
 
 #map
-  height: auto
-  min-height: elem_minheight
-  width: 100%
-  min-width: elem_minwidth
+  height: elem_minheight
+  width: elem_minwidth
+  border: 2px solid black
+
+.olControlAttribution
+  display: none !important
+
+.olButton
+  background-color: font_color !important
+  font-family: font_family
 
 .social
   min-width: 8px
