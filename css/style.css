@@ -55,7 +55,7 @@ strong {
   border: 2px solid #000;
 }
 .olControlAttribution {
-  opacity: none !important;
+  display: none !important;
 }
 .olButton {
   background-color: #000 !important;

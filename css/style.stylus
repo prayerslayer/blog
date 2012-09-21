@@ -63,7 +63,7 @@ b, strong
   border: 2px solid black
 
 .olControlAttribution
-  opacity: none !important
+  display: none !important
 
 .olButton
   background-color: font_color !important
