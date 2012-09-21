@@ -58,16 +58,17 @@ b, strong
 //Styles on selectors
 
 #map
-  height: elem_minheight
-  width: elem_minwidth
+  height: auto
+  min-height: elem_minheight
+  width: 100%
+  min-width: elem_minwidth
   border: 2px solid black
 
 .olControlAttribution
-  display: none !important
+  opacity: none !important
 
 .olButton
   background-color: font_color !important
-  font-family: font_family
 
 .social
   min-width: 8px
