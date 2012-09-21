@@ -58,10 +58,8 @@ b, strong
 //Styles on selectors
 
 #map
-  height: auto
-  min-height: elem_minheight
-  width: 100%
-  min-width: elem_minwidth
+  height: elem_minheight
+  width: elem_minwidth
   border: 2px solid black
 
 .olControlAttribution
