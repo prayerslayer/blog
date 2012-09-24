@@ -42,8 +42,8 @@ p + p
   margin-top: line_height
 
 p + pre
-  margin-top: line_height
-  margin-bottom: line_height
+  margin-top: line_height !important
+  margin-bottom: line_height !important
 
 ul, ol
   margin-top: line_height
