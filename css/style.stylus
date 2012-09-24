@@ -41,6 +41,10 @@ header
 p + p
   margin-top: line_height
 
+p + pre
+  margin-top: line_height
+  margin-bottom: line_height
+
 ul, ol
   margin-top: line_height
   margin-bottom: line_height
