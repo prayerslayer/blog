@@ -41,6 +41,9 @@ header
 p + p
   margin-top: line_height
 
+code
+  font-family: 'Source Code Pro', monospace, sans-serif;
+
 p + pre
   margin-top: line_height !important
   margin-bottom: line_height !important

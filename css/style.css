@@ -33,6 +33,9 @@ header {
 p + p {
   margin-top: 1.5em;
 }
+code {
+  font-family: 'Source Code Pro', monospace, sans-serif;
+}
 p + pre {
   margin-top: 1.5em !important;
   margin-bottom: 1.5em !important;
