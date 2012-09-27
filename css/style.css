@@ -24,9 +24,6 @@ body {
   line-height: 1.5em;
   color: #000;
 }
-img {
-  max-width: inherit !important;
-}
 header {
   cursor: pointer;
 }
@@ -60,6 +57,9 @@ strong {
   height: 320px;
   width: 480px;
   border: 2px solid #000;
+}
+#map img {
+  max-width: inherit !important;
 }
 .olControlAttribution {
   display: none !important;

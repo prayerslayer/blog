@@ -32,9 +32,6 @@ body
   line-height: line_height
   color: font_color
 
-img
-  max-width: inherit !important //overwriting bootstrap style here
-
 header
   cursor: pointer
 
@@ -68,6 +65,9 @@ b, strong
   height: elem_minheight
   width: elem_minwidth
   border: 2px solid black
+
+#map img
+  max-width: inherit !important //overwriting bootstrap style here, tiles are skewed otherwise
 
 .olControlAttribution
   display: none !important
