@@ -125,6 +125,3 @@ h1#header
 
 h2#slogan
   line-height: 2*line_height
-
-div#top
-  //nichts

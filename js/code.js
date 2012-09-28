@@ -1,8 +1,3 @@
----
-title: "YAML Frontmatter"
-layout: none
----
-
 $( document ).ready( function() {
 	if ( typeof initMap !== "undefined" ) { //returns true on /cv
 		initMap();
@@ -13,7 +8,7 @@ $( document ).ready( function() {
 			"placement": "bottom"
 		});
 
-	var host = "{{ site.host }}";
+	var host = "//nikolaus-piccolotto.info";
 	$( "img" ).hover(
 		function() {
 			$( this ).css("opacity", 0.7);

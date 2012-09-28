@@ -1,9 +1,4 @@
----
-title: "YAML Frontmatter"
-layout: none
----
-
-var host = "{{ site.host }}";
+var host = "//nikolaus-piccolotto.info";
 var folder = "/js";
 
 (function() {
