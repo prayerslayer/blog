@@ -31,7 +31,8 @@ p + p {
   margin-top: 1.5em;
 }
 code {
-  font-family: 'Source Code Pro', monospace, sans-serif;
+  font-family: "Source Code Pro", monospace;
+  color: #000;
 }
 p + pre {
   margin-top: 1.5em !important;
@@ -41,7 +42,7 @@ ul,
 ol {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
-  list-style-position: inside;
+  list-style-position: outside;
 }
 li {
   line-height: 1.5em;

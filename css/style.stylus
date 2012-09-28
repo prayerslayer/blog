@@ -1,7 +1,8 @@
 //Variables
 line_height = 1.5em
 font_color = black
-font_family = "Source Sans Pro", sans-serif
+sans_family = "Source Sans Pro", sans-serif
+mono_family = "Source Code Pro", monospace
 quote_color = grey
 elem_minheight = 320px
 elem_minwidth = 480px
@@ -27,7 +28,7 @@ blockquote
 
 body
   font-size: 20px
-  font-family: font_family
+  font-family: sans_family
   font-weight: 300
   line-height: line_height
   color: font_color
@@ -39,7 +40,7 @@ p + p
   margin-top: line_height
 
 code
-  font-family: 'Source Code Pro', monospace, sans-serif;
+  font-family: mono_family
   color: black
 
 p + pre
@@ -49,7 +50,7 @@ p + pre
 ul, ol
   margin-top: line_height
   margin-bottom: line_height
-  list-style-position: inside
+  list-style-position: outside
 
 li
   line-height: line_height

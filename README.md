@@ -6,7 +6,4 @@ This is a repository of my Jekyll-powered blog at http://nikolaus-piccolotto.inf
 
 * New Bootstrap?
 * CSS bruchlinie, wenn bilder zu hoch sind
-
-* JS ans Ende
-* CDN?
-* Statt Google Webfonts Source Sans/Pro selbst hosten
+* CDN --> AMZN S3 + CloudFront
