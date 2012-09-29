@@ -1,49 +1,55 @@
 #!/bin/bash
 
-if [[ true==true ]]; then
-	ECHO "TREU"
-fi
-
-if [[ "$1"==null ]]; then
-	$1="all"
-fi
-
-if [[ "$2"==null ]]; then
-	$2 = "auto-publish"
-fi
-
 # get current date
 date=$(date "+%d.%m.%Y %H:%M")
 
-# TODO funktioniert noch nicht
+# vars
+what=""
+msg=""
+
+if [[ "$1"!=null ]]; then
+	what="$1"
+else
+	what="all"
+fi
+
+if [[ "$2"!=null ]]; then
+	msg="$2"
+else
+	msg="auto-publish"
+fi
 
 # go through arguments
-if [[ "$1"=="all" ]]; then
+if [[ "$what"=="all" ]]; then
 	# do everything
 	./compile.sh
 	./compress.sh
 	git add .
 	git commit -m "$2"
 	git push uber
-	return 0
-elif [[ "$1"=="posts" ]]; then
+	ECHO "pushed all: $msg"
+	exit 0
+elif [[ "$what"=="posts" ]]; then
 	git add _posts/*
-	git commit -m "$2"
+	git commit -m "$msg"
 	git push uber
-	return 0
-elif [[ "$1"=="css" ]]; then
+	ECHO "pushed posts: $msg"
+	exit 0
+elif [[ "$what"=="css" ]]; then
 	./compress.sh
 	git add css/*
-	git commit -m "$2"
+	git commit -m "$msg"
 	git push uber
-	return 0
-elif [[ "$1"=="js" ]]; then
+	ECHO "pushed css: $msg"
+	exit 0
+elif [[ "$what"=="js" ]]; then
 	./compile.sh
 	git add js/*
-	git commit -m "$2"
+	git commit -m "$msg"
 	git push uber
-	return 0
+	ECHO "pushed js: $msg"
+	exit 0
 fi
 
 ECHO "something went wrong"
-return -1
+exit -1
