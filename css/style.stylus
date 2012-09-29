@@ -43,6 +43,9 @@ code
   font-family: mono_family
   color: black
 
+pre code
+  color: black
+
 p + pre
   margin-top: line_height !important
   margin-bottom: line_height !important

@@ -1,39 +1,49 @@
 #!/bin/bash
 
+if [[ true==true ]]; then
+	ECHO "TREU"
+fi
+
+if [[ "$1"==null ]]; then
+	$1="all"
+fi
+
+if [[ "$2"==null ]]; then
+	$2 = "auto-publish"
+fi
+
 # get current date
 date=$(date "+%d.%m.%Y %H:%M")
 
+# TODO funktioniert noch nicht
+
 # go through arguments
-if [[ "$0" == "all" ]] then
+if [[ "$1"=="all" ]]; then
 	# do everything
 	./compile.sh
 	./compress.sh
 	git add .
-	git commit -m "auto-publish everything on $date"
+	git commit -m "$2"
 	git push uber
 	return 0
-else if [[ "$0" == "posts" ]] then
-		git add _posts/*
-		git commit -m "auto-publish new post on $date"
-		git push uber
-		return 0
-	fi
-else if [[ "$0" == "css" ]] then
-		./compress.sh
-		git add css/*
-		git commit -m "auto-publish new css on $date"
-		git push uber
-		return 0
-	fi
-else 
-	if [[ "$0" == "js" ]] then
-		./compile.sh
-		git add js/*
-		git commit -m "autopublish new js on $date"
-		git push uber
-		return 0
-	fi
-else
-	ECHO "something went wrong"
-	return -1
+elif [[ "$1"=="posts" ]]; then
+	git add _posts/*
+	git commit -m "$2"
+	git push uber
+	return 0
+elif [[ "$1"=="css" ]]; then
+	./compress.sh
+	git add css/*
+	git commit -m "$2"
+	git push uber
+	return 0
+elif [[ "$1"=="js" ]]; then
+	./compile.sh
+	git add js/*
+	git commit -m "$2"
+	git push uber
+	return 0
 fi
+
+ECHO "something went wrong"
+return -1

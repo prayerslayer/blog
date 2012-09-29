@@ -34,6 +34,9 @@ code {
   font-family: "Source Code Pro", monospace;
   color: #000;
 }
+pre code {
+  color: #000;
+}
 p + pre {
   margin-top: 1.5em !important;
   margin-bottom: 1.5em !important;
