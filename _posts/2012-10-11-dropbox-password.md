@@ -8,4 +8,4 @@ Haha, eben bei [Dropbox](http://dropbox.com):
 
 [![Passwort]( {{ site.host }}/media/img/correcthorsebatterystaple.png "Passwort")]({{ site.host }}/media/img/correcthorsebatterystaple.png)
 
-Na, wer errät das Passwort?
+Na, wer errät das Passwort? Auflösung: Bildname.
