@@ -9,4 +9,4 @@ title: "Simple Grid"
 
 Fuck yeah. Bei Gelegenheit werde ich Bootstrap rauswerfen und durch Simple Grid ersetzen. Warum? Bandbreite sparen und Ladezeit weiter verbessern! Simple Grid ist unminifiziert 2 KiB groß, im Gegensatz zu 114 KiB bereits minifiziertes Bootstrap. Der große Vorteil von Letzterem ist, dass bereits an alles gedacht wurde: Code-Tags, Pre-Tags, Sub-Tags, egal was. Wenn jetzt aber nur eine kleine Anzahl unterschiedlicher Tags im Einsatz sind (Überschriften, fett, kursiv, DIVs und Absätze), kann man sich Bootstrap schenken und die entsprechenden Styles ins eigene CSS kopieren.
 
-**Update**: Done.
+**Update**: Done. Ging auch schnell.
