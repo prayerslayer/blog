@@ -3,11 +3,6 @@ $( document ).ready( function() {
 		initMap();
 	}
 
-	$( ".social" )
-		.tooltip({
-			"placement": "bottom"
-		});
-
 	var host = "//nikolaus-piccolotto.info";
 	$( "header" ).click(function() {
 		window.location.replace( host );
