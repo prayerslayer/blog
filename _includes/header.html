@@ -2,7 +2,10 @@
 <html>
 <head>
 	<link rel="icon" type="image/png" href="{{ site.host }}/img/favicon.png" />
-	<link rel="stylesheet" type="text/css" href="{{ site.host }}/css/stylesheet.min.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.host }}/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.host }}/css/simplegrid.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.host }}/css/fonts.css">	
+	<link rel="stylesheet" type="text/css" href="{{ site.host }}/css/style.css">
 	<link rel="alternate" type="application/rss+xml" title="Nikolaus Piccolotto" href="{{ site.host }}/feed.xml" />
 	
 	<!-- cookie für adaptive images setzen -->
@@ -40,15 +43,14 @@
 
 <div id="top">
 
-	<div class="row-fluid menu">
-		<div class="span2 visible-desktop"></div>
-		<div class="span6">
+	<div class="grid grid-pad">
+		<div class="col-8-12">
 			<header>
 				<h1 id="header">Nikolaus Piccolotto</h1>
 				<h2 id="slogan">Ich schreibe Websites & Software.</h2>
 			</header>
 		</div>
-		<div class="span4 social-icons">
+		<div class="col-4-12 social-icons">
 			<!-- social icons-->
 			<a href="mailto:hallo@nikolaus-piccolotto.info"><img src="{{ site.host }}/img/email_small.png" title="Email" class="social" alt="Email"/></a>
 			<a href="http://www.linkedin.com/pub/nikolaus-piccolotto/36/89b/426"><img class="social" title="LinkedIn" src="{{ site.host }}/img/linkedin-small.png"/></a>
@@ -60,9 +62,8 @@
 	</div>
 
 	<!-- site navigation -->
-	<div class="row-fluid navigation">
-		<div class="span2 visible-desktop"></div>
-		<div class="span4">
+	<div class="grid grid-pad navigation">
+		<div class="col-8-12">
 			<a href="{{ site.host }}/">Blog</a> / <a href="{{ site.host }}/cv">CV</a> / <a href="{{ site.host }}/projects">Projekte</a>
 		</div>
 	</div>

@@ -1,11 +1,10 @@
-<article class="row-fluid">
-	<div class="span2 visible-desktop"></div>
-	<div class="span2 metadata">
+<article class="grid grid-pad">
+	<div class="col-4-12 metadata">
 		<h2 class="title">{{ page.title }}</h2>
 		<div class="date">{{ page.date | date: "%d.%m.%Y"}}</div>
 		<a class="permalink" href="{{ page.url }}">∞</a>
 	</div>
-	<div class="span7 content">
+	<div class="col-8-12 content">
 		{% if page.video %}				
 			<p><object><param name="movie" value="{{ page.video }}?version=3&feature=player_detailpage"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="{{ page.video }}?version=3&feature=player_detailpage" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="320px" height="480px"></object></p>#
 		{% endif %}

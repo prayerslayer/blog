@@ -4,6 +4,8 @@ font_color = black
 sans_family = "Source Sans Pro", sans-serif
 mono_family = "Source Code Pro", monospace
 quote_color = grey
+color_dark = #6e1D16
+color_light = #bb3126
 elem_minheight = 320px
 elem_minwidth = 480px
 
@@ -26,12 +28,21 @@ blockquote
   margin-left: line_height
   color: quote_color
 
+blockquote p
+  margin-left: line_height
+
 body
   font-size: 20px
   font-family: sans_family
   font-weight: 300
   line-height: line_height
   color: font_color
+
+a
+  color: color_light
+
+a:hover, a:visited
+  color: color_dark
 
 header
   cursor: pointer
@@ -41,10 +52,15 @@ p + p
 
 code
   font-family: mono_family
-  color: black
+  font-size: 12px
+  color: quote_color
+  line-height: 18px
+  display: block
 
-pre code
+pre
   color: black
+  border-left: 1px solid black
+  padding-left: line_height
 
 p + pre
   margin-top: line_height !important
@@ -63,6 +79,10 @@ li + li
 
 b, strong
   font-weight: 600
+
+img
+  max-width: 100%
+  vertical-align: middle
 
 //Styles on selectors
 
@@ -86,11 +106,10 @@ b, strong
   max-width: 32px
   max-height: 32px
   float: none
-  padding: 5px
+  margin: 5px
 
 .social-icons
-  margin-top: line_height
-  margin-bottom: line_height
+  margin-top: 3*line_height
 
 .navigation, .paginate
   padding-bottom: 2*line_height
@@ -127,6 +146,3 @@ h1#header
   font-size: 48pt
   line-height: line_height
   border-bottom: 3px solid black
-
-h2#slogan
-  line-height: 2*line_height

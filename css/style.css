@@ -17,12 +17,22 @@ blockquote {
   margin-left: 1.5em;
   color: #808080;
 }
+blockquote p {
+  margin-left: 1.5em;
+}
 body {
   font-size: 20px;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   line-height: 1.5em;
   color: #000;
+}
+a {
+  color: #bb3126;
+}
+a:hover,
+a:visited {
+  color: #6e1d16;
 }
 header {
   cursor: pointer;
@@ -32,10 +42,15 @@ p + p {
 }
 code {
   font-family: "Source Code Pro", monospace;
-  color: #000;
+  font-size: 12px;
+  color: #808080;
+  line-height: 18px;
+  display: block;
 }
-pre code {
+pre {
   color: #000;
+  border-left: 1px solid #000;
+  padding-left: 1.5em;
 }
 p + pre {
   margin-top: 1.5em !important;
@@ -57,6 +72,10 @@ b,
 strong {
   font-weight: 600;
 }
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
 #map {
   height: 320px;
   width: 480px;
@@ -77,11 +96,10 @@ strong {
   max-width: 32px;
   max-height: 32px;
   float: none;
-  padding: 5px;
+  margin: 5px;
 }
 .social-icons {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 4.5em;
 }
 .navigation,
 .paginate {
@@ -119,8 +137,5 @@ h1#header {
   font-size: 48pt;
   line-height: 1.5em;
   border-bottom: 3px solid #000;
-}
-h2#slogan {
-  line-height: 3em;
 }
 
