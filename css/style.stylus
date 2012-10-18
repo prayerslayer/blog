@@ -1,15 +1,20 @@
 //Variables
 line_height = 1.5em
 font_color = black
+bg_color = white
 sans_family = "Source Sans Pro", sans-serif
 mono_family = "Source Code Pro", monospace
 quote_color = grey
-color_dark = #6e1D16
-color_light = #bb3126
+dark_color = #6e1D16
+light_color = #bb3126
+almost_no_color = #330D0A
 elem_minheight = 320px
 elem_minwidth = 480px
 
 //Styles on tags
+
+html
+  height: 100%
 
 p object, p embed, p iframe
   min-width: elem_minwidth
@@ -32,20 +37,30 @@ blockquote p
   margin-left: line_height
 
 body
+  height: 100%
   font-size: 20px
   font-family: sans_family
   font-weight: 300
   line-height: line_height
   color: font_color
+  background-color: bg_color
 
 a
-  color: color_light
+  color: light_color
 
 a:hover, a:visited
-  color: color_dark
+  color: dark_color
 
 header
   cursor: pointer
+
+footer
+  min-height: 100px
+  margin-top: 2*line_height
+  background-color: almost_no_color
+  color: bg_color
+  position: relative
+  clear: both
 
 p + p
   margin-top: line_height
@@ -111,8 +126,11 @@ img
 .social-icons
   margin-top: 3*line_height
 
-.navigation, .paginate
+.navigation
   padding-bottom: 2*line_height
+
+.paginate
+  padding-top: 2*line_height
 
 .page_number
   margin-left: line_height
@@ -140,9 +158,11 @@ h2.title
   font-size: inherit
   line-height: line_height
   margin-bottom: line_height
-  font-weight: 600
 
 h1#header
   font-size: 48pt
   line-height: line_height
   border-bottom: 3px solid black
+
+div#top
+  min-height: 100%
