@@ -83,7 +83,7 @@ li + li {
 }
 b,
 strong {
-  font-weight: 600;
+  font-weight: bold;
 }
 img {
   max-width: 100%;

@@ -93,7 +93,7 @@ li + li
   margin-top: 0.5em
 
 b, strong
-  font-weight: 600
+  font-weight: bold
 
 img
   max-width: 100%
@@ -107,7 +107,7 @@ img
   border: 2px solid black
 
 #map img
-  max-width: inherit !important //overwriting bootstrap style here, tiles are skewed otherwise
+  max-width: inherit !important //tiles are skewed otherwise
 
 .olControlAttribution
   display: none !important
