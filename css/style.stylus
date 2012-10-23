@@ -16,7 +16,13 @@ elem_minwidth = 480px
 html
   height: 100%
 
-p object, p embed, p iframe, div.embed.video
+iframe
+  width: inherit
+  height: auto
+  min-height: elem_minheight
+  min-width: elem_minwidth
+
+p object, p embed
   min-width: elem_minwidth
   min-height: elem_minheight
   width: 100%

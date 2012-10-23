@@ -1,10 +1,14 @@
 html {
   height: 100%;
 }
+iframe {
+  width: inherit;
+  height: auto;
+  min-height: 320px;
+  min-width: 480px;
+}
 p object,
-p embed,
-p iframe,
-div.embed.video {
+p embed {
   min-width: 480px;
   min-height: 320px;
   width: 100%;
