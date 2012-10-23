@@ -3,7 +3,9 @@ html {
 }
 p object,
 p embed,
-p iframe {
+p iframe,
+div.video.youtube,
+div.video.vimeo {
   min-width: 480px;
   min-height: 320px;
   width: 100%;

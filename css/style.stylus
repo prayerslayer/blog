@@ -16,7 +16,7 @@ elem_minwidth = 480px
 html
   height: 100%
 
-p object, p embed, p iframe
+p object, p embed, p iframe, div.video.youtube, div.video.vimeo
   min-width: elem_minwidth
   min-height: elem_minheight
   width: 100%
