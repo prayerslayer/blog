@@ -2,7 +2,7 @@
 layout: singlepost
 title: "Surface RT Review"
 ---
-Microsoft in der letzten Zeit einen gespaltenen Eindruck, weil sie nicht klar trennen: Alles heißt irgendwie Windows (Windows Phone 7/8, Windows 8, Windows 8 RT), obwohl die Interaktionsparadigmen oder lauffähigen Programme nichts mehr mit dem klassischen Windows zu tun haben. Irgendwie hat das Surface dann auch so werden müssen, wie es wurde. Ein ausführliches Review von [Techcrunch](http://techcrunch.com/2012/10/23/microsoft-surface-rt-review/) kommt zum Fazit:
+Microsoft macht in der letzten Zeit einen gespaltenen Eindruck, weil sie nicht klar trennen: Alles heißt irgendwie Windows (Windows Phone 7/8, Windows 8, Windows 8 RT), obwohl die Interaktionsparadigmen oder lauffähigen Programme nichts mehr mit dem klassischen Windows zu tun haben. Vielleicht hat das Surface dann auch so werden müssen, wie es wurde. Ein ausführliches Review von [Techcrunch](http://techcrunch.com/2012/10/23/microsoft-surface-rt-review/) kommt zum Fazit:
 
 > Should you buy the Surface RT? No.
 
