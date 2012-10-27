@@ -94,7 +94,7 @@ p + pre
 ul, ol
   margin-top: line_height
   margin-bottom: line_height
-  list-style-position: outside
+  margin-left: line_height
 
 li
   line-height: line_height

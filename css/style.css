@@ -83,7 +83,7 @@ ul,
 ol {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
-  list-style-position: outside;
+  margin-left: 1.5em;
 }
 li {
   line-height: 1.5em;
