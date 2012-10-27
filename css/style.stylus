@@ -72,24 +72,25 @@ p + p
   margin-top: line_height
 
 div.CodeRay, code
-  font-family: mono_family !important
-  font-size: 12px !important
+  display: inline
+  font-family: mono_family
+  font-size: 12px
   color: quote_color
   line-height: 18px
-  display: block
+
+p > code
+  font-size: 18px
 
 span.line-numbers
   display: none
 
 pre
+  line-height: 18px
+  font-size: 12px
   font-family: mono_family !important
-  color: black
+  color: quote_color
   border-left: 1px dotted quote_color
   padding-left: line_height
-
-p + pre
-  margin-top: line_height !important
-  margin-bottom: line_height !important
 
 ul, ol
   margin-top: line_height
