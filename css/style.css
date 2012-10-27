@@ -66,19 +66,17 @@ code {
   color: #808080;
   line-height: 18px;
 }
+.line-numbers {
+  padding-right: 1.5em;
+}
 p > code {
   font-size: 18px;
-}
-span.line-numbers {
-  display: none;
 }
 pre {
   line-height: 18px;
   font-size: 12px;
   font-family: "Source Code Pro", monospace !important;
   color: #808080;
-  border-left: 1px dotted #808080;
-  padding-left: 1.5em;
 }
 ul,
 ol {
