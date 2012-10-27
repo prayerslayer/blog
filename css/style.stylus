@@ -71,16 +71,20 @@ footer
 p + p
   margin-top: line_height
 
-code
-  font-family: mono_family
-  font-size: 12px
+div.CodeRay, code
+  font-family: mono_family !important
+  font-size: 12px !important
   color: quote_color
   line-height: 18px
   display: block
 
+span.line-numbers
+  display: none
+
 pre
+  font-family: mono_family !important
   color: black
-  border-left: 1px solid black
+  border-left: 1px dotted quote_color
   padding-left: line_height
 
 p + pre

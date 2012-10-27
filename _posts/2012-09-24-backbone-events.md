@@ -16,6 +16,7 @@ Eure Backbone.js Events triggern alle gleichzeitig und ihr wisst nicht, warum? H
     		</div> 
     	</body>
     </html>
+{:lang="html"}
 
 # Code
 
@@ -46,7 +47,8 @@ Eure Backbone.js Events triggern alle gleichzeitig und ihr wisst nicht, warum? H
 		});
 		mycollection.add( mymodel );
 	});
-	
+{:lang="javascript"}
+
 # Verhalten
 
 Ein Klick auf ein Element mit der Klasse *mybutton* triggert den Eventhandler für **alle** Views anstatt für einen.
@@ -72,6 +74,7 @@ Punkt 1 passt in eurem Code, das Element *div#id* existiert von Anfang an und di
     		<img class="mybutton" />
     	</div>
     </div>
+{:lang="html"}
 
 Ihr könntet jetzt natürlich die ID eures Models in den CSS Selector der Events einbauen, das würde helfen. Lieber nicht machen und weiterlesen!
 
@@ -106,5 +109,6 @@ Eine elegantere Variante, die auch im [Todo.js Tutorial](http://documentcloud.gi
 		var mymodel = new MyModel( singledata );
 		mycollection.add( mymodel );
 	});
+{:lang="javascript"}
 
 Beim *mycollection.add* wird die *modelAdd* Funktion im View der Collection ausgeführt und das neue Model automatisch gerendert. Die Events werden wie gewünscht getriggert, da jeder View sein eigenes "Root Element" hat. Problem gelöst und der Code sieht auch noch schöner aus als vorher.

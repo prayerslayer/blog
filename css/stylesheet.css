@@ -626,16 +626,21 @@ footer {
 p + p {
   margin-top: 1.5em;
 }
+div.CodeRay,
 code {
-  font-family: "Source Code Pro", monospace;
-  font-size: 12px;
+  font-family: "Source Code Pro", monospace !important;
+  font-size: 12px !important;
   color: #808080;
   line-height: 18px;
   display: block;
 }
+span.line-numbers {
+  display: none;
+}
 pre {
+  font-family: "Source Code Pro", monospace !important;
   color: #000;
-  border-left: 1px solid #000;
+  border-left: 1px dotted #808080;
   padding-left: 1.5em;
 }
 p + pre {
