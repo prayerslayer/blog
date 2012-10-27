@@ -53,7 +53,7 @@ Eure Backbone.js Events triggern alle gleichzeitig und ihr wisst nicht, warum? H
 
 # Verhalten
 
-Ein Klick auf ein Element mit der Klasse *mybutton* triggert den Eventhandler für **alle** Views anstatt für einen.
+Ein Klick auf ein Element mit der Klasse `mybutton` triggert den Eventhandler für **alle** Views anstatt für einen.
 
 # Auflösung
 
@@ -62,7 +62,7 @@ Die Events in Backbone werden an ein Element im DOM gebunden. Das heißt:
 1. Das DOM Element muss (im DOM) existieren, damit überhaupt Events getriggert werden.
 2. Teilen sich mehrere Views dasselbe DOM Element, wird ein Event unter Umständen mehr als einmal getriggert. Kommt auf den CSS Selector an.
 
-Punkt 1 passt in eurem Code, das Element *div#id* existiert von Anfang an und die Events werden ja auch getriggert. Punkt 2 allerdings ist das Problem. Vereinfacht gesagt sucht Backbone nach Elementen, sobald ein Event getriggert wird. In eurem Fall verwendet es dabei den CSS Selector *.mybutton*. Die Suche startet beim angegebenen *el*, welches bei euren Views dasselbe ist. Backbone findet also Repräsentationen aller Views anstatt nur eine und triggert den Eventhandler entsprechend oft.
+Punkt 1 passt in eurem Code, das Element `div#id` existiert von Anfang an und die Events werden ja auch getriggert. Punkt 2 allerdings ist das Problem. Vereinfacht gesagt sucht Backbone nach Elementen, sobald ein Event getriggert wird. In eurem Fall verwendet es dabei den CSS Selector `.mybutton`. Die Suche startet beim angegebenen `el`, welches bei euren Views dasselbe ist. Backbone findet also Repräsentationen aller Views anstatt nur eine und triggert den Eventhandler entsprechend oft.
 
 ~~~ html
     // Die Suche nach .mybutton ab div#id findet alle Bilder
@@ -115,4 +115,4 @@ Eine elegantere Variante, die auch im [Todo.js Tutorial](http://documentcloud.gi
 	});
 ~~~
 
-Beim *mycollection.add* wird die *modelAdd* Funktion im View der Collection ausgeführt und das neue Model automatisch gerendert. Die Events werden wie gewünscht getriggert, da jeder View sein eigenes "Root Element" hat. Problem gelöst und der Code sieht auch noch schöner aus als vorher.
+Beim `mycollection.add()` wird die Funktion `modelAdd` im View der Collection ausgeführt und das neue Model automatisch gerendert. Die Events werden wie gewünscht getriggert, da jeder View sein eigenes "Root Element" hat. Problem gelöst und der Code sieht auch noch schöner aus als vorher.
