@@ -47,6 +47,10 @@ a:visited {
 header {
   cursor: pointer;
 }
+#header:hover {
+  color: #6e1d16;
+  border: 3px solid #6e1d16;
+}
 footer {
   min-height: 100px;
   margin-top: 3em;

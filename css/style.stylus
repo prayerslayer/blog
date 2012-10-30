@@ -60,6 +60,10 @@ a:hover, a:visited
 header
   cursor: pointer
 
+#header:hover
+  color: dark_color
+  border: 3px solid dark_color
+
 footer
   min-height: 100px
   margin-top: 2*line_height
