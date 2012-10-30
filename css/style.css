@@ -49,7 +49,7 @@ header {
 }
 #header:hover {
   color: #6e1d16;
-  border: 3px solid #6e1d16;
+  border-bottom: 3px solid #6e1d16;
 }
 footer {
   min-height: 100px;
