@@ -4,6 +4,6 @@ This is a repository of my Jekyll-powered blog at http://nikolaus-piccolotto.inf
 
 # TODO
 
-* Impressum formatieren, Styles für Überschriften bis 4 in <article> festlegen
+* CSS/JS Minifizierung vielleicht mit post-receive hook auf Server verlegen
 * CSS bruchlinie, wenn bilder zu hoch sind
 * CDN --> AMZN S3 + CloudFront
