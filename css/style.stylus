@@ -57,11 +57,9 @@ a
 a:hover, a:visited
   color: dark_color
 
-header
-  cursor: pointer
-
 #header:hover
   color: dark_color
+  cursor: pointer
   border-bottom: 3px solid dark_color  
 
 footer

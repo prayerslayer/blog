@@ -612,11 +612,9 @@ a:hover,
 a:visited {
   color: #6e1d16;
 }
-header {
-  cursor: pointer;
-}
 #header:hover {
   color: #6e1d16;
+  cursor: pointer;
   border-bottom: 3px solid #6e1d16;
 }
 footer {

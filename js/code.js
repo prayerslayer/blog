@@ -4,7 +4,7 @@ $( document ).ready( function() {
 	}
 
 	var host = "//nikolaus-piccolotto.info";
-	$( "header" ).click(function() {
+	$( "#header" ).click(function() {
 		window.location.replace( host );
 	});
 	
