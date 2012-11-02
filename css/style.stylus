@@ -1,5 +1,5 @@
 //Variables
-line_height = 1.5em
+line_height = 30px
 line_height_sml = 18px
 font_size_sml = 12px
 font_size_med = 20px
@@ -81,20 +81,19 @@ p
 p + p
   margin-top: line_height
 
-div.CodeRay, code
-  display: inline
-  font-family: mono_family
+p + div, pre
+  margin-top: line_height
+  margin-bottom: line_height
+  display: block
+  font-family: mono_family !important
   font-size: font_size_sml
   color: quote_color
   line-height: line_height_sml
 
-.line-numbers
-  padding-right: line_height
-
-pre
-  line-height: line_height_sml
-  font-size: font_size_sml
+//code kann nicht oben mit rein, weil sonst <p> CSS Klasse <code>.penner</code>: </p> beschissen aussieht
+code
   font-family: mono_family !important
+  font-size: font_size_sml
   color: quote_color
 
 ul, ol
