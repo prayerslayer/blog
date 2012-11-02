@@ -583,25 +583,25 @@ p embed {
   height: auto;
 }
 article {
-  margin-top: 64px;
-  margin-bottom: 64px;
+  margin-top: 3em !important;
+  margin-bottom: 3em !important;
 }
 blockquote {
   border-left: 1px dashed #808080;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-left: 32px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: 1.5em;
   color: #808080;
 }
 blockquote p {
-  margin-left: 32px;
+  margin-left: 1.5em;
 }
 body {
   height: 100%;
   font-size: 20px;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
-  line-height: 32px;
+  line-height: 1.5em;
   color: #000;
   background-color: #fff;
 }
@@ -619,14 +619,18 @@ a:visited {
 }
 footer {
   min-height: 100px;
-  margin-top: 64px;
+  margin-top: 3em;
   background-color: #330d0a;
   color: #fff;
   position: relative;
   clear: both;
 }
+p {
+  margin: 0;
+  padding: 0;
+}
 p + p {
-  margin-top: 32px;
+  margin-top: 1.5em;
 }
 div.CodeRay,
 code {
@@ -637,7 +641,7 @@ code {
   line-height: 18px;
 }
 .line-numbers {
-  padding-right: 32px;
+  padding-right: 1.5em;
 }
 pre {
   line-height: 18px;
@@ -647,9 +651,9 @@ pre {
 }
 ul,
 ol {
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-left: 32px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: 1.5em;
 }
 li + li {
   margin-top: 0.5em;
@@ -676,6 +680,9 @@ img {
 .olButton {
   background-color: #000 !important;
 }
+.social-icons {
+  margin-top: 1em;
+}
 .social {
   min-width: 8px;
   min-height: 8px;
@@ -684,46 +691,45 @@ img {
   float: none;
   margin: 5px;
 }
-.social-icons {
-  margin-top: 96px;
-}
-.navigation {
-  padding-bottom: 64px;
+.social:first {
+  margin-left: 0px;
 }
 .paginate {
-  padding-top: 64px;
+  padding-top: 3em;
 }
 .page_number {
-  margin-left: 32px;
-  margin-right: 32px;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
 }
 div.content {
   max-width: 800px;
 }
 div.embed {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 div.content h1 {
   font-size: 24px;
-  line-height: 36px;
+  line-height: line_height_big;
 }
 div.date {
   color: #808080;
 }
 div.metadata {
-  padding-bottom: 32px;
+  padding-bottom: 1.5em;
 }
 h2.title {
   border-bottom: 1px solid #000;
   font-size: 20px;
-  line-height: 32px;
-  margin-bottom: 32px;
-}
-h1#header {
-  font-size: 48pt;
   line-height: 1.5em;
+  margin: 0;
+  margin-bottom: 1.5em;
+}
+div#header {
+  font-size: 48pt;
+  line-height: 1em;
   border-bottom: 3px solid #000;
+  font-weight: bold;
 }
 div#top {
   min-height: 100%;

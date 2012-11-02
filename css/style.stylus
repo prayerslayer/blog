@@ -1,8 +1,6 @@
 //Variables
+line_height = 1.5em
 line_height_sml = 18px
-line_height_med = 32px
-line_height_big = 36px
-offset = 1.5em
 font_size_sml = 12px
 font_size_med = 20px
 font_size_big = 24px
@@ -35,25 +33,25 @@ p object, p embed
   height: auto
 
 article
-  margin-top: 2*line_height_med
-  margin-bottom: 2*line_height_med
+  margin-top: 2*line_height !important
+  margin-bottom: 2*line_height !important
 
 blockquote
   border-left: 1px dashed quote_color
-  margin-top: line_height_med
-  margin-bottom: line_height_med
-  margin-left: line_height_med
+  margin-top: line_height
+  margin-bottom: line_height
+  margin-left: line_height
   color: quote_color
 
 blockquote p
-  margin-left: line_height_med
+  margin-left: line_height
 
 body
   height: 100%
   font-size: font_size_med
   font-family: sans_family
   font-weight: 300
-  line-height: line_height_med
+  line-height: line_height
   color: font_color
   background-color: bg_color
 
@@ -70,14 +68,18 @@ a:hover, a:visited
 
 footer
   min-height: 100px
-  margin-top: 2*line_height_med
+  margin-top: 2*line_height
   background-color: almost_no_color
   color: bg_color
   position: relative
   clear: both
 
+p
+  margin: 0
+  padding: 0
+
 p + p
-  margin-top: line_height_med
+  margin-top: line_height
 
 div.CodeRay, code
   display: inline
@@ -87,7 +89,7 @@ div.CodeRay, code
   line-height: line_height_sml
 
 .line-numbers
-  padding-right: line_height_med
+  padding-right: line_height
 
 pre
   line-height: line_height_sml
@@ -96,9 +98,9 @@ pre
   color: quote_color
 
 ul, ol
-  margin-top: line_height_med
-  margin-bottom: line_height_med
-  margin-left: line_height_med
+  margin-top: line_height
+  margin-bottom: line_height
+  margin-left: line_height
 
 li + li
   margin-top: 0.5em
@@ -126,6 +128,9 @@ img
 .olButton
   background-color: font_color !important
 
+.social-icons
+  margin-top: 1em
+
 .social
   min-width: 8px
   min-height: 8px
@@ -134,25 +139,22 @@ img
   float: none
   margin: 5px
 
-.social-icons
-  margin-top: 3*line_height_med
-
-.navigation
-  padding-bottom: 2*line_height_med
+.social:first
+  margin-left: 0px
 
 .paginate
-  padding-top: 2*line_height_med
+  padding-top: 2*line_height
 
 .page_number
-  margin-left: line_height_med
-  margin-right: line_height_med
+  margin-left: line_height
+  margin-right: line_height
 
 div.content
   max-width: 800px
 
 div.embed
-  margin-top: line_height_med
-  margin-bottom: line_height_med
+  margin-top: line_height
+  margin-bottom: line_height
 
 div.content h1
   font-size: font_size_big
@@ -162,18 +164,20 @@ div.date
   color: quote_color
 
 div.metadata
-  padding-bottom: line_height_med
+  padding-bottom: line_height
 
 h2.title
   border-bottom: 1px solid font_color
   font-size: font_size_med
-  line-height: line_height_med
-  margin-bottom: line_height_med
+  line-height: line_height
+  margin: 0
+  margin-bottom: line_height
 
-h1#header
+div#header
   font-size: 48pt
-  line-height: offset
+  line-height: 1em
   border-bottom: 3px solid black
+  font-weight: bold
 
 div#top
   min-height: 100%
