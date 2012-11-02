@@ -35,18 +35,18 @@ p object, p embed
   height: auto
 
 article
-  margin-top: 2*offset
-  margin-bottom: 2*offset
+  margin-top: 2*line_height_med
+  margin-bottom: 2*line_height_med
 
 blockquote
   border-left: 1px dashed quote_color
-  margin-top: offset
-  margin-bottom: offset
-  margin-left: offset
+  margin-top: line_height_med
+  margin-bottom: line_height_med
+  margin-left: line_height_med
   color: quote_color
 
 blockquote p
-  margin-left: offset
+  margin-left: line_height_med
 
 body
   height: 100%
@@ -70,14 +70,14 @@ a:hover, a:visited
 
 footer
   min-height: 100px
-  margin-top: 2*offset
+  margin-top: 2*line_height_med
   background-color: almost_no_color
   color: bg_color
   position: relative
   clear: both
 
 p + p
-  margin-top: offset
+  margin-top: line_height_med
 
 div.CodeRay, code
   display: inline
@@ -87,7 +87,7 @@ div.CodeRay, code
   line-height: line_height_sml
 
 .line-numbers
-  padding-right: offset
+  padding-right: line_height_med
 
 pre
   line-height: line_height_sml
@@ -96,9 +96,9 @@ pre
   color: quote_color
 
 ul, ol
-  margin-top: offset
-  margin-bottom: offset
-  margin-left: offset
+  margin-top: line_height_med
+  margin-bottom: line_height_med
+  margin-left: line_height_med
 
 li + li
   margin-top: 0.5em
@@ -135,24 +135,24 @@ img
   margin: 5px
 
 .social-icons
-  margin-top: 3*offset
+  margin-top: 3*line_height_med
 
 .navigation
-  padding-bottom: 2*offset
+  padding-bottom: 2*line_height_med
 
 .paginate
-  padding-top: 2*offset
+  padding-top: 2*line_height_med
 
 .page_number
-  margin-left: offset
-  margin-right: offset
+  margin-left: line_height_med
+  margin-right: line_height_med
 
 div.content
   max-width: 800px
 
 div.embed
-  margin-top: offset
-  margin-bottom: offset
+  margin-top: line_height_med
+  margin-bottom: line_height_med
 
 div.content h1
   font-size: font_size_big
@@ -162,13 +162,13 @@ div.date
   color: quote_color
 
 div.metadata
-  padding-bottom: offset
+  padding-bottom: line_height_med
 
 h2.title
   border-bottom: 1px solid font_color
-  font-size: inherit
-  line-height: offset
-  margin-bottom: offset
+  font-size: font_size_med
+  line-height: line_height_med
+  margin-bottom: line_height_med
 
 h1#header
   font-size: 48pt

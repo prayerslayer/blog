@@ -583,18 +583,18 @@ p embed {
   height: auto;
 }
 article {
-  margin-top: 3em;
-  margin-bottom: 3em;
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
 blockquote {
   border-left: 1px dashed #808080;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-  margin-left: 1.5em;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 32px;
   color: #808080;
 }
 blockquote p {
-  margin-left: 1.5em;
+  margin-left: 32px;
 }
 body {
   height: 100%;
@@ -619,14 +619,14 @@ a:visited {
 }
 footer {
   min-height: 100px;
-  margin-top: 3em;
+  margin-top: 64px;
   background-color: #330d0a;
   color: #fff;
   position: relative;
   clear: both;
 }
 p + p {
-  margin-top: 1.5em;
+  margin-top: 32px;
 }
 div.CodeRay,
 code {
@@ -637,7 +637,7 @@ code {
   line-height: 18px;
 }
 .line-numbers {
-  padding-right: 1.5em;
+  padding-right: 32px;
 }
 pre {
   line-height: 18px;
@@ -647,9 +647,9 @@ pre {
 }
 ul,
 ol {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-  margin-left: 1.5em;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 32px;
 }
 li + li {
   margin-top: 0.5em;
@@ -685,24 +685,24 @@ img {
   margin: 5px;
 }
 .social-icons {
-  margin-top: 4.5em;
+  margin-top: 96px;
 }
 .navigation {
-  padding-bottom: 3em;
+  padding-bottom: 64px;
 }
 .paginate {
-  padding-top: 3em;
+  padding-top: 64px;
 }
 .page_number {
-  margin-left: 1.5em;
-  margin-right: 1.5em;
+  margin-left: 32px;
+  margin-right: 32px;
 }
 div.content {
   max-width: 800px;
 }
 div.embed {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 div.content h1 {
   font-size: 24px;
@@ -712,13 +712,13 @@ div.date {
   color: #808080;
 }
 div.metadata {
-  padding-bottom: 1.5em;
+  padding-bottom: 32px;
 }
 h2.title {
   border-bottom: 1px solid #000;
-  font-size: inherit;
-  line-height: 1.5em;
-  margin-bottom: 1.5em;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 32px;
 }
 h1#header {
   font-size: 48pt;
