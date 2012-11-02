@@ -1,7 +1,11 @@
 //Variables
-line_height = 32px
+line_height_sml = 18px
+line_height_med = 32px
+line_height_big = 36px
+offset = 1.5em
 font_size_sml = 12px
 font_size_med = 20px
+font_size_big = 24px
 font_color = black
 bg_color = white
 sans_family = "Source Sans Pro", sans-serif
@@ -31,25 +35,25 @@ p object, p embed
   height: auto
 
 article
-  margin-top: 2*line_height
-  margin-bottom: 2*line_height
+  margin-top: 2*offset
+  margin-bottom: 2*offset
 
 blockquote
   border-left: 1px dashed quote_color
-  margin-top: line_height
-  margin-bottom: line_height
-  margin-left: line_height
+  margin-top: offset
+  margin-bottom: offset
+  margin-left: offset
   color: quote_color
 
 blockquote p
-  margin-left: line_height
+  margin-left: offset
 
 body
   height: 100%
   font-size: font_size_med
   font-family: sans_family
   font-weight: 300
-  line-height: line_height
+  line-height: line_height_med
   color: font_color
   background-color: bg_color
 
@@ -66,38 +70,35 @@ a:hover, a:visited
 
 footer
   min-height: 100px
-  margin-top: 2*line_height
+  margin-top: 2*offset
   background-color: almost_no_color
   color: bg_color
   position: relative
   clear: both
 
 p + p
-  margin-top: line_height
+  margin-top: offset
 
 div.CodeRay, code
   display: inline
   font-family: mono_family
   font-size: font_size_sml
   color: quote_color
-  line-height: 18px
+  line-height: line_height_sml
 
 .line-numbers
-  padding-right: line_height
+  padding-right: offset
 
 pre
-  line-height: 18px
+  line-height: line_height_sml
   font-size: font_size_sml
   font-family: mono_family !important
   color: quote_color
 
 ul, ol
-  margin-top: line_height
-  margin-bottom: line_height
-  margin-left: line_height
-
-li
-  line-height: line_height
+  margin-top: offset
+  margin-bottom: offset
+  margin-left: offset
 
 li + li
   margin-top: 0.5em
@@ -134,44 +135,44 @@ img
   margin: 5px
 
 .social-icons
-  margin-top: 3*line_height
+  margin-top: 3*offset
 
 .navigation
-  padding-bottom: 2*line_height
+  padding-bottom: 2*offset
 
 .paginate
-  padding-top: 2*line_height
+  padding-top: 2*offset
 
 .page_number
-  margin-left: line_height
-  margin-right: line_height
+  margin-left: offset
+  margin-right: offset
 
 div.content
   max-width: 800px
 
 div.embed
-  margin-top: line_height
-  margin-bottom: line_height
+  margin-top: offset
+  margin-bottom: offset
 
 div.content h1
-  font-size: 24px
-  line-height: 2*line_height
+  font-size: font_size_big
+  line-height: line_height_big
 
 div.date
   color: quote_color
 
 div.metadata
-  padding-bottom: line_height
+  padding-bottom: offset
 
 h2.title
   border-bottom: 1px solid font_color
   font-size: inherit
-  line-height: line_height
-  margin-bottom: line_height
+  line-height: offset
+  margin-bottom: offset
 
 h1#header
   font-size: 48pt
-  line-height: line_height
+  line-height: offset
   border-bottom: 3px solid black
 
 div#top
