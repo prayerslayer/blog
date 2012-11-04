@@ -46,7 +46,7 @@ Trotzdem hat Javascript gegenüber Elm einen Nachteil. `requestOneFrom` sieht ge
 
 Das sind gleich drei implizite Abhängigkeiten. Vergleichen wir das mit Elm. Dort will die Methode Fotos von der Flickr API als Input. Also genau das Interface, was ich erwartet hätte.
 
-Bottom line: Der Code in Elm ist wiederverwendbarer als in Javascript. Lesbarer würde ich gar nicht unbedingt als Argument bringen, siehe etwas komplexeres Elm:
+Bottom line: Der Code in Elm ist wiederverwendbarer als in Javascript *, auch wenn das Eingangsbeispiel nicht der Realität entspricht (/update)*. Lesbarer würde ich gar nicht unbedingt als Argument bringen, siehe etwas komplexeres Elm:
 
 ~~~ elm
 	requestOneFrom photoList =
