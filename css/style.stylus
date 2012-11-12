@@ -54,6 +54,7 @@ body
   line-height: line_height
   color: font_color
   background-color: bg_color
+  text-rendering: optimizeLegibility;
 
 a
   color: light_color

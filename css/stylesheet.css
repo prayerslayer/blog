@@ -604,6 +604,7 @@ body {
   line-height: 30px;
   color: #000;
   background-color: #fff;
+  text-rendering: optimizeLegibility;
 }
 a {
   color: #bb3126;
