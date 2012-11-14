@@ -53,7 +53,8 @@ a:visited {
 footer {
   min-height: 100px;
   margin-top: 60px;
-  background-color: #330d0a;
+  background-color: #000;
+  border-top: 10px solid #330d0a;
   color: #fff;
   position: relative;
   clear: both;

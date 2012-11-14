@@ -70,7 +70,8 @@ a:hover, a:visited
 footer
   min-height: 100px
   margin-top: 2*line_height
-  background-color: almost_no_color
+  background-color: font_color
+  border-top: 10px solid almost_no_color
   color: bg_color
   position: relative
   clear: both
