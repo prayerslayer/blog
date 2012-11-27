@@ -15,7 +15,7 @@ body {
 #results {
 	border-top: 1px solid black;
 	padding: 20px;
-	width: 1140px;
+	width: 60%;
 	display: none;
 }
 
@@ -60,9 +60,8 @@ span {
 	padding: 50px;
 	margin-top: 50px;
 	overflow: hidden;
-	background-position: center;
+	background-position: top left;
 	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 #hero .subtitle {
