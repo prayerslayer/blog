@@ -91,7 +91,7 @@ $( document ).ready( function() {
 	});
 	var calendar = input.data( 'pickadate' );
 
-	calendar.setDate( 1954, 11, 16 );
+	calendar.setDate( 1988, 5, 24 );
 
 	//init button event handler
 	$( "#load" ).click( function( ) {
