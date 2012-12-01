@@ -133,12 +133,21 @@ img
   margin-top: 1em
 
 .social
-  min-width: 8px
-  min-height: 8px
-  max-width: 32px
-  max-height: 32px
-  float: none
+  float: left
+  display: block !important
+  text-decoration: none !important //links are underlined otherwise
   margin: 5px
+  background-color: black;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  color: white;
+  vertical-align: middle;
+  padding-left: 7px;
+  padding-top: 3px;
+
+.social:hover
+  background-color: dark_color
 
 .social:first
   margin-left: 0px
