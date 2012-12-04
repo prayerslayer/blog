@@ -978,7 +978,26 @@ img {
   padding-left: 7px;
   padding-top: 3px;
 }
-.social:hover {
+.social#email {
+  background-color: #333;
+}
+.social#linkedin {
+  background-color: #4875b4;
+}
+.social#twitter {
+  background-color: #60d7ff;
+}
+.social#github {
+  background-color: #2f4f4f;
+}
+.social#soundcloud {
+  background-color: #f60;
+}
+.social#email:hover,
+.social#linkedin:hover,
+.social#twitter:hover,
+.social#github:hover,
+.social#soundcloud:hover {
   background-color: #6e1d16;
 }
 .social:first {

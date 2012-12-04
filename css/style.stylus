@@ -146,7 +146,18 @@ img
   padding-left: 7px;
   padding-top: 3px;
 
-.social:hover
+.social#email
+  background-color: #333
+.social#linkedin
+  background-color: #4875B4
+.social#twitter
+  background-color: #60D7FF
+.social#github
+  background-color: darkslategray
+.social#soundcloud
+  background-color: #f60
+
+.social#email:hover, .social#linkedin:hover, .social#twitter:hover, .social#github:hover, .social#soundcloud:hover
   background-color: dark_color
 
 .social:first
