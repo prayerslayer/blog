@@ -982,9 +982,11 @@ img {
   background-color: #333;
 }
 .social#linkedin {
+  padding-left: 8px;
   background-color: #4875b4;
 }
 .social#twitter {
+  padding-top: 2px;
   background-color: #60d7ff;
 }
 .social#github {
