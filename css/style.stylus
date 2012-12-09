@@ -14,6 +14,15 @@ light_color = #bb3126
 almost_no_color = #330D0A
 elem_minheight = 320px
 elem_minwidth = 480px
+animation_duration = 0.5s
+
+//mixins
+
+transition-mixin( property, duration )
+  transition: property duration
+  -webkit-transition: property duration
+  -moz-transition: property duration
+  -o-transition: property duration
 
 //Styles on tags
 
@@ -58,6 +67,7 @@ body
 
 a
   color: light_color
+  transition-mixin( color, animation_duration )
 
 a:hover, a:visited
   color: dark_color
@@ -143,6 +153,7 @@ img
   vertical-align: middle;
   padding-left: 10px;
   padding-top: 8px;
+  transition-mixin( background-color, animation_duration )
 
 .social#email
   background-color: #333
