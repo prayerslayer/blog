@@ -129,13 +129,6 @@ img
 .olButton
   background-color: font_color !important
 
-.navigation
-  margin-top: -4em
-
-.social-icons
-  float: right
-  margin-top: 1em
-
 .social
   float: left
   display: block !important
