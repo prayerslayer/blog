@@ -40,10 +40,14 @@ body {
 }
 a {
   color: #bb3126;
-  transition: color 0.5s;
-  -webkit-transition: color 0.5s;
-  -moz-transition: color 0.5s;
-  -o-transition: color 0.5s;
+  transition-property: color;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
 }
 a:hover,
 a:visited {
@@ -130,10 +134,14 @@ img {
   vertical-align: middle;
   padding-left: 10px;
   padding-top: 8px;
-  transition: background-color 0.5s;
-  -webkit-transition: background-color 0.5s;
-  -moz-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
+  transition-property: background-color;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
 }
 .social#email {
   background-color: #333;
@@ -198,6 +206,14 @@ div#header {
   line-height: 1em;
   border-bottom: 3px solid #000;
   font-weight: bold;
+  transition-property: "color, border-bottom";
+  -webkit-transition-property: "color, border-bottom";
+  -moz-transition-property: "color, border-bottom";
+  -o-transition-property: "color, border-bottom";
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
 }
 div#top {
   min-height: 100%;

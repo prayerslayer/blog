@@ -19,10 +19,14 @@ animation_duration = 0.5s
 //mixins
 
 transition-mixin( property, duration )
-  transition: property duration
-  -webkit-transition: property duration
-  -moz-transition: property duration
-  -o-transition: property duration
+  transition-property: property
+  -webkit-transition-property: property
+  -moz-transition-property: property
+  -o-transition-property: property
+  transition-duration: duration
+  -webkit-transition-duration: duration
+  -moz-transition-duration: duration
+  -o-transition-duration: duration
 
 //Styles on tags
 
@@ -210,6 +214,7 @@ div#header
   line-height: 1em
   border-bottom: 3px solid black
   font-weight: bold
+  transition-mixin( "color, border-bottom", animation_duration )
 
 div#top
   min-height: 100%
