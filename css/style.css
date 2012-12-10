@@ -39,7 +39,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 a {
-  color: #bb3126;
+  color: #ff584c;
   transition-property: color;
   -webkit-transition-property: color;
   -moz-transition-property: color;
@@ -49,20 +49,22 @@ a {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
 }
-a:hover,
 a:visited {
-  color: #6e1d16;
+  color: #bf4942;
+}
+a:hover {
+  color: #ff8e94;
 }
 #header:hover {
-  color: #6e1d16;
+  color: #ff584c;
   cursor: pointer;
-  border-bottom: 3px solid #6e1d16;
+  border-bottom: 3px solid #ff584c;
 }
 footer {
   min-height: 100px;
   margin-top: 60px;
   background-color: #000;
-  border-top: 10px solid #330d0a;
+  border-top: 10px solid #ff584c;
   color: #fff;
   position: relative;
   clear: both;
@@ -165,7 +167,7 @@ img {
 .social#twitter:hover,
 .social#github:hover,
 .social#soundcloud:hover {
-  background-color: #6e1d16;
+  background-color: #ff584c;
 }
 .social:first {
   margin-left: 0px;

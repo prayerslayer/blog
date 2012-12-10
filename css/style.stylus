@@ -9,9 +9,9 @@ bg_color = white
 sans_family = "Source Sans Pro", sans-serif
 mono_family = "Source Code Pro", monospace
 quote_color = grey
-dark_color = #6e1D16
-light_color = #bb3126
-almost_no_color = #330D0A
+normal_color = #ff584c  //pantone warm red 
+light_color = #ff8e94   //pantone 177M
+dark_color = #bf4942    //pantone 180M
 elem_minheight = 320px
 elem_minwidth = 480px
 animation_duration = 0.5s
@@ -70,22 +70,25 @@ body
   text-rendering: optimizeLegibility;
 
 a
-  color: light_color
+  color: normal_color
   transition-mixin( color, animation_duration )
 
-a:hover, a:visited
+a:visited
   color: dark_color
 
+a:hover
+  color: light_color
+
 #header:hover
-  color: dark_color
+  color: normal_color
   cursor: pointer
-  border-bottom: 3px solid dark_color  
+  border-bottom: 3px solid normal_color  
 
 footer
   min-height: 100px
   margin-top: 2*line_height
   background-color: font_color
-  border-top: 10px solid almost_no_color
+  border-top: 10px solid normal_color
   color: bg_color
   position: relative
   clear: both
@@ -173,7 +176,7 @@ img
   background-color: #f60
 
 .social#email:hover, .social#linkedin:hover, .social#twitter:hover, .social#github:hover, .social#soundcloud:hover
-  background-color: dark_color
+  background-color: normal_color
 
 .social:first
   margin-left: 0px
