@@ -176,7 +176,7 @@ img
   background-color: #f60
 
 .social#email:hover, .social#linkedin:hover, .social#twitter:hover, .social#github:hover, .social#soundcloud:hover
-  background-color: normal_color
+  background-color: light_color
 
 .social:first
   margin-left: 0px
