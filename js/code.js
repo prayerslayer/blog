@@ -1,11 +1,10 @@
-$( document ).ready( function() {
-	if ( typeof initMap !== "undefined" ) { //returns true on /cv
-		initMap();
-	}
+if ( typeof initMap !== "undefined" ) { //returns true on /cv
+	initMap();
+}
 
-	var host = "//nikolaus-piccolotto.info";
-	$( "#header" ).click(function() {
-		window.location.replace( host );
-	});
-	
-});
+var host = "//nikolaus-piccolotto.info";
+
+var header = document.getElementById( "header" );
+header.addEventListener( "click", function() {
+	window.location.replace( host );
+}, false );

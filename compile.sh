@@ -1,2 +1,2 @@
 #!/bin/sh
-cat js/jquery.min.js js/code.js | uglifyjs -o js/javascripts.min.js
+cat js/code.js | uglifyjs -o js/code.min.js
