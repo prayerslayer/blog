@@ -97,6 +97,10 @@ p
   margin: 0
   padding: 0
 
+#header::selection, p::selection, a::selection
+  background: normal_color
+  color: bg_color
+
 p + p
   margin-top: line_height
 

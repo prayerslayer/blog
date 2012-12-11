@@ -922,6 +922,12 @@ p {
   margin: 0;
   padding: 0;
 }
+#header::selection,
+p::selection,
+a::selection {
+  background: #ff584c;
+  color: #fff;
+}
 p + p {
   margin-top: 30px;
 }
