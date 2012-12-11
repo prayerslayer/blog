@@ -79,6 +79,10 @@ a:visited
 a:hover
   color: light_color
 
+::selection
+  background: normal_color
+  color: bg_color
+
 #header:hover
   color: normal_color
   cursor: pointer
@@ -96,10 +100,6 @@ footer
 p
   margin: 0
   padding: 0
-
-#header::selection, p::selection, a::selection
-  background: normal_color
-  color: bg_color
 
 p + p
   margin-top: line_height

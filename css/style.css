@@ -55,6 +55,10 @@ a:visited {
 a:hover {
   color: #ff8e94;
 }
+::selection {
+  background: #ff584c;
+  color: #fff;
+}
 #header:hover {
   color: #ff584c;
   cursor: pointer;
@@ -72,12 +76,6 @@ footer {
 p {
   margin: 0;
   padding: 0;
-}
-#header::selection,
-p::selection,
-a::selection {
-  background: #ff584c;
-  color: #fff;
 }
 p + p {
   margin-top: 30px;
