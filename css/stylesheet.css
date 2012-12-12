@@ -913,6 +913,9 @@ a:hover {
   cursor: pointer;
   border-bottom: 3px solid #ff584c;
 }
+#slogan {
+  color: #808080;
+}
 footer {
   min-height: 100px;
   margin-top: 60px;

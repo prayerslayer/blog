@@ -88,6 +88,9 @@ a:hover
   cursor: pointer
   border-bottom: 3px solid normal_color  
 
+#slogan
+  color: quote_color
+
 footer
   min-height: 100px
   margin-top: 2*line_height
