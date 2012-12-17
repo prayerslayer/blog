@@ -46,8 +46,8 @@ p object, p embed
   height: auto
 
 article
-  margin-top: 2*line_height !important
-  margin-bottom: 2*line_height !important
+  padding-top: 2*line_height !important
+  padding-bottom: 2*line_height !important
 
 blockquote
   border-left: 1px dashed quote_color
