@@ -2,7 +2,7 @@ if ( typeof initMap !== "undefined" ) { //returns true on /cv
 	initMap();
 }
 
-var host = "//nikolaus-piccolotto.info";
+var host = "//npiccolotto.com";
 
 var header = document.getElementById( "header" );
 header.addEventListener( "click", function() {
