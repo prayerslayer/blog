@@ -3,10 +3,10 @@ auto:        false
 server:      false
 server_port: 4000
 baseurl:    /
-url: localhost
+url: npiccolotto.com
 name: "Nikolaus Piccolotto"
 description: "a bit of everything"
-host: http://nikolaus-piccolotto.info
+host: http://npiccolotto.com
 
 source:      .
 destination: ./_site
