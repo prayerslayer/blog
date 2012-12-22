@@ -38,8 +38,10 @@ function saveStats() {
 
 function loadStats() {
 	if ( localStorage ) {
-		miss = parseInt( localStorage.getItem( "miss" ) || 0 );
-		made = parseInt( localStorage.getItem( "made" ) || 0 );
+		miss = localStorage.getItem( "miss" );
+		miss = typeof( miss ) === "undefined" ? 0 : parseInt( miss );
+		made = localStorage.getItem( "made" );
+		made = typeof( made ) === "undefined" ? 0 : parseInt( made );
 	}
 }
 

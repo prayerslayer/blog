@@ -79,39 +79,66 @@ body {
 }
 
 #miss {
+	background: linear-gradient( 90deg, #a61111, #e51717 );
+	background: -o-linear-gradient( 90deg, #a61111, #e51717 );
+	background: -moz-linear-gradient( 90deg, #a61111, #e51717 );
 	background: -webkit-linear-gradient( 90deg, #a61111, #e51717 );
 }
 
 #miss:hover {
+	background: linear-gradient( 90deg, #8c0e0e, #cc1414 );
+	background: -o-linear-gradient( 90deg, #8c0e0e, #cc1414 );
+	background: -moz-linear-gradient( 90deg, #8c0e0e, #cc1414 );
 	background: -webkit-linear-gradient( 90deg, #8c0e0e, #cc1414 );
 }
 
 #miss:active {
+	background: linear-gradient( 90deg, #e51717, #cc1414);
+	background: -o-linear-gradient( 90deg, #e51717, #cc1414);
+	background: -moz-linear-gradient( 90deg, #e51717, #cc1414);
 	background: -webkit-linear-gradient( 90deg, #e51717, #cc1414);
 }
 
 #made {
+	background: linear-gradient( 90deg, #14a614, #18cc18 );
+	background: -o-linear-gradient( 90deg, #14a614, #18cc18 );
+	background: -moz-linear-gradient( 90deg, #14a614, #18cc18 );
 	background: -webkit-linear-gradient( 90deg, #14a614, #18cc18 );
 }
 
 #made:hover {
+	background: linear-gradient( 90deg, #118c11, #15b315 );
+	background: -o-linear-gradient( 90deg, #118c11, #15b315 );
+	background: -moz-linear-gradient( 90deg, #118c11, #15b315 );
 	background: -webkit-linear-gradient( 90deg, #118c11, #15b315 );
 }
 
 #made:active {
-	background: -webkit-linear-gradient( 90deg, #18cc18, #15b315)
+	background: linear-gradient( 90deg, #18cc18, #15b315);
+	background: -o-linear-gradient( 90deg, #18cc18, #15b315);
+	background: -moz-linear-gradient( 90deg, #18cc18, #15b315);
+	background: -webkit-linear-gradient( 90deg, #18cc18, #15b315);
 }
 
 #reset {
 	font-family: "SourceSansProRegular";
+	background: linear-gradient( 90deg, #444, #666);
+	background: -o-linear-gradient( 90deg, #444, #666);
+	background: -moz-gradient( 90deg, #444, #666);
 	background: -webkit-linear-gradient( 90deg, #444, #666);
 }
 
 #reset:hover {
+	background: linear-gradient( 90deg, #333, #555);
+	background: -o-linear-gradient( 90deg, #333, #555);
+	background: -moz-linear-gradient( 90deg, #333, #555);
 	background: -webkit-linear-gradient( 90deg, #333, #555);
 }
 
 #reset:active {
+	background: linear-gradient( 90deg, #444, #333);
+	background: -o-linear-gradient( 90deg, #444, #333);
+	background: -moz-linear-gradient( 90deg, #444, #333);
 	background: -webkit-linear-gradient( 90deg, #444, #333);
 }
 
@@ -120,7 +147,7 @@ body {
 	text-align: center;
 	font-size: 62px;
 	padding: 50px;
-	font-family: "Lobster13Regular", serif;
+	font-family: "Lobster13Regular", "SourceSansProRegular", serif;
 }
 
 #misscount {
