@@ -10,12 +10,12 @@
 }
 
 @font-face {
-    font-family: 'SourceCodeProBlack';
-    src: url('SourceCodePro-Black-webfont.eot');
-    src: url('SourceCodePro-Black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('SourceCodePro-Black-webfont.woff') format('woff'),
-         url('SourceCodePro-Black-webfont.ttf') format('truetype'),
-         url('SourceCodePro-Black-webfont.svg#SourceCodeProBlack') format('svg');
+    font-family: 'SourceCodeProBold';
+    src: url('SourceCodePro-Bold-webfont.eot');
+    src: url('SourceCodePro-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SourceCodePro-Bold-webfont.woff') format('woff'),
+         url('SourceCodePro-Bold-webfont.ttf') format('truetype'),
+         url('SourceCodePro-Bold-webfont.svg#SourceCodeProBold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -161,9 +161,9 @@ body {
 .count {
 	width: 100%;
 	text-align: center;
-	font: 62px Impact;
+	font: 62px "SourceCodeProBold";
 }
 
 .number {
-	font-family: "SourceCodeProBlack", "Menlo", monospace;
+	font-family: "SourceCodeProBold", "Menlo", monospace;
 }
