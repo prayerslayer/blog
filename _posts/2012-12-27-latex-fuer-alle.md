@@ -72,7 +72,11 @@ Ein zusätzlicher Tipp: Teilt eure Kapitel in eigene TeXdateien auf und bindet s
 * Einfachere Navigation, weil ihr euch nur innerhalb eines Kapitels bewegt. Bei insgesamt 4000 Zeilen TeX macht das schon etwas aus.
 * Einfachere Rücksetzmöglichkeiten, weil ihr dazu weniger git-Mojo benötigt.
 
-Der Nachteil ist dabei, dass ihr für die Konvertierung in PDF immer das Hauptdokument verwenden müsst. Gerade am Anfang ist der ständige Wechsel etwas umständlich.
+Ihr müsst zum PDF erzeugen nicht ständig zwischen Hauptdokument und Kapiteln wechseln, wenn ihr ganz am Anfang eurer ``kapitelXY.tex`` folgendes einfügt:
+
+~~~ latex
+	 %!TEX root = hauptdokument.tex
+~~~
 
 # 2) Literaturverwaltung
 
