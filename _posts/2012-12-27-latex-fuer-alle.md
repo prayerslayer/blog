@@ -80,7 +80,7 @@ Ihr müsst zum PDF erzeugen nicht ständig zwischen Hauptdokument und Kapiteln w
 
 # 2) Literaturverwaltung
 
-Bei einer großen Arbeit habt ihr wahrscheinlich mindestens 50 Quellen, alle von verschiedenen Autoren und mit unterschiedlich viel Informationen dabei: Mal nur Autor und Titel, bei anderen auch Journal, Jahr und Seite. Es ist hilfreich, diese Quellen ordentlich zu organisieren, sodass ihr nach Autor oder Titel sortieren, eigene Stichwörter hinzufügen und Informationen einfach ändern könnt. Ein weiterer Vorteil eurer Quellendatenbank: Änderungen werden gleich ins PDF übernommen und ihr könnt den Zitierungsstil (APA, Harvard, Chicago...) auch später mit minimalem Aufwand ändern.
+Bei einer großen Arbeit habt ihr wahrscheinlich mindestens 50 Quellen, alle von verschiedenen Autoren und mit unterschiedlich viel Informationen dabei: Mal nur Autor und Titel, bei anderen auch Journal, Jahr und Seite. Es ist hilfreich, diese Quellen ordentlich zu organisieren, sodass ihr nach Autor oder Titel sortieren, eigene Stichwörter hinzufügen und Informationen an einem Ort ändern könnt. Ein weiterer Vorteil eurer Quellendatenbank: Änderungen werden gleich ins PDF übernommen und ihr könnt den Zitierungsstil (APA, Harvard, Chicago...) auch später mit minimalem Aufwand ändern.
 
 Für Windows nehmt am Besten [JabRef](http://jabref.sourceforge.net/) (ihr benötigt leider auch [Java](http://www.java.com/en/download/index.jsp)), für MacOS ist [Bibdesk](http://bibdesk.sourceforge.net/) ziemlich super. Installiert eins der beiden.
 
