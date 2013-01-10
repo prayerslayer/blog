@@ -34,7 +34,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   line-height: 30px;
-  color: #000;
+  color: #252422;
   background-color: #fff;
   text-rendering: optimizeLegibility;
 }
@@ -70,7 +70,7 @@ a:hover {
 footer {
   min-height: 100px;
   margin-top: 60px;
-  background-color: #000;
+  background-color: #252422;
   border-top: 10px solid #ff584c;
   color: #fff;
   position: relative;
@@ -127,7 +127,7 @@ img {
   display: none !important;
 }
 .olButton {
-  background-color: #000 !important;
+  background-color: #252422 !important;
 }
 .social {
   float: left;
@@ -153,7 +153,7 @@ img {
   -o-transition-duration: 0.5s;
 }
 .social#email {
-  background-color: #333;
+  background-color: #252422;
 }
 .social#linkedin {
   padding-left: 11px;
@@ -204,7 +204,7 @@ div.metadata {
   padding-bottom: 30px;
 }
 h2.title {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #252422;
   font-size: 20px;
   line-height: 30px;
   margin: 0;

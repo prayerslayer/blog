@@ -4,7 +4,7 @@ line_height_sml = 18px
 font_size_sml = 12px
 font_size_med = 20px
 font_size_big = 24px
-font_color = black
+font_color = #252422
 bg_color = white
 sans_family = "Source Sans Pro", sans-serif
 mono_family = "Source Code Pro", monospace
@@ -170,7 +170,7 @@ img
   transition-mixin( background-color, animation_duration )
 
 .social#email
-  background-color: #333
+  background-color: font_color
 .social#linkedin
   padding-left: 11px
   background-color: #4875B4
