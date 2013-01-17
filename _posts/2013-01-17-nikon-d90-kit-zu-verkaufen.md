@@ -60,7 +60,7 @@ Alles ist sehr gut erhalten, weil ich es wie gesagt wenig benutzt habe. Gleich i
 
 ![Tasche]( {{site.host}}/media/img/d90/tasche.jpg)
 
-Alles zusammen macht das 1335 Euro.
+Alles zusammen macht das 1295 Euro.
 
 ~~~ text
 	D90	  350
