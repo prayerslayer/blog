@@ -42,7 +42,7 @@ Alles ist sehr gut erhalten, weil ich es wie gesagt wenig benutzt habe. Gleich i
 * [Feisol CT-3401 Stativ](http://www.feisol.de/feisol-classic-stativ-ct3401-rapid-p-26.html) aus Carbon mit [Bilora Perfect-Pro Kugelkopf 2258](http://www.amazon.de/gp/product/B001ADGERE/ref=wms_ohs_product)
 	* Mit Tasche, ohne Mittelsäule
 	* Abholung/Übergabe in DD bevorzugt
-	* Beides zusammen neu: 275 €. Bei mir: **200 €**.
+	* Beides zusammen neu: 275 €. Bei mir: **160 €**.
 
 ![Stativ]( {{site.host}}/media/img/d90/stativ.jpg)
 
@@ -66,14 +66,14 @@ Alles zusammen macht das 1335 Euro.
 	D90	  350
 	50/1.4   300
 	12-24    420
-	Stativ   200
+	Stativ   160
 	Rucksack  50
 	Tasche    15
 	------------
-            1335
+            1295
           ======
 ~~~
 
-Wer alles bei mir vor Ort abholen kommt, wird **1200 €** los und spart damit 10 %.
+Wer alles bei mir vor Ort abholen kommt, wird **1150 €** los und spart damit 10 %.
 
 *Disclaimer:* Ich habe dieses Angebot auch bei Ebay Kleinanzeigen reingestellt.
