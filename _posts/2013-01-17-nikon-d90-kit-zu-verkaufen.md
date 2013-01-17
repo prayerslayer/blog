@@ -76,4 +76,4 @@ Alles zusammen macht das 1335 Euro.
 
 Wer alles bei mir vor Ort abholen kommt, wird **1200 €** los und spart damit 10 %.
 
-*Disclaimer:* Ich habe dieses Angebot auch im [DSLR Forum](http://www.dslr-forum.de/showthread.php?p=10678765#post10678765) und [auf](http://kleinanzeigen.ebay.de/anzeigen/s-anzeige/feisol-ct-3401-stativ-mit-bilora-perfect-pro-2258-kugelkopf/96505845-245-3836) [Ebay](http://kleinanzeigen.ebay.de/anzeigen/s-anzeige/kata-123-go-10-fotorucksack/96506818-245-3836) [Kleinanzeigen](http://kleinanzeigen.ebay.de/anzeigen/s-anzeige/lowepro-apex-120-aw-fototasche/96507263-245-3836) reingestellt.
+*Disclaimer:* Ich habe dieses Angebot auch [auf](http://kleinanzeigen.ebay.de/anzeigen/s-anzeige/feisol-ct-3401-stativ-mit-bilora-perfect-pro-2258-kugelkopf/96505845-245-3836) [Ebay](http://kleinanzeigen.ebay.de/anzeigen/s-anzeige/kata-123-go-10-fotorucksack/96506818-245-3836) [Kleinanzeigen](http://kleinanzeigen.ebay.de/anzeigen/s-anzeige/lowepro-apex-120-aw-fototasche/96507263-245-3836) reingestellt.
