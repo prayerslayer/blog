@@ -136,6 +136,7 @@ b, strong
 img
   max-width: 100%
   vertical-align: middle
+  border-radius: 1%
 
 //Styles on selectors
 
