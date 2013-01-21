@@ -46,12 +46,7 @@ Alles ist sehr gut erhalten, weil ich es wie gesagt wenig benutzt habe. Gleich i
 
 ![Stativ]( {{site.host}}/media/img/d90/stativ.jpg)
 
-* [Kata 123-GO-10 Fotorucksack](http://www.amazon.de/Kata-123-GO-10-SLR-Kamerarucksack-Sling-Rucksack-Liter/dp/B00387TC4C)
-	* Quasi unbenutzt, hatte den vielleicht drei Mal mit.
-	* Abholung/Übergabe in DD bevorzugt
-	* Neu bei Amazon: 80 €. Bei mir **50 €**.
-
-![Rucksack]( {{site.host}}/media/img/d90/rucksack.jpg)
+* <strike>Kata 123-GO-10 Fotorucksack</strike>
 
 * [Lowepro Apex 120 AW Fototasche](http://www.lowepro-deutschland.de/produkte/index.php?article_id=222&clang=0)
 	* Die habe ich tatsächlich benutzt.
@@ -76,4 +71,4 @@ Alles zusammen macht das 1295 Euro.
 
 Wer alles bei mir vor Ort abholen kommt, wird **1150 €** los und spart damit 10 %.
 
-*Disclaimer:* Ich habe dieses Angebot auch bei Ebay Kleinanzeigen reingestellt.
+*Disclaimer:* Ich habe dieses Angebot auch bei Ebay Kleinanzeigen und im DSLR Forum reingestellt.
