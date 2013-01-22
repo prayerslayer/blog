@@ -18,24 +18,10 @@ Alles ist sehr gut erhalten, weil ich es wie gesagt wenig benutzt habe. Gleich i
 * [Lowepro Apex 120 AW Fototasche](http://www.lowepro-deutschland.de/produkte/index.php?article_id=222&clang=0)
 	* Die habe ich tatsächlich benutzt.
 	* Abholung/Übergabe in DD bevorzugt
-	* Neu bei Amazon: 30 €. Bei mir **15 €**.
+	* Neu bei Amazon: 30 €. Bei mir **10 €**.
 
 ![Tasche]( {{site.host}}/media/img/d90/tasche.jpg)
 
-Alles zusammen macht das 1295 Euro.
-
-~~~ text
-	D90	  350
-	50/1.4   300
-	12-24    420
-	Stativ   160
-	Rucksack  50
-	Tasche    15
-	------------
-            1295
-          ======
-~~~
-
-Wer alles bei mir vor Ort abholen kommt, wird **1150 €** los und spart damit 10 %.
+Wer die Sachen bei mir vor Ort abholen kommt, spart 10 %!
 
 *Disclaimer:* Ich habe dieses Angebot auch bei Ebay Kleinanzeigen und im DSLR Forum reingestellt.
