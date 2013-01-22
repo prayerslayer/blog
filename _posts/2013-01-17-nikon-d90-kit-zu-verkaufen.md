@@ -22,6 +22,4 @@ Alles ist sehr gut erhalten, weil ich es wie gesagt wenig benutzt habe. Gleich i
 
 ![Tasche]( {{site.host}}/media/img/d90/tasche.jpg)
 
-Wer die Sachen bei mir vor Ort abholen kommt, spart 10 %!
-
 *Disclaimer:* Ich habe dieses Angebot auch bei Ebay Kleinanzeigen und im DSLR Forum reingestellt.
