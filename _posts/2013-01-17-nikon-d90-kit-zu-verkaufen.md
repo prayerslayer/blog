@@ -19,11 +19,6 @@ Alles ist sehr gut erhalten, weil ich es wie gesagt wenig benutzt habe. Gleich i
 * <strike>Sigma EX DG 12-24/f4.5-5.6</strike>
 * <strike>Feisol CT-3401 Stativ
 * <strike>Kata 123-GO-10 Fotorucksack</strike>
-* [Lowepro Apex 120 AW Fototasche](http://www.lowepro-deutschland.de/produkte/index.php?article_id=222&clang=0)
-	* Die habe ich tatsächlich benutzt.
-	* Abholung/Übergabe in DD bevorzugt
-	* Neu bei Amazon: 30 €. Bei mir **15 €**.
-
-![Tasche]( {{site.host}}/media/img/d90/tasche.jpg)
+* <strike>Lowepro Apex 120 AW Fototasche</strike>
 
 *Disclaimer:* Ich habe dieses Angebot auch bei Ebay Kleinanzeigen und im DSLR Forum reingestellt.
