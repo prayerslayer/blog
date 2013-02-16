@@ -884,7 +884,7 @@ body {
   font-weight: 300;
   line-height: 30px;
   color: #252422;
-  background-color: #fff;
+  background-color: #fcfcfc;
   text-rendering: optimizeLegibility;
 }
 a {
@@ -906,7 +906,7 @@ a:hover {
 }
 ::selection {
   background: #ff584c;
-  color: #fff;
+  color: #fcfcfc;
 }
 #header:hover {
   color: #ff584c;
@@ -921,7 +921,7 @@ footer {
   margin-top: 60px;
   background-color: #252422;
   border-top: 10px solid #ff584c;
-  color: #fff;
+  color: #fcfcfc;
   position: relative;
   clear: both;
 }
