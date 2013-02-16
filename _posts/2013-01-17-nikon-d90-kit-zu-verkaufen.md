@@ -12,7 +12,7 @@ Alles ist sehr gut erhalten, weil ich es wie gesagt wenig benutzt habe. Gleich i
 	* OVP
 	* Hat ein Fussel zwischen den Gläsern, sieht man auf Fotos aber überhaupt nicht
 	* Bin ich bereit zu verschicken
-	* Gebraucht bei Amazon: 335 €. Bei mir **290 €**. 
+	* Gebraucht bei Amazon: 335 €. Bei mir **260 €**. 
 
 ![Nikkor 50/1.4]( {{site.host}}/media/img/d90/nikkor.jpg)
 
