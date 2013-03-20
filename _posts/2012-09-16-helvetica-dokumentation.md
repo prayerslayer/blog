@@ -6,4 +6,4 @@ keywords: "helvetica, dokumentation, film"
 
 Auf Youtube gibt es übrigens eine Dokumentation über eure Lieblingsschrift, Helvetica <3
 
-{% oembed http://www.youtube.com/watch?v=OpGGNEEhra8 %}
+//Update: Whoo, jetzt nicht mehr. Früher war sie [hier](http://www.youtube.com/watch?v=OpGGNEEhra8).
