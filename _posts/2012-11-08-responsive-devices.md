@@ -13,4 +13,4 @@ Absolut. Das wurde auch schon 2009 in einem Paper [erkannt](http://dub.washingto
 
 Apples AirPlay Mirroring geht ja schon in diese Richtung, da wird wohl noch mehr kommen.
 
-{{ oembed https://www.youtube.com/watch?v=7ag65OGvC3c }}
+{% oembed https://www.youtube.com/watch?v=7ag65OGvC3c %}
