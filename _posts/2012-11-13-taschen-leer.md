@@ -11,7 +11,7 @@ Von [Pocket](http://getpocket.com) (ehemals ReadItLater) gibt es eine Mac App un
 
 **Michael Jordan Flu Game ('97 Finals, Game 5)**
 
-{% oembed https://www.youtube.com/watch?v=A4BswHnf0xM %}
+{{ oembed https://www.youtube.com/watch?v=A4BswHnf0xM }}
 
 **[Grantland BS Report: Barack Obama](http://www.grantland.com/blog/the-triangle/post/_/id/18690/b-s-report-transcript-barack-obama)**
 
