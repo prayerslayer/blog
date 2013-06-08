@@ -1,7 +1,7 @@
-----
+---
 title: "The State of RWD"
 layout: singlepost
-----
+---
 
 [Stéphanie Walter](http://mobile.smashingmagazine.com/2013/05/29/the-state-of-responsive-web-design/):
 
