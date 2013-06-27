@@ -67,7 +67,7 @@ var showDraft = function( draft ) {
 	svg
 		.append( "text" )
 			.attr( "x", 0 )
-			.attr( "y", yScale( year + 1 ) * 40 - 15 )
+			.attr( "y", yScale( year + 1 ) * 40 - 9 )
 			.text( year );
 };
 
@@ -133,19 +133,19 @@ var drawLegend = function() {
 	svg
 		.append( "text" )
 			.attr( "class", "round" )
-			.attr( "x", xScale( 15 ) )
+			.attr( "x", xScale( 13 ) )
 			.attr( "y", 20 )
 			.text( "Round 1");
 	svg
 		.append( "text" )
 			.attr( "class", "round" )
-			.attr( "x", xScale( 45 ) )
+			.attr( "x", xScale( 43 ) )
 			.attr( "y", 20 )
 			.text( "Round 2");
 	svg
 		.append( "text" )
 			.attr( "class", "round" )
-			.attr( "x", xScale( 75 ) )
+			.attr( "x", xScale( 73 ) )
 			.attr( "y", 20 )
 			.text( "Round 3");
 };
