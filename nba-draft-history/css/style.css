@@ -32,10 +32,9 @@ div.info {
 	right: 10px;
 	bottom: 10px;
 	color: #16161d;
-	background-color: #ddd;
+	border-left: 1px solid darkblue;;
 	padding: 20px;
 	font-size: 16px;
-	border-radius: 5%;
 }
 
 div.info-headline {
