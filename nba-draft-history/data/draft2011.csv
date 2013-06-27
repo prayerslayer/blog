@@ -1,0 +1,61 @@
+Rnk,Tm,Player,College,G,MP,PTS,TRB,AST,FG,3P,FT,MPG,PPG,RPG,APG,WS,WS48
+1,CLE,Kyrie Irving,Duke University,110,3606,2269,407,625,.459,.394,.862,32.8,20.6,3.7,5.7,9.4,.125
+2,MIN,Derrick Williams,University of Arizona,144,3334,1516,741,84,.423,.305,.702,23.2,10.5,5.1,0.6,4.8,.069
+3,UTA,Enes Kanter,,136,1952,810,582,39,.525,.500,.734,14.4,6.0,4.3,0.3,4.0,.098
+4,CLE,Tristan Thompson,University of Texas at Austin,142,3988,1451,1162,135,.471,.000,.586,28.1,10.2,8.2,1.0,6.4,.077
+5,TOR,Jonas Valanciunas,,62,1482,554,372,45,.557,,.789,23.9,8.9,6.0,0.7,3.9,.127
+6,WAS,Jan Vesely,,108,1679,393,371,75,.524,.000,.446,15.5,3.6,3.4,0.7,2.4,.070
+7,SAC,Bismack Biyombo,,143,3641,713,950,62,.457,,.502,25.5,5.0,6.6,0.4,2.0,.026
+8,DET,Brandon Knight,University of Kentucky,141,4494,1846,458,554,.410,.373,.743,31.9,13.1,3.2,3.9,2.4,.025
+9,CHA,Kemba Walker,University of Connecticut,148,4651,2254,517,760,.401,.315,.795,31.4,15.2,3.5,5.1,5.1,.053
+10,MIL,Jimmer Fredette,Brigham Young University,130,2102,956,144,200,.402,.384,.850,16.2,7.4,1.1,1.5,1.3,.031
+11,GSW,Klay Thompson,Washington State University,148,4544,2185,467,316,.430,.406,.851,30.7,14.8,3.2,2.1,6.0,.063
+12,UTA,Alec Burks,University of Colorado,123,2076,876,277,147,.424,.350,.721,16.9,7.1,2.3,1.2,2.5,.058
+13,PHO,Markieff Morris,University of Kansas,145,3064,1137,675,173,.404,.341,.725,21.1,7.8,4.7,1.2,3.2,.050
+14,HOU,Marcus Morris,University of Kansas,94,1650,636,293,65,.410,.352,.576,17.6,6.8,3.1,0.7,1.6,.047
+15,IND,Kawhi Leonard,San Diego State University,122,3344,1196,673,163,.494,.375,.804,27.4,9.8,5.5,1.3,11.7,.168
+16,PHI,Nikola Vucevic,University of Southern California,128,3371,1291,1163,174,.502,.273,.650,26.3,10.1,9.1,1.4,7.5,.107
+17,NYK,Iman Shumpert,Georgia Institute of Technology,104,2701,868,322,239,.399,.349,.788,26.0,8.3,3.1,2.3,4.4,.078
+18,WAS,Chris Singleton,Florida State University,123,2355,537,417,86,.376,.313,.614,19.1,4.4,3.4,0.7,2.1,.043
+19,CHA,Tobias Harris,University of Tennessee,97,1778,811,388,91,.458,.305,.770,18.3,8.4,4.0,0.9,3.3,.089
+20,MIN,Donatas Motiejunas,,44,538,250,93,31,.455,.289,.627,12.2,5.7,2.1,0.7,0.7,.061
+21,POR,Nolan Smith,Duke University,84,829,277,83,97,.371,.260,.714,9.9,3.3,1.0,1.2,-0.8,-0.047
+22,DEN,Kenneth Faried,Morehead State University,126,3285,1394,1086,113,.562,,.633,26.1,11.1,8.6,0.9,12.4,.181
+23,HOU,Nikola Mirotic,,,,,,,,,,,,,,,
+24,OKC,Reggie Jackson,Boston College,115,1494,514,219,193,.413,.223,.846,13.0,4.5,1.9,1.7,2.6,.084
+25,BOS,MarShon Brooks,Providence College,129,2560,1102,304,207,.440,.302,.752,19.8,8.5,2.4,1.6,2.1,.039
+26,DAL,Jordan Hamilton,University of Texas at Austin,66,655,323,157,43,.423,.367,.484,9.9,4.9,2.4,0.7,1.1,.083
+27,NJN,JaJuan Johnson,Purdue University,36,298,114,58,6,.446,,.667,8.3,3.2,1.6,0.2,0.2,.032
+28,CHI,Norris Cole,Cleveland State University,145,2850,886,221,297,.407,.322,.715,19.7,6.1,1.5,2.0,0.6,.011
+29,SAS,Cory Joseph,University of Texas at Austin,57,654,184,77,87,.406,.250,.763,11.5,3.2,1.4,1.5,0.9,.068
+30,CHI,Jimmy Butler,Marquette University,124,2493,814,384,129,.459,.362,.796,20.1,6.6,3.1,1.0,8.1,.156
+31,MIA,Bogan Bogdanovic,,,,,,,,,,,,,,,
+32,CLE,Justin Harper,University of Richmond,14,84,20,12,2,.290,.154,.000,6.0,1.4,0.9,0.1,-0.3,-0.145
+33,DET,Kyle Singler,Duke University,82,2293,720,330,77,.428,.350,.806,28.0,8.8,4.0,0.9,2.3,.048
+34,WAS,Shelvin Mack,Butler University,95,1195,373,132,199,.422,.330,.680,12.6,3.9,1.4,2.1,1.2,.047
+35,SAC,Tyler Honeycutt,University of California Los Angeles,24,120,28,24,9,.314,.200,.714,5.0,1.2,1.0,0.4,-0.1,-0.049
+36,NJN,Jordan Williams,University of Maryland,43,635,197,156,11,.507,,.652,14.8,4.6,3.6,0.3,1.3,.101
+37,LAC,Trey Thompkins,University of Georgia,24,119,57,24,3,.393,.308,.714,5.0,2.4,1.0,0.1,0.0,.004
+38,HOU,Chandler Parsons,University of Florida,139,4562,1776,704,403,.473,.370,.670,32.8,12.8,5.1,2.9,10.4,.109
+39,CHA,Jeremy Tyler,,63,636,227,160,17,.416,.000,.569,10.1,3.6,2.5,0.3,-0.2,-0.018
+40,MIL,Jon Leuer,University of Wisconsin,74,742,274,157,33,.502,.250,.659,10.0,3.7,2.1,0.4,1.6,.105
+41,LAL,Darius Morris,University of Michigan,67,852,240,73,97,.396,.373,.652,12.7,3.6,1.1,1.4,0.1,.004
+42,IND,Davis Bertans,,,,,,,,,,,,,,,
+43,CHI,Malcolm Lee,University of California Los Angeles,35,532,140,65,51,.385,.294,.703,15.2,4.0,1.9,1.5,0.5,.043
+44,GSW,Charles Jenkins,Hofstra University,110,1334,408,100,214,.434,.182,.754,12.1,3.7,0.9,1.9,0.5,.017
+45,NOH,Josh Harrellson,University of Kentucky,43,571,172,151,11,.424,.328,.607,13.3,4.0,3.5,0.3,1.4,.120
+46,LAL,Andrew Goudelock,College of Charleston,41,425,175,32,20,.386,.373,.917,10.4,4.3,0.8,0.5,0.1,.008
+47,LAC,Travis Leslie,University of Georgia,10,45,14,9,5,.357,,.444,4.5,1.4,0.9,0.5,0.1,.060
+48,ATL,Keith Benson,Oakland University,3,9,0,3,0,.000,,,3.0,0.0,1.0,0.0,0.0,-0.005
+49,MEM,Josh Selby,University of Kansas,38,296,83,20,34,.330,.143,.720,7.8,2.2,0.5,0.9,-0.7,-0.113
+50,PHI,Lavoy Allen,Temple University,120,2293,624,566,107,.459,.000,.730,19.1,5.2,4.7,0.9,4.1,.086
+51,POR,Jon Diebler,Ohio State University,,,,,,,,,,,,,,
+52,DET,Vernon Macklin,University of Florida,23,135,46,34,5,.543,,.571,5.9,2.0,1.5,0.2,0.5,.161
+53,ORL,DeAndre Liggins,University of Kentucky,56,405,91,68,20,.458,.304,.486,7.2,1.6,1.2,0.4,0.6,.066
+54,CLE,Milan Macvan,,,,,,,,,,,,,,,
+55,BOS,E'Twaun Moore,Purdue University,113,2013,698,200,240,.394,.347,.818,17.8,6.2,1.8,2.1,0.4,.010
+56,LAL,Chukwudiebere Maduabum,,,,,,,,,,,,,,,
+57,DAL,Targuy Ngombo,,,,,,,,,,,,,,,
+58,LAL,Ater Majok,,,,,,,,,,,,,,,
+59,SAS,Adam Hanga,,,,,,,,,,,,,,,
+60,SAC,Isaiah Thomas,University of Washington,144,3778,1849,329,582,.443,.367,.862,26.2,12.8,2.3,4.0,9.3,.118
