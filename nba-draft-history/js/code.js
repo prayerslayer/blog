@@ -18,7 +18,7 @@ var xScale = d3.scale.linear()
 				.range([ 0, 1 ]),
 	color = d3.scale.linear()
 				.domain([ 0, 1, 150 ])
-				.range([ "white", "lightgrey", "black" ])
+				.range([ "white", "#ddd", "black" ])
 
 // mouse over function sets infobox
 var hover = function( ) {
