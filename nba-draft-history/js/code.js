@@ -67,7 +67,7 @@ var showDraft = function( draft ) {
 	svg
 		.append( "text" )
 			.attr( "x", 0 )
-			.attr( "y", yScale( year + 1 ) * 40 - 9 )
+			.attr( "y", yScale( year ) * 40 +18 )
 			.text( year );
 };
 
