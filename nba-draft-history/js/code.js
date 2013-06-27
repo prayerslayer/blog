@@ -94,9 +94,17 @@ var loadMVP = function() {
 
 var highlightMVP = function( show ) {
 	if ( show ) {
-		svg.selectAll( "rect.player.mvp" ).style( "fill", "orange" );
+		svg
+		.selectAll( "rect.player.mvp" )
+			.transition()
+			.duration( 200 )
+			.style( "fill", "orange" );
 	} else {
-		svg.selectAll( "rect.player.mvp" ).style( "fill", function( d ) { return color( d.ws ); });
+		svg
+			.selectAll( "rect.player.mvp" )
+			.transition()
+			.duration( 200 )
+			.style( "fill", function( d ) { return color( d.ws ); });
 	}
 };
 
