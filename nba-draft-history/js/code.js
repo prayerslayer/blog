@@ -2,22 +2,23 @@
 var svg = null,
 	width = 1200,
 	height = 1250,
+	mvps = null,
 	firstDraft = 1983,
 	lastDraft = 2012;
 
 // scales
 var xScale = d3.scale.linear()
-				.domain([ 0, 89 ])	// first 90 picks should do it
+				.domain([ 0, 90 ])	// first 90 picks should do it
 				.range([ 50, width ]),
 	yScale = d3.scale.linear()
 				.domain([ firstDraft, lastDraft ])	// years including drafts
-				.range([ 1, lastDraft - firstDraft + 1 ]),
+				.range([ 1, lastDraft - firstDraft ]),
 	opacity = d3.scale.linear()
 				.domain([ 0, 1 ])
 				.range([ 0, 1 ]),
 	color = d3.scale.linear()
-				.domain([ 0, 1, 50, 100, 150 ])
-				.range([ "white", "lightgrey", "steelblue", "darkblue", "black" ])
+				.domain([ 0, 1, 150 ])
+				.range([ "white", "lightgrey", "black" ])
 
 // mouse over function sets infobox
 var hover = function( ) {
@@ -27,11 +28,10 @@ var hover = function( ) {
 	d3.select( "div.info .info-team" ).text( data.team );
 	d3.select( "div.info .info-year" ).text( data.year );
 	d3.select( "div.info .info-ws" ).text( data.ws || "?" );
-	d3.select( "div.info .info-ws48" ).text( data.ws48 || "?");
 };
 
 // loads data of a given draft
-var loadData = function( year, callback ) {
+var loadDraft = function( year, callback ) {
 	d3.csv( "data/draft" + year + ".csv", function( row, i ) {
 		return {
 			"name": row.Player,
@@ -39,14 +39,13 @@ var loadData = function( year, callback ) {
 			"college": row.College,
 			"year": year,
 			"pick": i,
-			"ws": row.WS,
-			"ws48": row.WS48
+			"ws": row.WS
 		};
 	}, callback);
 };
 
 // displays draft
-var showData = function( draft ) {
+var showDraft = function( draft ) {
 	// render player bars
 	svg
 		.selectAll( "rect" )
@@ -54,11 +53,11 @@ var showData = function( draft ) {
 		.enter()
 		.append( "rect" )
 			.attr( "class", "player" )
+			.classed( "mvp", function( d ) { return mvps[d.name]!=null; })
 			.attr( "width", 10 )
 			.attr( "height", 30 )
 			.attr( "x", function( d ) { return xScale( d.pick ); })
 			.attr( "y", function( d ) { return yScale( d.year ) * 40; })
-			.attr( "opacity", function( d ) { return opacity( d.ws48*4 ); })
 			.style( "fill", function( d ) { return color( d.ws ); })
 			.on( "mouseover", hover);
 				
@@ -70,6 +69,35 @@ var showData = function( draft ) {
 			.attr( "x", 0 )
 			.attr( "y", yScale( year + 1 ) * 40 - 15 )
 			.text( year );
+};
+
+var loadMVP = function() {
+	var defer = jQuery.Deferred();
+	d3.csv( "data/mvps.csv", function( row, i ) {
+		return {
+			"name": row.Player
+		};
+	}, function( data ) {
+		var mvplist = {};
+		for ( var i = 0; i < data.length; i++ ) {
+			if (mvplist[data[i].name]) {
+				mvplist[data[i].name] += 1;
+			} else {
+				mvplist[data[i].name] = 1;
+			}
+		}
+		mvps = mvplist;
+		defer.resolve( mvplist );
+	});
+	return defer.promise();
+};
+
+var highlightMVP = function( show ) {
+	if ( show ) {
+		svg.selectAll( "rect.player.mvp" ).style( "fill", "orange" );
+	} else {
+		svg.selectAll( "rect.player.mvp" ).style( "fill", function( d ) { return color( d.ws ); });
+	}
 };
 
 // draws lines between draft rounds
@@ -116,9 +144,15 @@ var drawLegend = function() {
 
 $( document ).ready( function() {
 	svg = d3.select( "svg.visualization" );
-	for ( var i = firstDraft; i <= lastDraft; i++ ) {
-		loadData( i, showData );
-	}
-	drawLegend();
+	loadMVP().then( function( mvplist ) {
+		for ( var i = firstDraft; i <= lastDraft; i++ ) {
+			loadDraft( i, showDraft );
+		}
+		drawLegend();
+
+		$( "input" ).change( function() {
+			highlightMVP( $(this).is(":checked" ) );
+		} );
+	});
 });
 
