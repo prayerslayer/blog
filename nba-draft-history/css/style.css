@@ -25,6 +25,10 @@ div.footer {
 	margin: 1.5em 0;
 }
 
+a {
+	color: darkblue;
+}
+
 div.info {
 	height: 20em;
 	width: 16em;
