@@ -30,13 +30,10 @@ module Jekyll
 
     def initialize(tag_name, text, tokens)
        super
-       puts "initializing oembed tag"
        @text = text
     end
     
     def render(context)
-
-      puts "rendering oembed tag"
 
       # pipe param through liquid to make additional replacements possible
       url = Liquid::Template.parse(@text).render context
