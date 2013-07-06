@@ -1,6 +1,6 @@
 # rewrite from old html files
 RewriteEngine On
-RewriteRule ^/([0-9]{4})/([0-9]{2})/(.+)\.html$ http://nikolaus-piccolotto.info/$1/$2/$3 [L,R]
+RewriteRule ^/([0-9]{4})/([0-9]{2})/(.+)\.html$ http://npiccolotto.com/$1/$2/$3 [L,R]
 
 # compress text, html, javascript, css, xml:
 AddOutputFilterByType DEFLATE text/html
@@ -18,20 +18,4 @@ Options +MultiViews
 <IfModule mod_rewrite.c>
   Options +FollowSymlinks
   RewriteEngine On
-
-  # Adaptive-Images -----------------------------------------------------------------------------------
-
-  # Add any directories you wish to omit from the Adaptive-Images process on a new line, as follows:
-  # RewriteCond %{REQUEST_URI} !ignore-this-directory
-  # RewriteCond %{REQUEST_URI} !and-ignore-this-directory-too
-
-  # don't apply the AI behaviour to images inside AI's cache folder:
-  RewriteCond %{REQUEST_URI} !ai-cache
-    
-  # Send any GIF, JPG, or PNG request that IS NOT stored inside one of the above directories
-  # to adaptive-images.php so we can select appropriately sized versions
-  
-  RewriteRule \.(?:jpe?g|gif|png)$ adaptive-images.php
-
-  # END Adaptive-Images -------------------------------------------------------------------------------
 </IfModule>

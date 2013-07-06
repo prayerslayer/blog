@@ -4,24 +4,19 @@
 	<link rel="icon" type="image/png" href="{{ site.url }}/img/favicon.png" />
 	<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/stylesheet.css">
 	<link rel="alternate" type="application/rss+xml" title="Nikolaus Piccolotto" href="{{ site.url }}/feed.xml" />
-	
-	<!-- cookie für adaptive images setzen -->
-	<script>
-		document.cookie = 'resolution=' + (screen.width > screen.height ? screen.width : screen.height) +'; path=/';
-	</script> 
 
 	<!-- meta tags-->
 	<meta name="description" content="Schreibt Websites und Software. Lebt in Dresden." />
 	{{% if site.keywords %}}
-	<meta name="keywords" content="{{ page.keywords }}" />
+		<meta name="keywords" content="{{ page.keywords }}" />
 	{{% endif %}}
 
 	<meta property="og:title" content="Nikolaus Piccolotto" />
 	<meta property="og:description" content="Schreibt Websites und Software. Lebt in Dresden." />
-	<meta charset="UTF-8"/>
+	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta http-equiv="Cache-control" content="public">
-	
+
 	<title>{{ page.title }} / Nikolaus Piccolotto</title>
 </head>
 <body>
