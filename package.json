@@ -1,21 +1,22 @@
 {
-	"name": "piccoblog",
-	"title": "Blog",
-	"version": "1.0.0",
-	"author": "Nikolaus Piccolotto",
-	"description": "My Blog",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/prayerslayer/blog"
-	},
-	"devDependencies": {
-		"grunt": "0.4.x",
-        "grunt-contrib-connect": "0.1.x",
-        "grunt-contrib-concat": "0.1.x",
-        "grunt-contrib-uglify": "0.1.x",
-        "grunt-contrib-jshint": "0.1.x",
-        "grunt-contrib-watch": "0.2.x",
-        "grunt-contrib-stylus": "0.5.x",
-        "grunt-jekyll": "0.3.x"
-	}
+  "name": "piccoblog",
+  "title": "Blog",
+  "version": "1.0.0",
+  "author": "Nikolaus Piccolotto",
+  "description": "My Blog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prayerslayer/blog"
+  },
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-connect": "0.1.x",
+    "grunt-contrib-concat": "0.1.x",
+    "grunt-contrib-uglify": "0.1.x",
+    "grunt-contrib-jshint": "0.1.x",
+    "grunt-contrib-watch": "0.2.x",
+    "grunt-contrib-stylus": "0.5.x",
+    "grunt-jekyll": "0.3.x",
+    "grunt-contrib-mincss": "~0.3.2"
+  }
 }
