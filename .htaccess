@@ -19,3 +19,9 @@ Options +MultiViews
   Options +FollowSymlinks
   RewriteEngine On
 </IfModule>
+
+# cache header
+
+<FilesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+  Header set Cache-Control "max-age=290304000, public"
+</FilesMatch>
