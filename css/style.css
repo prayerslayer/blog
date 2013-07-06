@@ -1,4 +1,5 @@
 html{height:100%}
+body{-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
 iframe{width:inherit;height:auto;min-height:320px;min-width:480px}
 p object,p embed{min-width:480px;min-height:320px;width:100%;height:auto}
 article{padding-top:3em !important;padding-bottom:3em !important}

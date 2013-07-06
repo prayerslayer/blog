@@ -34,6 +34,11 @@ transition-mixin( property, duration )
 html
   height: 100%
 
+body
+  -moz-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%
+  -ms-text-size-adjust: 100%
+
 iframe
   width: inherit
   height: auto
