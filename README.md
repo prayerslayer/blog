@@ -1,9 +1,9 @@
 # Blog
 
-This is a repository of my Jekyll-powered blog at http://nikolaus-piccolotto.info.
+This is a repository of my Jekyll-powered blog at http://npiccolotto.com.
 
 # TODO
 
-* CSS/JS Minifizierung vielleicht mit post-receive hook auf Server verlegen
-* CSS bruchlinie, wenn bilder zu hoch sind
 * CDN --> AMZN S3 + CloudFront
+* Bilder mit Captions
+* Simplegrid noch entfernen?
