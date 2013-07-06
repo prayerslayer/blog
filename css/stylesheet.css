@@ -509,7 +509,7 @@ div.social,div.navigation{text-align:center}
 .centered{text-align:center}
 .paginate{padding-top:3em}
 .page_number{margin-left:1.5em;margin-right:1.5em}
-div.row > div.content{min-height:80%;padding:0 1em}
+div.row > div.content{min-height:100%;padding:0 1em}
 div.content{max-width:760px;margin:0 auto}
 div.content > h1{font-weight:lighter;font-size:1.5em;margin-left:-1em}
 div.embed{margin:1.5em auto;min-width:320px;width:auto;max-width:480px}
