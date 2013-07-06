@@ -31,9 +31,6 @@ transition-mixin( property, duration )
 
 //Styles on tags
 
-html
-  height: 100%
-
 body
   -moz-text-size-adjust: 100%
   -webkit-text-size-adjust: 100%
