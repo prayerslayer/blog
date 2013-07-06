@@ -22,7 +22,7 @@ li + li{margin-top:.5em}
 b,strong{font-weight:bold}
 img{width:100%;vertical-align:middle;border-radius:.5em}
 .row{max-width:1140px;margin:0 auto;overflow:visible}
-.main{min-height:80%}
+.viewport{min-height:100%}
 body > div.row{padding:0 1em}
 footer > div.row{margin-top:1em}
 div#header{font-size:3em;line-height:1.5em;transition-property:color;-webkit-transition-property:color;-moz-transition-property:color;-o-transition-property:color;transition-duration:.5s;-webkit-transition-duration:.5s;-moz-transition-duration:.5s;-o-transition-duration:.5s}

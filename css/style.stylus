@@ -145,8 +145,8 @@ img
   margin: 0 auto
   overflow: visible
 
-.main
-  min-height: 80%
+.viewport
+  min-height: 100%
 
 body > div.row
   padding: 0 1em
