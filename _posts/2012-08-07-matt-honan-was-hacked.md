@@ -1,5 +1,5 @@
 ---
-layout: "singlepost"
+layout: singlepost
 title: "Mat Honan was hacked. Hard."
 ---
 

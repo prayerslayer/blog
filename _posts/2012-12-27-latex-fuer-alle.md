@@ -58,7 +58,7 @@ Installiert einen Editor eurer Wahl. (Im Folgenden gehe ich davon aus, dass ihr 
 
 *"Toll. Und jetzt?"*
 
-TeXstudio und MikTex sollten out-of-the-box miteinander harmonieren. Wenn nicht, könnte das daran liegen, dass TeXstudio die Pfade zu MikTeX nicht kennt. Das müsstet ihr [überprüfen](http://svn.code.sf.net/p/texstudio/code/trunk/utilities/usermanual_en.html#SECTION02). Um die Kommandos von LaTeX zu lernen, empfehle ich, mit [writelatex.com](https://www.writelatex.com/) herumzuspielen. Dort seht ihr eine [Beispieldatei]( {{ site.host }}/media/text/example.tex ), das finde ich persönlich immer besser als sich durch [seitenlange Tutorials](http://www.tug.org/twg/mactex/tutorials/ltxprimer-1.0.pdf) zu kämpfen.
+TeXstudio und MikTex sollten out-of-the-box miteinander harmonieren. Wenn nicht, könnte das daran liegen, dass TeXstudio die Pfade zu MikTeX nicht kennt. Das müsstet ihr [überprüfen](http://svn.code.sf.net/p/texstudio/code/trunk/utilities/usermanual_en.html#SECTION02). Um die Kommandos von LaTeX zu lernen, empfehle ich, mit [writelatex.com](https://www.writelatex.com/) herumzuspielen. Dort seht ihr eine [Beispieldatei]( /media/text/example.tex ), das finde ich persönlich immer besser als sich durch [seitenlange Tutorials](http://www.tug.org/twg/mactex/tutorials/ltxprimer-1.0.pdf) zu kämpfen.
 
 Ein zusätzlicher Tipp: Teilt eure Kapitel in eigene TeXdateien auf und bindet sie wie folgt in euer Hauptdokument ein:
 
@@ -124,7 +124,7 @@ Installiert Github für [Windows](http://windows.github.com/) oder für [Mac](ht
 
 Im Folgenden erkläre ich die wichtigsten Funktionen der Github App. Die Anwendung sieht bei beiden Betriebssytemen sehr ähnlich aus, ich verwende Screenshots der Mac-Version. Wenn ihr die Anwendung öffnet, werdet ihr gefragt, ob ihr euch einloggen oder registrieren wollt (bei [Github](https://github.com/)). Das müsst ihr nicht, aber es ist sinnvoll, unter "Optionen" Name und Emailadresse anzugeben - zwecks der Lesbarkeit.
 
-![Login]( {{ site.host }}/media/img/githublogin.png)
+![Login]( /media/img/githublogin.png)
 
 Erstellt dann ein neues Repository, wählt einen Namen und einen Ordner. "Push to Github" könnt ihr ausstellen, wir speichern in die Dropbox. Kopiert euren bisherigen Ordner in den Ordner des Repositorys.
 
@@ -132,15 +132,15 @@ Erstellt dann ein neues Repository, wählt einen Namen und einen Ordner. "Push t
 
 Links unter "Changes" seht ihr noch nicht übernommene Änderungen. Auf obigem Bild ist eine neue Datei "example.tex" dazugekommen. Diese lassen wir mit der Checkbox ausgewählt um die Änderungen mit einem "Commit" zu übernehmen. Diesem geben wir einen kurzen Namen und eine mehr oder weniger ausführliche Beschreibung. In der Praxis solltet ihr aussagekräftige Beschreibungen wählen, sodass ihr sofort wisst, welchen Stand der Arbeit ein Commit repräsentiert. Das Symbol mit den Pfeilen und dem Plus links neben dem Commit-Button könnt ihr so lassen. "Commit & Sync" brauchen wir nicht, da wir nicht mit Hilfe von git synchronisieren, also die Versionen backuppen.
 
-![Repository]( {{ site.host }}/media/img/githubrepo.png)
+![Repository]( /media/img/githubrepo.png)
 
 Nachdem ihr euren ersten Commit durchgeführt habt, zeigt auch die History etwas an.
 
-![History]( {{ site.host }}/media/img/githubcommit.png )
+![History]( /media/img/githubcommit.png )
 
 Dort könnt ihr auch einen Commit auswählen (mit dem Pfeil rechts). Dann werden euch die Änderungen in diesem Commit im Vergleich zur vorhergehenden Version angezeigt. Ihr könnt diese Änderungen mit "Revert Commit" rückgängig machen. Diese Reverts sind wiederum eigene Commits, die rückgängig gemacht werden können: Einfach einen beliebigen Commit davor auswählen und "Roll back to this commit" auswählen.
 
-![Revert]( {{ site.host }}/media/img/githubrevert.png )
+![Revert]( /media/img/githubrevert.png )
 
 Branches und Settings könnt ihr ignorieren. Ihr wisst nun, wie ihr Änderungen in eurer abspeichert und wiederherstellt. Toll! One more thing...
 

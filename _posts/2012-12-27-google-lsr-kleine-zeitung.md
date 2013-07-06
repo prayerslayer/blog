@@ -1,6 +1,5 @@
 ---
-title: "Google, LSR, Kleine Zeitung
-"
+title: "Google, LSR, Kleine Zeitung"
 layout: singlepost
 ---
 

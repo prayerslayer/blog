@@ -5,7 +5,7 @@ date: 2012-04-24 15:49:34
 ---
 [Marcel Weiss](http://www.neunetz.com/2012/04/24/nach-8-monaten-three-strikes-in-neuseeland-keine-einzige-versendete-warnnotiz/):
 
-> Bis heute wurde allerdings keine einzige Warnung verschickt. Warum? Weil die Rechteinhaber sich mit 25$ an jeder verschickten Notiz beteiligen müssen. Die ISPs hatten ursprünglich 40$ pro Notiz gefordert.&lt;/blockquote&gt;
+> Bis heute wurde allerdings keine einzige Warnung verschickt. Warum? Weil die Rechteinhaber sich mit 25$ an jeder verschickten Notiz beteiligen müssen. Die ISPs hatten ursprünglich 40$ pro Notiz gefordert.
 
 Das find ich total interessant. Aus dem verlinkten Artikel:
 

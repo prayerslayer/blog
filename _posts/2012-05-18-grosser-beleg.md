@@ -2,9 +2,10 @@
 layout: singlepost
 title: "Grosser Beleg"
 date: 2012-05-18 13:00:33
+category: project
 ---
 
-Ich bin mit meinem [Großen Beleg]({{site.host}}/media/text/GB_Nikolaus_Piccolotto_TUD.pdf) fertig. Das Thema der Arbeit war "Navigation und Selektion in großen semantischen Datensätzen". Semantische Datensätze sind in einigen Bereichen (z.B. Wissensrepräsentation in der DBpedia) sehr hilfreich. Die grafische Repräsentation von großen semantischen Datensätzen, welche zwingend notwendig ist, damit Menschen den Inhalt der Datensätze verstehen können, bringt aber einige Probleme mit sich.
+Ich bin mit meinem [Großen Beleg](/media/text/GB_Nikolaus_Piccolotto_TUD.pdf) fertig. Das Thema der Arbeit war "Navigation und Selektion in großen semantischen Datensätzen". Semantische Datensätze sind in einigen Bereichen (z.B. Wissensrepräsentation in der DBpedia) sehr hilfreich. Die grafische Repräsentation von großen semantischen Datensätzen, welche zwingend notwendig ist, damit Menschen den Inhalt der Datensätze verstehen können, bringt aber einige Probleme mit sich.
 
 *	**Überblick**: Wie kann der Benutzer einen schnellen Überblick über die wichtigsten Inhalte des Datensatzes bekommen?
 *	**Darstellung**: Wie sollen zehntausende Elemente dargestellt werden, ohne den Benutzer zu überfordern.
@@ -24,6 +25,6 @@ Diese Fragen habe ich in der Arbeit behandelt und prototypisch implementiert. Zu
 2.	Eigenes "Werkzeug", welches Relationen zwischen ausgewählten Daten anzeigt (ähnlich [RelFinder](http://www.visualdataweb.org/relfinder.php))
 3.	Zeitleiste, auf der Aktionen des Benutzers aufgetragen werden und die Undo/Redo ermöglicht
 
-![Preselection]({{ site.host }}/media/img/awesome_screenshot.png)
+![Preselection](/media/img/awesome_screenshot.png)
 
 Die Evaluation des User Interfaces war vielversprechend, aber die Performance des Backends lässt stark zu wünschen übrig. Die Arbeit wurde mit 1.3 bewertet.

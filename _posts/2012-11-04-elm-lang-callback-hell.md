@@ -10,32 +10,32 @@ title: "Elm Lang & The Callback Hell"
 Offensichtlich findet der Autor von Elm Callbacks beschissen. Er untermauert seine Argumente mit folgendem Snippet:
 
 ~~~ javascript
-	function getPhoto(tag, handlerCallback) {
-	    asyncGet(requestTag(tag), function(photoList) {
-	        asyncGet(requestOneFrom(photoList), function(photoSizes) {
-	            handlerCallback(sizesToPhoto(photoSizes));
-	        });
-	    });
-	}
+function getPhoto(tag, handlerCallback) {
+    asyncGet(requestTag(tag), function(photoList) {
+        asyncGet(requestOneFrom(photoList), function(photoSizes) {
+            handlerCallback(sizesToPhoto(photoSizes));
+        });
+    });
+}
 
-	getPhoto('tokyo', drawOnScreen);
+getPhoto('tokyo', drawOnScreen);
 ~~~
 
-Und in der Tat, so sieht die Callback Hölle aus. Ich war dort. Und aus eingangs erwähnten Gründen sieht guter JS Code so **nicht** aus. Ein Framework, welches einen zwingt, die Applikation in Model, View und noch was aufzuteilen (z.B. [Backbone](http://backbonejs.org/)), hilft schon sehr viel. Oder, wenn das Overkill ist, Javascript Promises einsetzen ([Elm Beispiel mit Promises]( {{ site.host }}/promise-elm )):
+Und in der Tat, so sieht die Callback Hölle aus. Ich war dort. Und aus eingangs erwähnten Gründen sieht guter JS Code so **nicht** aus. Ein Framework, welches einen zwingt, die Applikation in Model, View und noch was aufzuteilen (z.B. [Backbone](http://backbonejs.org/)), hilft schon sehr viel. Oder, wenn das Overkill ist, Javascript Promises einsetzen ([Elm Beispiel mit Promises]( /promise-elm )):
 
 ~~~ javascript
-	var deferred_photos = requestTag( tag );
-	var deferred_photo = requestOneFrom( deferred_photos );
-	drawOnScreen( deferred_photo );
+var deferred_photos = requestTag( tag );
+var deferred_photo = requestOneFrom( deferred_photos );
+drawOnScreen( deferred_photo );
 ~~~
 
 Der Code ist jetzt mindestens so gut zu lesen wie die Lösung in Elm:
 
 ~~~ elm
-	getPhotos tags =
-        let photoList  = send (lift requestTag tags) in
-        let photoSizes = send (lift requestOneFrom photoList) in
-            lift sizesToPhoto photoSizes
+getPhotos tags =
+    let photoList  = send (lift requestTag tags) in
+    let photoSizes = send (lift requestOneFrom photoList) in
+        lift sizesToPhoto photoSizes
 ~~~
 
 Trotzdem hat Javascript gegenüber Elm einen Nachteil. `requestOneFrom` sieht generisch aus, erwartet aber, dass der Input
@@ -49,13 +49,13 @@ Das sind gleich drei implizite Abhängigkeiten. Vergleichen wir das mit Elm. Dor
 Bottom line: Der Code in Elm ist wiederverwendbarer als in Javascript *, auch wenn das Eingangsbeispiel nicht der Realität entspricht (/update)*. Lesbarer würde ich gar nicht unbedingt als Argument bringen, siehe etwas komplexeres Elm:
 
 ~~~ elm
-	requestOneFrom photoList =
-	let { getPhotoID json =
-          case findArray "photo" (findObject "photos" json) of
-          { (JsonObject hd) : tl -> findString "id" hd ; _ -> "" }
-      ; requestSizes id = if id == "" then "" else
-                              concat [ flickrRequest
-                                     , "&method=flickr.photos.getSizes&photo_id=", id ]
-      }
-	in  get (requestSizes (getPhotoID (extract photoList)))
+requestOneFrom photoList =
+let { getPhotoID json =
+      case findArray "photo" (findObject "photos" json) of
+      { (JsonObject hd) : tl -> findString "id" hd ; _ -> "" }
+  ; requestSizes id = if id == "" then "" else
+                          concat [ flickrRequest
+                                 , "&method=flickr.photos.getSizes&photo_id=", id ]
+  }
+in  get (requestSizes (getPhotoID (extract photoList)))
 ~~~

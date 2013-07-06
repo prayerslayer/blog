@@ -1,5 +1,5 @@
 ---
-title: Responsive Devices
+title: "Responsive Devices"
 layout: singlepost
 ---
 

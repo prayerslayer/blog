@@ -2,8 +2,10 @@
 layout: singlepost
 title: "Google Glass"
 date: 2012-04-05 08:05:21
-video: http://www.youtube.com/v/9c6W4CCU9M4
 ---
+
+{% oembed http://www.youtube.com/watch?v=9c6W4CCU9M4 %}
+
 [Joe Stracci](http://joestracci.org/post/20473908742/google-has-finally-unveiled-project-glass-i-say):
 
 > First: I fail to see how wearing this technology on your face means it’s out of the way.
