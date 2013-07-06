@@ -1,16 +1,10 @@
 <article class="grid grid-pad">
-	<div class="col-4-12 metadata">
-		<h2 class="title">{{ post.title }}</h2>
+	<div class="col-1-1 metadata">
+		<h1 class="title">{{ post.title }}</h1>
 		<div class="date">{{ post.date | date: "%d.%m.%Y"}}</div>
 		<a class="permalink" href="{{ post.url }}">∞</a>
 	</div>
-	<div class="col-8-12 content">
-		{% if post.video %}				
-			<p><object><param name="movie" value="{{ post.video }}?version=3&feature=player_detailpage"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="{{ post.video }}?version=3&feature=player_detailpage" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="320px" height="480px"></object></p>
-		{% endif %}
-		{% if post.youtube %}
-			<p><iframe src="http://www.youtube.com/embed/{{ post.youtube }}" frameborder="0" allowfullscreen></iframe></p>
-		{% endif %}
-		{{ post.content }}
+	<div class="col-1-1 content">
+		{{ post.excerpt }}
 	</div>
 </article>

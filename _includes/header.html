@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="icon" type="image/png" href="{{ site.host }}/img/favicon.png" />
-	<link rel="stylesheet" type="text/css" href="{{ site.host }}/css/stylesheet.css">
-	<link rel="alternate" type="application/rss+xml" title="Nikolaus Piccolotto" href="{{ site.host }}/feed.xml" />
+	<link rel="icon" type="image/png" href="{{ site.url }}/img/favicon.png" />
+	<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/stylesheet.css">
+	<link rel="alternate" type="application/rss+xml" title="Nikolaus Piccolotto" href="{{ site.url }}/feed.xml" />
 	
 	<!-- cookie für adaptive images setzen -->
 	<script>
@@ -29,35 +29,29 @@
 		
 
 		<header>
-			<div id="header">Nikolaus Piccolotto</div>
-			<div id="slogan">Web Development Allrounder, Medieninformatik, TU Dresden.</div>
+			<div id="header" class="centered">Nikolaus Piccolotto</div>
 			<div class="grid grid-pad">
-				<div class="col-4-12 navigation">
-					<a href="{{ site.host }}/"><i class="icon-pencil" title="Blog"></i> Blog</a><br/>
-					<a href="{{ site.host }}/cv"><i class="icon-file" title="CV"></i> CV</a><br/>
-					<a href="{{ site.host }}/projects"><i class="icon-beaker" title="Projekte"></i> Projekte</a>
-				</div>
-				<div class="col-8-12 social-icons">
-					<a href="mailto:hallo@npiccolotto.com">
-						<i id="email" class="social icon-envelope" title="Email"></i> 
-					</a>
-					<a href="http://www.linkedin.com/pub/nikolaus-piccolotto/36/89b/426">
-						<i id="linkedin" class="social icon-linkedin" title="LinkedIn"></i>
-					</a>
-					<a href="https://twitter.com/#!/prayerslayer">
-						<i id="twitter" class="social icon-twitter" title="Twitter"></i>
-					</a>
-					<a href="https://github.com/prayerslayer">
-						<i id="github" class="social icon-github" title="Github"></i>
-					</a>
-					<a href="https://soundcloud.com/prayerslayer">
-						<i id="soundcloud" class="social icon-cloud" title="Soundcloud"></i>
-					</a>
+				<div class="col-1-1 social">
+					social stuff<br/>
+					<a href="mailto:hallo@npiccolotto.com">email</a>
+					<a href="http://www.linkedin.com/pub/nikolaus-piccolotto/36/89b/426">linkedin</a>
+					<a href="https://twitter.com/#!/prayerslayer">twitter</a>
+					<a href="https://github.com/prayerslayer">github</a>
+					<a href="https://soundcloud.com/prayerslayer">soundcloud</a>
 				</div>
 			</div>
+			<div class="grid grid-pad">
+				<div class="col-1-1 navigation">
+					navigation<br/>
+					<a href="{{ site.url }}/">/blog</a> 
+					<a href="{{ site.url }}/cv/">/cv</a> 
+					<a href="{{ site.url }}/projects/">/projekte</a>
+				</div>
+			</div>
+
 		</header>	
 	</div>
 </div>
 
-	<!-- site navigation <h2 id="slogan">Ich schreibe Websites & Software.</h2> -->
+<div class="content">
 	

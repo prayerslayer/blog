@@ -1,9 +1,10 @@
 //Variables
-line_height = 30px
-line_height_sml = 18px
-font_size_sml = 12px
-font_size_med = 20px
-font_size_big = 24px
+line_height = 1.5em
+line_height_sml = 1em
+font_size_sml = 0.75em
+margins = 1.5em
+margins_sml = 0.5em
+font_size = 1.5em
 font_color = #16161D
 bg_color = #fcfcfc
 sans_family = "Source Sans Pro", sans-serif
@@ -14,7 +15,7 @@ light_color = #ff8e94   //pantone 177M
 dark_color = #bf4942    //pantone 180M
 elem_minheight = 320px
 elem_minwidth = 480px
-animation_duration = 0.5s
+animation_duration = 0.5s 
 
 //mixins
 
@@ -50,18 +51,18 @@ article
   padding-bottom: 2*line_height !important
 
 blockquote
-  border-left: 1px dashed quote_color
-  margin-top: line_height
-  margin-bottom: line_height
-  margin-left: line_height
+  border-left: margins_sml solid normal_color
+  margin-top: margins
+  margin-bottom: margins
+  margin-left: 0
   color: quote_color
 
 blockquote p
-  margin-left: line_height
+  margin-left: margins
 
 body
   height: 100%
-  font-size: font_size_med
+  font-size: font_size
   font-family: sans_family
   font-weight: 300
   line-height: line_height
@@ -83,50 +84,42 @@ a:hover
   background: normal_color
   color: bg_color
 
-#header:hover
-  color: normal_color
-  cursor: pointer
-  border-bottom: 3px solid normal_color  
-
-#slogan
+.slogan
   color: quote_color
 
+header
+  margin-bottom: 2*margins
+
 footer
-  height: 110px
-  margin-top: 100px
+  height: 5em
+  margin-top: 3em
   background-color: font_color
   border-top: 10px solid normal_color
   color: bg_color
   position: relative
-  clear: both
-  bottom: -110px
 
 p
   margin: 0
   padding: 0
 
 p + p
-  margin-top: line_height
+  margin-top: margins
 
-p + div, pre
-  margin-top: line_height
-  margin-bottom: line_height
-  display: block
+p.index-paragraph + p.index-paragraph
+  margin-top: 0.5em
+
+pre
+  margin-top: margins
+  margin-bottom: margins
   font-family: mono_family !important
   font-size: font_size_sml
   color: quote_color
-  line-height: line_height_sml
-
-//code kann nicht oben mit rein, weil sonst <p> CSS Klasse <code>.penner</code>: </p> beschissen aussieht
-code
-  font-family: mono_family !important
-  font-size: font_size_sml
-  color: quote_color
+  line-height: 1em
 
 ul, ol
-  margin-top: line_height
-  margin-bottom: line_height
-  margin-left: line_height
+  margin-top: margins
+  margin-bottom: margins
+  margin-left: margins
 
 li + li
   margin-top: 0.5em
@@ -135,98 +128,77 @@ b, strong
   font-weight: bold
 
 img
-  max-width: 100%
+  width: 100%
   vertical-align: middle
-  border-radius: 1%
+  border-radius: 0.5em
 
 //Styles on selectors
 
-#map
-  height: elem_minheight
-  width: elem_minwidth
-  border: 2px solid black
+.grid
+  overflow: visible
 
-#map img
-  max-width: inherit !important //tiles are skewed otherwise
+div#header
+  font-size: 2*font_size
+  line-height: line_height
+  transition-mixin( color, animation_duration )
 
-.olControlAttribution
-  display: none !important
+div#header:hover
+  color: normal_color
+  cursor: pointer
 
-.olButton
-  background-color: font_color !important
+div.social, div.navigation
+  text-align: center
 
-.social
-  float: left
-  display: block !important
-  text-decoration: none !important //links are underlined otherwise
-  margin: 5px
-  background-color: black;
-  border-radius: 50%;
-  font-size: 24px;
-  width: 42px;
-  height: 42px;
-  color: white;
-  vertical-align: middle;
-  padding-left: 10px;
-  padding-top: 8px;
-  transition-mixin( background-color, animation_duration )
-
-.social#email
-  background-color: font_color
-.social#linkedin
-  padding-left: 11px
-  background-color: #4875B4
-.social#twitter
-  padding-top: 7px
-  background-color: #60D7FF
-.social#github
-  background-color: darkslategray
-.social#soundcloud
-  background-color: #f60
-
-.social#email:hover, .social#linkedin:hover, .social#twitter:hover, .social#github:hover, .social#soundcloud:hover
-  background-color: light_color
-
-.social:first
-  margin-left: 0px
+.centered
+  text-align: center
 
 .paginate
-  padding-top: 2*line_height
+  padding-top: 2*margins
 
 .page_number
-  margin-left: line_height
-  margin-right: line_height
+  margin-left: margins
+  margin-right: margins
+
+body > div.content
+  min-height: 100%
+  padding: 0 1em
 
 div.content
   max-width: 800px
+  margin: 0 auto
 
-div.embed
-  margin-top: line_height
-  margin-bottom: line_height
+div.content > h1
+  font-weight: lighter
+  font-size: font_size
+  margin-left: -1em
 
-div.content h1
-  font-size: font_size_big
-  line-height: line_height_big
+
+div.embed.video
+  margin: margins auto
+  min-width: 320px
+  width: auto
+  max-width: 480px
 
 div.date
   color: quote_color
+  text-align: right
 
 div.metadata
-  padding-bottom: line_height
+  padding-bottom: margins
 
-h2.title
-  border-bottom: 1px solid font_color
-  font-size: font_size_med
+h1.title
+  border-bottom: 3px solid font_color
+  font-size: font_size
   line-height: line_height
   margin: 0
-  margin-bottom: line_height
 
-div#header
-  font-size: 48pt
-  line-height: 1em
-  border-bottom: 3px solid black
-  font-weight: bold
-  transition-mixin( "color, border-bottom", animation_duration )
+// coderay highlighting 
 
-div#top
-  min-height: 100%
+div.CodeRay
+  margin: margins 0
+  background-color: white
+  border: 1px solid font_color
+  border-radius: 0.5em
+
+span.line-numbers
+  margin: 0 margins_sml

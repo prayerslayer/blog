@@ -1,5 +1,9 @@
 {% include header.html %}
 
-{{ content }}
-
+	{% for post in site.posts %}
+	  <p class="index-paragraph">
+	 	<a href="{{ post.url }}">{{ post.date | date: "%d.%m.%Y" }}</a>: {{ post.title }}
+	  </p>
+	{% endfor %}
+<!-- {% include pagination.html %} -->
 {% include footer.html %}

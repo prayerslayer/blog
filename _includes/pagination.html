@@ -1,18 +1,20 @@
-<div class="grid grid-pad">
-  <div class="col-4-12">
-    {% if paginator.next_page %}
-      <a href="{{ site.host }}/page{{paginator.next_page}}" class="next">&lt; Älter</a>
-    {% endif %}
-
-    <span class="page_number ">Seite {{paginator.page}} von {{paginator.total_pages}}</span>
-
-    {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-        <a href="{{ site.host }}" class="previous">Neuer &gt;</a>
-      {% else %}
-        <a href="{{ site.host }}/page{{paginator.previous_page}}" class="previous">Neuer</a>
+<div class="grid grid-pad pagination">
+  <div class="col-1-1">
+    <p>
+      {% if paginator.next_page %}
+        <a href="{{ site.url }}/page{{paginator.next_page}}" class="next">&lt; Älter</a>
       {% endif %}
-    {% endif %}
+
+      <span class="page_number">Seite {{paginator.page}} von {{paginator.total_pages}}</span>
+
+      {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+          <a href="{{ site.url }}" class="previous">Neuer &gt;</a>
+        {% else %}
+          <a href="{{ site.url }}/page{{paginator.previous_page}}" class="previous">Neuer</a>
+        {% endif %}
+      {% endif %}
+    </p>
   </div>
  
 </div>
