@@ -34,7 +34,7 @@ module.exports = (grunt) ->
     watch:
       css:
         files: ['css/*.stylus']
-        tasks: ['stylus:compile', 'concat:css']
+        tasks: ['stylus:compile', 'concat:css', 'cssmin']
 
     # simple node server
     connect:
@@ -55,7 +55,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-connect'
   grunt.loadNpmTasks 'grunt-contrib-cssmin'
   grunt.loadNpmTasks 'grunt-jekyll'
-  
+
 
 
   # Default task(s).
