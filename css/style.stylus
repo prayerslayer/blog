@@ -31,6 +31,10 @@ transition-mixin( property, duration )
 
 //Styles on tags
 
+html
+  height: 100%
+
+// prevent font scaling in mobile browsers
 body
   -moz-text-size-adjust: 100%
   -webkit-text-size-adjust: 100%
@@ -162,7 +166,7 @@ div.social, div.navigation
   margin-right: margins
 
 body > div.content
-  min-height: 100%
+  min-height: 80%
   padding: 0 1em
 
 div.content
@@ -175,7 +179,7 @@ div.content > h1
   margin-left: -1em
 
 
-div.embed.video
+div.embed
   margin: margins auto
   min-width: 320px
   width: auto
