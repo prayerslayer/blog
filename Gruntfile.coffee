@@ -8,7 +8,6 @@ module.exports = (grunt) ->
         src: [
           'css/fonts.css'
           'css/normalize.css'
-          'css/simplegrid.css'
           'css/style.css']
         dest: 'css/stylesheet.css'
 
