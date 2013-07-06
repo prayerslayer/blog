@@ -17,6 +17,6 @@
     "grunt-contrib-watch": "0.2.x",
     "grunt-contrib-stylus": "0.5.x",
     "grunt-jekyll": "0.3.x",
-    "grunt-contrib-mincss": "~0.3.2"
+    "grunt-contrib-cssmin": "0.6.x"
   }
 }

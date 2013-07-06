@@ -53,10 +53,10 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-contrib-jshint'
   grunt.loadNpmTasks 'grunt-contrib-connect'
-  grunt.loadNpmTasks 'grunt-contrib-mincss'
+  grunt.loadNpmTasks 'grunt-contrib-cssmin'
   grunt.loadNpmTasks 'grunt-jekyll'
 
 
   # Default task(s).
   grunt.registerTask 'default', ['connect','watch:css']
-  grunt.registerTask 'build', [ 'stylus:compile', 'concat:css', 'uglify']
+  grunt.registerTask 'build', [ 'stylus:compile', 'concat:css', 'uglify', 'cssmin']
