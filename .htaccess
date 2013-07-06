@@ -8,6 +8,14 @@ AddOutputFilterByType DEFLATE application/xml
 AddOutputFilterByType DEFLATE text/css
 AddOutputFilterByType DEFLATE text/javascript
 
+# content negotiation
+Options +MultiViews
+
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks
+  RewriteEngine On
+</IfModule>
+
 # cache header
 
 <FilesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
