@@ -5,7 +5,7 @@ url: http://npiccolotto.com
 name: "Nikolaus Piccolotto"
 description: "a bit of everything"
 host: npiccolotto.com
-include: ['.htaccess']
+include: ['.htaccess', 'cv/*', 'projects/*']
 
 source:      .
 destination: ./_site
