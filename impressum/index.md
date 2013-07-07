@@ -9,4 +9,4 @@ Nikolaus Piccolotto
 
 Kamenzer Straße 44, D-01099 Dresden
 
-[hallo@{{site.url}}](mailto:hallo@{{site.url}})
+[hallo@{{site.host}}](mailto:hallo@{{ site.host }})
