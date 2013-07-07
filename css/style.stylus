@@ -179,6 +179,7 @@ div.social, div.navigation
 div.content
   max-width: 760px
   margin: 0 auto
+  padding: 1em
 
 div.content > h1
   font-weight: lighter

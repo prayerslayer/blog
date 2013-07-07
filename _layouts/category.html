@@ -4,8 +4,8 @@
 
 	{% for post in site.posts %}
 		{% if post.category == page.category %}
-			<article class="row">
-				<div class="content">
+			<article>
+				<div>
 				  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 				  {% if post.image %}
 				  	<a class="permalink" href="{{ post.url }}">
