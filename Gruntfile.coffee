@@ -34,6 +34,9 @@ module.exports = (grunt) ->
       css:
         files: ['css/*.stylus']
         tasks: ['stylus:compile', 'concat:css', 'cssmin']
+      js:
+        files: ['js/code.js']
+        tasks: ['uglify:js']
 
     # simple node server
     connect:
