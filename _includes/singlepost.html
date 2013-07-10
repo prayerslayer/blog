@@ -1,9 +1,9 @@
 <article>
-	<div class="metadata">
-		<h1 class="title">{{ page.title }}</h1>
-		<div class="date">{{ page.date | date: "%d.%m.%Y"}}</div>
+	<div class="article-metadata">
+		<h1 class="article-title">{{ page.title }}</h1>
+		<div class="article-date">{{ page.date | date: "%d.%m.%Y"}}</div>
 	</div>
-	<div>
+	<div class="article-content">
 		{{ content }}
 	</div>
 </article>

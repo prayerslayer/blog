@@ -511,10 +511,10 @@ div.social,div.navigation{text-align:center}
 .paginate{padding-top:3em}
 .page_number{margin-left:1.5em;margin-right:1.5em}
 div.content{max-width:760px;margin:0 auto;padding:1em}
-div.content > h1{font-weight:lighter;font-size:1.5em;margin-left:-1em}
+div.article-content > h1{font-weight:lighter;font-size:1.5em;margin-left:-.5em}
 div.embed{margin:1.5em auto;min-width:320px;width:auto;max-width:480px}
-div.date{color:#808080;text-align:right}
-div.metadata{padding-bottom:1.5em}
-h1.title{border-bottom:3px solid #16161d;font-size:1.5em;line-height:1.5em;margin:0}
+div.article-date{color:#808080;text-align:right}
+div.article-metadata{padding-bottom:1.5em}
+h1.article-title{border-bottom:3px solid #16161d;font-size:1.5em;line-height:1.5em;margin:0}
 div.CodeRay{margin:1.5em 0;background-color:#fff;border:1px solid #16161d;border-radius:.5em}
 span.line-numbers{margin:0 .5em}
