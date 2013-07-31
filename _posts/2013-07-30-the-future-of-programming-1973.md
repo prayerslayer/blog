@@ -1,5 +1,5 @@
 ---
-title: "The Future of Programmig (1973)"
+title: "The Future of Programming (1973)"
 layout: singlepost
 ---
 
