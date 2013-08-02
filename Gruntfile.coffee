@@ -31,16 +31,17 @@ module.exports = (grunt) ->
 
     # replace 
     replace: {
-      js: {
+      jscss: {
         options: {
           variables: {
-            'javascript': '<%= grunt.file.read("js/code.min.js") %>'
+            'javascript': '<%= grunt.file.read("js/code.min.js") %>',
+            'stylesheet': '<%= grunt.file.read("css/stylesheet.min.css") %>'
           }
         },
         files: [{
           expand: true, 
           flatten: true,
-          src: ['_templates/footer.html'],
+          src: ['_templates/footer.html', '_templates/header.html'],
           dest: '_includes'
           }
         ]
@@ -80,4 +81,4 @@ module.exports = (grunt) ->
 
   # Default task(s).
   grunt.registerTask 'default', ['connect','watch:css']
-  grunt.registerTask 'build', [ 'stylus:compile', 'uglify:js', 'replace:js', 'concat:css', 'cssmin']
+  grunt.registerTask 'build', [ 'stylus:compile', 'uglify:js', 'concat:css', 'cssmin', 'replace']
