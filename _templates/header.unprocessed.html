@@ -4,9 +4,9 @@
 	<link rel="icon" type="image/png" href="{{ site.url }}/img/favicon.png" />
 	<link rel="alternate" type="application/rss+xml" title="Nikolaus Piccolotto" href="{{ site.url }}/feed.xml" />
 
-	
+	<!-- @if NODE_ENV='development' -->
 	<link rel="stylesheet" href="css/stylesheet.css"/>
-	
+	<!-- @endif -->
 
 	<!-- meta tags-->
 	<meta name="description" content="Schreibt Websites und Software. Lebt in Dresden." />
@@ -20,7 +20,9 @@
 	<meta http-equiv="Cache-Control" content="public">
 
 	<title>{{ page.title }} / Nikolaus Piccolotto</title>
-	
+	<!-- @if NODE_ENV='production' -->
+	<style>@@stylesheet</style>
+	<!-- @endif -->
 </head>
 <body>
 
