@@ -29,6 +29,23 @@ module.exports = (grunt) ->
         files:
           'css/stylesheet.min.css': 'css/stylesheet.css'
 
+    # replace 
+    replace: {
+      js: {
+        options: {
+          variables: {
+            'javascript': '<%= grunt.file.read("js/code.min.js") %>'
+          }
+        },
+        files: [{
+          expand: true, 
+          flatten: true,
+          src: ['_templates/footer.html'],
+          dest: '_includes'
+          }
+        ]
+      }
+    }
     # watch for changes
     watch:
       css:
@@ -56,10 +73,11 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-jshint'
   grunt.loadNpmTasks 'grunt-contrib-connect'
   grunt.loadNpmTasks 'grunt-contrib-cssmin'
+  grunt.loadNpmTasks 'grunt-replace'
   grunt.loadNpmTasks 'grunt-jekyll'
 
 
 
   # Default task(s).
   grunt.registerTask 'default', ['connect','watch:css']
-  grunt.registerTask 'build', [ 'stylus:compile', 'concat:css', 'uglify', 'cssmin']
+  grunt.registerTask 'build', [ 'stylus:compile', 'uglify:js', 'replace:js', 'concat:css', 'cssmin']
