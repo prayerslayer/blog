@@ -48,7 +48,7 @@ Was schon gar nicht funktioniert:
 // include css
 var load = function load( url ) {
 	var defer = jQuery.Deferred();
-	page.evaluate( function() {
+	page.evaluateAsync( function() {
 		var link = document.createElement("link");
 		link.rel = "stylesheet";
 		link.href = url;
