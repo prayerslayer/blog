@@ -102,4 +102,4 @@ module.exports = (grunt) ->
   # Default task(s).
   grunt.registerTask 'default', ['env:dev', 'preprocess', 'connect', 'watch']
   # build all: compile js, minimize it, copy css together, minimize it, inject both in html
-  grunt.registerTask 'build', [ 'env:prod', 'stylus:compile', 'uglify:js', 'concat:css', 'cssmin', 'preprocess', 'replace']
+  grunt.registerTask 'build', [ 'env:prod', 'stylus:compile', 'uglify:js', 'concat:css', 'cssmin', 'preprocess', 'replace', 'jekyll']
