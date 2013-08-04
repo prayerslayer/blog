@@ -62,7 +62,7 @@ var load_funcs = [];
 $.each( urls, function( url ) {
 	load_funcs.push( load( url ) );
 });
-$.when( load_funcs ).then( function() {
+$.when.apply( $, load_funcs ).then( function() {
 	// all css included!
 });
 ~~~
