@@ -11,5 +11,5 @@ AddOutputFilterByType DEFLATE text/javascript
 # cache header
 
 <FilesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
-  Header set Cache-Control "max-age=290304000, public"
+  Header set Cache-Control "max-age=604800000, public"
 </FilesMatch>
