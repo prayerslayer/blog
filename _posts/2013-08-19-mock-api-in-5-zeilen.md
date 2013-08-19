@@ -3,7 +3,7 @@ title: "Mock API in 5 Zeilen"
 layout: singlepost
 ---
 
-[Sinon.js](http://sinonjs.org) ist sehr praktisch um während eine API während des Entwicklungsprozesses einer Anwendung zu simulieren. Es kann auch noch mehr, in diverse Testframeworks (QUnit etc.) integriert werden und und und. Ich habs erstmal nur für eine Fake API verwendet:
+[Sinon.js](http://sinonjs.org) ist sehr praktisch um eine API während des Entwicklungsprozesses einer Anwendung zu simulieren. Es kann auch noch mehr, in diverse Testframeworks (QUnit etc.) integriert werden und und und. Ich habs erstmal nur für eine Fake API verwendet:
 
 ~~~ html
 <script src="sinon.js"></script>
