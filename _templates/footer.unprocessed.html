@@ -11,9 +11,11 @@
 
 <!-- if in production, inject code here. if in development, just reference code file -->
 
-
-<script type="text/javascript">var host="//npiccolotto.com",header=document.getElementById("header");header.addEventListener("click",function(){window.location.href=host},!1);</script>
-
-
+<!-- @if NODE_ENV='production' -->
+<script type="text/javascript">@@javascript</script>
+<!-- @endif -->
+<!-- @if NODE_ENV='development' -->
+<script type="text/javascript" src="js/code.js"></script>
+<!-- @endif -->
 </body>
 </html>

@@ -17,6 +17,9 @@
     "grunt-contrib-watch": "0.2.x",
     "grunt-contrib-stylus": "0.5.x",
     "grunt-jekyll": "0.3.x",
-    "grunt-contrib-cssmin": "0.6.x"
+    "grunt-contrib-cssmin": "0.6.x",
+    "grunt-replace": "~0.4.4",
+    "grunt-preprocess": "~2.3.0",
+    "grunt-env": "~0.4.0"
   }
 }
