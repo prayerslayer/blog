@@ -425,7 +425,7 @@ p object,p embed{min-width:480px;min-height:320px;width:100%;height:auto}
 article{padding-top:3em !important;padding-bottom:3em !important}
 blockquote{border-left:.5em solid #ff584c;margin-top:1.5em;margin-bottom:1.5em;margin-left:0;color:#808080}
 blockquote p{margin-left:1.5em}
-body{height:100%;font-size:1.5em;font-family:"Source Sans Pro",sans-serif;font-weight:300;line-height:1.5em;color:#16161d;background-color:#fcfcfc;text-rendering:optimizeLegibility}
+body{height:100%;font-size:1.5em;font-family:"Source Sans Pro",Helvetica,sans-serif;font-weight:300;line-height:1.5em;color:#16161d;background-color:#fcfcfc;text-rendering:optimizeLegibility}
 a{color:#ff584c;transition-property:color;-webkit-transition-property:color;-moz-transition-property:color;-o-transition-property:color;transition-duration:.5s;-webkit-transition-duration:.5s;-moz-transition-duration:.5s;-o-transition-duration:.5s}
 a:visited{color:#bf4942}
 a:hover{color:#ff8e94}
