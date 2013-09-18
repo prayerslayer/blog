@@ -43,13 +43,13 @@ Sobald auf das Handle geklickt wurde, machen wir einfach die Karte größer und 
 
 ~~~ javascript
 var toggled = false;
-  $( "#handle" ).click( function() {
-    if ( !toggled )
-      $( "#map" ).css( "flex", "6" );
-    else
-      $( "#map" ).css( "flex", "1" );
-    toggled = !toggled;
-  });
+$( "#handle" ).click( function() {
+  if ( !toggled )
+    $( "#map" ).css( "flex", "6" );
+  else
+    $( "#map" ).css( "flex", "1" );
+  toggled = !toggled;
+});
 ~~~
 
 Ein Webkit Demo ist [hier](http://jsfiddle.net/prayerslayer/JSyw4/1/) zu sehen.
