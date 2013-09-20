@@ -15,7 +15,7 @@ web: nodemon app.js
 PORT=3000
 ~~~
 
-Über die Reihenfolge habe ich mir erst nicht so viele Gedanken gemacht. Intuitiv ist der node Server am Ende gelandet, idealerweise Mongo und Redis zum Start schon laufen sollten. Der Server sollte natürlich auf den Port hören, welchen ich in der Konfiguration angegeben habe.
+Über die Reihenfolge habe ich mir erst nicht so viele Gedanken gemacht. Intuitiv ist der node Server am Ende gelandet, weil idealerweise Mongo und Redis zum Start schon laufen sollten. Gedacht war es natürlich so, dass der Server auf den Port in der Konfigurationsdatei hört.
 
 ~~~ javascript
 app.listen( process.env.PORT );
