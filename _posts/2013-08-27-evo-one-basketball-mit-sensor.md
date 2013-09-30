@@ -5,7 +5,7 @@ layout: singlepost
 
 Auf [Kickstarter](http://www.kickstarter.com/projects/shootersrev/evo-onetm-sensorized-basketball-performance-techno) gibt es ein Projekt für einen Basketball mit integriertem (aber abnehmbaren) Motion-Sensor. Das Ding macht Geräusche, wenn es mit optimalem Backspin geworfen wird.
 
-{% oembed http://www.youtube.com/watch?v=xRytotHcNR0 %}
+{% oembed https://www.youtube.com/watch?v=xRytotHcNR0 %}
 
 Um einen zu bekommen, sind 59 $ (+20 $ Versand für Europäer) fällig. Ich hab mich mal schlau gemacht, eine fortgeschrittenere Version vom EVO ONE kann [hier](http://www.infomotionsports.com/products/94fifty-sensor-basketball/) vorbestellt werden. Es kann mehr, z.B. auch Winkel und Dribblings bewerten, ist aber auch fünfmal so teuer.
 

@@ -10,4 +10,4 @@ Nicholas Zakas hat ein Buch geschrieben und hält hier einen 45 Minuten Talk dar
 >* Keep your CSS out of your JS - use classes
 >* Keep your HTML out of your JS - use template engines like handlebars
 
-{% oembed http://www.youtube.com/watch?v=c-kav7Tf834&list=WL0632BD70BA207200 %}
+{% oembed https://www.youtube.com/watch?v=c-kav7Tf834&list=WL0632BD70BA207200 %}

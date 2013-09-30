@@ -4,7 +4,7 @@ title: "Google Glass"
 date: 2012-04-05 08:05:21
 ---
 
-{% oembed http://www.youtube.com/watch?v=9c6W4CCU9M4 %}
+{% oembed https://www.youtube.com/watch?v=9c6W4CCU9M4 %}
 
 [Joe Stracci](http://joestracci.org/post/20473908742/google-has-finally-unveiled-project-glass-i-say):
 

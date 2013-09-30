@@ -1,7 +1,7 @@
 safe: false # this is to enable plugins
 port: 4000
 baseurl: /
-url: http://npiccolotto.com
+url: https://npiccolotto.com
 name: "Nikolaus Piccolotto"
 description: "a bit of everything"
 host: npiccolotto.com

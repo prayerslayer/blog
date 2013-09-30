@@ -11,6 +11,6 @@ Ich möchte einen Extremfall der angesprochenen &quot;komplexen Werke&quot; vors
 
 > ...gekennzeichnet durch ihren thematischen Plot und assoziative Bildbeiträge dazu, begleitet mit einem kritischen, teils (auch selbst-) ironischen bis zynischen Text. Zu einzelnen Begriffen wurden mehr oder weniger klar assoziative, sehr kurze Filmausschnitte von einer Sekunde bis circa zehn Sekunden gezeigt. Für die Zuschauer ist es meist schwierig, alle Darstellungen zu erkennen. Vielfach lösen Sätze und/oder Bilder Assoziationen und weiter führende Gedankenketten aus, während bereits weitere gefolgt sind.
 
-{% oembed http://www.youtube.com/watch?v=X-lyiQEQyq4 %}
+{% oembed https://www.youtube.com/watch?v=X-lyiQEQyq4 %}
 
 Die Sendung ohne Namen habe ich GELIEBT! Und deswegen auch immer wieder nach einer DVD-Box gesucht, um die 113 Folgen zu Hause stehen haben zu können. Etwas konkretes finde ich dazu im Internet nicht mehr. Aber damals munkelte man, dass es wohl zu viel Aufwand für den ORF wäre, die &quot;auf DVD pressen und verkaufen&quot; Rechte für jedes einzelne verwendete Schnipsel zu klären. Natürlich kann eine DVD-Box auf legale Weise selbst gebastelt werden: Dazu überspielt der ORF jede einzelne Folge [auf DVD](http://kundendienst.orf.at/service/angebote/video.html), das kostet dann insgesamt auch nur ca. 7354 Euro.
