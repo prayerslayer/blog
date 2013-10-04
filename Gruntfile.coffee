@@ -4,21 +4,19 @@ module.exports = (grunt) ->
 
     # set environment data
     env:
-      dev: {
-        "NODE_ENV": "development"
-      }
-      prod:{
-        "NODE_ENV": "production"
-      }
+      dev: 
+        'NODE_ENV': 'development'
+      prod:
+        'NODE_ENV': 'production'
 
-    # preprocess files based on environment
+    # preprocess files based on environment. that is: inlining css (prod) or reference stylesheet (dev)
     preprocess:
       footer:
         src: '_templates/header.unprocessed.html'
-        dest: '_templates/header.html',
+        dest: '_includes/header.html',
       header:
         src: '_templates/footer.unprocessed.html'
-        dest: '_templates/footer.html'
+        dest: '_includes/footer.html'
 
     # concat css files
     concat:
@@ -69,10 +67,7 @@ module.exports = (grunt) ->
     watch:
       css:
         files: ['css/*.stylus']
-        tasks: ['stylus:compile', 'concat:css', 'preprocess:header' ]
-      js:
-        files: ['js/code.js']
-        tasks: ['preprocess:footer']
+        tasks: ['stylus:compile', 'concat:css' ]
 
     # simple node server
     connect:
@@ -102,4 +97,4 @@ module.exports = (grunt) ->
   # Default task(s).
   grunt.registerTask 'default', ['env:dev', 'preprocess', 'connect', 'watch']
   # build all: compile js, minimize it, copy css together, minimize it, inject both in html
-  grunt.registerTask 'build', [ 'env:prod', 'stylus:compile', 'uglify:js', 'concat:css', 'cssmin', 'preprocess', 'replace', 'jekyll']
+  grunt.registerTask 'build', [ 'env:prod', 'stylus:compile', 'uglify:js', 'concat:css', 'cssmin', 'preprocess', 'replace', 'jekyll' ]
