@@ -459,3 +459,6 @@ div.article-metadata{padding-bottom:1.5em}
 h1.article-title{border-bottom:3px solid #16161d;font-size:1.5em;line-height:1.5em;margin:0}
 div.CodeRay{margin:1.5em 0;background-color:#fff;border:1px solid #16161d;border-radius:.5em}
 span.line-numbers{margin:0 .5em}
+@media ( min-width: 1000px ){img{position:relative;width:125%;left:-12.5%}
+div.CodeRay{position:relative;width:125%;left:-12.5%}
+}

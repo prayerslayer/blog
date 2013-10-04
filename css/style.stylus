@@ -215,3 +215,15 @@ div.CodeRay
 
 span.line-numbers
   margin: 0 margins_sml
+
+// media query
+// make things wider
+@media ( min-width: 1000px )
+  img
+    position: relative
+    width: 125%
+    left: -12.5%
+  div.CodeRay
+    position: relative
+    width: 125%
+    left: -12.5%
