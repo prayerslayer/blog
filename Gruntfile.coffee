@@ -57,7 +57,7 @@ module.exports = (grunt) ->
         files: [{
           expand: true, 
           flatten: true,
-          src: ['_templates/footer.html', '_templates/header.html'],
+          src: ['_includes/footer.html', '_includes/header.html'],
           dest: '_includes'
           }
         ]
