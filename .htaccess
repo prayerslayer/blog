@@ -13,3 +13,10 @@ AddOutputFilterByType DEFLATE text/javascript
 <FilesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
   Header set Cache-Control "max-age=604800000, public"
 </FilesMatch>
+
+# redirect to ssl
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteCond %{ENV:HTTPS} !=on
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
