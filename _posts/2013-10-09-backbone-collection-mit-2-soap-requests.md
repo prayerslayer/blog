@@ -77,4 +77,4 @@ panels.fetch({
 });
 ~~~
 
-Ich denke, dass Konzept lässt sich auch für ``n > 2`` Requests generalisieren.
+Ich denke, das Konzept lässt sich auch für ``n > 2`` Requests generalisieren.
