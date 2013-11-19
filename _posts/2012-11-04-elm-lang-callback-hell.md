@@ -21,7 +21,7 @@ function getPhoto(tag, handlerCallback) {
 getPhoto('tokyo', drawOnScreen);
 ~~~
 
-Und in der Tat, so sieht die Callback Hölle aus. Ich war dort. Und aus eingangs erwähnten Gründen sieht guter JS Code so **nicht** aus. Ein Framework, welches einen zwingt, die Applikation in Model, View und noch was aufzuteilen (z.B. [Backbone](http://backbonejs.org/)), hilft schon sehr viel. Oder, wenn das Overkill ist, Javascript Promises einsetzen ([Elm Beispiel mit Promises]( /promise-elm )):
+Und in der Tat, so sieht die Callback Hölle aus. Ich war dort. Und aus eingangs erwähnten Gründen sieht guter JS Code so **nicht** aus. Ein Framework, welches einen zwingt, die Applikation in Model, View und noch was aufzuteilen (z.B. [Backbone](http://backbonejs.org/)), hilft schon sehr viel. Oder, wenn das Overkill ist, Javascript Promises einsetzen ([Elm Beispiel mit Promises]( {{site.url}}/code/promise-elm/ )):
 
 ~~~ javascript
 var deferred_photos = requestTag( tag );
