@@ -5,11 +5,13 @@ title: "CV"
 
 # Universität
 
-Seit 2008 studiere ich an der TU Dresden Medieninformatik, dabei interessiere ich mich insbesondere für alles, was mit dem Web zu tun hat. HTML, CSS, client- bzw. serverseitiges JavaScript, Ruby, Python, Datenbanken, Lastverteilung, Replikation, ich will alles können.
+Von 2008 bis 2013 studierte ich an der TU Dresden Medieninformatik. Meine Interessen galten dabei allem, was mit dem Web zu tun hat. Ich belegte Vorlesungen über Security & Kryptografie, Datenbanken/Information Retrieval, Software Design und Mediengestaltung. Meine [Diplomarbeit]( {% post_url 2013-11-19-diplom %} ) drehte sich um ein Hilfesystem für komposite Informationsvisualisierungen bzw. Mashups; ingesamt schloss ich mein Studium mit 1.6 ab.
+
+![Itsa me.]( {{site.url}}/img/self.jpg )
 		
 # Zivildienst
 
-Ich absolvierte von Juni 2007 bis Mai 2008 11 Monate Zivildienst (9 unbedingt, 2 freiwillig) beim <a href="http://jugendstreetwork.caritas-steiermark.at/">Caritas Jugendstreetwork, Graz</a>.
+Ich absolvierte von Juni 2007 bis Mai 2008 11 Monate Zivildienst (9 unbedingt, 2 freiwillig) beim [Caritas Jugendstreetwork, Graz](http://jugendstreetwork.caritas-steiermark.at/). In dieser Zeit schrieb ich ihre Software zur Leistungsdokumentation (zwecks Vorlage beim Geldgeber) neu. Verwendete Technologien: Java, SQL Server.
 
 # Schule
 
