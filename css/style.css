@@ -20,6 +20,8 @@ pre{margin-top:1.5em;margin-bottom:1.5em;font-family:"Source Code Pro",monospace
 ul,ol{margin-top:1.5em;margin-bottom:1.5em;margin-left:1.5em}
 li + li{margin-top:.5em}
 b,strong{font-weight:bold}
+figure{margin-top:1.5em;margin-bottom:1.5em}
+figcaption{color:#808080;font-size:.75em;text-align:center}
 img{width:100%;vertical-align:middle;border-radius:.5em}
 .row{max-width:1140px;margin:0 auto;overflow:visible}
 .viewport{min-height:100%}

@@ -1,10 +1,10 @@
 //Variables
+font_size = 1.5em
 line_height = 1.5em
-line_height_sml = 1em
 font_size_sml = 0.75em
+line_height_sml = 1em
 margins = 1.5em
 margins_sml = 0.5em
-font_size = 1.5em
 font_color = #16161D
 bg_color = #fcfcfc
 sans_family = "Source Sans Pro", Helvetica, sans-serif
@@ -112,7 +112,7 @@ p + p
   margin-top: margins
 
 p.index-paragraph + p.index-paragraph
-  margin-top: 0.5em
+  margin-top: margins_sml
 
 pre
   margin-top: margins
@@ -128,10 +128,19 @@ ul, ol
   margin-left: margins
 
 li + li
-  margin-top: 0.5em
+  margin-top: margins_sml
 
 b, strong
   font-weight: bold
+
+figure
+  margin-top: margins
+  margin-bottom: margins
+
+figcaption
+  color: quote_color
+  font-size: font_size_sml
+  text-align: center
 
 img
   width: 100%
@@ -217,7 +226,8 @@ span.line-numbers
   margin: 0 margins_sml
 
 // media query
-// make things wider
+
+// make images and code wider
 @media ( min-width: 1000px )
   img
     position: relative
