@@ -439,6 +439,7 @@ p.index-paragraph + p.index-paragraph{margin-top:.5em}
 pre{margin-top:1.5em;margin-bottom:1.5em;font-family:"Source Code Pro",monospace !important;font-size:.75em;color:#808080;line-height:1em}
 ul,ol{margin-top:1.5em;margin-bottom:1.5em;margin-left:1.5em}
 li + li{margin-top:.5em}
+hr{margin:1.5em}
 b,strong{font-weight:bold}
 figure{margin-top:1.5em;margin-bottom:1.5em}
 figcaption{color:#808080;font-size:.75em;text-align:center}

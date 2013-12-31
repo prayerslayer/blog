@@ -130,6 +130,9 @@ ul, ol
 li + li
   margin-top: margins_sml
 
+hr
+  margin: margins
+
 b, strong
   font-weight: bold
 
