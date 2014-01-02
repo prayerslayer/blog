@@ -1,6 +1,7 @@
 ---
 title: "Introducing Photon"
 layout: singlepost
+category: project
 ---
 
 Für ein Side Project brauchte ich eine Lightbox. Das sieht ungefähr so aus:
