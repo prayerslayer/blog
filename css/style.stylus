@@ -1,7 +1,8 @@
 //Variables
-font_size = 1.5em
-line_height = 1.5em
-font_size_sml = 0.75em
+font_size_big = 2.25 em // 36px
+font_size = 1.5em // 24px
+line_height = 1.5em 
+font_size_sml = 0.667em // 16px
 line_height_sml = 1em
 margins = 1.5em
 margins_sml = 0.5em
@@ -29,20 +30,34 @@ transition-mixin( property, duration )
   -moz-transition-duration: duration
   -o-transition-duration: duration
 
+make-wider()
+  width: 150%
+  position: relative
+  left: -25%
+
 //Styles on tags
 
 html
   height: 100%
 
-// prevent font scaling in mobile browsers
+
 body
+  height: 100%
+  font-size: font_size
+  font-family: sans_family
+  font-weight: 300
+  line-height: line_height
+  color: font_color
+  background-color: bg_color
+  text-rendering: optimizeLegibility;
+  // prevent font scaling in mobile browsers
   -moz-text-size-adjust: 100%
   -webkit-text-size-adjust: 100%
   -ms-text-size-adjust: 100%
 
 iframe
-  width: inherit
-  height: auto
+  width: 100%
+  height: 100%
   min-height: elem_minheight
   min-width: elem_minwidth
 
@@ -66,16 +81,6 @@ blockquote
 blockquote p
   margin-left: margins
 
-body
-  height: 100%
-  font-size: font_size
-  font-family: sans_family
-  font-weight: 300
-  line-height: line_height
-  color: font_color
-  background-color: bg_color
-  text-rendering: optimizeLegibility;
-
 a
   color: normal_color
   transition-mixin( color, animation_duration )
@@ -94,7 +99,8 @@ a:hover
   color: quote_color
 
 header
-  margin-bottom: 2*margins
+  margin-top: font_size_sml
+  margin-bottom: margins
 
 footer
   height: 5em
@@ -167,16 +173,13 @@ footer > div.row
   margin-top: 1em
 
 div#header
-  font-size: 2*font_size
+  font-size: 1em // 24px
   line-height: line_height
-  transition-mixin( color, animation_duration )
-
-div#header:hover
-  color: normal_color
-  cursor: pointer
 
 div.social, div.navigation
   text-align: center
+  line-height: line_height
+  font-size: .667em // 16px
 
 .centered
   text-align: center
@@ -201,21 +204,23 @@ div.article-content > h1
 div.embed
   margin: margins auto
   min-width: 320px
-  width: auto
-  max-width: 480px
+  width: 32em
+  height: 18em
 
 div.article-date
   color: quote_color
-  text-align: right
+  text-align: center
+  font-size: font_size_sml
 
 div.article-metadata 
   padding-bottom: margins
 
 h1.article-title
   border-bottom: 3px solid font_color
-  font-size: font_size
+  font-size: font_size_big
   line-height: line_height
   margin: 0
+  text-align: center
 
 // coderay highlighting 
 
@@ -231,12 +236,11 @@ span.line-numbers
 // media query
 
 // make images and code wider
-@media ( min-width: 1000px )
-  img
-    position: relative
-    width: 125%
-    left: -12.5%
-  div.CodeRay
-    position: relative
-    width: 125%
-    left: -12.5%
+@media ( min-width: 1200px )
+  img, div.CodeRay, div.article-metadata
+    make-wider( 125 )
+
+// make headline smaller
+@media ( max-width: 480px )
+  h1.article-title
+    font-size: font_size
