@@ -33,12 +33,6 @@ module.exports = (grunt) ->
           files:
               'css/style.css': 'css/style.stylus'
 
-    # minify the js
-    uglify:
-      js:
-        files:
-          'js/code.min.js': 'js/code.js'
-
     # minify css
     cssmin:
       css:
@@ -50,7 +44,6 @@ module.exports = (grunt) ->
       jscss: {
         options: {
           variables: {
-            'javascript': '<%= grunt.file.read("js/code.min.js") %>',
             'stylesheet': '<%= grunt.file.read("css/stylesheet.min.css") %>'
           }
         },
@@ -97,4 +90,4 @@ module.exports = (grunt) ->
   # Default task(s).
   grunt.registerTask 'default', ['env:dev', 'preprocess', 'connect', 'watch']
   # build all: compile js, minimize it, copy css together, minimize it, inject both in html
-  grunt.registerTask 'build', [ 'env:prod', 'stylus:compile', 'uglify:js', 'concat:css', 'cssmin', 'preprocess', 'replace', 'jekyll' ]
+  grunt.registerTask 'build', [ 'env:prod', 'stylus:compile', 'concat:css', 'cssmin', 'preprocess', 'replace' ]
