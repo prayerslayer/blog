@@ -6,7 +6,7 @@ category: project
 
 Für ein Side Project brauchte ich eine Lightbox. Das sieht ungefähr so aus:
 
-![Lightbox](http://www.noupe.com/wp-content/uploads/trans/images/slideshow-lightbox-scripts/8.jpg)
+{% image http://www.noupe.com/wp-content/uploads/trans/images/slideshow-lightbox-scripts/8.jpg "Lightbox" %}
 
 Gefühlt gibt es ca. zwei Dutzend Lightboxes, mal für jQuery, mal nicht. Zum Beispiel [Fancybox](http://fancyapps.com/fancybox/), [Lightbox2](http://lokeshdhakar.com/projects/lightbox2/) oder [Colorbox](http://www.jacklmoore.com/colorbox/).
 
@@ -16,7 +16,7 @@ Dann wundert es vermutlich nicht mehr, warum ich ein Problem mit zu langsamen An
 
 Aber keine Angst, [Photon](http://prayerslayer.github.io/photon.js/) to the rescue! Es tut genau, was es soll und nicht mehr.
 
-![Photon]( {{site.url}}/media/img/photonjs.png )
+{% image {{site.url}}/media/img/photonjs.png "Photon" %}
 
 Die Vorzüge von Photon im einzelnen:
 

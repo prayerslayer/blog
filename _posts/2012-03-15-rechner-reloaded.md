@@ -9,6 +9,6 @@ Außerdem wirkt die App sehr minimalistisch, bietet aber an, Wurzeln zu berechne
 
 Um das (visuell) minimalistische Versprechen zu halten und Grundrechenarten schnell ausführen zu können, hätte ich folgendes getan: Zuerst werden die vier Swipe-Achsen freigemacht, indem die [umgekehrte polnische Notation](http://de.wikipedia.org/wiki/Polnische_Notation) verwendet wird. Die in der Schule gelernte Form 2+2= wird als 2 2 + geschrieben. So wird die Geste für = obsolet, es wird gerechnet sobald ein Operator eingegeben wird. Es braucht ein Trennsymbol (_), damit die Operanden unterschieden werden können. Dieses wird zwischen 0 und Komma eingefügt. Etwas anderes als die vier Grundrechenarten wird nicht unterstützt, so erspart man sich das Menü. Nun sind alle vier Achsen für Operatoren frei (siehe Bild). Ein 2-Finger-Swipe setzt alles zurück.
 
-[![Rechner App](/media/img/rechner-app.png "Rechner App")]({{ site.url }}/media/img/rechner-app.png)
+{% image /media/img/rechner-app.png "Rechner App" %}
 
 Einziger Nachteil an der Geschichte: Die polnische Notation ist für die meisten Menschen ein ziemlicher Dealbreaker, weil sie praktisch unbekannt ist. Und die gedankliche Form einer Rechnung umlernen, für einen Taschenrechner? Eben.

@@ -11,6 +11,6 @@ Selbst wenn man einen Rechner mit Office zur Verfügung hat, ist das letzte Wort
 
 Hinzu kommt die generelle Beschissenheit von Word für lange und/oder layoutintensive Dokumente (wie z.B. - oh, Zufall - Papers!). Jeder der schon mal ein Bild verschieben wollte, weiß Bescheid. Und hat mal wer versucht mit Word Referenzen zu verwalten? Grausam!
 
-![Word](http://weknowmemes.com/wp-content/uploads/2012/02/moving-a-picture-in-microsoft-word.jpg)
+{% image http://weknowmemes.com/wp-content/uploads/2012/02/moving-a-picture-in-microsoft-word.jpg "Word" %}
 
 Stattdessen hätte man sich einmal die Mühe machen können, eine TeX Vorlage zu erstellen oder eine verfügbare zu auszuwählen (z.B. von [ACM](http://www.acm.org/sigs/publications/proceedings-templates)). Es gibt für alle wichtigen Betriebssysteme TeX Distributionen und IDEs (z.B. [TeXShop](http://pages.uoregon.edu/koch/texshop/) für Mac, [TeXstudio](http://texstudio.sourceforge.net/) für Windows und Linux). Man schreibt dort einfach seinen Text hinein und TeX kümmert sich um korrektes Layout und Zitierungen. Plattformübergreifend, nicht besonders kompliziert, bewährt.

@@ -58,8 +58,7 @@ body
 iframe
   width: 100%
   height: 100%
-  min-height: elem_minheight
-  min-width: elem_minwidth
+  position: absolute
 
 p object, p embed
   min-width: elem_minwidth
@@ -203,9 +202,10 @@ div.article-content > h1
 
 div.embed
   margin: margins auto
-  min-width: 320px
-  width: 32em
-  height: 18em
+  padding-bottom: 60%
+  position: relative
+  width: 100%
+
 
 div.article-date
   color: quote_color
@@ -238,7 +238,15 @@ span.line-numbers
 // make images and code wider
 @media ( min-width: 1200px )
   img, div.CodeRay, div.article-metadata
-    make-wider( 125 )
+    make-wider()
+  div.embed
+    make-wider()
+    padding-bottom: 75%
+
+// make font smaller
+@media ( max-width: 600px )
+  body
+    font-size: 1.25em
 
 // make headline smaller
 @media ( max-width: 480px )

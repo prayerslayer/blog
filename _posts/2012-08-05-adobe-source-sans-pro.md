@@ -7,4 +7,4 @@ Adobe hat eine Schrift [ge-opensourct](http://blogs.adobe.com/typblography/2012/
 
 Die Monospace-Variante sieht auch übrigens auch schick aus, ist aber noch nicht veröffentlicht.
 
-![ Monospace Source Sans Pro](http://blogs.adobe.com/typblography/files/2012/07/SourceCodeSnippet.png)
+{% image http://blogs.adobe.com/typblography/files/2012/07/SourceCodeSnippet.png "Monospace Source Sans Pro" %}

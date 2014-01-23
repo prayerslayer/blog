@@ -8,4 +8,4 @@ Fotografen benutzen Filter um den Weißabgleich zu steuern, Kontraste zu erhöhe
 
 So funktioniert es auch beim Sigma 12/24 4.5-5.6. Ich hatte meines gebraucht gekauft und fand im Internet keine Anleitung oder Schablone (die normalerweise beiligt). Deswegen hier für alle, die vor dem selben Problem stehen: **3 x 2.5 cm, mit abgerundeten Ecken** funktioniert ganz gut.
 
-[![Gelfilter](/media/img/gelfilter-sigma.jpg "Gelfilter")](/media/img/gelfilter-sigma.jpg)
+{% image /media/img/gelfilter-sigma.jpg "Gelfilter" %}

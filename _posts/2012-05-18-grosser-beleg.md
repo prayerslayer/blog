@@ -25,6 +25,6 @@ Diese Fragen habe ich in der Arbeit behandelt und prototypisch implementiert. Zu
 2.	Eigenes "Werkzeug", welches Relationen zwischen ausgewählten Daten anzeigt (ähnlich [RelFinder](http://www.visualdataweb.org/relfinder.php))
 3.	Zeitleiste, auf der Aktionen des Benutzers aufgetragen werden und die Undo/Redo ermöglicht
 
-![Preselection](/media/img/awesome_screenshot.png)
+{% image /media/img/awesome_screenshot.png "Preselection" %}
 
 Die Evaluation des User Interfaces war vielversprechend, aber die Performance des Backends lässt stark zu wünschen übrig. Die Arbeit wurde mit 1.3 bewertet.

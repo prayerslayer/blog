@@ -5,7 +5,7 @@ layout: singlepost
 
 Mein aktuelles [Side Project](https://github.com/prayerslayer/scrape-a-ball) ist eine REST API für die [Basketball Reference](http://www.basketball-reference.com/). Wie der Name schon sagt ist es eine Referenz für Spielergebnisse, Spielerstatistiken und so weiter. Ein Scraper soll regelmäßig die Basketball Reference besuchen, den Inhalt auslesen und in eine Datenbank schreiben. Das ganze befindet sich noch in der Konzeptionsphase und so stellt sich die Frage, ob ein Document Store wie [Mongo](http://www.mongodb.org/) oder eine klassische relationale Datenbank wie [Postgres](http://www.postgresql.org/) eingesetzt werden soll. Im ersten Fall würden die (u.a. bereits aggregierten) Daten einfach als ausgelesenes JSON Dokument ohne weitere Bearbeitung abgelegt ("weil es geht"), im Zweiten würden nur die Rohdaten abgespeichert und der Rest errechnet (siehe Grafik). Beide haben Vor- und Nachteile.
 
-![Mongo vs Postgres]({{site.url}}/media/img/sql-vs-nosql.png)
+{% image {{site.url}}/media/img/sql-vs-nosql.png "Mongo vs Postgres" %}
 
 # Relationale Datenbank
 

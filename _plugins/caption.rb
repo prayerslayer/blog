@@ -20,7 +20,9 @@ module Jekyll
     def render(context)
       source  = "<figure>"
       source += "<figcaption>#{@caption}</figcaption>" if @caption
-      source += "<img src=\"#{@url}\">"
+      source += "<a href=\"#{@url}\" "
+      source += "title=\"#{@caption}\" " if @caption
+      source += "><img src=\"/img/spinner.gif\" data-echo=\"#{@url}\"></a>"
       source += "</figure>"
 
       source

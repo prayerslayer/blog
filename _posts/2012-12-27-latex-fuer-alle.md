@@ -90,7 +90,7 @@ Die Grundlage der Literaturverwaltung ist das [Bibtex-Format](http://www.bibtex.
 
 In JabRef erstellt ihr eine neue Quelle, klickt auf den "BibTeX Source" Tab (unten rechts zu sehen), fügt es dort ein und speichert - Voilá.
 
-![JabRef](http://jabref.sourceforge.net/images/JabRef-ScreenShot-MainWindow.png)
+{% image http://jabref.sourceforge.net/images/JabRef-ScreenShot-MainWindow.png "JabRef" %}
 
 In Bibdesk gibt es einen praktischen Shortcut, nämlich ``ALT+CMD+L``, um Bibtex aus der Zwischenablage direkt in eine neue Quelle umzuwandeln.
 
@@ -124,7 +124,7 @@ Installiert Github für [Windows](http://windows.github.com/) oder für [Mac](ht
 
 Im Folgenden erkläre ich die wichtigsten Funktionen der Github App. Die Anwendung sieht bei beiden Betriebssytemen sehr ähnlich aus, ich verwende Screenshots der Mac-Version. Wenn ihr die Anwendung öffnet, werdet ihr gefragt, ob ihr euch einloggen oder registrieren wollt (bei [Github](https://github.com/)). Das müsst ihr nicht, aber es ist sinnvoll, unter "Optionen" Name und Emailadresse anzugeben - zwecks der Lesbarkeit.
 
-![Login]( /media/img/githublogin.png)
+{% image /media/img/githublogin.png "Login" %}
 
 Erstellt dann ein neues Repository, wählt einen Namen und einen Ordner. "Push to Github" könnt ihr ausstellen, wir speichern in die Dropbox. Kopiert euren bisherigen Ordner in den Ordner des Repositorys.
 
@@ -132,15 +132,15 @@ Erstellt dann ein neues Repository, wählt einen Namen und einen Ordner. "Push t
 
 Links unter "Changes" seht ihr noch nicht übernommene Änderungen. Auf obigem Bild ist eine neue Datei "example.tex" dazugekommen. Diese lassen wir mit der Checkbox ausgewählt um die Änderungen mit einem "Commit" zu übernehmen. Diesem geben wir einen kurzen Namen und eine mehr oder weniger ausführliche Beschreibung. In der Praxis solltet ihr aussagekräftige Beschreibungen wählen, sodass ihr sofort wisst, welchen Stand der Arbeit ein Commit repräsentiert. Das Symbol mit den Pfeilen und dem Plus links neben dem Commit-Button könnt ihr so lassen. "Commit & Sync" brauchen wir nicht, da wir nicht mit Hilfe von git synchronisieren, also die Versionen backuppen.
 
-![Repository]( /media/img/githubrepo.png)
+{% image /media/img/githubrepo.png "Repository" %}
 
 Nachdem ihr euren ersten Commit durchgeführt habt, zeigt auch die History etwas an.
 
-![History]( /media/img/githubcommit.png )
+{% image /media/img/githubcommit.png "History" %}
 
 Dort könnt ihr auch einen Commit auswählen (mit dem Pfeil rechts). Dann werden euch die Änderungen in diesem Commit im Vergleich zur vorhergehenden Version angezeigt. Ihr könnt diese Änderungen mit "Revert Commit" rückgängig machen. Diese Reverts sind wiederum eigene Commits, die rückgängig gemacht werden können: Einfach einen beliebigen Commit davor auswählen und "Roll back to this commit" auswählen.
 
-![Revert]( /media/img/githubrevert.png )
+{% image /media/img/githubrevert.png "Revert" %}
 
 Branches und Settings könnt ihr ignorieren. Ihr wisst nun, wie ihr Änderungen in eurer abspeichert und wiederherstellt. Toll! One more thing...
 

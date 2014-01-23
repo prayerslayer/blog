@@ -6,6 +6,6 @@ keywords: "xkcd, correcthorsebatterystaple, dropbox, password"
 
 Haha, eben bei [Dropbox](http://dropbox.com):
 
-[![Passwort]( {{ site.url }}/media/img/correcthorsebatterystaple.png "Passwort")]({{ site.url }}/media/img/correcthorsebatterystaple.png)
+{% image {{ site.url }}/media/img/correcthorsebatterystaple.png "Passwort" %}
 
 Na, wer errät das Passwort? Auflösung: Bildname.
