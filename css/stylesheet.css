@@ -453,7 +453,7 @@ div.social,div.navigation{text-align:center;line-height:1.5em;font-size:.667em}
 .paginate{padding-top:3em}
 .page_number{margin-left:1.5em;margin-right:1.5em}
 div.content{max-width:760px;margin:0 auto;padding:1em}
-div.article-content > h1{font-weight:lighter;font-size:1.5em;margin-left:-.5em}
+div.article-content > h1{font-weight:lighter;font-size:1.5em}
 div.embed{margin:1.5em auto;padding-bottom:60%;position:relative;width:100%}
 div.article-date{color:#808080;text-align:center;font-size:.667em}
 div.article-metadata{padding-bottom:1.5em}

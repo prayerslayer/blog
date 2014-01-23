@@ -198,7 +198,6 @@ div.content
 div.article-content > h1
   font-weight: lighter
   font-size: font_size
-  margin-left: -0.5em
 
 div.embed
   margin: margins auto
