@@ -71,6 +71,7 @@ article
   padding-bottom: 2*line_height !important
 
 blockquote
+  position: relative
   border-left: margins_sml solid normal_color
   margin-top: margins
   margin-bottom: margins
@@ -205,6 +206,8 @@ div.embed
   position: relative
   width: 100%
 
+ul.index
+  list-style-type: circle
 
 div.article-date
   color: quote_color
@@ -241,6 +244,8 @@ span.line-numbers
   div.embed
     make-wider()
     padding-bottom: 75%
+  blockquote
+    left: -2em
 
 // make font smaller
 @media ( max-width: 600px )
