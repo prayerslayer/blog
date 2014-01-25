@@ -22,7 +22,7 @@ hr{margin:1.5em}
 b,strong{font-weight:bold}
 figure{margin-top:1.5em;margin-bottom:1.5em}
 figcaption{color:#808080;font-size:.667em;text-align:center}
-img{width:100%;vertical-align:middle;border-radius:.5em}
+img{width:100%;vertical-align:middle;border-radius:8px}
 .row{max-width:1140px;margin:0 auto;overflow:visible}
 .viewport{min-height:100%}
 body > div.row{padding:0 1em}
@@ -45,5 +45,10 @@ span.line-numbers{margin:0 .5em}
 div.embed{width:150%;position:relative;left:-25%;padding-bottom:75%}
 blockquote{left:-2em}
 }@media ( max-width: 600px ){body{font-size:1.25em}
+ul,ol{margin:0;padding-left:1em}
+figure{margin-top:0}
+div.content{padding:.5em}
+blockquote > p{margin-left:.5em}
+blockquote{margin-right:0}
 }@media ( max-width: 480px ){h1.article-title{font-size:1.5em}
 }

@@ -154,7 +154,7 @@ figcaption
 img
   width: 100%
   vertical-align: middle
-  border-radius: 0.5em
+  border-radius: 8px
 
 //Styles on selectors
 
@@ -238,6 +238,7 @@ span.line-numbers
 // media query
 
 // make images and code wider
+
 @media ( min-width: 1200px )
   img, div.CodeRay, div.article-metadata
     make-wider()
@@ -246,11 +247,21 @@ span.line-numbers
     padding-bottom: 75%
   blockquote
     left: -2em
-
 // make font smaller
 @media ( max-width: 600px )
   body
     font-size: 1.25em
+  ul, ol
+    margin: 0
+    padding-left: 1em
+  figure
+    margin-top: 0
+  div.content
+    padding: margins_sml
+  blockquote > p
+    margin-left: margins_sml
+  blockquote
+    margin-right: 0
 
 // make headline smaller
 @media ( max-width: 480px )
