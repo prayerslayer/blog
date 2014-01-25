@@ -254,8 +254,6 @@ span.line-numbers
   ul, ol
     margin: 0
     padding-left: 1em
-  figure
-    margin-top: 0
   div.content
     padding: margins_sml
   blockquote > p
