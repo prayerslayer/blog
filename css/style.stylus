@@ -206,7 +206,7 @@ div.embed
   position: relative
   width: 100%
 
-ul.index
+ul
   list-style-type: circle
 
 div.article-date
