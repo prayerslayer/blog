@@ -103,12 +103,12 @@ header
   margin-bottom: margins
 
 footer
-  height: 5em
-  margin-top: 3em
+  height: 2*margins
   background-color: font_color
   border-top: 10px solid normal_color
   color: bg_color
   position: relative
+  font-size: font_size_sml
 
 p
   margin: 0
@@ -156,7 +156,7 @@ img
   vertical-align: middle
   border-radius: 8px
   display: block
-  
+
 //Styles on selectors
 
 .row
@@ -169,9 +169,6 @@ img
 
 body > div.row
   padding: 0 1em
-
-footer > div.row
-  margin-top: 1em
 
 div#header
   font-size: 1em // 24px

@@ -431,7 +431,7 @@ a:hover{color:#ff8e94}
 ::selection{background:#ff584c;color:#fcfcfc}
 .slogan{color:#808080}
 header{margin-top:.667em;margin-bottom:1.5em}
-footer{height:5em;margin-top:3em;background-color:#16161d;border-top:10px solid #ff584c;color:#fcfcfc;position:relative}
+footer{height:3em;background-color:#16161d;border-top:10px solid #ff584c;color:#fcfcfc;position:relative;font-size:.667em}
 p{margin:0;padding:0}
 p + p{margin-top:1.5em}
 p.index-paragraph + p.index-paragraph{margin-top:.5em}
@@ -446,7 +446,6 @@ img{width:100%;vertical-align:middle;border-radius:8px;display:block}
 .row{max-width:1140px;margin:0 auto;overflow:visible}
 .viewport{min-height:100%}
 body > div.row{padding:0 1em}
-footer > div.row{margin-top:1em}
 div#header{font-size:1em;line-height:1.5em}
 div.social,div.navigation{text-align:center;line-height:1.5em;font-size:.667em}
 .centered{text-align:center}
