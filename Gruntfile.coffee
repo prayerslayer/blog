@@ -41,6 +41,9 @@ module.exports = (grunt) ->
       css:
         files: ['css/*.stylus']
         tasks: ['stylus:compile', 'concat:css', 'cssmin']
+      img:
+        files: ['media/img/*']
+        tasks: ['imgmin']
 
     # simple node server
     connect:
@@ -61,7 +64,6 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-jekyll'
   grunt.loadNpmTasks 'grunt-env'
   grunt.loadNpmTasks 'grunt-preprocess'
-
 
 
   # Default task(s).
