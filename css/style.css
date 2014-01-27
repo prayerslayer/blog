@@ -22,7 +22,7 @@ hr{margin:1.5em}
 b,strong{font-weight:bold}
 figure{margin-top:1.5em;margin-bottom:1.5em}
 figcaption{color:#808080;font-size:.667em;text-align:center}
-img{width:100%;vertical-align:middle;border-radius:8px}
+img{width:100%;vertical-align:middle;border-radius:8px;display:block}
 .row{max-width:1140px;margin:0 auto;overflow:visible}
 .viewport{min-height:100%}
 body > div.row{padding:0 1em}

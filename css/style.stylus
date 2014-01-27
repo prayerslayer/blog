@@ -155,7 +155,8 @@ img
   width: 100%
   vertical-align: middle
   border-radius: 8px
-
+  display: block
+  
 //Styles on selectors
 
 .row
