@@ -17,6 +17,7 @@ p{margin:0;padding:0}
 p + p{margin-top:1.5em}
 p.index-paragraph + p.index-paragraph{margin-top:.5em}
 pre{margin-top:1.5em;margin-bottom:1.5em;font-family:"source_code_proregular",monospace !important;font-size:.667em;color:#808080;line-height:1em}
+code{font-family:"source_code_proregular",monospace}
 sup,sub{font-size:.667em}
 ul,ol{padding-left:1em}
 ul > li,ol > li{padding-left:1em}

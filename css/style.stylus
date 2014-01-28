@@ -132,6 +132,9 @@ pre
   color: quote_color
   line-height: 1em
 
+code
+  font-family: mono_family
+
 sup, sub
   font-size: font_size_sml
 
