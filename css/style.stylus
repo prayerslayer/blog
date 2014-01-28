@@ -8,8 +8,9 @@ margins = 1.5em
 margins_sml = 0.5em
 font_color = #16161D
 bg_color = #fcfcfc
-sans_family = "Source Sans Pro", Helvetica, sans-serif
-mono_family = "Source Code Pro", monospace
+sans_family = "source_sans_prolight", Helvetica, sans-serif
+bold_family = "source_sans_probold", Helvetica, sans-serif
+mono_family = "source_code_proregular", monospace
 quote_color = grey
 normal_color = #ff584c  //pantone warm red 
 light_color = #ff8e94   //pantone 177M
@@ -65,6 +66,9 @@ p object, p embed
   min-height: elem_minheight
   width: 100%
   height: auto
+
+h1, h2, h3, h4, h5, h6
+  font-family: bold_family
 
 article
   padding-top: 2*line_height !important
@@ -144,7 +148,7 @@ hr
   margin: margins
 
 b, strong
-  font-weight: bold
+  font-family: bold_family
 
 figure
   margin-top: margins
@@ -236,7 +240,7 @@ div.CodeRay
   margin: margins 0
   background-color: white
   border: 1px solid font_color
-  border-radius: 0.5em
+  border-radius: 8px
 
 span.line-numbers
   margin: 0 margins_sml
