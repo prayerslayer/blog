@@ -128,10 +128,14 @@ pre
   color: quote_color
   line-height: 1em
 
+sup, sub
+  font-size: font_size_sml
+
 ul, ol
-  margin-top: margins
-  margin-bottom: margins
-  margin-left: margins
+    padding-left: 1em
+
+ul > li, ol > li
+    padding-left: 1em
 
 li + li
   margin-top: margins_sml
@@ -222,6 +226,11 @@ h1.article-title
   margin: 0
   text-align: center
 
+div.footnotes::before
+  content: "Fußnoten:"
+div.footnotes
+  margin-top: 2*margins
+
 // coderay highlighting 
 
 div.CodeRay
@@ -245,13 +254,14 @@ span.line-numbers
     padding-bottom: 75%
   blockquote
     left: -2em
+  ul, ol
+    margin-top: margins
+    margin-bottom: margins
+    margin-left: -2em
 // make font smaller
 @media ( max-width: 600px )
   body
     font-size: 1.25em
-  ul, ol
-    margin: 0
-    padding-left: 1em
   div.content
     padding: margins_sml
   blockquote > p

@@ -436,7 +436,9 @@ p{margin:0;padding:0}
 p + p{margin-top:1.5em}
 p.index-paragraph + p.index-paragraph{margin-top:.5em}
 pre{margin-top:1.5em;margin-bottom:1.5em;font-family:"Source Code Pro",monospace !important;font-size:.667em;color:#808080;line-height:1em}
-ul,ol{margin-top:1.5em;margin-bottom:1.5em;margin-left:1.5em}
+sup,sub{font-size:.667em}
+ul,ol{padding-left:1em}
+ul > li,ol > li{padding-left:1em}
 li + li{margin-top:.5em}
 hr{margin:1.5em}
 b,strong{font-weight:bold}
@@ -458,13 +460,15 @@ ul{list-style-type:circle}
 div.article-date{color:#808080;text-align:center;font-size:.667em}
 div.article-metadata{padding-bottom:1.5em}
 h1.article-title{border-bottom:3px solid #16161d;font-size:2.25em;line-height:1.5em;margin:0;text-align:center}
+div.footnotes::before{content:"Fußnoten:"}
+div.footnotes{margin-top:3em}
 div.CodeRay{margin:1.5em 0;background-color:#fff;border:1px solid #16161d;border-radius:.5em}
 span.line-numbers{margin:0 .5em}
 @media ( min-width: 1200px ){img,div.CodeRay,div.article-metadata{width:150%;position:relative;left:-25%}
 div.embed{width:150%;position:relative;left:-25%;padding-bottom:75%}
 blockquote{left:-2em}
+ul,ol{margin-top:1.5em;margin-bottom:1.5em;margin-left:-2em}
 }@media ( max-width: 600px ){body{font-size:1.25em}
-ul,ol{margin:0;padding-left:1em}
 div.content{padding:.5em}
 blockquote > p{margin-left:.5em}
 blockquote{margin-right:0}
