@@ -460,8 +460,7 @@ ul{list-style-type:circle}
 div.article-date{color:#808080;text-align:center;font-size:.667em}
 div.article-metadata{padding-bottom:1.5em}
 h1.article-title{border-bottom:3px solid #16161d;font-size:2.25em;line-height:1.5em;margin:0;text-align:center}
-div.footnotes::before{content:"Fußnoten:"}
-div.footnotes{margin-top:3em}
+div.footnotes{margin-top:3em;border-top:1px solid #16161d}
 div.CodeRay{margin:1.5em 0;background-color:#fff;border:1px solid #16161d;border-radius:.5em}
 span.line-numbers{margin:0 .5em}
 @media ( min-width: 1200px ){img,div.CodeRay,div.article-metadata{width:150%;position:relative;left:-25%}

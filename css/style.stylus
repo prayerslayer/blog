@@ -226,10 +226,9 @@ h1.article-title
   margin: 0
   text-align: center
 
-div.footnotes::before
-  content: "Fußnoten:"
 div.footnotes
   margin-top: 2*margins
+  border-top: 1px solid font_color
 
 // coderay highlighting 
 
