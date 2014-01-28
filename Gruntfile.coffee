@@ -40,10 +40,7 @@ module.exports = (grunt) ->
     watch:
       css:
         files: ['css/*.stylus']
-        tasks: ['stylus:compile', 'concat:css', 'cssmin']
-      img:
-        files: ['media/img/*']
-        tasks: ['imgmin']
+        tasks: ['stylus:compile', 'concat:css' ]
 
     # simple node server
     connect:
