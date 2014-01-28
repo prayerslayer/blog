@@ -268,6 +268,8 @@ span.line-numbers
     margin-left: margins_sml
   blockquote
     margin-right: 0
+  ul > li, ol > li
+    padding-left: 0
 
 // make headline smaller
 @media ( max-width: 480px )

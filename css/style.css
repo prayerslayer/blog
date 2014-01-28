@@ -52,5 +52,6 @@ ul,ol{margin-top:1.5em;margin-bottom:1.5em;margin-left:-2em}
 div.content{padding:.5em}
 blockquote > p{margin-left:.5em}
 blockquote{margin-right:0}
+ul > li,ol > li{padding-left:0}
 }@media ( max-width: 480px ){h1.article-title{font-size:1.5em}
 }
