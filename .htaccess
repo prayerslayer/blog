@@ -7,6 +7,7 @@ AddOutputFilterByType DEFLATE text/xml
 AddOutputFilterByType DEFLATE application/xml
 AddOutputFilterByType DEFLATE text/css
 AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE text/x-javascript
 AddOutputFilterByType DEFLATE application/octet-stream # webfonts
 
 # cache header
