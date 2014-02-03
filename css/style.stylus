@@ -82,7 +82,7 @@ blockquote
   margin-left: 0
   color: quote_color
 
-blockquote p
+blockquote > p, blockquote > ul, blockquote > ol
   margin-left: margins
 
 a
@@ -270,13 +270,12 @@ span.line-numbers
     font-size: 1.25em
   div.content
     padding: margins_sml
-  blockquote > p
+  blockquote > p, blockquote > ul, blockquote > ol
     margin-left: margins_sml
   blockquote
     margin-right: 0
   ul > li, ol > li
     padding-left: 0
-
 // make headline smaller
 @media ( max-width: 480px )
   h1.article-title
