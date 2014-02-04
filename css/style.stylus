@@ -181,9 +181,10 @@ img
 body > div.row
   padding: 0 1em
 
-div#header
-  font-size: 1em // 24px
-  line-height: line_height
+div#header > a
+  color: font_color
+  text-decoration: none
+
 
 div.social, div.navigation
   text-align: center

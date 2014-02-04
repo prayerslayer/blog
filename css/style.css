@@ -30,7 +30,7 @@ img{width:100%;vertical-align:middle;border-radius:8px;display:block}
 .row{max-width:1140px;margin:0 auto;overflow:visible}
 .viewport{min-height:100%}
 body > div.row{padding:0 1em}
-div#header{font-size:1em;line-height:1.5em}
+div#header > a{color:#16161d;text-decoration:none}
 div.social,div.navigation{text-align:center;line-height:1.5em;font-size:.667em}
 .centered{text-align:center}
 .paginate{padding-top:3em}
