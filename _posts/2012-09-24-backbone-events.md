@@ -1,7 +1,6 @@
 ---
 layout: singlepost
 title: "Backbone.js Events triggern gleichzeitig"
-keywords: "backbone, events, firing, feuern, trigger, gleichzeitig, all, at the same time, at once"
 ---
 
 Eure Backbone.js Events triggern alle gleichzeitig und ihr wisst nicht, warum? Habt ihr eine Collection von Models, die gerendert werden soll und sieht euer Code ungefähr so aus?

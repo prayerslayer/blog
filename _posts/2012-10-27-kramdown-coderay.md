@@ -1,7 +1,6 @@
 ---
 layout: singlepost
 title: "kramdown & coderay"
-keywords: "coderay, doesn't work, kramdown"
 ---
 
 Heute habe ich [coderay](http://coderay.rubychan.de/) zwecks Syntax Highlighting eingeschalten. Damit Source Code nicht so aussieht.

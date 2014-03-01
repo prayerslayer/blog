@@ -1,7 +1,6 @@
 ---
 title: "Namen in Web Forms"
 layout: singlepost
-keywords: "name, form, web, input"
 ---
 
 Damit ich den Link endlich als Bookmark in meinem Browser loswerde.

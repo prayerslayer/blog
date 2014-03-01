@@ -1,7 +1,6 @@
 ---
 layout: singlepost
 title: "Argumentationshilfe"
-keyword: "diskussion, sexi, argumentation"
 ---
 
 Auf [Quora](http://www.quora.com/Debate/How-can-I-become-good-at-debating/answer/Marco-Witzmann) erklärt ein User eine Art Algorithmus, der verständliche Argumentation unterstützt: Das SExI-Schema. Zuallererst soll der Standpunkt kurz und klar gesagt werden (**S**tate), danach folgt eine Begründung (**Ex**plain) und zuletzt eine Veranschaulichung des Standpunkts (**I**llustrate).

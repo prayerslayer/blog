@@ -1,7 +1,6 @@
 ---
 layout: singlepost
 title: "Sigma 12/24 Gelfilter"
-keywords: "sigma, filter, gel, template"
 ---
 
 Fotografen benutzen Filter um den Weißabgleich zu steuern, Kontraste zu erhöhen oder Hautunreinheiten zu verbergen. Für normal große Objektive gibt es einfach Kappen, die vorne drangeschraubt werden. Bei Weitwinkelobjektiven ist es nicht mehr ganz so einfach. Filtersysteme - beispielsweise von Lee - sind vielseitig, haben aber auch ihren Preis. Günstiger sind da Gelfilter (dünnes, eingefärbtes Plastik), die hinten zwischen Objektiv und Spiegel platziert werden.

@@ -1,7 +1,6 @@
 ---
 title: "LaTeX für alle"
 layout: singlepost
-keywords: "latex, tutorial, beginner, dropbox, git"
 ---
 
 Kürzlich wurde ich gefragt, wie jemand am besten seine Doktorarbeit schreibt. Ich dachte, ich schreib hier mal eine (hoffentlich verständliche) Anleitung für alle von anderen Fakultäten als der für Informatik auf. 

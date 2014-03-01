@@ -1,7 +1,6 @@
 ---
 layout: singlepost
 title: "Warpantrieb vielleicht möglich"
-keywords: "warpantrieb"
 ---
 
 [Yahoo News](http://news.yahoo.com/warp-drive-may-more-feasible-thought-scientists-161301109.html):

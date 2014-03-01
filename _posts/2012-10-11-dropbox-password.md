@@ -1,7 +1,6 @@
 ---
 title: "Dropbox Password"
 layout: singlepost
-keywords: "xkcd, correcthorsebatterystaple, dropbox, password"
 ---
 
 Haha, eben bei [Dropbox](http://dropbox.com):
