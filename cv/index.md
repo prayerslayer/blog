@@ -3,11 +3,15 @@ layout: singlepost
 title: "CV"
 ---
 
+# Zalando
+
+Seit Februar 2014 schreibe ich Javascript (u.a. mit [AngularJS](http://angularjs.org/), [D3.js](http://d3js.org/)) für [Zalando](http://zalando.de).
+
+![Itsa me.]( {{site.url}}/img/self.jpg )
+
 # Universität
 
 Von 2008 bis 2013 studierte ich an der TU Dresden Medieninformatik. Meine Interessen galten dabei allem, was mit dem Web zu tun hat. Ich belegte Vorlesungen über Security & Kryptografie, Datenbanken/Information Retrieval, Software Design und Mediengestaltung. Meine [Diplomarbeit]( {% post_url 2013-11-19-diplom %} ) drehte sich um ein Hilfesystem für komposite Informationsvisualisierungen bzw. Mashups; ingesamt schloss ich mein Studium mit 1.6 ab.
-
-![Itsa me.]( {{site.url}}/img/self.jpg )
 		
 # Zivildienst
 
