@@ -4,7 +4,7 @@ layout: singlepost
 ---
 
 Seien wir ehrlich, niemand ist wirklich zufrieden mit seiner IT Infrastruktur. In letzter Zeit war in meinem sozialen Umfeld öfter die Rede von eigenen Servern, deswegen hab ich mich informiert, was ein VPS in 2014 eigentlich kostet. Zunächst will ich nichts weiter, als meinen Blog und ein paar Git Repositories dort zu hosten. Ich finde es aber gut, installieren zu können, was ich für richtig halte. Am Ende ist es ein [Linode](https://www.linode.com/pricing) geworden:
-
+ 
 * 20$/Monat maximum
 * 2 GB RAM
 * 48 GB SSD Festplatte
