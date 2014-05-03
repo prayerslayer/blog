@@ -1,5 +1,5 @@
 safe: false # this is to enable plugins
-encoding: uf-8
+encoding: utf-8
 port: 4000
 baseurl: /
 url: https://npiccolotto.com
