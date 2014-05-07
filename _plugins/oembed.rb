@@ -16,8 +16,10 @@
 #    See the License for the specific language governing permissions and
 #    limitations under the License. 
 ##
-require 'oembed'
+require 'json'
 require 'uri'
+require 'oembed'
+
 
 # register all default OEmbed providers
 ::OEmbed::Providers.register_all()
@@ -39,8 +41,10 @@ module Jekyll
       url = Liquid::Template.parse(@text).render context
 
       # oembed look up
-      result = ::OEmbed::Providers.get(url.strip!, :format => :xml, :scheme => :https )
+      result = ::OEmbed::Providers.get(url.strip!, :format => :json, :scheme => :https )
       
+      # print result.html + "\n\n"
+
       # Odd: slideshare uses provider-name instead of provider_name
       provider = result.fields['provider_name'] || result.fields['provider-name'] || 'unknown'
 
