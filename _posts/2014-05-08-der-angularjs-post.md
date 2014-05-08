@@ -24,9 +24,10 @@ Wenn ich hier von Direktiven rede, stellt euch z.B. folgendes vor:
         <tab heading="tab2"> <!-- content --> </tab>
     </tabset>
 
-* Angular ist mächtig. Nutzt es wann immer möglich!
+* Angular ist mächtig. Nutzt es wann immer möglich! Wenn ihr etwas "wie mit jQuery" macht, ist es falsch.
 * Controller in Direktiven sind hauptsächlich für Kommunikation mit Subdirektiven nützlich. Damit ``tabset`` überhaupt weiß, wie viele ``tab``s in ihr drin sind.
 * Angular parst zuerst die Subdirektiven und setzt deren Templates ein, wenn vorhanden. Kommt die Parentdirektive in die ``link`` Phase, gibt es keine ``tab``s mehr.
 * ngModelController braucht man genau in dem Moment, wo nicht nur Controller-->Direktive Data Binding Magic passieren soll, sondern auch andersrum.
+* ngModelController schaut aber nur auf Reference Equality. Wenn das Model ein Array ist, muss man selbst ein ``$watchCollection()`` einbauen.
 * Falls ihr die Angular App manuell mit ``angular.bootstrap()`` hochfährt, macht es am ``body`` Element. Das funktioniert gut mit Protractor.
 * Protractor! Packt am besten alles, was vor einer Suite passieren soll, in ein ``beforeEach()``. Keine "losen" Statements. Und jede Suite (jedes ``describe()``) braucht ein eigenes ``beforeEach()``.
