@@ -9,6 +9,8 @@ description: "a bit of everything"
 
 include: ['cv/*', 'projects/*', 'impressum/*']
 
+gems: [ "therubyracer" ]
+
 source:      .
 destination: ./_site
 plugins:     ./_plugins
