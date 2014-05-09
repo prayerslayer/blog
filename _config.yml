@@ -1,7 +1,10 @@
 safe: false # this is to enable plugins
 encoding: utf-8
+# host: 0.0.0.0
 host: npiccolotto.com
+# port: 4000
 port: 80
+# url: http://localhost:4000
 url: https://npiccolotto.com
 baseurl: ""
 name: "Nikolaus Piccolotto"
@@ -16,10 +19,12 @@ destination: ./_site
 plugins:     ./_plugins
 
 defaults:
+  -
     scope:
-      type: "post"
+      path: "" # empty string for all files
     values:
       layout: "singlepost"
+  -
 
 future:      true
 lsi:         false

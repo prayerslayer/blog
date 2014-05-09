@@ -1,5 +1,4 @@
 ---
-layout: singlepost
 title: "Der AngularJS Post"
 ---
 
