@@ -223,6 +223,13 @@ div.embed
   position: relative
   width: 100%
 
+video
+  margin: margins 0
+  width: 100%;
+  border-radius: 8px;
+  height: 480px;
+  background: font_color
+
 ul
   list-style-type: circle
 
@@ -261,7 +268,7 @@ span.line-numbers
 // make images and code wider
 
 @media ( min-width: 1200px )
-  img, div.CodeRay, div.article-metadata
+  img, div.CodeRay, div.article-metadata, video
     make-wider()
   div.embed
     make-wider()
