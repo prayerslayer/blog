@@ -6,7 +6,7 @@ Die Vorrunde der FIFA Weltmeisterschaft 2014 ist so gut wie beendet (Gruppen F�
 
 Das Traurige an der Sache ist, dass die Niederlage gegen Uruguay—ein Unentschieden hätte gereicht—nicht wie gegen Costa Rica vollkommen verdient war. Stattdessen wurde Marchisio wegen diesem Foul in der 60. Minute ausgeschlossen:
 
-{% video /media/img/itauru2014/marchisio-red.mp4 %}
+{% video /media/img/itauru2014/marchisio-red.mp4 %} 
 
 Die Wenigsten finden, dass Rot hier angebracht war. Später beisst Suarez Chiellini.
 
