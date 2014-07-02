@@ -32,6 +32,4 @@ Um das bunte Logo sichtbar zu machen, setzen wir einfach die Vordergrundfarbe tr
 
 Et voilá, [ein buntes Apple Logo](http://plnkr.co/edit/MNH0B8at8ugCTkXaRVqN?p=preview) mit Webfonts und CSS3!
 
-{% plunker http://embed.plnkr.co/MNH0B8at8ugCTkXaRVqN/preview %}
-
-Falls ihr in dem Plunker nun lauter bunte oder schwarze Kästchen seht, habt ihr auch den großen Nachteil von der Variante bemerkt: ``background-clip: text`` gibt es nur in Webkit-basierten Browsern, also nicht im Firefox. Außerdem kann Modernizr nicht verlässlich detektieren, ob der Browser diese Property unterstützt. Also entweder ihr benötigt nur Chrome und Safari, oder naja, Pech. Leider. Oder 90er Style, einfach Bilder nehmen.
+Falls ihr in dem Plunker-Link nun lauter bunte oder schwarze Kästchen seht, habt ihr auch den großen Nachteil von der Variante bemerkt: ``background-clip: text`` gibt es nur in Webkit-basierten Browsern, also nicht im Firefox. Außerdem kann Modernizr nicht verlässlich detektieren, ob der Browser diese Property unterstützt. Also entweder ihr benötigt nur Chrome und Safari, oder naja, Pech. Leider. Oder 90er Style, einfach Bilder nehmen.
