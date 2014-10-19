@@ -1,21 +1,37 @@
 @import "variables";
 
 @media ( min-width: 1200px ) {
-    img,
-    video,
-    .CodeRay,
-    .article-metadata,
-    .embed {
-        .make-wider();
+    
+
+    article.article {
+        img,
+        video,
+        .CodeRay,
+        .article-metadata,
+        .embed {
+            .make-wider();
+        }
+
+        blockquote {
+            left: -2em; // .5em border-left + 1.5em margin
+        }
+
+        ul,
+        ol {
+            position: relative;
+            left: -@margin;
+        }
+    }
+}
+
+@media ( max-width: 480px ) {
+    // remove padding on sides
+    .viewport .row {
+        padding: 0;
     }
 
-    blockquote {
-        left: -@margin;
-    }
-
-    ul,
-    ol {
+    // reset list einrückung
+    .index ul {
         margin-left: -@margin;
-        // margin: @margin 0;
     }
 }

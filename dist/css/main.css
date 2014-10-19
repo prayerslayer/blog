@@ -36,7 +36,8 @@ a {
           transition-property: color border-bottom-width;
   -webkit-transition-duration: 0.2s;
           transition-duration: 0.2s;
-  transition-easing: ease;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
   text-decoration: none;
   border-bottom: 1px solid #ff584c;
   color: #ff584c;
@@ -96,9 +97,9 @@ video {
   padding: 0 1em;
 }
 .viewport .row .content {
+  width: 100%;
   max-width: 768px;
   margin: 0 auto;
-  padding: 1em;
 }
 .index ul {
   list-style-type: none;
@@ -138,7 +139,7 @@ article.article pre code {
   margin: 1.5em 0;
   font-size: 0.8em;
   color: #808080;
-  line-height: 1em;
+  line-height: 1.1em;
 }
 article.article p > code,
 article.article li > code {
@@ -153,8 +154,7 @@ article.article .embed,
 article.article pre,
 article.article ul,
 article.article ol {
-  margin-top: 3em;
-  margin-bottom: 3em;
+  margin: 3em 0;
 }
 article.article .article-metadata {
   padding-bottom: 1.5em;
@@ -228,20 +228,29 @@ footer.footer {
   margin-top: 1.5em;
 }
 @media (min-width: 1200px) {
-  img,
-  video,
-  .CodeRay,
-  .article-metadata,
-  .embed {
+  article.article img,
+  article.article video,
+  article.article .CodeRay,
+  article.article .article-metadata,
+  article.article .embed {
     width: 125% !important;
     left: -12.5% !important;
     position: relative !important;
   }
-  blockquote {
+  article.article blockquote {
+    left: -2em;
+  }
+  article.article ul,
+  article.article ol {
+    position: relative;
     left: -1.5em;
   }
-  ul,
-  ol {
+}
+@media (max-width: 480px) {
+  .viewport .row {
+    padding: 0;
+  }
+  .index ul {
     margin-left: -1.5em;
   }
 }
