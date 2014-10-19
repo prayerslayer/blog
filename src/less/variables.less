@@ -1,0 +1,43 @@
+// Variables
+
+@font-family-sans: "source_sans_prolight", Helvetica, sans-serif;
+@font-family-bold: "source_sans_probold", Helvetica, sans-serif;
+@font-family-mono: "source_code_proregular", Monaco, monospace;
+
+@base-font-size: 16px;
+@font-size-big: 2em;
+@font-size: 1.5em;
+@font-size-small: 0.8em;
+@font-size-smaller: 0.667em;
+
+@line-height: 1.5em;
+@line-height-small: 1em;
+
+@margin-big: 3em;
+@margin: 1.5em;
+@margin-small: 1em;
+@margin-smaller: 0.5em;
+
+@black: #16161D;
+@white: #fcfcfc;
+@grey: grey;
+@red: #ff584c;
+@red-dark: #bf4942;
+@red-light: #ff8e94;
+
+@transition-duration: .2s;
+@transition-easing: ease;
+
+// Mixins
+
+.transition( ... ) {
+    transition-property: @arguments;
+    transition-duration: @transition-duration;
+    transition-easing: @transition-easing;
+}
+
+.make-wider() {
+    width: 125% !important;
+    left: -12.5% !important;
+    position: relative !important;
+}

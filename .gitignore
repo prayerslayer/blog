@@ -8,3 +8,7 @@ _site/
 /_config.yml
 
 /node_modules/*
+
+/dist/css/*
+
+rev-manifest.json

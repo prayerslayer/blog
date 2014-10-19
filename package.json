@@ -1,5 +1,5 @@
 {
-  "name": "piccoblog",
+  "name": "blog",
   "title": "Blog",
   "version": "1.0.0",
   "author": "Nikolaus Piccolotto",
@@ -9,14 +9,11 @@
     "url": "https://github.com/prayerslayer/blog"
   },
   "devDependencies": {
-    "grunt": "0.4.x",
-    "grunt-contrib-connect": "0.1.x",
-    "grunt-contrib-concat": "0.1.x",
-    "grunt-contrib-watch": "0.2.x",
-    "grunt-contrib-stylus": "0.5.x",
-    "grunt-jekyll": "0.3.x",
-    "grunt-contrib-cssmin": "0.6.x",
-    "grunt-preprocess": "~2.3.0",
-    "grunt-env": "~0.4.0"
+    "gulp": "3.8.8",
+    "gulp-autoprefixer": "1.0.1",
+    "gulp-concat": "2.4.1",
+    "gulp-cssmin": "0.1.6",
+    "gulp-less": "1.3.6",
+    "gulp-replace": "^0.4.0"
   }
 }

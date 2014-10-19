@@ -1,0 +1,122 @@
+@import "variables";
+
+article.article {
+
+    blockquote {
+        position: relative;
+        border-left: @margin-smaller solid @red;
+        color: @grey;
+
+        p,
+        ul,
+        ol {
+            margin-left: @margin;
+        }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-top: @margin;
+        font-weight: lighter;
+    }
+
+    ul {
+        list-style-type: circle;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+
+        + p {
+            margin-top: @margin;
+        }
+    }
+
+    // code block
+    pre,
+    pre code {
+        font-family: @font-family-mono !important;
+        margin: @margin 0;
+        font-size: @font-size-small;
+        color: @grey;
+        line-height: @line-height-small;
+    }
+
+    // inline code
+    p > code,
+    li > code {
+        font-family: @font-family-mono;
+        font-size: @font-size-small;
+        background-color: @black;
+        color: @white;
+        padding: 3px;
+    }
+
+    // apply big margin on blocks like quotes, code etc
+    blockquote,
+    .embed,
+    pre,
+    ul,
+    ol {
+        margin-top: @margin-big;
+        margin-bottom: @margin-big;
+    }
+
+    .article-metadata {
+        padding-bottom: @margin;
+
+        .article-title {
+            border-bottom: 3px solid @black;
+            font-size: @font-size-big;
+            line-height: @line-height;
+            margin: 0;
+            text-align: center;
+        }
+
+        .article-date {
+            text-align: center;
+            color: @grey;
+        }
+    }
+
+    .footnotes {
+        margin-top: @margin-big;
+        border-top: 1px solid @black;
+    }
+
+    .embed {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        margin: @margin 0;
+
+        iframe,
+        object,
+        embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    // coderay
+    .CodeRay {
+        margin: @margin 0;
+        background: @white;
+        border: 1px solid @black;
+
+        .line-numbers {
+            margin: 0 @margin-smaller;
+        }
+    }
+}

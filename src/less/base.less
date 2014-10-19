@@ -1,0 +1,116 @@
+@import "variables";
+
+// Styles
+
+*::selection {
+    background: @red;
+    color: @white;
+}
+
+html {
+    font-size: @base-font-size; // 16px or whatever
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-size: @font-size;  // 1.5em or whatever
+    font-family: @font-family-sans;
+    font-weight: 300;
+    line-height: @line-height;
+    color: @black;
+    background-color: @white;
+    text-rendering: optimizeLegibility;
+    // prevent font scaling in mobile browsers
+    text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: @font-family-bold;
+}
+
+a {
+    .transition( color, border-bottom-width );
+
+    text-decoration: none;
+    border-bottom: 1px solid @red;
+    color: @red;
+
+    &:visited {
+        color: @red-dark;
+        border-bottom: 1px solid @red-dark;
+    }
+
+    &:hover {
+        color: @red-light;
+        border-bottom: 3px solid @red-light;
+    }
+}
+
+header {
+    margin-top: @margin-smaller;
+    margin-bottom: @margin;
+}
+
+sup,
+sub {
+    font-size: @font-size-smaller;
+}
+
+li + li {
+    margin-top: @margin-small;
+}
+
+hr {
+    margin: @margin;
+}
+
+b, strong {
+    font-family: @font-family-bold;
+}
+
+figure {
+    margin: @margin 0;
+}
+
+figcaption {
+    color: @grey;
+    font-size: @font-size-small;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+    display: block;
+}
+
+video {
+    margin: @margin 0;
+    width: 100%;
+    height: 480px;
+    background: @black;
+}
+
+.viewport {
+    min-height: 100%;
+
+    .row {
+        max-width: 1140px;
+        margin: 0 auto;
+        overflow: visible;
+        padding: 0 1em;
+    
+        .content {
+            max-width: 768px;
+            margin: 0 auto;
+            padding: @margin-small;
+                
+        }
+    }
+}

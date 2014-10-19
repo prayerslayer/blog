@@ -7,7 +7,7 @@ title: "CV"
 
 Seit Februar 2014 schreibe ich Javascript (u.a. mit [AngularJS](http://angularjs.org/), [D3.js](http://d3js.org/)) für [Zalando](http://zalando.de).
 
-![Itsa me.]( {{site.url}}/img/self.jpg )
+![Itsa me.]( {{site.url}}/dist/img/self.jpg )
 
 # Universität
 

@@ -18,6 +18,7 @@
 ##
 require 'json'
 require 'uri'
+require 'openssl'
 require 'oembed'
 
 

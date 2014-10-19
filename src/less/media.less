@@ -1,0 +1,21 @@
+@import "variables";
+
+@media ( min-width: 1200px ) {
+    img,
+    video,
+    .CodeRay,
+    .article-metadata,
+    .embed {
+        .make-wider();
+    }
+
+    blockquote {
+        left: -@margin;
+    }
+
+    ul,
+    ol {
+        margin-left: -@margin;
+        // margin: @margin 0;
+    }
+}
