@@ -22,7 +22,7 @@ module Jekyll
       source += "<figcaption>#{@caption}</figcaption>" if @caption
       source += "<a href=\"#{@url}\" "
       source += "title=\"#{@caption}\" " if @caption
-      source += "><img src=\"/img/spinner.gif\" data-echo=\"#{@url}\"></a>"
+      source += "><img src=\"/dist/img/spinner.gif\" data-echo=\"#{@url}\"></a>"
       source += "</figure>"
 
       source
