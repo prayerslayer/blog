@@ -1,11 +1,15 @@
 var gulp = require( 'gulp' ),
     fs = require( 'fs' ),
-    cssmin = require( 'gulp-cssmin' ),
+
     concat = require( 'gulp-concat' ),
-    vendor = require( 'gulp-autoprefixer' ),
     replace = require( 'gulp-replace' ),
+
+    cssmin = require( 'gulp-cssmin' ),
+    vendor = require( 'gulp-autoprefixer' ),
+    less = require( 'gulp-less' ),
     rev = require( 'gulp-rev' ),
-    less = require( 'gulp-less' );
+
+    imagemin = require( 'gulp-imagemin' );
 
 // compile LESS to css
 gulp.task( 'less', function() {
@@ -17,7 +21,7 @@ gulp.task( 'less', function() {
 });
 
 // concatenate with vendor files, minify and set version
-gulp.task( 'concat:css', [ 'less' ], function() {
+gulp.task( 'css', [ 'less' ], function() {
     return gulp
             .src([
                 'src/css/normalize-3.0.2.css',
@@ -32,8 +36,38 @@ gulp.task( 'concat:css', [ 'less' ], function() {
             .pipe( gulp.dest( './') );
 });
 
+gulp.task( 'image:jpeg', function() {
+    return gulp
+            .src( 'media/img/**/*.jpg' )
+            .pipe( imagemin() )
+            .pipe( gulp.dest( 'media/img' ) );
+});
+
+gulp.task( 'image:png', function() {
+    return gulp
+            .src( 'media/img/**/*.png' )
+            .pipe( imagemin() )
+            .pipe( gulp.dest( 'media/img' ) );
+});
+
+gulp.task( 'image:gif', function() {
+    return gulp
+            .src( 'media/img/**/*.gif' )
+            .pipe( imagemin() )
+            .pipe( gulp.dest( 'media/img' ) );
+});
+
+gulp.task( 'image:svg', function() {
+    return gulp
+            .src( 'media/img/**/*.svg' )
+            .pipe( imagemin() )
+            .pipe( gulp.dest( 'media/img' ) );
+});
+
+gulp.task( 'images', [ 'image:jpeg', 'image:gif', 'image:png', 'image:svg'] );
+
 // replace version in header partial
-gulp.task( 'build', [ 'concat:css' ], function() {
+gulp.task( 'build', [ 'css', 'images' ], function() {
     var manifest = JSON.parse( fs.readFileSync( 'rev-manifest.json' ) );
     return gulp
             .src( 'src/includes/header.html' )
@@ -41,7 +75,7 @@ gulp.task( 'build', [ 'concat:css' ], function() {
             .pipe( gulp.dest( '_includes' ) );
 } );
 
-gulp.task( 'watch', [ 'build' ], function( ) {
+gulp.task( 'watch', [ 'css' ], function( ) {
     return gulp
             .watch( 'src/less/*.less', [ 'build' ] );
 });
