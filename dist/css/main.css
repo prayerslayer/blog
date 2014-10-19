@@ -203,6 +203,9 @@ article.article .CodeRay .line-numbers {
 .category .article + .article {
   margin-top: 3em;
 }
+header.header {
+  padding-bottom: 3em;
+}
 header.header .name {
   text-align: center;
   margin-bottom: 1em;
