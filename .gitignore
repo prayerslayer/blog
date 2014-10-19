@@ -5,8 +5,8 @@ _site/
 
 .DS_Store
 
-/_config.yml
-
 /node_modules/*
 
 rev-manifest.json
+
+_config.yml

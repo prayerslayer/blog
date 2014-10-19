@@ -3,6 +3,7 @@ var gulp = require( 'gulp' ),
 
     concat = require( 'gulp-concat' ),
     replace = require( 'gulp-replace' ),
+    del = require( 'del' ),
 
     cssmin = require( 'gulp-cssmin' ),
     vendor = require( 'gulp-autoprefixer' ),
@@ -12,12 +13,16 @@ var gulp = require( 'gulp' ),
     imagemin = require( 'gulp-imagemin' );
 
 // compile LESS to css
-gulp.task( 'less', function() {
+gulp.task( 'less', [ 'delete:css' ], function() {
     return gulp
             .src( 'src/less/main.less' )
             .pipe( less() )
             .pipe( vendor() )
             .pipe( gulp.dest( 'dist/css' ) );
+});
+
+gulp.task( 'delete:css', function( done ) {
+    del( 'dist/css', done );
 });
 
 // concatenate with vendor files, minify and set version
@@ -67,7 +72,7 @@ gulp.task( 'image:svg', function() {
 gulp.task( 'images', [ 'image:jpeg', 'image:gif', 'image:png', 'image:svg'] );
 
 // replace version in header partial
-gulp.task( 'build', [ 'css', 'images' ], function() {
+gulp.task( 'build:css', [ 'css' ], function() {
     var manifest = JSON.parse( fs.readFileSync( 'rev-manifest.json' ) );
     return gulp
             .src( 'src/includes/header.html' )
@@ -75,7 +80,11 @@ gulp.task( 'build', [ 'css', 'images' ], function() {
             .pipe( gulp.dest( '_includes' ) );
 } );
 
-gulp.task( 'watch', [ 'css' ], function( ) {
+gulp.task( 'build:images', [ 'images' ] );
+
+gulp.task( 'build', [ 'build:css', 'build:images' ]);
+
+gulp.task( 'watch', [ 'build:css' ], function( ) {
     return gulp
-            .watch( 'src/less/*.less', [ 'build' ] );
+            .watch( 'src/less/*.less', [ 'build:css' ] );
 });

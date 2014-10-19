@@ -225,7 +225,7 @@ footer.footer {
   color: #fcfcfc;
   position: relative;
   font-size: 0.667em;
-  margin-top: 1.5em;
+  margin-top: 3em;
 }
 @media (min-width: 1200px) {
   article.article img,
