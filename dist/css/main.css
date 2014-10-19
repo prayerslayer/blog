@@ -50,10 +50,6 @@ a:hover {
   color: #ff8e94;
   border-bottom: 3px solid #ff8e94;
 }
-header {
-  margin-top: 0.5em;
-  margin-bottom: 1.5em;
-}
 sup,
 sub {
   font-size: 0.667em;
@@ -204,7 +200,8 @@ article.article .CodeRay .line-numbers {
   margin-top: 3em;
 }
 header.header {
-  padding-bottom: 3em;
+  margin-top: 0.5em;
+  margin-bottom: 3em;
 }
 header.header .name {
   text-align: center;
