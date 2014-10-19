@@ -93,7 +93,13 @@ video {
 }
 
 .viewport {
+    .transition( opacity );
+    opacity: 1;
     min-height: 100%;
+    
+    &:not( .fonts-loaded ) {
+        opacity: 0;
+    }
 
     .row {
         max-width: 1140px;

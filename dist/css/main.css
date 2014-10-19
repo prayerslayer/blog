@@ -84,7 +84,17 @@ video {
   background: #16161d;
 }
 .viewport {
+  -webkit-transition-property: opacity;
+          transition-property: opacity;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  opacity: 1;
   min-height: 100%;
+}
+.viewport:not( .fonts-loaded ) {
+  opacity: 0;
 }
 .viewport .row {
   max-width: 1140px;

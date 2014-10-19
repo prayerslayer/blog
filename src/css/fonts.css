@@ -1,44 +1,20 @@
 @font-face {
     font-family: 'source_sans_prolight';
-    src: url('../fonts/sourcesanspro-light-webfont-webfont.eot');
-}
-
-@font-face {
-    font-family: 'source_sans_prolight';
-    src: url('../fonts/sourcesanspro-light-webfont-webfont.woff') format('woff'),
-         url('../fonts/sourcesanspro-light-webfont-webfont.ttf') format('truetype'),
-         url('../fonts/sourcesanspro-light-webfont-webfont.svg#source_sans_prolight') format('svg');
+    src: url('../fonts/sourcesanspro-light-webfont-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'source_sans_probold';
-    src: url('../fonts/sourcesanspro-bold-webfont-webfont.eot');
-}
-
-@font-face {
-    font-family: 'source_sans_probold';
-    src: url('../fonts/sourcesanspro-bold-webfont-webfont.woff') format('woff'),
-         url('../fonts/sourcesanspro-bold-webfont-webfont.ttf') format('truetype'),
-         url('../fonts/sourcesanspro-bold-webfont-webfont.svg#source_sans_probold') format('svg');
+    src: url('../fonts/sourcesanspro-bold-webfont-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'source_code_proregular';
-    src: url('../fonts/sourcecodepro-regular-webfont-webfont.eot');
-}
-
-@font-face {
-    font-family: 'source_code_proregular';
-    src: url('../fonts/sourcecodepro-regular-webfont-webfont.woff') format('woff'),
-         url('../fonts/sourcecodepro-regular-webfont-webfont.ttf') format('truetype'),
-         url('../fonts/sourcecodepro-regular-webfont-webfont.svg#source_code_proregular') format('svg');
+    src: url('../fonts/sourcecodepro-regular-webfont-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }

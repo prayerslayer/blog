@@ -10,6 +10,8 @@ var gulp = require( 'gulp' ),
     less = require( 'gulp-less' ),
     rev = require( 'gulp-rev' ),
 
+    uglify = require( 'gulp-uglify' ),
+
     imagemin = require( 'gulp-imagemin' );
 
 // compile LESS to css
@@ -37,8 +39,18 @@ gulp.task( 'css', [ 'less' ], function() {
             .pipe( cssmin() )
             .pipe( rev () )
             .pipe( gulp.dest( 'dist/css' ) )
-            .pipe( rev.manifest() )
+            .pipe( rev.manifest({
+                path: 'rev-manifest.json'
+            }) )
             .pipe( gulp.dest( './') );
+});
+
+gulp.task( 'build:js', function() {
+    return gulp
+            .src( 'src/js/*.js' )
+            .pipe( concat( 'all.min.js' ) )
+            .pipe( uglify() )
+            .pipe( gulp.dest( 'dist/js' ) );
 });
 
 gulp.task( 'image:jpeg', function() {
@@ -78,11 +90,11 @@ gulp.task( 'build:css', [ 'css' ], function() {
             .src( 'src/includes/header.html' )
             .pipe( replace( 'all.min.css', manifest[ 'all.min.css' ] ) )
             .pipe( gulp.dest( '_includes' ) );
-} );
+});
 
 gulp.task( 'build:images', [ 'images' ] );
 
-gulp.task( 'build', [ 'build:css', 'build:images' ]);
+gulp.task( 'build', [ 'build:css', 'build:images', 'build:js' ]);
 
 gulp.task( 'watch', [ 'build:css' ], function( ) {
     return gulp
