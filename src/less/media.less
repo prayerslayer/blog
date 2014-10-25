@@ -3,20 +3,20 @@
 @media ( min-width: 1200px ) {
 
     article.article {
-        img,
-        video,
+        > figure img,   // do not make images inside blockquotes wider
+        > video,
         .CodeRay,
         .article-metadata,
-        .embed {
+        > .embed {
             .make-wider();
         }
 
-        blockquote {
+        > blockquote {
             left: -2em; // .5em border-left + 1.5em margin
         }
 
-        ul,
-        ol {
+        > ul,
+        > ol {
             position: relative;
             left: -@margin;
         }

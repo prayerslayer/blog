@@ -103,61 +103,10 @@ video {
   width: 100%;
   max-width: 768px;
   margin: 0 auto;
+  padding-top: 1em;
 }
 .index ul {
   list-style-type: none;
-}
-article.article blockquote {
-  position: relative;
-  border-left: 0.5em solid #ff584c;
-  color: #808080;
-}
-article.article blockquote p,
-article.article blockquote ul,
-article.article blockquote ol {
-  margin-left: 1.5em;
-}
-article.article h1,
-article.article h2,
-article.article h3,
-article.article h4,
-article.article h5,
-article.article h6 {
-  margin-top: 1.5em;
-  font-weight: lighter;
-}
-article.article ul {
-  list-style-type: circle;
-}
-article.article p {
-  margin: 0;
-  padding: 0;
-}
-article.article p + p {
-  margin-top: 1.5em;
-}
-article.article pre,
-article.article pre code {
-  font-family: "source_code_proregular", Monaco, monospace !important;
-  margin: 1.5em 0;
-  font-size: 0.8em;
-  color: #808080;
-  line-height: 1.1em;
-}
-article.article p > code,
-article.article li > code {
-  font-family: "source_code_proregular", Monaco, monospace;
-  font-size: 0.8em;
-  background-color: #d3d3d3;
-  color: #16161d;
-  padding: 3px;
-}
-article.article blockquote,
-article.article .embed,
-article.article pre,
-article.article ul,
-article.article ol {
-  margin: 3em 0;
 }
 article.article .article-metadata {
   padding-bottom: 1.5em;
@@ -173,11 +122,62 @@ article.article .article-metadata .article-date {
   text-align: center;
   color: #808080;
 }
-article.article .footnotes {
+article.article .article-content {
+  min-height: 300px;
+}
+article.article .article-content > blockquote {
+  position: relative;
+  border-left: 0.5em solid #ff584c;
+  color: #808080;
+  padding-left: 1.5em;
+}
+article.article .article-content h1,
+article.article .article-content h2,
+article.article .article-content h3,
+article.article .article-content h4,
+article.article .article-content h5,
+article.article .article-content h6 {
+  margin-top: 1.5em;
+  font-weight: lighter;
+}
+article.article .article-content ul {
+  list-style-type: circle;
+}
+article.article .article-content p {
+  margin: 0;
+  padding: 0;
+}
+article.article .article-content p + p {
+  margin-top: 1.5em;
+}
+article.article .article-content pre,
+article.article .article-content pre code {
+  font-family: "source_code_proregular", Monaco, monospace !important;
+  margin: 1.5em 0;
+  font-size: 0.8em;
+  color: #808080;
+  line-height: 1.1em;
+}
+article.article .article-content p > code,
+article.article .article-content li > code {
+  font-family: "source_code_proregular", Monaco, monospace;
+  font-size: 0.8em;
+  background-color: #d3d3d3;
+  color: #16161d;
+  padding: 3px;
+}
+article.article .article-content > blockquote,
+article.article .article-content > .embed,
+article.article .article-content > pre,
+article.article .article-content > ul,
+article.article .article-content > ol {
+  margin: 3em 0;
+}
+article.article .article-content .footnotes {
   margin-top: 3em;
   border-top: 1px solid #16161d;
 }
-article.article .embed {
+article.article .article-content .embed {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
@@ -186,21 +186,21 @@ article.article .embed {
   height: auto;
   margin: 1.5em 0;
 }
-article.article .embed iframe,
-article.article .embed object,
-article.article .embed embed {
+article.article .article-content .embed iframe,
+article.article .article-content .embed object,
+article.article .article-content .embed embed {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-article.article .CodeRay {
+article.article .article-content .CodeRay {
   margin: 1.5em 0;
   background: #fcfcfc;
   border: 1px solid #16161d;
 }
-article.article .CodeRay .line-numbers {
+article.article .article-content .CodeRay .line-numbers {
   margin: 0 0.5em;
 }
 .category .article + .article {
@@ -235,20 +235,20 @@ footer.footer {
   margin-top: 3em;
 }
 @media (min-width: 1200px) {
-  article.article img,
-  article.article video,
+  article.article > figure img,
+  article.article > video,
   article.article .CodeRay,
   article.article .article-metadata,
-  article.article .embed {
+  article.article > .embed {
     width: 125% !important;
     left: -12.5% !important;
     position: relative !important;
   }
-  article.article blockquote {
+  article.article > blockquote {
     left: -2em;
   }
-  article.article ul,
-  article.article ol {
+  article.article > ul,
+  article.article > ol {
     position: relative;
     left: -1.5em;
   }
