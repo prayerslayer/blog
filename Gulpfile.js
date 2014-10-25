@@ -1,5 +1,6 @@
 var gulp = require( 'gulp' ),
     fs = require( 'fs' ),
+    shell = require( 'gulp-shell' ),
 
     concat = require( 'gulp-concat' ),
     replace = require( 'gulp-replace' ),
@@ -81,6 +82,8 @@ gulp.task( 'image:svg', function() {
             .pipe( gulp.dest( 'media/img' ) );
 });
 
+gulp.task( 'jekyll', [ 'build:css'], shell.task( 'jekyll build' ) );
+
 gulp.task( 'images', [ 'image:jpeg', 'image:gif', 'image:png', 'image:svg'] );
 
 // replace version in header partial
@@ -98,5 +101,5 @@ gulp.task( 'build', [ 'build:css', 'build:images', 'build:js' ]);
 
 gulp.task( 'watch', [ 'build:css' ], function( ) {
     return gulp
-            .watch( 'src/less/*.less', [ 'build:css' ] );
+            .watch( 'src/less/*.less', [ 'build:css', 'jekyll' ] );
 });
