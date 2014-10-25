@@ -148,8 +148,8 @@ article.article p > code,
 article.article li > code {
   font-family: "source_code_proregular", Monaco, monospace;
   font-size: 0.8em;
-  background-color: #16161d;
-  color: #fcfcfc;
+  background-color: #d3d3d3;
+  color: #16161d;
   padding: 3px;
 }
 article.article blockquote,
@@ -210,17 +210,17 @@ header.header {
   margin-top: 0.5em;
   margin-bottom: 3em;
 }
-header.header .name {
+header.header .header-name {
   text-align: center;
   margin-bottom: 1em;
 }
-header.header .name > a {
+header.header .header-name > a {
   color: #16161d;
 }
-header.header .social,
-header.header .navigation {
+header.header .header-social,
+header.header .header-navigation {
   text-align: center;
-  line-height: 1em;
+  line-height: 1.5em;
   font-size: 0.8em;
   margin-bottom: 1em;
 }
