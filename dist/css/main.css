@@ -162,7 +162,7 @@ article.article .article-content p > code,
 article.article .article-content li > code {
   font-family: "source_code_proregular", Monaco, monospace;
   font-size: 0.8em;
-  background-color: #d3d3d3;
+  background-color: #e6e6e6;
   color: #16161d;
   padding: 3px;
 }
