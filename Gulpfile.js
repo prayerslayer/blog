@@ -100,6 +100,11 @@ gulp.task( 'build:images', [ 'images' ] );
 gulp.task( 'build', [ 'build:css', 'build:images', 'build:js' ]);
 
 gulp.task( 'watch', [ 'build:css' ], function( ) {
+    shell.task( 'node server.js' )();
     return gulp
-            .watch( 'src/less/*.less', [ 'build:css', 'jekyll' ] );
+            .watch([
+                'src/less/*.less',
+                'src/includes/*.html' ],
+
+                [ 'build:css', 'jekyll' ] );
 });
