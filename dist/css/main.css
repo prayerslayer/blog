@@ -235,20 +235,20 @@ footer.footer {
   margin-top: 3em;
 }
 @media (min-width: 1200px) {
-  article.article > figure img,
-  article.article > video,
-  article.article .CodeRay,
-  article.article .article-metadata,
-  article.article > .embed {
+  .article-content > figure img,
+  .article-content > video,
+  .article-content .CodeRay,
+  .article-content .article-metadata,
+  .article-content > .embed {
     width: 125% !important;
     left: -12.5% !important;
     position: relative !important;
   }
-  article.article > blockquote {
+  .article-content > blockquote {
     left: -2em;
   }
-  article.article > ul,
-  article.article > ol {
+  .article-content > ul,
+  .article-content > ol {
     position: relative;
     left: -1.5em;
   }
