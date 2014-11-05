@@ -5,4 +5,4 @@ category: project
 date: 2011-01-01
 ---
 
-Vorbereitend auf meinen Großen Beleg habe ich mich mit der Frage beschäftigt, wie Ontologien auf andere Art und Weise als mit einem Graph dargestellt werden könnten. Dabei kam ich auf eine Mischung aus Treemap und Sunbursts, die ich testweise implementierte. Die [Visualisierung]( {{site.url}}/code/sunbursts/ ) ist leider nur in wenigen Fällen brauchbar.
+Vorbereitend auf meinen Großen Beleg habe ich mich mit der Frage beschäftigt, wie Ontologien auf andere Art und Weise als mit einem Graph dargestellt werden könnten. Dabei kam ich auf eine Mischung aus Treemap und Sunbursts, die ich testweise implementierte. Die [Visualisierung]( /code/sunbursts/ ) ist leider nur in wenigen Fällen brauchbar.

@@ -16,7 +16,7 @@ Dann wundert es vermutlich nicht mehr, warum ich ein Problem mit zu langsamen An
 
 Aber keine Angst, [Photon](http://prayerslayer.github.io/photon.js/) to the rescue! Es tut genau, was es soll und nicht mehr.
 
-{% image {{site.url}}/media/img/photonjs.png "Photon" %}
+{% image /media/img/photonjs.png "Photon" %}
 
 Die Vorzüge von Photon im einzelnen:
 

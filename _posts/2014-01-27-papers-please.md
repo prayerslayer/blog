@@ -15,7 +15,7 @@ Nun ist es so, dass der Held selbst ein schwieriges Leben hat. Es wollen vier an
 
 Das wird allerdings im Laufe des Spiels immer schwieriger, da jeden Tag eine neue Regel hinzukommt. Anfangs muss nur der Pass auf seine Gültigkeit überprüft werden; gegen Ende gibt es mehrere Ausnahmeregelungen und Formulare, die der Held abgleichen muss.
 
-{% image {{site.url}}/media/img/papersplease.png "Screenshot aus Papers, please" %}
+{% image /media/img/papersplease.png "Screenshot aus Papers, please" %}
 
 Was das Spiel eigentlich ausmacht, sind die kleinen Geschichten und Schicksale, über die der Held entscheiden muss und in moralische Zwickmühlen gerät. Eine Frau will zu ihrem Mann ziehen, hat aber keine gültigen Dokumente. An sich ein No-Brainer sie passieren zu lassen, aber es liegt schon eine Verwarnung auf dem Schreibtisch und beim nächsten Fehler gibt es Abzüge. Soll das eigene Kind für eine fragwürdig glückliche Ehe — ihren Mann kennt man ja nicht — weiter frieren und hungern?
 
