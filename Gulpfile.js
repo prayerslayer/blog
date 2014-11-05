@@ -99,6 +99,27 @@ gulp.task( 'build:images', [ 'images' ] );
 
 gulp.task( 'build', [ 'build:css', 'build:images', 'build:js' ]);
 
+gulp.task( 'publish', function() {
+    var rawCmd = [
+        // cmd
+        'aws s3 sync',
+        // src
+        '_site',
+        // target = bucket
+        's3://npiccolotto-com/',
+        // options
+        // npm deps
+        '--exclude "node_modules/*"',
+        // source files
+        '--exclude "src/*"',
+        // delete gone files
+        '--delete'
+    ];
+
+    var cmd = rawCmd.join( ' ' );
+    return shell.task( cmd )();
+});
+
 gulp.task( 'watch', [ 'build:css' ], function( ) {
     shell.task( 'node server.js' )();
     return gulp
