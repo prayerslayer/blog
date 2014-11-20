@@ -125,6 +125,9 @@ article.article .article-metadata .article-date {
 article.article .article-content {
   min-height: 300px;
 }
+article.article .article-content > *:last-child {
+  margin-bottom: 6em;
+}
 article.article .article-content > blockquote {
   position: relative;
   border-left: 0.5em solid #ff584c;
