@@ -1,5 +1,5 @@
 ---
-title: “Offline Cookbook”
+title: "Offline Cookbook"
 ---
 
 [Jake Archibald](http://jakearchibald.com/2014/offline-cookbook/):
