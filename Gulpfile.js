@@ -106,7 +106,7 @@ gulp.task( 'publish', function() {
         // src
         '_site',
         // target = bucket
-        's3://npiccolotto-com/',
+        's3://npiccolotto.com/',
         // options
         // npm deps
         '--exclude "node_modules/*"',
