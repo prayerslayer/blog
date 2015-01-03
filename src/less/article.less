@@ -40,21 +40,26 @@ article.article {
         h4,
         h5,
         h6 {
-            margin-top: @margin;
-            font-weight: lighter;
+            margin-top: @margin-big;
         }
 
         ul {
             list-style-type: circle;
         }
 
+        p,
+        ul,
+        ol {
+            + p,
+            + ul,
+            + ol {
+                margin-top: @margin;
+            }
+        }
+
         p {
             margin: 0;
             padding: 0;
-
-            + p {
-                margin-top: @margin;
-            }
         }
 
         // code block
@@ -80,9 +85,7 @@ article.article {
         // apply big margin on blocks like quotes, code etc
         > blockquote,
         > .embed,
-        > pre,
-        > ul,
-        > ol {
+        > pre {
             margin: @margin-big 0;
         }
 

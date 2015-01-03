@@ -73,9 +73,10 @@ figcaption {
   text-align: center;
 }
 img {
-  width: 100%;
+  max-width: 100%;
   vertical-align: middle;
   display: block;
+  margin: 0 auto;
 }
 video {
   margin: 1.5em 0;
@@ -107,6 +108,9 @@ video {
 }
 .index ul {
   list-style-type: none;
+}
+.index ul .post-date {
+  font-family: "source_code_proregular", Monaco, monospace;
 }
 article.article .article-metadata {
   padding-bottom: 1.5em;
@@ -140,18 +144,25 @@ article.article .article-content h3,
 article.article .article-content h4,
 article.article .article-content h5,
 article.article .article-content h6 {
-  margin-top: 1.5em;
-  font-weight: lighter;
+  margin-top: 3em;
 }
 article.article .article-content ul {
   list-style-type: circle;
 }
+article.article .article-content p + p,
+article.article .article-content ul + p,
+article.article .article-content ol + p,
+article.article .article-content p + ul,
+article.article .article-content ul + ul,
+article.article .article-content ol + ul,
+article.article .article-content p + ol,
+article.article .article-content ul + ol,
+article.article .article-content ol + ol {
+  margin-top: 1.5em;
+}
 article.article .article-content p {
   margin: 0;
   padding: 0;
-}
-article.article .article-content p + p {
-  margin-top: 1.5em;
 }
 article.article .article-content pre,
 article.article .article-content pre code {
@@ -171,9 +182,7 @@ article.article .article-content li > code {
 }
 article.article .article-content > blockquote,
 article.article .article-content > .embed,
-article.article .article-content > pre,
-article.article .article-content > ul,
-article.article .article-content > ol {
+article.article .article-content > pre {
   margin: 3em 0;
 }
 article.article .article-content .footnotes {
