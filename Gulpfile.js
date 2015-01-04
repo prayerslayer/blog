@@ -100,20 +100,21 @@ gulp.task( 'build:images', [ 'images' ] );
 gulp.task( 'build', [ 'build:css', 'build:images', 'build:js' ]);
 
 gulp.task( 'publish', function() {
-    var rawCmd = [
+    
+     var rawCmd = [
         // cmd
-        'aws s3 sync',
-        // src
-        '_site',
-        // target = bucket
+        's3cmd',
+        // command
+        'sync',
+        // source
+        '_site/',
+        // target
         's3://npiccolotto.com/',
         // options
-        // npm deps
         '--exclude "node_modules/*"',
-        // source files
         '--exclude "src/*"',
-        // delete gone files
-        '--delete'
+        '--region eu-central-1',
+        '--verbose'
     ];
 
     var cmd = rawCmd.join( ' ' );
