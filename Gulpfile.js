@@ -82,7 +82,26 @@ gulp.task( 'image:svg', function() {
             .pipe( gulp.dest( 'media/img' ) );
 });
 
-gulp.task( 'jekyll', [ 'build:css'], shell.task( 'jekyll build' ) );
+function buildJekyll( remote ) {
+    var config;
+    if ( remote ) {
+        config = '_config-remote.yml';
+    } else {
+        config = '_config-local.yml';
+    }
+
+    var cmd = [
+        'jekyll',
+        'build',
+        '--config',
+        config
+    ];
+
+    return shell.task( cmd.join(' ') );
+}
+
+gulp.task( 'jekyll:local', [ 'build:css' ], buildJekyll() );
+gulp.task( 'jekyll:remote', [ 'build:css' ], buildJekyll( true ) );
 
 gulp.task( 'images', [ 'image:jpeg', 'image:gif', 'image:png', 'image:svg'] );
 
@@ -99,7 +118,7 @@ gulp.task( 'build:images', [ 'images' ] );
 
 gulp.task( 'build', [ 'build:css', 'build:images', 'build:js' ]);
 
-gulp.task( 'publish', function() {
+gulp.task( 'publish', [ 'jekyll:remote' ], function() {
     
      var rawCmd = [
         // cmd
@@ -121,12 +140,23 @@ gulp.task( 'publish', function() {
     return shell.task( cmd )();
 });
 
-gulp.task( 'watch', [ 'build:css' ], function( ) {
-    shell.task( 'node server.js' )();
-    return gulp
-            .watch([
-                'src/less/*.less',
-                'src/includes/*.html' ],
+function startServer() {
+    return shell.task( 'node server.js' );
+}
 
-                [ 'build:css', 'jekyll' ] );
+gulp.task( 'server', startServer );
+
+gulp.task( 'watch', [ 'jekyll:local' ], function( ) {
+    startServer()();
+    gulp.watch([
+            'src/less/*.less',
+            'src/includes/*.html' ],
+
+            [ 'jekyll:local' ] );
 });
+
+gulp.task( 'test', [ 'server', 'jekyll:local'], function() {
+    gulp.watch(['src/less/*.less', 'src/includes/*.html'], ['jekyll:local']);
+});
+
+gulp.task( 'default', ['watch']);
