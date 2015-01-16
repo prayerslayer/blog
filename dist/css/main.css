@@ -54,9 +54,6 @@ sup,
 sub {
   font-size: 0.667em;
 }
-li + li {
-  margin-top: 1em;
-}
 hr {
   margin: 1.5em;
 }
@@ -68,7 +65,7 @@ figure {
   margin: 1.5em 0;
 }
 figcaption {
-  color: #808080;
+  color: grey;
   font-size: 0.8em;
   text-align: center;
 }
@@ -109,6 +106,9 @@ video {
 .index ul {
   list-style-type: none;
 }
+.index ul li + li {
+  margin-top: 1.5em;
+}
 .index ul .post-date {
   font-family: "source_code_proregular", Monaco, monospace;
 }
@@ -124,7 +124,7 @@ article.article .article-metadata .article-title {
 }
 article.article .article-metadata .article-date {
   text-align: center;
-  color: #808080;
+  color: grey;
 }
 article.article .article-content {
   min-height: 300px;
@@ -132,10 +132,13 @@ article.article .article-content {
 article.article .article-content > *:last-child {
   margin-bottom: 6em;
 }
+article.article .article-content > *:first-child {
+  margin-top: 3em;
+}
 article.article .article-content > blockquote {
   position: relative;
   border-left: 0.5em solid #ff584c;
-  color: #808080;
+  color: grey;
   padding-left: 1.5em;
 }
 article.article .article-content h1,
@@ -169,8 +172,8 @@ article.article .article-content pre code {
   font-family: "source_code_proregular", Monaco, monospace !important;
   margin: 1.5em 0;
   font-size: 0.8em;
-  color: #808080;
-  line-height: 1.1em;
+  color: grey;
+  line-height: 1.35em;
 }
 article.article .article-content p > code,
 article.article .article-content li > code {
@@ -181,6 +184,8 @@ article.article .article-content li > code {
   padding: 3px;
 }
 article.article .article-content > blockquote,
+article.article .article-content > video,
+article.article .article-content > figure,
 article.article .article-content > .embed,
 article.article .article-content > pre {
   margin: 3em 0;
@@ -244,25 +249,6 @@ footer.footer {
   position: relative;
   font-size: 0.667em;
   margin-top: 3em;
-}
-@media (min-width: 1200px) {
-  .article-content > figure img,
-  .article-content > video,
-  .article-content .CodeRay,
-  .article-content .article-metadata,
-  .article-content > .embed {
-    width: 125% !important;
-    left: -12.5% !important;
-    position: relative !important;
-  }
-  .article-content > blockquote {
-    left: -2em;
-  }
-  .article-content > ul,
-  .article-content > ol {
-    position: relative;
-    left: -1.5em;
-  }
 }
 @media (max-width: 480px) {
   .viewport .row {

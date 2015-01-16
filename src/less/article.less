@@ -27,6 +27,10 @@ article.article {
             margin-bottom: 2*@margin-big;
         }
 
+        > *:first-child {
+            margin-top: @margin-big;
+        }
+
         > blockquote {
             position: relative;
             border-left: @margin-smaller solid @red;
@@ -69,7 +73,7 @@ article.article {
             margin: @margin 0;
             font-size: @font-size-small;
             color: @grey;
-            line-height: 1.1em;
+            line-height: 1.35em;
         }
 
         // inline code
@@ -84,6 +88,8 @@ article.article {
 
         // apply big margin on blocks like quotes, code etc
         > blockquote,
+        > video,
+        > figure,
         > .embed,
         > pre {
             margin: @margin-big 0;
