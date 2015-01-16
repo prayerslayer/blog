@@ -1,10 +1,7 @@
 safe: false # this is to enable plugins
 encoding: utf-8
-#host: 0.0.0.0
 host: npiccolotto.com
-#port: 4000
 port: 80
-#url: http://localhost:4000
 url: https://npiccolotto.com
 baseurl: ""
 name: "Nikolaus Piccolotto"
@@ -41,13 +38,4 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: true
-  enable_coderay: true
-
-coderay:
-  coderay_wrap: div
-  coderay_line_numbers: ''
-  coderay_line_numbers_start: 1
-  coderay_tab_width: 2
-  coderay_bold_every: 10
-  coderay_css: style
+  syntax_highlighter: coderay
