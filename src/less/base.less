@@ -39,11 +39,13 @@ a {
 
     text-decoration: none;
     border-bottom: 1px solid @red;
-    color: @red;
+    color: @black;
 
     &:visited {
-        color: @red-dark;
         border-bottom: 1px solid @red-dark;
+        &:hover {
+            color: @red-dark;
+        }
     }
 
     &:hover {
@@ -102,7 +104,7 @@ video {
     
         .content {
             width: 100%;
-            max-width: 768px;
+            max-width: 680px;
             margin: 0 auto;
             padding-top: @margin-small;
         }

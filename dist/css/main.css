@@ -40,11 +40,13 @@ a {
           transition-timing-function: ease;
   text-decoration: none;
   border-bottom: 1px solid #ff584c;
-  color: #ff584c;
+  color: #16161d;
 }
 a:visited {
-  color: #bf4942;
   border-bottom: 1px solid #bf4942;
+}
+a:visited:hover {
+  color: #bf4942;
 }
 a:hover {
   color: #ff8e94;
@@ -99,7 +101,7 @@ video {
 }
 .viewport .row .content {
   width: 100%;
-  max-width: 768px;
+  max-width: 680px;
   margin: 0 auto;
   padding-top: 1em;
 }
