@@ -9,4 +9,17 @@ footer.footer {
     position: relative;
     font-size: @font-size-smaller;
     margin-top: @margin-big;
+
+    a {
+        color: @white;
+        &:visited {
+            &:hover {
+                color: @red-dark;
+            }
+        }
+
+        &:hover {
+            color: @red-light;
+        }
+    }
 }
