@@ -1,5 +1,6 @@
 ---
 title: CSS Qualität
+category: project
 ---
 
 In den letzten sechs Monaten oder so habe ich konsequent alles gebookmarked und gelesen, was auf diversen Mailinglisten (CSS Weekly, Web Design Weekly…) und HN zum Thema [CSS Qualität]({% post_url 2013-03-22-your-css-is-a-mess %}) lief. Hier ist die Liste:
