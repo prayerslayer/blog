@@ -146,6 +146,11 @@ function startServer() {
 
 gulp.task( 'server', startServer );
 
+gulp.task( 'write', function() {
+    startServer()();
+    gulp.watch( '_posts/*.md', [ 'jekyll:local' ]);
+});
+
 gulp.task( 'watch', [ 'jekyll:local' ], function( ) {
     startServer()();
     gulp.watch([
