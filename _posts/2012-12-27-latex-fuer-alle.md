@@ -41,7 +41,7 @@ Dennoch: Wenn ihr den Weg des LaTeX wirklich gehen wollt, sucht euch nach Mögli
 
 Fein! Jetzt braucht es vier bis fünf Schritte, bis ihr anfangen könnt.
 
-# 1) TeX
+## 1) TeX
 
 Ihr benötigt ein TeX Softwarepaket, welches euer LaTeX-Markup versteht und in PDF ausgeben kann. Unter Windows ist das [MikTeX](http://miktex.org/), für Mac-User ist bereits mit [TexShop](http://pages.uoregon.edu/koch/texshop/) gesorgt. Letztere können bei Schritt 2 weitermachen, da TexShop einen Editor mitliefert.
 
@@ -49,7 +49,7 @@ Installiert eure TeX-Distribution.
 
 *"Das fängt ja gut an, meine Fresse."*
 
-# 1a) Editor
+## 1a) Editor
 
 Ihr braucht einen Editor, in dem ihr euer LaTeX-Fu komfortabel schreiben könnt. Für Windows empfehle ich [TeXstudio](http://texstudio.sourceforge.net/). Theoretisch ginge auch ein Editor wie [Sublime Text 2](http://www.sublimetext.com/2). Dann müsst ihr aber der [Kommandozeile](http://www.chip.de/ii/243989041_a203f793ab.jpg) mächtig sein, überlegt es euch gut!
 
@@ -77,7 +77,7 @@ Ihr müsst zum PDF erzeugen nicht ständig zwischen Hauptdokument und Kapiteln w
 	 %!TEX root = hauptdokument.tex
 ~~~
 
-# 2) Literaturverwaltung
+## 2) Literaturverwaltung
 
 Bei einer großen Arbeit habt ihr wahrscheinlich mindestens 50 Quellen, alle von verschiedenen Autoren und mit unterschiedlich viel Informationen dabei: Mal nur Autor und Titel, bei anderen auch Journal, Jahr und Seite. Es ist hilfreich, diese Quellen ordentlich zu organisieren, sodass ihr nach Autor oder Titel sortieren, eigene Stichwörter hinzufügen und Informationen an einem Ort ändern könnt. Ein weiterer Vorteil eurer Quellendatenbank: Änderungen werden gleich ins PDF übernommen und ihr könnt den Zitierungsstil (APA, Harvard, Chicago...) auch später mit minimalem Aufwand ändern.
 
@@ -111,7 +111,7 @@ Natürlich könnt ihr den Zitierungsstil ändern. Die sind ja immer so ein Thema
 
 Abschließend zur Literaturverwaltung: Es ist oft (aber nicht immer) so, dass ihr nach Änderungen an eurem Literaturverzeichnis (neue Quellen, geänderte Quellen...) zuerst über den Editor die ``bibtex`` Software ausführt, damit die Quellen neu eingelesen werden.
 
-# 3) Versionsverwaltung
+## 3) Versionsverwaltung
 
 Eure Arbeit durchläuft mehrere Phasen, bis sie endlich fertig ist. Zuerst werdet ihr Kapitel nur grob mit Stichpunkten füllen, dann ein paar Absätze schreiben, wieder verwerfen, mehr Absätze schreiben, euren Betreuer drüberlesen lassen, wieder etwas ändern und so weiter. Vielleicht wart ihr auch schon an dem Punkt, wo ihr etwas Gelöschtes gerne wieder hättet. Vielleicht weil euer Betreuer seine Meinung geändert hat. Hier kommt die Versionsverwaltung ins Spiel.
 
@@ -143,7 +143,7 @@ Dort könnt ihr auch einen Commit auswählen (mit dem Pfeil rechts). Dann werden
 
 Branches und Settings könnt ihr ignorieren. Ihr wisst nun, wie ihr Änderungen in eurer abspeichert und wiederherstellt. Toll! One more thing...
 
-# 4) Dropbox
+## 4) Dropbox
 
 Ihr habt bis jetzt ein Setup um Quellen zu sammeln und zu verwalten, um Text zu schreiben und in PDF zu konvertieren und um verschiedene Versionen eurer Arbeit zu verwalten. Ihr schreibt 100 Seiten und plötzlich geht euer Notebook in Flammen auf. Ups.
 
@@ -151,7 +151,7 @@ Ihr habt bis jetzt ein Setup um Quellen zu sammeln und zu verwalten, um Text zu 
 
 Macht euch einen Account bei Dropbox und installiert die [Software](https://www.dropbox.com/downloading), welche automatisch Sicherungskopien eurer Arbeit auf die Dropbox-Server macht. Am Besten legt ihr einfach den Ordner, welcher eure Arbeit enthält und auch das git Repository ist, in den Standard-Dropboxordner.
 
-# 5) Profitieren
+## 5) Profitieren
 
 Die Einarbeitungszeit ist hoch, aber ihr habt nun einige Vorteile:
 

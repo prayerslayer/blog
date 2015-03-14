@@ -4,7 +4,7 @@ title: "Der AngularJS Post"
 
 Da ich jetzt täglich mit Angular arbeite, hier eine Sammlung von Links und Tipps, die sich in den ersten Monaten ergeben hat.
 
-# Links
+## Links
 
 * [Offizielles Tutorial](https://docs.angularjs.org/tutorial) — das ist tatsächlich ziemlich gut, finde ich.
 * [Angular Best Practices](https://www.youtube.com/watch?v=ZhfUv0spHCY)
@@ -14,7 +14,7 @@ Da ich jetzt täglich mit Angular arbeite, hier eine Sammlung von Links und Tipp
 * [Using ngModelController](http://www.chroder.com/2014/02/01/using-ngmodelcontroller-with-custom-directives/) — muss ich mir jedes Mal aufs Neue durchlesen, wenn ich eine Direktive schreibe.
 * [Angular and D3.js](http://alexandros.resin.io/angular-d3-svg/) — beide machen DOM Data Binding, wenn man nicht aufpasst.
 
-# Tips
+## Tips
 
 Wenn ich hier von Direktiven rede, stellt euch z.B. folgendes vor:
 

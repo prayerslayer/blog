@@ -7,7 +7,7 @@ Mein aktuelles [Side Project](https://github.com/prayerslayer/scrape-a-ball) ist
 
 {% image /media/img/sql-vs-nosql.png "Mongo vs Postgres" %}
 
-# Relationale Datenbank
+## Relationale Datenbank
 
 Ich finde die Quelle nicht mehr, aber ich hatte schon mal versucht, mich über SQL vs. NoSQL zu informieren und die Quintessenz war:
 
@@ -17,12 +17,12 @@ Relationen sind definitiv vorhanden: Ein Spieler spielt bei mehreren Teams (im L
 
 Allerdings muss immer zuerst überprüft werden, ob abweichende Informationen in der Datenbank stehen, bevor Daten geschrieben werden. Beispielsweise, ob jemandem Steals aberkannt wurden. Ansonsten würde unnötigerweise eine Statistikberechnung gestartet. Das stellt zusätzlich zur Erstellung des Schemas *Entwicklungsaufwand* dar. Das größte Problem ist eigentlich, dass ich nicht abschätzen kann, wie hoch die *Schreiblast* in der Datenbank wird, wenn drei verschiedene Trigger irgendwelche Statistikberechnungen ankurbeln.
 
-# Document Store
+## Document Store
 
 Der Document Store wäre in meiner Konzeption so ziemlich das diametrale Gegenstück zum RDBMS. Inkonsistenzen sind möglich, da die Daten mit einem Timestamp versehen in die Datenbank geschrieben würden, inklusive Aggregationen. Dabei würden ältere Versionen einfach überschrieben. Wenn die API Daten anfragt, wird das neueste Dokument ausgegeben. Weil keine Rohdaten erfasst würden, wären auch die durch die API zur Verfügung gestellten Informationen an den Inhalt der Datenbank gebunden. Wenn dort kein Attribut "Opponent Defensive Rating" in den Saisonstatistiken vorhanden ist, dann existiert es nicht.
 
 Der große Vorteil an der Variante mit Document Store ist allerdings, dass es richtig schnell gehen müsste: Basketball Reference lesen, Dokumente in die Datenbank schreiben, Dokumente ausgeben, fertig.
 
-# Fazit
+## Fazit
 
 Im Grunde genommen sind die großen Vorteile des RDBMS Zukunftssicherheit und Datenkonsistenz, während der Document Store "nur" mit Entwicklungsgeschwindigkeit punkten kann. Insofern würde ich wohl wieder Postgres einsetzen. Auf der anderen Seite hätte ich es gerne schnell hinter mir, um darauf aufbauende Folgeprojekte angehen zu können. Die API würde auch ziemlich gleich aussehen wie Seiten der Basketball Reference. Alles in allem ziehe ich aber Robustheit gegenüber geringem Entwicklungsaufwand vor. Hallo Postgres!

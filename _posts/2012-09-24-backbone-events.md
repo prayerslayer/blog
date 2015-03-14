@@ -5,7 +5,7 @@ title: "Backbone.js Events triggern gleichzeitig"
 
 Eure Backbone.js Events triggern alle gleichzeitig und ihr wisst nicht, warum? Habt ihr eine Collection von Models, die gerendert werden soll und sieht euer Code ungefähr so aus?
 
-# Markup
+## Markup
 
 ~~~ html
     <html>
@@ -18,7 +18,7 @@ Eure Backbone.js Events triggern alle gleichzeitig und ihr wisst nicht, warum? H
     </html>
 ~~~
 
-# Code
+## Code
 
 ~~~ javascript
     // Ein MyView, der das Model rendert. ZB einen Track in einer Playliste.
@@ -50,11 +50,11 @@ Eure Backbone.js Events triggern alle gleichzeitig und ihr wisst nicht, warum? H
 	});
 ~~~
 
-# Verhalten
+## Verhalten
 
 Ein Klick auf ein Element mit der Klasse `mybutton` triggert den Eventhandler für **alle** Views anstatt für einen.
 
-# Auflösung
+## Auflösung
 
 Die Events in Backbone werden an ein Element im DOM gebunden. Das heißt:
 	
@@ -80,7 +80,7 @@ Punkt 1 passt in eurem Code, das Element `div#id` existiert von Anfang an und di
 
 Ihr könntet jetzt natürlich die ID eures Models in den CSS Selector der Events einbauen, das würde helfen. Lieber nicht machen und weiterlesen!
 
-# Verbesserung
+## Verbesserung
 
 Eine elegantere Variante, die auch im [Todo.js Tutorial](http://documentcloud.github.com/backbone/docs/todos.html) verwendet wird, ist einen View für die Collection zu erstellen und dort die einzelnen Model-Views zu verwalten.
 
