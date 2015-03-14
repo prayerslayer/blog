@@ -14,10 +14,10 @@ html {
 
 body {
     height: 100%;
-    font-size: @font-size;  // 1.5em or whatever
+    font-size: @base-font-size;  // 1.5em or whatever
     font-family: @font-family-sans;
     font-weight: 300;
-    line-height: @line-height;
+    line-height: @base-line-height;
     color: @black;
     background-color: @white;
     text-rendering: optimizeLegibility;
@@ -56,7 +56,7 @@ a {
 
 sup,
 sub {
-    font-size: @font-size-smaller;
+    font-size: .75em;
 }
 
 hr {
@@ -73,7 +73,8 @@ figure {
 
 figcaption {
     color: @grey;
-    font-size: @font-size-small;
+    font-size: @small-font-size;
+    line-height: @small-line-height;
     text-align: center;
 }
 
@@ -104,7 +105,7 @@ video {
     
         .content {
             width: 100%;
-            max-width: 680px;
+            max-width: @measure;
             margin: 0 auto;
             padding-top: @margin-small;
         }

@@ -6,15 +6,10 @@ article.article {
         padding-bottom: @margin;
 
         .article-title {
-            border-bottom: 3px solid @black;
-            font-size: @font-size-big;
-            line-height: @line-height;
-            margin: 0;
-            text-align: center;
+            border-bottom: 20px solid @black;
         }
 
         .article-date {
-            text-align: center;
             color: @grey;
         }
     }
@@ -36,15 +31,6 @@ article.article {
             border-left: @margin-smaller solid @red;
             color: @grey;
             padding-left: @margin;
-        }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            margin-top: @margin-big;
         }
 
         ul {
@@ -71,7 +57,7 @@ article.article {
         pre code {
             font-family: @font-family-mono !important;
             margin: @margin 0;
-            font-size: @font-size-small;
+            font-size: @small-font-size;
             color: @grey;
             line-height: 1.35em;
         }
@@ -80,7 +66,7 @@ article.article {
         p > code,
         li > code {
             font-family: @font-family-mono;
-            font-size: @font-size-small;
+            font-size: @small-font-size;
             background-color: @grey-light;
             color: @black;
             padding: 3px;
