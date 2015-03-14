@@ -8,10 +8,6 @@ article.article {
         .article-title {
             border-bottom: 20px solid @black;
         }
-
-        .article-date {
-            color: @grey;
-        }
     }
 
     .article-content {
@@ -59,7 +55,7 @@ article.article {
             margin: @margin 0;
             font-size: @small-font-size;
             color: @grey;
-            line-height: 1.35em;
+            line-height: 1.25em;
         }
 
         // inline code
@@ -83,7 +79,11 @@ article.article {
 
         .footnotes {
             margin-top: @margin-big;
-            border-top: 1px solid @black;
+            border-top: 1px solid @grey;
+
+            li + li {
+                margin-top: @margin;
+            }
         }
 
         .embed {

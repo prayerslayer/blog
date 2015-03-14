@@ -19,3 +19,25 @@ header.header {
         font-size: @small-font-size;
     }
 }
+
+.banner {
+    background: @red;
+    text-align: center;
+
+    a {
+        color: @white;
+        border-bottom-color: @white;
+
+        &:visited {
+            border-bottom: 1px solid @white;
+            &:hover {
+                color: @white;
+            }
+        }
+
+        &:hover {
+            color: @white;
+            border-bottom: 3px solid @white;
+        }
+    }
+}
