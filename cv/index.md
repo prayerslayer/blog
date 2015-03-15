@@ -3,26 +3,26 @@ layout: singlepost
 title: "CV"
 ---
 
-# Zalando
+## Zalando
 
-Seit Februar 2014 schreibe ich Javascript (u.a. mit [AngularJS](http://angularjs.org/), [D3.js](http://d3js.org/)) für [Zalando](http://zalando.de).
+I’m writing JavaScript (Angular, D3, React, all things ending “.js”) for Zalando since February 2014.
 
 ![Itsa me.]( /dist/img/self.jpg )
 
-# Universität
+## University
 
-Von 2008 bis 2013 studierte ich an der TU Dresden Medieninformatik. Meine Interessen galten dabei allem, was mit dem Web zu tun hat. Ich belegte Vorlesungen über Security & Kryptografie, Datenbanken/Information Retrieval, Software Design und Mediengestaltung. Meine [Diplomarbeit]( {% post_url 2013-11-19-diplom %} ) drehte sich um ein Hilfesystem für komposite Informationsvisualisierungen bzw. Mashups; ingesamt schloss ich mein Studium mit 1.6 ab.
+From 2008 to 2013 I studied Media Computer Science at [Dresden University of Technology](http://tu-dresden.de/en). I was—and still am—interested in everything web-related, so I attended courses about Security & Cryptography, Databases/Information Retrieval, Software Design and Media Design. My [thesis]({% post_url 2013-11-19-diplom %}) was about user assistance in composite information visualizations or mashups. I finished with a grade of 1.6.
 		
-# Zivildienst
+## Civil service
 
-Ich absolvierte von Juni 2007 bis Mai 2008 11 Monate Zivildienst (9 unbedingt, 2 freiwillig) beim [Caritas Jugendstreetwork, Graz](http://jugendstreetwork.caritas-steiermark.at/). In dieser Zeit schrieb ich ihre Software zur Leistungsdokumentation (zwecks Vorlage beim Geldgeber) neu. Verwendete Technologien: Java, SQL Server.
+11 months from 2007 to 2008 at [Caritas Jugendstreetwork, Graz](http://jugendstreetwork.caritas-steiermark.at/). I coded their CRM of sorts during this time.
 
-# Schule
+## School
 
-* 2002 - 2007: HTL Kaindorf/Sulm
-* 1998 - 2002: BRG Petersgasse, Graz
-* 1994 - 1998: VS Waltendorf, Graz
+* 2002–2007: HTL Kaindorf/Sulm
+* 1998–2002: BRG Petersgasse, Graz
+* 1994–1998: VS Waltendorf, Graz
 		
-# Geburt
+## Birth
 
-Geboren am 24.05.1988 in Deutschlandsberg, Österreich.
+On May 24th 1988 in [Deutschlandsberg, Austria](https://www.google.de/maps/@46.8119301,15.2308415,16z).
