@@ -4,14 +4,6 @@ header.header {
     margin-top: @margin-smaller;
     margin-bottom: @margin-big;
 
-    .header-name {
-        text-align: center;
-        margin-bottom: @margin-small;
-        > a {
-            color: @black;
-        }
-    }
-
     .header-social,
     .header-navigation {
         text-align: center;
@@ -25,19 +17,17 @@ header.header {
     text-align: center;
 
     a {
+        .underline(@red);
         color: @white;
-        border-bottom-color: @white;
 
         &:visited {
-            border-bottom: 1px solid @white;
-            &:hover {
-                color: @white;
-            }
+            .underline(@red);
+            color: @white;
         }
 
         &:hover {
+            .underline(@white);
             color: @white;
-            border-bottom: 3px solid @white;
         }
     }
 }

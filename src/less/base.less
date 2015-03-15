@@ -35,22 +35,21 @@ h6 {
 }
 
 a {
-    .transition( color, border-bottom-width );
-
+    .transition( color );
+    .underline( @red );
+    
     text-decoration: none;
-    border-bottom: 1px solid @red;
     color: @black;
 
     &:visited {
-        border-bottom: 1px solid @red-dark;
+        .underline( @red-dark );
         &:hover {
-            color: @red-dark;
+            .underline(@red-light)
         }
     }
 
     &:hover {
-        color: @red-light;
-        border-bottom: 3px solid @red-light;
+        .underline( @red-light );
     }
 }
 
