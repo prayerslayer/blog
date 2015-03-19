@@ -2,7 +2,7 @@
 title: "Footnotes in pure CSS"
 ---
 
-Being a web developer is much a blessing as it is a curse. One moment you’re reading an article about the [most untradable players in the NBA](http://grantland.com/features/2015-nba-trade-value-part-3-the-final-countdown/) by your favorite basketball author, the next you’re creeping around the footnote implementation of their site and wondering if Javascript is really necessary there.[^1]
+Being a web developer is as much a blessing as it is a curse. One moment you’re reading an article about the [most untradable players in the NBA](http://grantland.com/features/2015-nba-trade-value-part-3-the-final-countdown/) by your favorite basketball author, the next you’re creeping around the footnote implementation of their site and wondering if Javascript is really necessary there.[^1]
 
 Of course it isn’t. [There](http://cssdeck.com/labs/css-panic-game) [are](http://codepen.io/ziga-miklic/pen/Fagmh) games written completely in CSS. And they are also the solution to our problem. Both examples rely on differently styled or hidden, but still accessible `input` controls.
 
