@@ -5,7 +5,7 @@ title: "CV"
 
 ## Zalando
 
-I’m writing JavaScript (Angular, D3, React, all things ending “.js”) for Zalando since February 2014.
+I’m writing JavaScript (Angular, D3, React, all things ending “.js”) and, more recently, Clojure for Zalando since February 2014.
 
 ![Itsa me.]( /dist/img/self.jpg )
 
