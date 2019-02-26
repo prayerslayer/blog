@@ -1,0 +1,12 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<main>
+  <section class="title">
+    <small>{{ .Date.Format "01/2006" }}</small>
+    <h1>{{ .Title }}</h1>
+  </section>
+  {{ .Content }}
+</main>
+
+{{ partial "footer.html" . }}

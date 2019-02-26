@@ -1,0 +1,11 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<main>
+  <section class="grid">
+    {{ range.Pages }}
+    <a href="{{.Permalink}}" class="grid-item">{{.Title}}</a>
+    {{ end }}
+  </section>
+</main>
+{{ partial "footer.html" . }}
