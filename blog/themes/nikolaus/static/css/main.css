@@ -1,3 +1,22 @@
+:root {
+  --color-primary: crimson;
+  --color-secondary: darkorange;
+  --color-bg: white;
+  --color-fg: black;
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 4rem;
+  --font-size-h1: 4.236rem;
+  --font-size-h1-mobile: 1.953rem;
+  --font-size-h2: 2.618rem;
+  --font-size-h2-mobile: 1.563rem;
+  --font-size-h3: 1.618rem;
+  --font-size-h3-mobile: 1.25rem;
+
+}
+
 body {
   font-size: 24px;
   line-height: 1.25;
@@ -6,17 +25,7 @@ body {
   padding: 0;
   margin: 0;
   min-height: 100vh;
-}
-
-:root {
-  --color-primary: crimson;
-  --color-bg: white;
-  --color-fg: black;
-  --space-xs: 0.25rem;
-  --space-sm: 0.5rem;
-  --space-md: 1.25rem;
-  --space-lg: 2rem;
-  --space-xl: 4rem;
+  background-color: #fff;
 }
 
 main {
@@ -26,14 +35,18 @@ main {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
+  padding-left: var(--space-xs);
+  padding-right: var(--space-xs);
 }
 
-.title {
-  text-align: center;
+h1 {
+  font-size: var(--font-size-h1);
 }
-
-.title h1 {
-  font-size: 3rem;
+h2 {
+  font-size: var(--font-size-h2);
+}
+h3 {
+  font-size: var(--font-size-h3);
 }
 
 p {
@@ -86,8 +99,15 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid crimson;
   border-radius: 3px;
+}
+
+.grid-item.is-project {
+  background: var(--color-secondary);
+}
+
+.grid-item.is-post {
+  background: var(--color-primary);
 }
 
 /* == */
@@ -96,7 +116,8 @@ a {
 footer {
   padding: var(--space-md) 0 var(--space-lg) 0;
   text-align: center;
-  background: var(--color-primary);
+  text-transform: lowercase;
+  background: linear-gradient(12deg, var(--color-primary) 0%, var(--color-primary) 40%, var(--color-secondary) 100%);
   color: var(--color-bg);
 }
 
@@ -108,6 +129,7 @@ footer {
   margin-top: 0;
 }
 
+a.grid-item,
 .banner a,
 footer a {
   color: var(--color-bg);
@@ -116,4 +138,29 @@ footer a {
 .banner .grid {
   max-width: 760px;
   margin: 0 auto;
+}
+
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: var(--font-size-h1-mobile);
+  }
+  h2 {
+    font-size: var(--font-size-h2-mobile);
+  }
+  h3 {
+    font-size: var(--font-size-h3-mobile);
+  }
+
+  div.highlight {
+    padding: var(--space-sm) var(--space-md);
+    margin: var(--space-lg) 0;
+  }
+
+  .grid-item {
+    height: auto;
+  }
 }

@@ -3,8 +3,9 @@
 
 <main>
   <section class="grid">
-    {{ range.Pages }}
-    <a href="{{.Permalink}}" class="grid-item">{{.Title}}</a>
+    {{ range where .Pages "Section" "!=" "imprint" }}
+
+    <a href="{{.Permalink}}" class="grid-item {{ if in .Params.tags "project" }}is-project{{ else }}is-post{{ end }}">{{.Title}}</a>
     {{ end }}
   </section>
 </main>

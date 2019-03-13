@@ -7,3 +7,6 @@ pygmentsUseClasses = true
   post = "/:slug/"
   project = "/:slug/"
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"

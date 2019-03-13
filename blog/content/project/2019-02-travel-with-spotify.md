@@ -1,6 +1,8 @@
 ---
 title: "Travel with Spotify"
 date: 2019-02-15
+tags:
+  - project
 ---
 
 When I travel I like to get a feeling for the music from the place I will visit. Who are the romantic singers one should know? What was the popular boyband in the 90s? For a recent trip I copied artist names from a Wikipedia page into the Spotify search, and that clearly doesn't scale.
