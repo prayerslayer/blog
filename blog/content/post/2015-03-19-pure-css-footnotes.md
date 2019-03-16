@@ -1,6 +1,8 @@
 ---
 title: "Footnotes in pure CSS"
 date: 2015-03-19
+tags:
+  - post
 ---
 
 Being a web developer is as much a blessing as it is a curse. One moment you’re reading an article about the [most untradable players in the NBA](http://grantland.com/features/2015-nba-trade-value-part-3-the-final-countdown/) by your favorite basketball author, the next you’re creeping around the footnote implementation of their site and wondering if Javascript is really necessary there.[^1]

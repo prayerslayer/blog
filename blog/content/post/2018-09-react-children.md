@@ -3,6 +3,8 @@ title: Inspecting React Children
 date: 2018-09-01
 aliases:
   - /2018/09/react-inspect-children/
+tags:
+  - post
 ---
 
 Suppose you write a frontend framework in React, like Bootstrap. (If it’s for the web or react-native doesn’t matter for the argument.) There are components for different text styles (MediumText, SmallText…), for popular control elements (Dropdown, Button…) and so on. You want this to be modular and composable, so you pass a different text component to the Button instead of setting a size property on it. After all, the button size depends only on the content, why would you have a large button with small text inside?

@@ -3,10 +3,10 @@
 
 <main>
   <section class="title">
-    <small>{{ .Date.Format "01/2006" }}</small>
     <h1>{{ .Title }}</h1>
   </section>
   {{ .Content }}
+  <small>{{ .PublishDate.Format "2006-01-02" }}</small>
 </main>
 
 {{ partial "footer.html" . }}
