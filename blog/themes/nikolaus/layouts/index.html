@@ -3,12 +3,12 @@
 
 <main>
   <p>
-    Hi, I’m Nikolaus and I’m a programmer. By day I do web development. By night I sleep. When I have time I like to do
+    Hi, I’m Nikolaus and I’m a programmer. By day I do web development, by night I sleep. When I have time I like to do
     odd and random programming things, mostly to learn.
   </p>
   <p>This is an overview of some projects I did so far, with the occasional blog post mixed in:</p>
   <ul>
-    {{ range where .Pages "Section" "!=" "imprint" }}
+    {{ range where .Pages ".Section" "!=" "" }}
     <li>
       <a href="{{.Permalink}}">{{ if in .Params.tags "post" }}✍️{{ end }} {{.Title}}</a>
     </li>

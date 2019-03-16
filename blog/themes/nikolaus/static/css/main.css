@@ -1,6 +1,5 @@
 :root {
   --color-primary: crimson;
-  --color-secondary: darkorange;
   --color-bg: white;
   --color-fg: black;
   --space-xs: 0.25rem;
@@ -25,7 +24,7 @@ body {
   padding: 0;
   margin: 0;
   min-height: 100vh;
-  background-color: #fff;
+  background: linear-gradient(to bottom, #f3f2f2, #f6f5f5);
 }
 
 main {
@@ -96,12 +95,15 @@ a {
 
 .grid {
   display: grid;
-  margin-left: var(--space-sm);
-  margin-right: var(--space-sm);
+  padding-left: var(--space-sm);
+  padding-right: var(--space-sm);
   column-gap: var(--space-sm);
   row-gap: var(--space-sm);
   grid-template-columns: 2fr 1fr 1fr 1fr;
-  max-width: 960px;
+  justify-items: start;
+  align-items: center;
+  max-width: 760px;
+  margin: 0 auto;
 }
 
 /* == */
@@ -120,12 +122,12 @@ header h4 {
 }
 
 header {
-  border-bottom: 1px dashed #000;
+  border-bottom: 1px dotted #000;
   margin-bottom: 5rem;
 }
 
 footer {
-  border-top: 1px dashed #000;
+  border-top: 1px dotted #000;
   margin-top: 5rem;
   text-align: center;
 }
