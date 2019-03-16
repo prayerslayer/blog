@@ -1,8 +1,0 @@
----
-title: "Media Queries are a hack"
-layout: singlepost
----
-
-[Ian Taylor](http://ianstormtaylor.com/media-queries-are-a-hack/):
-
->The big buzzwords in CSS these days are “modular” and “responsive”—and for good reasons. But we’re still trying to achieve those goals with the wrong tool: Media Queries. What we actually need is a tool that doesn’t exist yet: Element Queries.

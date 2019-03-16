@@ -1,13 +1,2 @@
-_site/
-_drafts/
-
-*.ai
-*.psd
-
 .DS_Store
-
-/node_modules/*
-
-rev-manifest.json
-
-_config.yml
+public
