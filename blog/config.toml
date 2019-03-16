@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "https://npiccolotto.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Nikolaus Piccolotto"
 pygmentsUseClasses = true
 
 [permalinks]
