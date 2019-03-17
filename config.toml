@@ -4,6 +4,7 @@ title = "Nikolaus Piccolotto"
 pygmentsUseClasses = true
 
 staticDir = ["static", "content/media"]
+publishDir = "docs"
 
 [permalinks]
   post = "/:slug/"

@@ -1,0 +1,76 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nikolaus Piccolotto</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" href="/css/chroma.css" />
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<header>
+  <nav class="grid">
+    <h4>
+      <a href="/">Nikolaus Piccolotto</a>
+    </h4>
+    <a href="//github.com/prayerslayer">github</a>
+    <a href="//twitter.com/prayerslayer">twitter</a>
+    <a href="mailto:hello@npiccolotto.com">email</a>
+  </nav>
+</header>
+
+
+<main>
+  <section class="title">
+    <h1>symdiff: prevent dead css</h1>
+  </section>
+  <p>Some time ago I wrote a <a href="https://github.com/zalando/gulp-check-unused-css">gulp plugin</a> to enforce clean CSS in your frontend build. The idea, which I have from <a href="http://markdotto.com/2014/07/23/githubs-css/#linting">Github</a>, is to break said build when the sets of classes in CSS and templates are not equal. This way you make sure you’re always actually using the styles you define and keep the amount of classes in your templates to a minimum.</p>
+
+<p>I find it very useful and as of time of writing some 230 people on Github agree with me. The plugin has a few limitations though:</p>
+
+<ol>
+<li>Gulp only</li>
+<li>vanilla CSS only, which is not too much of an issue, but still</li>
+<li>HTML only, possibly with Angular</li>
+</ol>
+
+<p>This lead to the situation where I wasn’t sure if I could use my own software because in the next project I used Handlebars templates. Oops. And what if I chose React/JSX?</p>
+
+<p>To make the plugin future-proof I split the functionality in several small modules and gave it a new name: <a href="https://symdiff.github.io">“symdiff”</a>.<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup> The core component which compares the sets is <a href="https://github.com/symdiff/symdiff">symdiff</a> and just about 60 lines with comments. Then <a href="https://github.com/symdiff/symdiff-handlebars">there</a> <a href="https://github.com/symdiff/symdiff-jade">are</a> <a href="https://github.com/symdiff/symdiff-css">several</a> <a href="https://github.com/symdiff/symdiff-html">symdiff plugins</a> to extract classes from files. And finally there are plugins for build tools that use symdiff under the hood, currently only <a href="https://github.com/symdiff/gulp-symdiff">gulp-symdiff</a>.</p>
+
+<p>Because the logic of “how do I extract classes” is now decoupled from “how do I read files” and “how do I compare classes”, symdiff is very extensible. And it is <a href="https://symdiff.github.io/write-a-plugin/">easy</a> to write a plugin for it.</p>
+
+<p>If you didn’t know about gulp-check-unused-css (GCUC), give symdiff a try—it’s really useful. If you’re using GCUC, consider switching to symdiff. The Angular support isn’t available yet, but aside from that it’s the same. I won’t develop GCUC any further. If you’re missing something in GCUC please open an issue on Github or, better, submit a PR.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">Because it reports the symmetric difference of two sets. Get it?
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+  <small>2015-05-04</small>
+</main>
+
+<footer>
+  <div class="grid">
+    <a href="/imprint/">Imprint</a>
+  </div>
+</footer>
+

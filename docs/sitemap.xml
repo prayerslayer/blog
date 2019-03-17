@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://npiccolotto.com/travel-with-spotify/</loc>
+    <lastmod>2019-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npiccolotto.com/inspecting-react-children/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npiccolotto.com/glitch/</loc>
+    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npiccolotto.com/building-a-relay-compatible-graphql-server/</loc>
+    <lastmod>2017-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npiccolotto.com/symdiff-prevent-dead-css/</loc>
+    <lastmod>2015-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npiccolotto.com/footnotes-in-pure-css/</loc>
+    <lastmod>2015-03-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npiccolotto.com/underlin.es/</loc>
+    <lastmod>2015-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npiccolotto.com/diploma/</loc>
+    <lastmod>2013-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npiccolotto.com/furple/</loc>
+    <lastmod>2013-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npiccolotto.com/tophat-2k/</loc>
+    <lastmod>2013-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://npiccolotto.com/imprint/</loc>
+  </url>
+  
+  <url>
+    <loc>https://npiccolotto.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://npiccolotto.com/</loc>
+    <lastmod>2019-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://npiccolotto.com/tags/post/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://npiccolotto.com/post/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://npiccolotto.com/tags/project/</loc>
+    <lastmod>2019-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://npiccolotto.com/project/</loc>
+    <lastmod>2019-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://npiccolotto.com/tags/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

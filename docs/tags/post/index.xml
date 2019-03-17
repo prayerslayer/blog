@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post on Nikolaus Piccolotto</title>
+    <link>https://npiccolotto.com/tags/post/</link>
+    <description>Recent content in Post on Nikolaus Piccolotto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://npiccolotto.com/tags/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Inspecting React Children</title>
+      <link>https://npiccolotto.com/inspecting-react-children/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://npiccolotto.com/inspecting-react-children/</guid>
+      <description>Suppose you write a frontend framework in React, like Bootstrap. (If it’s for the web or react-native doesn’t matter for the argument.) There are components for different text styles (MediumText, SmallText…), for popular control elements (Dropdown, Button…) and so on. You want this to be modular and composable, so you pass a different text component to the Button instead of setting a size property on it. After all, the button size depends only on the content, why would you have a large button with small text inside?</description>
+    </item>
+    
+    <item>
+      <title>Building a Relay-compatible GraphQL Server</title>
+      <link>https://npiccolotto.com/building-a-relay-compatible-graphql-server/</link>
+      <pubDate>Fri, 03 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://npiccolotto.com/building-a-relay-compatible-graphql-server/</guid>
+      <description>Read it over at the Zalando Tech Blog.</description>
+    </item>
+    
+    <item>
+      <title>Footnotes in pure CSS</title>
+      <link>https://npiccolotto.com/footnotes-in-pure-css/</link>
+      <pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://npiccolotto.com/footnotes-in-pure-css/</guid>
+      <description>Being a web developer is as much a blessing as it is a curse. One moment you’re reading an article about the most untradable players in the NBA by your favorite basketball author, the next you’re creeping around the footnote implementation of their site and wondering if Javascript is really necessary there.1
+Of course it isn’t. There are games written completely in CSS. And they are also the solution to our problem.</description>
+    </item>
+    
+  </channel>
+</rss>
