@@ -13,7 +13,6 @@
   --font-size-h2-mobile: 1.563rem;
   --font-size-h3: 1.618rem;
   --font-size-h3-mobile: 1.25rem;
-
 }
 
 body {
@@ -61,7 +60,27 @@ li {
   margin-top: 0.5em;
 }
 
-img {
+figure {
+  margin: var(--space-md) 0;
+  position: relative;
+}
+
+figure figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  font-size: 1em;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  color: white;
+}
+
+figcaption p {
+  margin-left: var(--space-sm);
+  margin-right: var(--space-sm);
+}
+
+figure img {
   max-width: 100%;
 }
 
@@ -137,7 +156,6 @@ footer {
   text-align: center;
 }
 
-
 @media screen and (max-width: 480px) {
   body {
     font-size: 16px;
@@ -158,6 +176,14 @@ footer {
 
   footer {
     margin-top: 2rem;
+  }
+
+  figure {
+    margin: var(--space-sm) 0;
+  }
+
+  figure figcaption {
+    font-size: 0.5em;
   }
 
   div.highlight {
