@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Nikolaus Piccolotto"
 pygmentsUseClasses = true
 
+staticDir = ["static", "content/media"]
+
 [permalinks]
   post = "/:slug/"
   project = "/:slug/"
