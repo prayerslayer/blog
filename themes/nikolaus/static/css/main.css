@@ -66,6 +66,7 @@ img {
 }
 
 div.highlight {
+  background: #fff;
   padding: var(--space-sm) var(--space-lg);
   margin: var(--space-xl) 0;
   border: 1px solid #eee;
