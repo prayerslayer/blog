@@ -27,8 +27,18 @@ Prior Art There are several playlists from Spotify for kind of this purpose (&am
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://npiccolotto.com/glitch/</guid>
-      <description>You probably came across some visuals that can be categorized as Glitch Art. For instance, it’s heavily used in Pony Island as you modify the code of and break out of the haunted arcade machine.
-I generally like this style a lot and wanted to find out what needs to be done to glitch some images of classic art. As somebody already did it for the PNG format, I focused on JPEG.</description>
+      <description>You probably came across some visuals that can be categorized as Glitch Art. For instance, it’s heavily used in Pony Island as you modify the code and break out of the haunted arcade machine.
+  I generally like this style a lot and wanted to find out what needs to be done to glitch some images of classic art. As somebody already did it for the PNG format, I focused on JPEG.</description>
+    </item>
+    
+    <item>
+      <title>Correct Calculator</title>
+      <link>https://npiccolotto.com/correct-calculator/</link>
+      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://npiccolotto.com/correct-calculator/</guid>
+      <description>Bugs are a long-standing problem in the software industry: Invisible characters crash iOS Messages. FaceTime enables microphone before the call starts.. An integer underflow causes Gandhi to be super-aggressive in the original Civilization. There are many more examples.
+One way to achieve code correctness that was always mysterious to me is formal verification: You prove logically that the code does what you claim. (NB: It’s not the only nor the best nor most efficient way to achieve the goal.</description>
     </item>
     
     <item>
