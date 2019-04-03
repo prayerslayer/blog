@@ -61,7 +61,10 @@ li {
 }
 
 figure {
-  margin: var(--space-md) 0;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: 0;
+  margin-right: 0;
   position: relative;
 }
 
