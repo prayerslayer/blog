@@ -8,7 +8,7 @@
   </p>
   <p>This is an overview of some projects I did so far, with the occasional blog post mixed in:</p>
   <ul>
-    {{ range where .Pages ".Section" "!=" "" }}
+    {{ range where .Site.Pages ".Section" "in" (slice "project" "post")  }}
     <li>
       <a href="{{.Permalink}}">{{ if in .Params.tags "post" }}✍️{{ end }} {{.Title}}</a>
     </li>
