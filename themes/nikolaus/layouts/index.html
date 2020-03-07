@@ -3,15 +3,18 @@
 
 <main>
   <p>
-    Hi, I’m Nikolaus and I’m a programmer. By day I do web development, by night I sleep. When I have time I like to do
-    odd and random programming things, mostly to learn.
+    Hi, I’m Nikolaus and I’m a PhD student in Visual Analytics at TU Wien. I was formerly employed by <a
+      href="https://artory.com">Artory</a> (2017–2019) and <a href="https://www.zalando.de/">Zalando</a> (2014–2017).
+    When I have time I like to do random programming things, mostly to learn.
   </p>
   <p>This is an overview of some projects I did so far, with the occasional blog post mixed in:</p>
   <ul>
-    {{ range where .Site.Pages ".Section" "in" (slice "project" "post")  }}
+    {{ range where .Site.Pages ".Section" "in" (slice "project" "post") }}
+    {{ if eq .Kind "page" }}
     <li>
       <a href="{{.Permalink}}">{{ if in .Params.tags "post" }}✍️{{ end }} {{.Title}}</a>
     </li>
+    {{ end }}
     {{ end }}
   </ul>
 </main>
