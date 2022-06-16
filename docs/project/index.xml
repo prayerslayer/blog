@@ -6,11 +6,7 @@
     <description>Recent content in Projects on Nikolaus Piccolotto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Feb 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://npiccolotto.com/project/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 15 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://npiccolotto.com/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Travel with Spotify</title>
       <link>https://npiccolotto.com/travel-with-spotify/</link>
@@ -28,7 +24,7 @@ Prior Art There are several playlists from Spotify for kind of this purpose (&am
       
       <guid>https://npiccolotto.com/glitch/</guid>
       <description>You probably came across some visuals that can be categorized as Glitch Art. For instance, it’s heavily used in Pony Island as you modify the code and break out of the haunted arcade machine.
-  I generally like this style a lot and wanted to find out what needs to be done to glitch some images of classic art. As somebody already did it for the PNG format, I focused on JPEG.</description>
+I generally like this style a lot and wanted to find out what needs to be done to glitch some images of classic art. As somebody already did it for the PNG format, I focused on JPEG.</description>
     </item>
     
     <item>
@@ -67,8 +63,7 @@ It’s called “underlin.es” like it was hosted on underlin.es, but it’s no
       <pubDate>Fri, 22 Feb 2013 00:00:00 +0000</pubDate>
       
       <guid>https://npiccolotto.com/diploma/</guid>
-      <description>My thesis project: A semantically-aided user assistance system for a composite information visualization system.
-  </description>
+      <description>My thesis project: A semantically-aided user assistance system for a composite information visualization system.</description>
     </item>
     
     <item>
@@ -77,8 +72,7 @@ It’s called “underlin.es” like it was hosted on underlin.es, but it’s no
       <pubDate>Fri, 22 Feb 2013 00:00:00 +0000</pubDate>
       
       <guid>https://npiccolotto.com/furple/</guid>
-      <description>Back from the days in university: In a two-week seminar we built an app for Microsoft&amp;rsquo;s giant screen-as-a-table. The idea is to make furniture planning possible without physically moving furniture.
-  </description>
+      <description>Back from the days in university: In a two-week seminar we built an app for Microsoft&amp;rsquo;s giant screen-as-a-table. The idea is to make furniture planning possible without physically moving furniture.</description>
     </item>
     
     <item>
@@ -87,8 +81,7 @@ It’s called “underlin.es” like it was hosted on underlin.es, but it’s no
       <pubDate>Fri, 22 Feb 2013 00:00:00 +0000</pubDate>
       
       <guid>https://npiccolotto.com/tophat-2k/</guid>
-      <description>Back from the days in university: In the seminar for haptic interaction we (Fabian Prager, Christopher Bellmann and me) built a tangible user interface that ought to help with private car sharing. Done with an Arduino of course.
-  </description>
+      <description>Back from the days in university: In the seminar for haptic interaction we (Fabian Prager, Christopher Bellmann and me) built a tangible user interface that ought to help with private car sharing. Done with an Arduino of course.</description>
     </item>
     
   </channel>

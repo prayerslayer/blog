@@ -30,6 +30,7 @@
     <a href="//github.com/prayerslayer">github</a>
     <a href="//twitter.com/prayerslayer">twitter</a>
     <a href="mailto:hello@npiccolotto.com">email</a>
+    <a href="/publication/">publications</a>
   </nav>
 </header>
 
@@ -49,14 +50,14 @@
 <p>To make the plugin future-proof I split the functionality in several small modules and gave it a new name: <a href="https://symdiff.github.io">“symdiff”</a>.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> The core component which compares the sets is <a href="https://github.com/symdiff/symdiff">symdiff</a> and just about 60 lines with comments. Then <a href="https://github.com/symdiff/symdiff-handlebars">there</a> <a href="https://github.com/symdiff/symdiff-jade">are</a> <a href="https://github.com/symdiff/symdiff-css">several</a> <a href="https://github.com/symdiff/symdiff-html">symdiff plugins</a> to extract classes from files. And finally there are plugins for build tools that use symdiff under the hood, currently only <a href="https://github.com/symdiff/gulp-symdiff">gulp-symdiff</a>.</p>
 <p>Because the logic of “how do I extract classes” is now decoupled from “how do I read files” and “how do I compare classes”, symdiff is very extensible. And it is <a href="https://symdiff.github.io/write-a-plugin/">easy</a> to write a plugin for it.</p>
 <p>If you didn’t know about gulp-check-unused-css (GCUC), give symdiff a try—it’s really useful. If you’re using GCUC, consider switching to symdiff. The Angular support isn’t available yet, but aside from that it’s the same. I won’t develop GCUC any further. If you’re missing something in GCUC please open an issue on Github or, better, submit a PR.</p>
-<section class="footnotes" role="doc-endnotes">
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
-<p>Because it reports the symmetric difference of two sets. Get it? <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:1">
+<p>Because it reports the symmetric difference of two sets. Get it?&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>
+</div>
 
   <small>2015-05-04</small>
 </main>

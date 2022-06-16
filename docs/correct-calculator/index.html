@@ -30,6 +30,7 @@
     <a href="//github.com/prayerslayer">github</a>
     <a href="//twitter.com/prayerslayer">twitter</a>
     <a href="mailto:hello@npiccolotto.com">email</a>
+    <a href="/publication/">publications</a>
   </nav>
 </header>
 
@@ -40,21 +41,21 @@
   </section>
   <p>Bugs are a long-standing problem in the software industry: <a href="https://appleinsider.com/articles/18/05/09/black-dot-unicode-bug-crashes-ios-messages-app-using-invisible-characters">Invisible characters crash iOS Messages</a>. <a href="https://www.nytimes.com/2019/01/29/technology/facetime-glitch-apple.html">FaceTime enables microphone before the call starts.</a>. <a href="https://www.geek.com/games/why-gandhi-is-always-a-warmongering-jerk-in-civilization-1608515/">An integer underflow causes Gandhi to be super-aggressive in the original Civilization</a>. There are many more examples.</p>
 <p>One way to achieve code correctness that was always mysterious to me is formal verification: You prove logically that the code does what you claim. (NB: It’s not the only nor the best nor most efficient way to achieve the goal.) <a href="https://coq.inria.fr/">Coq</a> is a proof assistant that can help with this. You define functions, and lemmas that define properties of that functions, which you then prove.</p>
-<div class="highlight"><pre class="chroma"><code class="language-coq" data-lang="coq"><span class="kn">Fixpoint</span> <span class="n">add</span> <span class="o">(</span><span class="n">a</span> <span class="n">b</span> <span class="o">:</span> <span class="kt">nat</span><span class="o">)</span> <span class="o">:</span> <span class="kt">nat</span> <span class="o">:=</span>
-  <span class="k">match</span> <span class="n">a</span> <span class="k">with</span>
-  <span class="o">|</span> <span class="n">O</span> <span class="o">=&gt;</span> <span class="n">b</span>
-  <span class="o">|</span> <span class="o">(</span><span class="n">S</span> <span class="n">n</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="o">(</span><span class="n">S</span> <span class="o">(</span><span class="n">add</span> <span class="n">n</span> <span class="n">b</span><span class="o">))</span>
-<span class="k">end</span><span class="o">.</span>
-
-<span class="kn">Lemma</span> <span class="n">addition_of_identity_element</span> <span class="o">:</span> <span class="k">forall</span> <span class="o">(</span><span class="n">x</span> <span class="o">:</span> <span class="kt">nat</span><span class="o">),</span> <span class="o">(</span><span class="n">add</span> <span class="n">x</span> <span class="n">O</span><span class="o">)</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span>
-<span class="kn">Proof</span><span class="o">.</span>
-  <span class="k">induction</span> <span class="n">x</span><span class="o">.</span>
-
-  <span class="k">trivial</span><span class="o">.</span>
-
-  <span class="k">simpl</span><span class="o">.</span> <span class="k">rewrite</span> <span class="o">-&gt;</span> <span class="n">IHx</span><span class="o">.</span>
-  <span class="k">trivial</span><span class="o">.</span>
-<span class="kn">Qed</span><span class="o">.</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-coq" data-lang="coq"><span class="line"><span class="cl"><span class="kn">Fixpoint</span> <span class="n">add</span> <span class="o">(</span><span class="n">a</span> <span class="n">b</span> <span class="o">:</span> <span class="kt">nat</span><span class="o">)</span> <span class="o">:</span> <span class="kt">nat</span> <span class="o">:=</span>
+</span></span><span class="line"><span class="cl">  <span class="k">match</span> <span class="n">a</span> <span class="k">with</span>
+</span></span><span class="line"><span class="cl">  <span class="o">|</span> <span class="n">O</span> <span class="o">=&gt;</span> <span class="n">b</span>
+</span></span><span class="line"><span class="cl">  <span class="o">|</span> <span class="o">(</span><span class="n">S</span> <span class="n">n</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="o">(</span><span class="n">S</span> <span class="o">(</span><span class="n">add</span> <span class="n">n</span> <span class="n">b</span><span class="o">))</span>
+</span></span><span class="line"><span class="cl"><span class="k">end</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">Lemma</span> <span class="n">addition_of_identity_element</span> <span class="o">:</span> <span class="k">forall</span> <span class="o">(</span><span class="n">x</span> <span class="o">:</span> <span class="kt">nat</span><span class="o">),</span> <span class="o">(</span><span class="n">add</span> <span class="n">x</span> <span class="n">O</span><span class="o">)</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="kn">Proof</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl">  <span class="k">induction</span> <span class="n">x</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">trivial</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">simpl</span><span class="o">.</span> <span class="k">rewrite</span> <span class="o">-&gt;</span> <span class="n">IHx</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl">  <span class="k">trivial</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl"><span class="kn">Qed</span><span class="o">.</span></span></span></code></pre></div>
 <p>Here we defined an addition function on the natural numbers, and proved that there exists an identity element, which you can add to the number you have and you get that number.</p>
 <p>I wrote the math of a <a href="https://prayerslayer.github.io/correct-calculator/">basic calculator</a> in Coq, then compiled it to Javascript via <a href="http://www.ocaml.org/">OCaml</a> and <a href="https://github.com/BuckleScript/bucklescript">Bucklescript</a>.</p>
 <p>However I must say it was not very easy. The docs are sparese and not beginner friendly, I often had the feeling I need a PHd in category theory. There are few examples of Coq on the internet, and it was a lot of trial and error. After some time I got the hang of it and could write basic proofs, but some still elude me. For instance that if you divide something by itself, you get 1 (∀ x : nat, x &gt; 0 -&gt; x / x = 1). It may be related to how I defined division, I don’t know. There’s also a chance that I wrote sound, but still wrong, logic. Plus, there’s a whole category of UI code that is not formally verified.</p>
