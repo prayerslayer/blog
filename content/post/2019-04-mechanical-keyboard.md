@@ -5,11 +5,7 @@ tags:
   - post
 ---
 
-People in my Twitter stream would post pictures of their workplace every once in a while. More often than not, the picture would feature a fancy keyboard. Like this:
-
-{{< tweet 1105192998994931713 >}}
-
-Okay, maybe it does not look _extremely_ fancy, but it’s unusual enough. I would then search the internet about it, get intringued, and leave it at that. But recently I went for it.
+People in my Twitter stream would post pictures of their workplace every once in a while. More often than not, the picture would feature a fancy keyboard. I would then search the internet about it, get intringued, and leave it at that. But recently I went for it.
 
 I’ll first list some advantages of custom mechanical keyboards, and then do my best to walk you through the process of getting your own. For rookies this is harder than you think.
 
