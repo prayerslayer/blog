@@ -1,0 +1,28 @@
+
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<main>
+  <h1>Publications</h1>
+  <h2>First author</h2>
+  <ul>
+    {{ range where .Site.Pages ".Section" "in" (slice "publication") }}
+    {{ if and (eq .Kind "page") (eq .Params.first_author true) }}
+    <li>
+      {{.Params.authors}}: <a href="{{.Params.external_url}}">{{.Title}}</a>. {{.Params.Outlet}} {{.Params.Volume}}:{{.Params.Issue}} ({{.Params.Year}}) </a>
+    </li>
+    {{ end }}
+    {{ end }}
+  </ul>
+
+  <h2>Co-author</h2>
+  <ul>
+    {{ range where .Site.Pages ".Section" "in" (slice "publication") }}
+    {{ if and (eq .Kind "page") (eq .Params.first_author false) }}
+    <li>
+      {{.Params.authors}}: <a href="{{.Params.external_url}}">{{.Title}}</a>. {{.Params.Outlet}} {{.Params.Volume}}:{{.Params.Issue}} ({{.Params.Year}}) </a>
+    </li>
+    {{ end }}
+    {{ end }}
+  </ul>
+</main>

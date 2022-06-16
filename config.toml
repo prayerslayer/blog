@@ -9,6 +9,7 @@ publishDir = "docs"
 [permalinks]
   post = "/:slug/"
   project = "/:slug/"
+  publication = "/:slug/"
 
 [taxonomies]
   category = "categories"
