@@ -6,8 +6,6 @@ tags:
   - publication
 doi: "10.1111/cgf.14785"
 authors: "Nikolaus Piccolotto, Markus Bögl, Silvia Miksch"
-outlet: Computer Graphics Forum
-volume: 0
-issue: 0
+outlet: Computer Graphics Forum (n/a):(n/a)
 external_url: https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.14785
 ---
