@@ -2,4 +2,4 @@ build:
 	hugo --theme nikolaus
 
 dev:
-  hugo --theme nikolaus server -w
+	hugo --theme nikolaus server -w
