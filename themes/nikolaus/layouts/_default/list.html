@@ -5,8 +5,8 @@
   <h1>Publications</h1>
   <h2>First author</h2>
   <ul>
-    {{ range where .Site.Pages ".Section" "in" (slice "publication") }}
-    {{ if and (eq .Kind "page") (eq .Params.first_author true) }}
+    {{ range (sort (where .Site.Pages ".Section" "publication") ".Params.Year" "desc") }}
+    {{ if (eq .Params.first_author true)  }}
     <li>
       {{.Params.authors}}: {{ if .Params.external_url }} <a href="{{.Params.external_url}}">{{.Title}}</a>.
       {{.Params.Outlet}} ({{.Params.Year}})</a> {{ else }} <span>{{.Title}}</a>.
@@ -18,8 +18,8 @@
 
   <h2>Co-author</h2>
   <ul>
-    {{ range where .Site.Pages ".Section" "in" (slice "publication") }}
-    {{ if and (eq .Kind "page") (eq .Params.first_author false) }}
+    {{ range (sort (where .Site.Pages ".Section" "publication") ".Params.Year" "desc") }}
+    {{ if (eq .Params.first_author false) }}
     <li>
       {{.Params.authors}}: <a href="{{.Params.external_url}}">{{.Title}}</a>. {{.Params.Outlet}} ({{.Params.Year}}) </a>
     </li>
