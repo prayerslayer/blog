@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nikolaus Piccolotto</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" href="/css/chroma.css" />
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<header>
+  <nav class="grid">
+    <h4>
+      <a href="/">Nikolaus Piccolotto</a>
+    </h4>
+    <a href="//github.com/prayerslayer">github</a>
+    <a href="mailto:hello@npiccolotto.com">email</a>
+    <a href="/publication/">publications</a>
+  </nav>
+</header>
+
+
+<main>
+  <section class="title">
+    <h1>App-wide CLI Configuration in Python</h1>
+  </section>
+  <p>Recently I had the situation where I had a Python-based program to be used in a command line interface (CLI). But the program had many configuration options and I wanted a flexible way to deal with defaults and overriding them, while changing as little code as possible. I didn&rsquo;t find great results on Google&rsquo;s first page, so I thought I write it up here.</p>
+<p>The problem with a reasonably large Python program, where code is distributed into several modules, is that we cannot really just pass a <code>config</code> dictionary around. There are too many functions, and it&rsquo;s really annoying. So the first improvement is to export the configuration from variables in a <code>config</code> module. That&rsquo;s better, but now we have to change the source code every time we want to change the program&rsquo;s configuration. Not ideal. But there&rsquo;s a somewhat neat solution with Python built-ins.</p>
+<p>Python has a <a href="https://docs.python.org/3/library/configparser.html">configparser</a>, which reads <code>.ini</code>-style configuration files. It supports sections, keys and rather simplistic values (strings, ints, and such), which is enough for me. Of course you can exchange that to a JSON config file (<code>json</code> built-in) or to YAML (3rd party libraries), it doesn&rsquo;t really matter as long as it reads configuration from a file. In that file, <code>config.ini</code>, we write all the defaults.</p>
+<pre tabindex="0"><code>[SECTION]
+CONFIG_OPTION1 = foo
+CONFIG_OPTION2 = bar
+</code></pre><p>The next step is to read those defaults and distribute them within the program. We follow the previously mentioned <code>config</code> module approach. In the <code>config.py</code> file, we read the defaults from <code>config.ini</code> and set a <code>ContextVar</code> for each configuration option. <a href="https://peps.python.org/pep-0567/"><code>contextvars</code></a> is a built-in Python module for &ldquo;Context Variables&rdquo;. Basically, you can reference a variable and its value is set by the context around it (e.g., a thread). (Not to be confused with <code>click</code>&rsquo;s <a href="https://click.palletsprojects.com/en/8.1.x/commands/#nested-handling-and-contexts"><code>context</code></a>!) This approach will allow us to override the defaults in a single place, which we will come to later. The <code>config</code> module looks more or less like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">configparser</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">contextvars</span> <span class="kn">import</span> <span class="n">ContextVar</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">config</span> <span class="o">=</span> <span class="n">configparser</span><span class="o">.</span><span class="n">ConfigParser</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">config</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s2">&#34;config.ini&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">CONFIG_OPTION1</span> <span class="o">=</span> <span class="n">ContextVar</span><span class="p">(</span><span class="s2">&#34;CONFIG_OPTION1&#34;</span><span class="p">,</span> <span class="n">default</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;SECTION&#39;</span><span class="p">,</span> <span class="s1">&#39;CONFIG_OPTION1&#39;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="n">CONFIG_OPTION2</span> <span class="o">=</span> <span class="n">ContextVar</span><span class="p">(</span><span class="s2">&#34;CONFIG_OPTION2&#34;</span><span class="p">,</span> <span class="n">default</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;SECTION&#39;</span><span class="p">,</span> <span class="s1">&#39;CONFIG_OPTION2&#39;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># and so on</span>
+</span></span></code></pre></div><p>Since the program is to be used in a CLI, we use <a href="https://click.palletsprojects.com/en/8.1.x/">click</a> for argument parsing and validation. Now it would be really neat if we could override the defaults from the configuration file with CLI arguments. And this is really easy thanks to <code>contextvars</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">contextvars</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">util.config</span> <span class="kn">import</span> <span class="n">CONFIG_OPTION1</span><span class="p">,</span> <span class="n">CONFIG_OPTION2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">the_actual_function_to_run</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">  <span class="c1"># some code using CONFIG_OPTION1 and CONFIG_OPTION2</span>
+</span></span><span class="line"><span class="cl">  <span class="k">pass</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nd">@click.command</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nd">@click.option</span><span class="p">(</span><span class="s2">&#34;--config-option1&#34;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s2">&#34;some-default&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;first config option&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nd">@click.option</span><span class="p">(</span><span class="s2">&#34;--config-option2&#34;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s2">&#34;other-default&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;second config option&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">main</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">config_option1</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">config_option2</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># override defaults in configuration file</span>
+</span></span><span class="line"><span class="cl">    <span class="n">CONFIG_OPTION1</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">config_option1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">CONFIG_OPTION2</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">config_option2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># call the whole program using those values</span>
+</span></span><span class="line"><span class="cl">    <span class="n">ctx</span> <span class="o">=</span> <span class="n">contextvars</span><span class="o">.</span><span class="n">copy_context</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">ctx</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">the_actual_function_to_run</span><span class="p">)</span>
+</span></span></code></pre></div><p>Of course, there are some odd ends and possible improvements. For instance, the <code>click</code> defaults have precendence over the <code>config.ini</code> defaults, which is not ideal as they can get out of sync over time. I assume in many situations one could not use <code>click</code> defaults at all and only override the <code>config.ini</code> defaults if the respective CLI argument was provided. Then there&rsquo;s a lot of typing in <code>config.py</code> if there are a lot of configuration options, but one could get rid of these by assembling a <code>dict</code> dynamically from the sections and keys available in the configuration file.</p>
+<p>But the important advantage of the whole thing is that we set those options once in the beginning, and their values are distributed to <em>every other piece of code</em> we wrote, no matter how deep in the callstack it is (as long as it uses the context variables from the <code>config</code> module).</p>
+
+  <small>2023-09-05</small>
+</main>
+
+<footer>
+  <div class="grid">
+    <a href="/imprint/">Imprint</a>
+  </div>
+</footer>
+
