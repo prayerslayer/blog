@@ -5,6 +5,7 @@ tags:
   - publication
 authors: "Nikolaus Piccolotto, Markus Bögl, Christoph Muehlmann, Klaus Nordhausen, Peter Filzmoser, Johanna Schmidt, Silvia Miksch"
 first_author: true
-outlet: IEEE Transactions on Visualization and Computer Graphics (to appear)
-external_url: https://arxiv.org/abs/2309.03580
+outlet: IEEE Transactions on Visualization and Computer Graphics
+external_url: https://ieeexplore.ieee.org/document/10308617
+doi: "10.1109/TVCG.2023.3327203"
 ---
