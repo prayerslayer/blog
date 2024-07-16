@@ -1,6 +1,6 @@
 ---
 title: "Visual Interactive Parameter Selection for Temporal Blind Source Separation"
-year: to appear
+year: 2024
 tags:
   - publication
 authors: "Claudia Capello, Nikolaus Piccolotto, Christoph Muehlmann, Markus Bögl, Peter Filzmoser, Silvia Miksch, Klaus Nordhausen"
