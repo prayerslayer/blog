@@ -6,7 +6,17 @@
     <description>Recent content in Projects on Nikolaus Piccolotto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://npiccolotto.com/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://npiccolotto.com/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ph.D. in Visual Analytics</title>
+      <link>https://npiccolotto.com/ph.d.-in-visual-analytics/</link>
+      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://npiccolotto.com/ph.d.-in-visual-analytics/</guid>
+      <description>I defended my Ph.D.! You can find my thesis here, if you are interested.
+The context of my research was a statistical analysis method that one could summarize as &amp;ldquo;Principal Component Analysis for Temporal or Spatial Data&amp;rdquo;. The method has certain properties that can improve/ease the analysis and modeling of temporal/spatial datasets, but it does not come for free: Challenges when applying the method are the intricate and vast parameter space and the amount of components to compare.</description>
+    </item>
+    
     <item>
       <title>Travel with Spotify</title>
       <link>https://npiccolotto.com/travel-with-spotify/</link>
