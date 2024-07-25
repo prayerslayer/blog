@@ -7,5 +7,5 @@ tags:
 #doi: "10.1111/cgf.14785"
 authors: "Nikolaus Piccolotto, Markus Wallinger, Silvia Miksch, Markus Bögl"
 outlet: IEEE Transactions on Visualization and Computer Graphics
-#external_url: https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.14785
+external_url: https://osf.io/c7yga/
 ---
