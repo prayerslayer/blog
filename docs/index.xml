@@ -6,7 +6,16 @@
     <description>Recent content on Nikolaus Piccolotto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://npiccolotto.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://npiccolotto.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tiles</title>
+      <link>https://npiccolotto.com/tiles/</link>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://npiccolotto.com/tiles/</guid>
+      <description>I am sharing one early project in my Ph.D. that I could not get published. I think is kind of cute and it would be a shame if I&amp;rsquo;d just delete it. It&amp;rsquo;s a way to overlay spatial locations by non-overlapping grid cells which are aligned only on one axis. The other axis is free so as to better capture the point cloud&amp;rsquo;s outline. Reviewers sort of liked it but rejected our submissions because the produced partition does not have well-defined properties, such as optimal outline-tracking, minimum number of cells, lower bound on covered locations, etc.</description>
+    </item>
+    
     <item>
       <title>Ph.D. in Visual Analytics</title>
       <link>https://npiccolotto.com/ph.d.-in-visual-analytics/</link>
