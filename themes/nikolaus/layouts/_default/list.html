@@ -1,29 +1,19 @@
-{{ partial "head.html" . }}
-{{ partial "header.html" . }}
+{{ define "main" }} {{ range .Pages }}
+<div class="pub">
+  <div class="pub__desc">
+    <h3 class="pub__title">{{ .Page.Title }}</h3>
+    {{ if .Params.date }}
+    <p>
+      <small
+        >{{ time.Format "Monday" .Params.date}}, {{ time.Format "January"
+        .Params.date }} {{ humanize .Params.date.Day}} {{ time.Format "2006"
+        .Params.date }}</small
+      >
+    </p>
+    {{ end }}
 
-<main>
-  <h1>Publications</h1>
-  <h2>First author</h2>
-  <ul>
-    {{ range (sort (where .Site.Pages ".Section" "publication") ".Params.Year" "desc") }}
-    {{ if (eq .Params.first_author true)  }}
-    <li>
-      {{.Params.authors}}: {{ if .Params.external_url }} <a href="{{.Params.external_url}}">{{.Title}}</a>.
-      {{.Params.Outlet}} ({{.Params.Year}})</a> {{ else }} <span>{{.Title}}</a>.
-        {{.Params.Outlet}} ({{.Params.Year}})</span> {{ end }}
-    </li>
-    {{ end }}
-    {{ end }}
-  </ul>
-
-  <h2>Co-author</h2>
-  <ul>
-    {{ range (sort (where .Site.Pages ".Section" "publication") ".Params.Year" "desc") }}
-    {{ if (eq .Params.first_author false) }}
-    <li>
-      {{.Params.authors}}: <a href="{{.Params.external_url}}">{{.Title}}</a>. {{.Params.Outlet}} ({{.Params.Year}}) </a>
-    </li>
-    {{ end }}
-    {{ end }}
-  </ul>
-</main>
+    <p>{{.Summary}}</p>
+    <a href="{{ .Permalink }}">Read more</a>
+  </div>
+</div>
+{{ end }} {{ end }}

@@ -1,8 +1,6 @@
 ---
 title: Correct Calculator
-date: 2017-11-02
-tags:
-  - project
+date: 2017-11-02T00:00:00Z
 ---
 
 Bugs are a long-standing problem in the software industry: [Invisible characters crash iOS Messages](https://appleinsider.com/articles/18/05/09/black-dot-unicode-bug-crashes-ios-messages-app-using-invisible-characters). [FaceTime enables microphone before the call starts.](https://www.nytimes.com/2019/01/29/technology/facetime-glitch-apple.html). [An integer underflow causes Gandhi to be super-aggressive in the original Civilization](https://www.geek.com/games/why-gandhi-is-always-a-warmongering-jerk-in-civilization-1608515/). There are many more examples.
@@ -11,19 +9,19 @@ One way to achieve code correctness that was always mysterious to me is formal v
 
 {{< highlight coq >}}
 Fixpoint add (a b : nat) : nat :=
-  match a with
-  | O => b
-  | (S n) => (S (add n b))
+match a with
+| O => b
+| (S n) => (S (add n b))
 end.
 
 Lemma addition_of_identity_element : forall (x : nat), (add x O) = x.
 Proof.
-  induction x.
+induction x.
 
-  trivial.
+trivial.
 
-  simpl. rewrite -> IHx.
-  trivial.
+simpl. rewrite -> IHx.
+trivial.
 Qed.
 {{< /highlight >}}
 

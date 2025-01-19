@@ -3,93 +3,100 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://npiccolotto.com/</loc>
-    <lastmod>2024-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://npiccolotto.com/tags/project/</loc>
-    <lastmod>2024-07-24T00:00:00+00:00</lastmod>
+    <loc>https://npiccolotto.com/tags/publication/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://npiccolotto.com/publication/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://npiccolotto.com/tags/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://npiccolotto.com/publication/visual-interactive-space-time-segmentation/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://npiccolotto.com/project/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://npiccolotto.com/tags/</loc>
+    <loc>https://npiccolotto.com/project/tiles/</loc>
     <lastmod>2024-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://npiccolotto.com/tiles/</loc>
-    <lastmod>2024-07-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://npiccolotto.com/ph.d./</loc>
+    <loc>https://npiccolotto.com/publication/phd/</loc>
     <lastmod>2024-07-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://npiccolotto.com/app-wide-cli-configuration-in-python/</loc>
-    <lastmod>2023-09-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://npiccolotto.com/tags/post/</loc>
+    <loc>https://npiccolotto.com/post/app-wide-cli-configuration-in-python/</loc>
     <lastmod>2023-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://npiccolotto.com/post/</loc>
     <lastmod>2023-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://npiccolotto.com/my-first-mechanical-keyboard-and-how-you-can-get-one-too/</loc>
+    <loc>https://npiccolotto.com/post/my-first-mechanical-keyboard-and-how-you-can-get-one-too/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://npiccolotto.com/travel-with-spotify/</loc>
+    <loc>https://npiccolotto.com/project/travel-with-spotify/</loc>
     <lastmod>2019-02-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://npiccolotto.com/inspecting-react-children/</loc>
+    <loc>https://npiccolotto.com/post/inspecting-react-children/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://npiccolotto.com/glitch/</loc>
+    <loc>https://npiccolotto.com/project/glitch/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://npiccolotto.com/correct-calculator/</loc>
+    <loc>https://npiccolotto.com/project/correct-calculator/</loc>
     <lastmod>2017-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://npiccolotto.com/building-a-relay-compatible-graphql-server/</loc>
+    <loc>https://npiccolotto.com/post/building-a-relay-compatible-graphql-server/</loc>
     <lastmod>2017-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://npiccolotto.com/symdiff-prevent-dead-css/</loc>
+    <loc>https://npiccolotto.com/project/symdiff-prevent-dead-css/</loc>
     <lastmod>2015-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://npiccolotto.com/footnotes-in-pure-css/</loc>
+    <loc>https://npiccolotto.com/post/footnotes-in-pure-css/</loc>
     <lastmod>2015-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://npiccolotto.com/underlin.es/</loc>
+    <loc>https://npiccolotto.com/project/underlin.es/</loc>
     <lastmod>2015-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://npiccolotto.com/diploma/</loc>
+    <loc>https://npiccolotto.com/project/diploma/</loc>
     <lastmod>2013-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://npiccolotto.com/furple/</loc>
+    <loc>https://npiccolotto.com/project/furple/</loc>
     <lastmod>2013-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://npiccolotto.com/tophat-2k/</loc>
+    <loc>https://npiccolotto.com/project/tophat-2k/</loc>
     <lastmod>2013-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://npiccolotto.com/publication/on-combined-visual-cluster-and-set-analysis/</loc>
+    <lastmod>1970-01-01T01:33:45+01:00</lastmod>
+  </url><url>
+    <loc>https://npiccolotto.com/publication/undrground-tubes-exploring-spatial-data-with-multidimensional-projections-and-set-visualization/</loc>
+    <lastmod>1970-01-01T01:33:45+01:00</lastmod>
+  </url><url>
+    <loc>https://npiccolotto.com/publication/data-type-agnostic-visual-sensitivity-analysis/</loc>
+    <lastmod>1970-01-01T01:33:44+01:00</lastmod>
+  </url><url>
+    <loc>https://npiccolotto.com/publication/visual-interactive-parameter-selection-for-temporal-blind-source-separation/</loc>
+    <lastmod>1970-01-01T01:33:44+01:00</lastmod>
+  </url><url>
+    <loc>https://npiccolotto.com/publication/multi-ensemble-visual-analytics-via-fuzzy-sets/</loc>
+    <lastmod>1970-01-01T01:33:43+01:00</lastmod>
+  </url><url>
+    <loc>https://npiccolotto.com/publication/visual-parameter-space-exploration-in-time-and-space/</loc>
+    <lastmod>1970-01-01T01:33:43+01:00</lastmod>
+  </url><url>
+    <loc>https://npiccolotto.com/publication/tbssvis-visual-analytics-for-temporal-blind-source-separation/</loc>
+    <lastmod>1970-01-01T01:33:42+01:00</lastmod>
+  </url><url>
+    <loc>https://npiccolotto.com/publication/visual-parameter-selection-for-spatial-blind-source-separation/</loc>
+    <lastmod>1970-01-01T01:33:42+01:00</lastmod>
+  </url><url>
+    <loc>https://npiccolotto.com/publication/guide-me-in-analysis-a-framework-for-guidance-designers/</loc>
+    <lastmod>1970-01-01T01:33:40+01:00</lastmod>
   </url><url>
     <loc>https://npiccolotto.com/imprint/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>https://npiccolotto.com/categories/</loc>
-  </url><url>
-    <loc>https://npiccolotto.com/data-type-agnostic-visual-sensitivity-analysis/</loc>
-  </url><url>
-    <loc>https://npiccolotto.com/guide-me-in-analysis-a-framework-for-guidance-designers/</loc>
-  </url><url>
-    <loc>https://npiccolotto.com/multi-ensemble-visual-analytics-via-fuzzy-sets/</loc>
-  </url><url>
-    <loc>https://npiccolotto.com/on-combined-visual-cluster-and-set-analysis/</loc>
-  </url><url>
-    <loc>https://npiccolotto.com/tags/publication/</loc>
-  </url><url>
-    <loc>https://npiccolotto.com/publication/</loc>
-  </url><url>
-    <loc>https://npiccolotto.com/tbssvis-visual-analytics-for-temporal-blind-source-separation/</loc>
-  </url><url>
-    <loc>https://npiccolotto.com/undrground-tubes-exploring-spatial-data-with-multidimensional-projections-and-set-visualization/</loc>
-  </url><url>
-    <loc>https://npiccolotto.com/visual-interactive-parameter-selection-for-temporal-blind-source-separation/</loc>
-  </url><url>
-    <loc>https://npiccolotto.com/visual-parameter-selection-for-spatial-blind-source-separation/</loc>
-  </url><url>
-    <loc>https://npiccolotto.com/visual-parameter-space-exploration-in-time-and-space/</loc>
   </url>
 </urlset>

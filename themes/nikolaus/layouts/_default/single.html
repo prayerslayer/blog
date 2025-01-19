@@ -1,12 +1,17 @@
-{{ partial "head.html" . }}
-{{ partial "header.html" . }}
+{{ define "main" }}
 
-<main>
-  <section class="title">
-    <h1>{{ .Title }}</h1>
-  </section>
-  {{ .Content }}
-  <small>{{ .PublishDate.Format "2006-01-02" }}</small>
-</main>
-
-{{ partial "footer.html" . }}
+<div class="pub">
+  <div class="pub__desc">
+    <h1 class="pub__title">{{.Title}}</h1>
+    {{ if .Params.date }}
+    <p>
+      <small
+        >{{ time.Format "Monday" .Params.date}}, {{ time.Format "January"
+        .Params.date }} {{ humanize .Params.date.Day}} {{ time.Format "2006"
+        .Params.date }}</small
+      >
+    </p>
+    {{ end }} {{ .Content }}
+  </div>
+</div>
+{{ end }}

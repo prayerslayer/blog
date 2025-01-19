@@ -1,8 +1,6 @@
 ---
-title: "underlin.es"
-date: 2015-03-15
-tags:
-  - project
+title: 'underlin.es'
+date: 2015-03-15T00:00:00Z
 ---
 
 You know all the CSS generators like [CSSmatic](http://www.cssmatic.com/) or [CSS arrow please](http://cssarrowplease.com/)? I was looking for something similar, but for [Medium](https://medium.com/)-style text underlines (using `background-image`) and, strangely, unable to find it. So here it is: [underlin.es](http://prayerslayer.github.io/underlines/).

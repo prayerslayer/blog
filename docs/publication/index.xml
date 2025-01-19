@@ -4,88 +4,86 @@
     <title>Publications on Nikolaus Piccolotto</title>
     <link>https://npiccolotto.com/publication/</link>
     <description>Recent content in Publications on Nikolaus Piccolotto</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://npiccolotto.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://npiccolotto.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Data Type Agnostic Visual Sensitivity Analysis</title>
-      <link>https://npiccolotto.com/data-type-agnostic-visual-sensitivity-analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/data-type-agnostic-visual-sensitivity-analysis/</guid>
+      <title>Visual Interactive Space-Time Segmentation</title>
+      <link>https://npiccolotto.com/publication/visual-interactive-space-time-segmentation/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://npiccolotto.com/publication/visual-interactive-space-time-segmentation/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Guide Me in Analysis: A Framework for Guidance Designers</title>
-      <link>https://npiccolotto.com/guide-me-in-analysis-a-framework-for-guidance-designers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/guide-me-in-analysis-a-framework-for-guidance-designers/</guid>
-      <description></description>
+      <title>Ph.D. Thesis</title>
+      <link>https://npiccolotto.com/publication/phd/</link>
+      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://npiccolotto.com/publication/phd/</guid>
+      <description>&lt;p&gt;I &lt;a href=&#34;https://www.cvast.tuwien.ac.at/news/2024-07/cheers-nikolaus-successful-phd-defense-and-new-adventures&#34;&gt;defended&lt;/a&gt; my Ph.D.! You can find my thesis &lt;a href=&#34;https://npiccolotto.com/media/phd-thesis.pdf&#34;&gt;here&lt;/a&gt;, if you are interested.&lt;/p&gt;&#xA;&lt;p&gt;The context of my research was a statistical analysis method that one could summarize as &amp;ldquo;Principal Component Analysis for Temporal or Spatial Data&amp;rdquo;. The method has certain properties that can improve/ease the analysis and modeling of temporal/spatial datasets, but it does not come for free: Challenges when applying the method are the intricate and vast parameter space and the amount of components to compare. We tackled these in the individual &lt;a href=&#34;https://npiccolotto.com/publication/&#34;&gt;publications&lt;/a&gt; by developing specialized interactive visualizations coupled with appropriate data mining algorithms (visual analytics).&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Multi-Ensemble Visual Analytics via Fuzzy Sets</title>
-      <link>https://npiccolotto.com/multi-ensemble-visual-analytics-via-fuzzy-sets/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/multi-ensemble-visual-analytics-via-fuzzy-sets/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>On Combined Visual Cluster and Set Analysis</title>
-      <link>https://npiccolotto.com/on-combined-visual-cluster-and-set-analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/on-combined-visual-cluster-and-set-analysis/</guid>
+      <link>https://npiccolotto.com/publication/on-combined-visual-cluster-and-set-analysis/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:45 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/on-combined-visual-cluster-and-set-analysis/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>TBSSvis: Visual Analytics for Temporal Blind Source Separation</title>
-      <link>https://npiccolotto.com/tbssvis-visual-analytics-for-temporal-blind-source-separation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/tbssvis-visual-analytics-for-temporal-blind-source-separation/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>UnDRground Tubes: Exploring Spatial Data With Multidimensional Projections and Set Visualization</title>
-      <link>https://npiccolotto.com/undrground-tubes-exploring-spatial-data-with-multidimensional-projections-and-set-visualization/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/undrground-tubes-exploring-spatial-data-with-multidimensional-projections-and-set-visualization/</guid>
+      <link>https://npiccolotto.com/publication/undrground-tubes-exploring-spatial-data-with-multidimensional-projections-and-set-visualization/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:45 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/undrground-tubes-exploring-spatial-data-with-multidimensional-projections-and-set-visualization/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Data Type Agnostic Visual Sensitivity Analysis</title>
+      <link>https://npiccolotto.com/publication/data-type-agnostic-visual-sensitivity-analysis/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:44 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/data-type-agnostic-visual-sensitivity-analysis/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Visual Interactive Parameter Selection for Temporal Blind Source Separation</title>
-      <link>https://npiccolotto.com/visual-interactive-parameter-selection-for-temporal-blind-source-separation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/visual-interactive-parameter-selection-for-temporal-blind-source-separation/</guid>
+      <link>https://npiccolotto.com/publication/visual-interactive-parameter-selection-for-temporal-blind-source-separation/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:44 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/visual-interactive-parameter-selection-for-temporal-blind-source-separation/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Visual Parameter Selection for Spatial Blind Source Separation</title>
-      <link>https://npiccolotto.com/visual-parameter-selection-for-spatial-blind-source-separation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/visual-parameter-selection-for-spatial-blind-source-separation/</guid>
+      <title>Multi-Ensemble Visual Analytics via Fuzzy Sets</title>
+      <link>https://npiccolotto.com/publication/multi-ensemble-visual-analytics-via-fuzzy-sets/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:43 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/multi-ensemble-visual-analytics-via-fuzzy-sets/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Visual Parameter Space Exploration in Time and Space</title>
-      <link>https://npiccolotto.com/visual-parameter-space-exploration-in-time-and-space/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/visual-parameter-space-exploration-in-time-and-space/</guid>
+      <link>https://npiccolotto.com/publication/visual-parameter-space-exploration-in-time-and-space/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:43 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/visual-parameter-space-exploration-in-time-and-space/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>TBSSvis: Visual Analytics for Temporal Blind Source Separation</title>
+      <link>https://npiccolotto.com/publication/tbssvis-visual-analytics-for-temporal-blind-source-separation/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:42 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/tbssvis-visual-analytics-for-temporal-blind-source-separation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visual Parameter Selection for Spatial Blind Source Separation</title>
+      <link>https://npiccolotto.com/publication/visual-parameter-selection-for-spatial-blind-source-separation/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:42 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/visual-parameter-selection-for-spatial-blind-source-separation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guide Me in Analysis: A Framework for Guidance Designers</title>
+      <link>https://npiccolotto.com/publication/guide-me-in-analysis-a-framework-for-guidance-designers/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:40 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/guide-me-in-analysis-a-framework-for-guidance-designers/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

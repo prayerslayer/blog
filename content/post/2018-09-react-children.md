@@ -1,17 +1,13 @@
 ---
 title: Inspecting React Children
-date: 2018-09-01
-aliases:
-  - /2018/09/react-inspect-children/
-tags:
-  - post
+date: 2018-09-01T00:00:00Z
 ---
 
 Suppose you write a frontend framework in React, like Bootstrap. (If it’s for the web or react-native doesn’t matter for the argument.) There are components for different text styles (MediumText, SmallText…), for popular control elements (Dropdown, Button…) and so on. You want this to be modular and composable, so you pass a different text component to the Button instead of setting a size property on it. After all, the button size depends only on the content, why would you have a large button with small text inside?
 
 {{< highlight jsx >}}
 <Button>
-  <SmallText>I am a small button</SmallText>
+<SmallText>I am a small button</SmallText>
 </Button>
 {{< /highlight >}}
 
@@ -21,7 +17,7 @@ One way to solve it is to pass a property [CITATION NEEDED]:
 
 {{< highlight jsx >}}
 <Button size="sm">
-  <SmallText>I am a small button</SmallText>
+<SmallText>I am a small button</SmallText>
 </Button>
 {{< /highlight >}}
 
@@ -38,14 +34,14 @@ import React from "react";
 import { SmallText, Text } from "./Text";
 
 function Button({ size, children }) {
-  const isSmall = size === "sm";
-  const TextComponent = isSmall ? SmallText : Text;
-  const style = { padding: isSmall ? 5 : 10 };
-  return (
-    <button className="button" style={style}>
-      <TextComponent>{children}</TextComponent>
-    </button>
-  );
+const isSmall = size === "sm";
+const TextComponent = isSmall ? SmallText : Text;
+const style = { padding: isSmall ? 5 : 10 };
+return (
+<button className="button" style={style}>
+<TextComponent>{children}</TextComponent>
+</button>
+);
 }
 {{< /highlight >}}
 
@@ -53,9 +49,9 @@ That’s safer with regards to future regressions, but you lose flexibility. How
 
 Now, there’s a third way. Remember that React necessarily has to process your component tree from the bottom up, ie. render functions of children are called prior to their parents’. Children are one or many React nodes[^1], which means either React elements or functions, strings and so on. (See [this excellent post](https://mxstbr.blog/2017/02/react-children-deepdive/) on React children if you want to know more.) React elements are regular objects with some keys:
 
-* type: A string for built-ins ("div") or a function/class for custom components.
-* props: An object holding properties of that element.
-There are more, like key and ref, but the two above are the most relevant now.
+- type: A string for built-ins ("div") or a function/class for custom components.
+- props: An object holding properties of that element.
+  There are more, like key and ref, but the two above are the most relevant now.
 
 Assuming for simplicity that the Button takes a single child, you can inspect the child and change what Button returns based on that. The same principle works with multiple children, but you need to decide how the button should behave when it contains both Text and SmallText. (Comparing type has one gotcha that is discussed at the end.)
 
@@ -64,13 +60,13 @@ import React from "react";
 import { SmallText } from "./Text";
 
 function Button({ children }) {
-  const isSmall = children.type === SmallText;
-  const style = { padding: isSmall ? 5 : 10 };
-  return (
-    <button className="button" style={style}>
-      {children}
-    </button>
-  );
+const isSmall = children.type === SmallText;
+const style = { padding: isSmall ? 5 : 10 };
+return (
+<button className="button" style={style}>
+{children}
+</button>
+);
 }
 {{< /highlight >}}
 
@@ -78,7 +74,7 @@ If the SmallText/Text distinction was too contrived for you, you can achieve the
 
 {{< highlight jsx >}}
 <Button>
-  <Text size="sm">I am a small button</Text>
+<Text size="sm">I am a small button</Text>
 </Button>
 {{< /highlight >}}
 
@@ -89,13 +85,13 @@ import React from "react";
 import { SmallText, Text } from "./Text";
 
 function Button({ children }) {
-  const isSmall = children.props.size === "sm";
-  const style = { padding: isSmall ? 5 : 10 };
-  return (
-    <button className="button" style={style}>
-      {children}
-    </button>
-  );
+const isSmall = children.props.size === "sm";
+const style = { padding: isSmall ? 5 : 10 };
+return (
+<button className="button" style={style}>
+{children}
+</button>
+);
 }
 {{< /highlight >}}
 
@@ -117,20 +113,21 @@ Also, here’s the heads-up I promised: If you inspect the type and want to comp
 
 {{< highlight js >}}
 function MyComponent() {
-  return null; // doesn't matter
+return null; // doesn't matter
 }
 
 function MyInspectingComponent({ children }) {
-  const child = React.Children.only(children);
-  switch (child.type) {
-    case MyComponent:
-      // Never reached with react-hot-loader
-      return "Hi";
-    default:
-      return "Ho";
-  }
+const child = React.Children.only(children);
+switch (child.type) {
+case MyComponent:
+// Never reached with react-hot-loader
+return "Hi";
+default:
+return "Ho";
+}
 }
 {{< /highlight >}}
 
 [^1]: I’m not sure if it’s an official term, but it’s ReactNode in the Typescript definitions for React, so I’ll go with that.
+
 [^2]: That works fine by the way, with cloneElement there are no infinite loops. React clones the children, but doesn’t process their parent again afterwards. Fine as in no accidental infinite loops.

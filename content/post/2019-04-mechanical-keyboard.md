@@ -1,8 +1,6 @@
 ---
 title: My first mechanical keyboard, and how you can get one too
-date: 2019-04-02
-tags:
-  - post
+date: 2019-04-02T00:00:00Z
 ---
 
 People in my Twitter stream would post pictures of their workplace every once in a while. More often than not, the picture would feature a fancy keyboard. I would then search the internet about it, get intringued, and leave it at that. But recently I went for it.

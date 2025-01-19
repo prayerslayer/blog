@@ -1,0 +1,21 @@
+{{ define "main" }} {{ range .Pages.ByDate.Reverse }}
+<div class="pub">
+  <div class="pub__desc">
+    <p>
+      <small> {{ .Params.Outlet }}, {{ .Params.Year }}</small>
+    </p>
+    <h3 class="pub__title">{{.Title}}</h3>
+    <p>
+      <small> {{ .Params.authors }} </small>
+    </p>
+
+    {{ if .Params.description }}
+    <p>{{ .Params.description }}</p>
+    {{ end }} {{ if .Params.external_url }}
+    <p>
+      DOI: <a href="{{.Params.external_url}}"><code>{{ .Params.doi }}</code></a>
+    </p>
+    {{ end }}
+  </div>
+</div>
+{{ end }} {{ end }}

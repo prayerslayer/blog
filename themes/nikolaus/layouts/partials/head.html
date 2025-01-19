@@ -1,23 +1,33 @@
 <!doctype html>
 <html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Nikolaus Piccolotto</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title>Nikolaus Piccolotto</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="theme-color" content="#ffffff" />
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#000000">
-  <meta name="theme-color" content="#ffffff">
+    <!--  <link rel="stylesheet" type="text/css" href="/css/main.css" /> -->
+    <link rel="stylesheet" type="text/css" href="/css/chroma.css" />
 
-  <link rel="stylesheet" type="text/css" href="/css/main.css" />
-  <link rel="stylesheet" type="text/css" href="/css/chroma.css" />
+    <meta name="theme-color" content="#fafafa" />
 
-  <meta name="theme-color" content="#fafafa">
-</head>
+    {{ with resources.Get "main-new.scss" | toCSS | fingerprint }}
+    <link
+      rel="stylesheet"
+      href="{{ .RelPermalink }}"
+      integrity="{{ .Data.Integrity }}"
+      crossorigin="anonymous"
+    />
+    {{ end }}
+    <script src="/home.js"></script>
+  </head>
+</html>

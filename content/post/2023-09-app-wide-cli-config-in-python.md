@@ -1,8 +1,6 @@
 ---
 title: App-wide CLI Configuration in Python
-date: 2023-09-05
-tags:
-  - post
+date: 2023-09-05T00:00:00Z
 ---
 
 Recently I had the situation where I had a Python-based program to be used in a command line interface (CLI). But the program had many configuration options and I wanted a flexible way to deal with defaults and overriding them, while changing as little code as possible. I didn't find great results on Google's first page, so I thought I write it up here.
@@ -58,6 +56,6 @@ def main(
     ctx.run(the_actual_function_to_run)
 ```
 
- Of course, there are some odd ends and possible improvements. For instance, the `click` defaults have precendence over the `config.ini` defaults, which is not ideal as they can get out of sync over time. I assume in many situations one could not use `click` defaults at all and only override the `config.ini` defaults if the respective CLI argument was provided. Then there's a lot of typing in `config.py` if there are a lot of configuration options, but one could get rid of these by assembling a `dict` dynamically from the sections and keys available in the configuration file.
+Of course, there are some odd ends and possible improvements. For instance, the `click` defaults have precendence over the `config.ini` defaults, which is not ideal as they can get out of sync over time. I assume in many situations one could not use `click` defaults at all and only override the `config.ini` defaults if the respective CLI argument was provided. Then there's a lot of typing in `config.py` if there are a lot of configuration options, but one could get rid of these by assembling a `dict` dynamically from the sections and keys available in the configuration file.
 
- But the important advantage of the whole thing is that we set those options once in the beginning, and their values are distributed to _every other piece of code_ we wrote, no matter how deep in the callstack it is (as long as it uses the context variables from the `config` module).
+But the important advantage of the whole thing is that we set those options once in the beginning, and their values are distributed to _every other piece of code_ we wrote, no matter how deep in the callstack it is (as long as it uses the context variables from the `config` module).

@@ -3,13 +3,16 @@ languageCode = "en-us"
 title = "Nikolaus Piccolotto"
 pygmentsUseClasses = true
 
+summaryLength = 100
+
 staticDir = ["static", "content/media"]
 publishDir = "docs"
+assetDir = "assets"
 
 [permalinks]
-  post = "/:slug/"
-  project = "/:slug/"
-  publication = "/:slug/"
+  post = "/post/:slug/"
+  project = "/project/:slug/"
+  publication = "/publication/:slug/"
 
 [taxonomies]
   category = "categories"

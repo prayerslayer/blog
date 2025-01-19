@@ -4,56 +4,44 @@
     <title>Posts on Nikolaus Piccolotto</title>
     <link>https://npiccolotto.com/post/</link>
     <description>Recent content in Posts on Nikolaus Piccolotto</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://npiccolotto.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://npiccolotto.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>App-wide CLI Configuration in Python</title>
-      <link>https://npiccolotto.com/app-wide-cli-configuration-in-python/</link>
+      <link>https://npiccolotto.com/post/app-wide-cli-configuration-in-python/</link>
       <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/app-wide-cli-configuration-in-python/</guid>
-      <description>Recently I had the situation where I had a Python-based program to be used in a command line interface (CLI). But the program had many configuration options and I wanted a flexible way to deal with defaults and overriding them, while changing as little code as possible. I didn&amp;rsquo;t find great results on Google&amp;rsquo;s first page, so I thought I write it up here.
-The problem with a reasonably large Python program, where code is distributed into several modules, is that we cannot really just pass a config dictionary around.</description>
+      <guid>https://npiccolotto.com/post/app-wide-cli-configuration-in-python/</guid>
+      <description>&lt;p&gt;Recently I had the situation where I had a Python-based program to be used in a command line interface (CLI). But the program had many configuration options and I wanted a flexible way to deal with defaults and overriding them, while changing as little code as possible. I didn&amp;rsquo;t find great results on Google&amp;rsquo;s first page, so I thought I write it up here.&lt;/p&gt;&#xA;&lt;p&gt;The problem with a reasonably large Python program, where code is distributed into several modules, is that we cannot really just pass a &lt;code&gt;config&lt;/code&gt; dictionary around. There are too many functions, and it&amp;rsquo;s really annoying. So the first improvement is to export the configuration from variables in a &lt;code&gt;config&lt;/code&gt; module. That&amp;rsquo;s better, but now we have to change the source code every time we want to change the program&amp;rsquo;s configuration. Not ideal. But there&amp;rsquo;s a somewhat neat solution with Python built-ins.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My first mechanical keyboard, and how you can get one too</title>
-      <link>https://npiccolotto.com/my-first-mechanical-keyboard-and-how-you-can-get-one-too/</link>
+      <link>https://npiccolotto.com/post/my-first-mechanical-keyboard-and-how-you-can-get-one-too/</link>
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/my-first-mechanical-keyboard-and-how-you-can-get-one-too/</guid>
-      <description>People in my Twitter stream would post pictures of their workplace every once in a while. More often than not, the picture would feature a fancy keyboard. I would then search the internet about it, get intringued, and leave it at that. But recently I went for it.
-I’ll first list some advantages of custom mechanical keyboards, and then do my best to walk you through the process of getting your own.</description>
+      <guid>https://npiccolotto.com/post/my-first-mechanical-keyboard-and-how-you-can-get-one-too/</guid>
+      <description>&lt;p&gt;People in my Twitter stream would post pictures of their workplace every once in a while. More often than not, the picture would feature a fancy keyboard. I would then search the internet about it, get intringued, and leave it at that. But recently I went for it.&lt;/p&gt;&#xA;&lt;p&gt;I’ll first list some advantages of custom mechanical keyboards, and then do my best to walk you through the process of getting your own. For rookies this is harder than you think.&lt;/p&gt;&#xA;&lt;p&gt;So why would you want one?&lt;/p&gt;&#xA;&lt;p&gt;First, because you can control every piece of hardware inside it. There’s a multitude of of &lt;a href=&#34;https://www.pcgamer.com/best-mechanical-switches-for-gaming/&#34;&gt;switches&lt;/a&gt; to choose from, they differ in how hard you need to press them, in their haptic feedback, in their noisiness, and other things. There’s an endless supply of &lt;a href=&#34;https://kbdfans.cn/collections/keycaps&#34;&gt;keycaps&lt;/a&gt; available. You can choose the PCB based on which layout, connector or LEDs you like. You can change any part of the whole to make it &lt;em&gt;your&lt;/em&gt; keyboard.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Inspecting React Children</title>
-      <link>https://npiccolotto.com/inspecting-react-children/</link>
+      <link>https://npiccolotto.com/post/inspecting-react-children/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/inspecting-react-children/</guid>
-      <description>Suppose you write a frontend framework in React, like Bootstrap. (If it’s for the web or react-native doesn’t matter for the argument.) There are components for different text styles (MediumText, SmallText…), for popular control elements (Dropdown, Button…) and so on. You want this to be modular and composable, so you pass a different text component to the Button instead of setting a size property on it. After all, the button size depends only on the content, why would you have a large button with small text inside?</description>
+      <guid>https://npiccolotto.com/post/inspecting-react-children/</guid>
+      <description>&lt;p&gt;Suppose you write a frontend framework in React, like Bootstrap. (If it’s for the web or react-native doesn’t matter for the argument.) There are components for different text styles (MediumText, SmallText…), for popular control elements (Dropdown, Button…) and so on. You want this to be modular and composable, so you pass a different text component to the Button instead of setting a size property on it. After all, the button size depends only on the content, why would you have a large button with small text inside?&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-jsx&#34; data-lang=&#34;jsx&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Button&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;SmallText&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;I&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;am&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;small&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;button&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;SmallText&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Button&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;But now there’s a problem. A button with small text should have less padding than with larger text. How does it know without a property?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Building a Relay-compatible GraphQL Server</title>
-      <link>https://npiccolotto.com/building-a-relay-compatible-graphql-server/</link>
+      <link>https://npiccolotto.com/post/building-a-relay-compatible-graphql-server/</link>
       <pubDate>Fri, 03 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/building-a-relay-compatible-graphql-server/</guid>
-      <description>Read it over at the Zalando Tech Blog.</description>
+      <guid>https://npiccolotto.com/post/building-a-relay-compatible-graphql-server/</guid>
+      <description>&lt;p&gt;Read it over at the &lt;a href=&#34;https://engineering.zalando.com/posts/2017/02/building-a-relay-compatible-graphql-server.html&#34;&gt;Zalando Tech Blog&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Footnotes in pure CSS</title>
-      <link>https://npiccolotto.com/footnotes-in-pure-css/</link>
+      <link>https://npiccolotto.com/post/footnotes-in-pure-css/</link>
       <pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/footnotes-in-pure-css/</guid>
-      <description>Being a web developer is as much a blessing as it is a curse. One moment you’re reading an article about the most untradable players in the NBA by your favorite basketball author, the next you’re creeping around the footnote implementation of their site and wondering if Javascript is really necessary there.1
-Of course it isn’t. There are games written completely in CSS. And they are also the solution to our problem.</description>
+      <guid>https://npiccolotto.com/post/footnotes-in-pure-css/</guid>
+      <description>&lt;p&gt;Being a web developer is as much a blessing as it is a curse. One moment you’re reading an article about the &lt;a href=&#34;http://grantland.com/features/2015-nba-trade-value-part-3-the-final-countdown/&#34;&gt;most untradable players in the NBA&lt;/a&gt; by your favorite basketball author, the next you’re creeping around the footnote implementation of their site and wondering if Javascript is really necessary there.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&#xA;&lt;p&gt;Of course it isn’t. &lt;a href=&#34;http://cssdeck.com/labs/css-panic-game&#34;&gt;There&lt;/a&gt; &lt;a href=&#34;http://codepen.io/ziga-miklic/pen/Fagmh&#34;&gt;are&lt;/a&gt; games written completely in CSS. And they are also the solution to our problem. Both examples rely on differently styled or hidden, but still accessible &lt;code&gt;input&lt;/code&gt; controls.&lt;/p&gt;&#xA;&lt;p&gt;One way to achieve the latter is to surround the &lt;code&gt;input&lt;/code&gt; with a &lt;code&gt;label&lt;/code&gt;, then hide the &lt;code&gt;input&lt;/code&gt;. Clicking the content will trigger a click on the invisible checkbox as well:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,0 +1,14 @@
+{{ define "main" }}
+<main>
+  <h1>{{.Title}}</h1>
+  {{ if .Params.date }}
+  <p>
+    <small
+      >{{ time.Format "Monday" .Params.date}}, {{ time.Format "January"
+      .Params.date }} {{ humanize .Params.date.Day}} {{ time.Format "2006"
+      .Params.date }}</small
+    >
+  </p>
+  {{ end }} {{ .Content }}
+</main>
+{{ end }}

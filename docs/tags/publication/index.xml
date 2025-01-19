@@ -1,91 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>publication on Nikolaus Piccolotto</title>
+    <title>Publication on Nikolaus Piccolotto</title>
     <link>https://npiccolotto.com/tags/publication/</link>
-    <description>Recent content in publication on Nikolaus Piccolotto</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://npiccolotto.com/tags/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Publication on Nikolaus Piccolotto</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://npiccolotto.com/tags/publication/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Data Type Agnostic Visual Sensitivity Analysis</title>
-      <link>https://npiccolotto.com/data-type-agnostic-visual-sensitivity-analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/data-type-agnostic-visual-sensitivity-analysis/</guid>
+      <title>Visual Interactive Space-Time Segmentation</title>
+      <link>https://npiccolotto.com/publication/visual-interactive-space-time-segmentation/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://npiccolotto.com/publication/visual-interactive-space-time-segmentation/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Guide Me in Analysis: A Framework for Guidance Designers</title>
-      <link>https://npiccolotto.com/guide-me-in-analysis-a-framework-for-guidance-designers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/guide-me-in-analysis-a-framework-for-guidance-designers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multi-Ensemble Visual Analytics via Fuzzy Sets</title>
-      <link>https://npiccolotto.com/multi-ensemble-visual-analytics-via-fuzzy-sets/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/multi-ensemble-visual-analytics-via-fuzzy-sets/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>On Combined Visual Cluster and Set Analysis</title>
-      <link>https://npiccolotto.com/on-combined-visual-cluster-and-set-analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/on-combined-visual-cluster-and-set-analysis/</guid>
+      <link>https://npiccolotto.com/publication/on-combined-visual-cluster-and-set-analysis/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:45 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/on-combined-visual-cluster-and-set-analysis/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>TBSSvis: Visual Analytics for Temporal Blind Source Separation</title>
-      <link>https://npiccolotto.com/tbssvis-visual-analytics-for-temporal-blind-source-separation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/tbssvis-visual-analytics-for-temporal-blind-source-separation/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>UnDRground Tubes: Exploring Spatial Data With Multidimensional Projections and Set Visualization</title>
-      <link>https://npiccolotto.com/undrground-tubes-exploring-spatial-data-with-multidimensional-projections-and-set-visualization/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/undrground-tubes-exploring-spatial-data-with-multidimensional-projections-and-set-visualization/</guid>
+      <link>https://npiccolotto.com/publication/undrground-tubes-exploring-spatial-data-with-multidimensional-projections-and-set-visualization/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:45 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/undrground-tubes-exploring-spatial-data-with-multidimensional-projections-and-set-visualization/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Data Type Agnostic Visual Sensitivity Analysis</title>
+      <link>https://npiccolotto.com/publication/data-type-agnostic-visual-sensitivity-analysis/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:44 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/data-type-agnostic-visual-sensitivity-analysis/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Visual Interactive Parameter Selection for Temporal Blind Source Separation</title>
-      <link>https://npiccolotto.com/visual-interactive-parameter-selection-for-temporal-blind-source-separation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/visual-interactive-parameter-selection-for-temporal-blind-source-separation/</guid>
+      <link>https://npiccolotto.com/publication/visual-interactive-parameter-selection-for-temporal-blind-source-separation/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:44 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/visual-interactive-parameter-selection-for-temporal-blind-source-separation/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Visual Parameter Selection for Spatial Blind Source Separation</title>
-      <link>https://npiccolotto.com/visual-parameter-selection-for-spatial-blind-source-separation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/visual-parameter-selection-for-spatial-blind-source-separation/</guid>
+      <title>Multi-Ensemble Visual Analytics via Fuzzy Sets</title>
+      <link>https://npiccolotto.com/publication/multi-ensemble-visual-analytics-via-fuzzy-sets/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:43 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/multi-ensemble-visual-analytics-via-fuzzy-sets/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Visual Parameter Space Exploration in Time and Space</title>
-      <link>https://npiccolotto.com/visual-parameter-space-exploration-in-time-and-space/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/visual-parameter-space-exploration-in-time-and-space/</guid>
+      <link>https://npiccolotto.com/publication/visual-parameter-space-exploration-in-time-and-space/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:43 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/visual-parameter-space-exploration-in-time-and-space/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>TBSSvis: Visual Analytics for Temporal Blind Source Separation</title>
+      <link>https://npiccolotto.com/publication/tbssvis-visual-analytics-for-temporal-blind-source-separation/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:42 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/tbssvis-visual-analytics-for-temporal-blind-source-separation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visual Parameter Selection for Spatial Blind Source Separation</title>
+      <link>https://npiccolotto.com/publication/visual-parameter-selection-for-spatial-blind-source-separation/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:42 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/visual-parameter-selection-for-spatial-blind-source-separation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guide Me in Analysis: A Framework for Guidance Designers</title>
+      <link>https://npiccolotto.com/publication/guide-me-in-analysis-a-framework-for-guidance-designers/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:40 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/guide-me-in-analysis-a-framework-for-guidance-designers/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

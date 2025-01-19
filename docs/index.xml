@@ -4,245 +4,191 @@
     <title>Nikolaus Piccolotto</title>
     <link>https://npiccolotto.com/</link>
     <description>Recent content on Nikolaus Piccolotto</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://npiccolotto.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://npiccolotto.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visual Interactive Space-Time Segmentation</title>
+      <link>https://npiccolotto.com/publication/visual-interactive-space-time-segmentation/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://npiccolotto.com/publication/visual-interactive-space-time-segmentation/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Tiles</title>
-      <link>https://npiccolotto.com/tiles/</link>
+      <link>https://npiccolotto.com/project/tiles/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/tiles/</guid>
-      <description>I am sharing one early project in my Ph.D. that I could not get published. I think it is kind of cute and it would be a shame if I&amp;rsquo;d just delete it. It&amp;rsquo;s a way to overlay spatial locations by non-overlapping grid cells which are aligned only on one axis. The other axis is free so as to better capture the point cloud&amp;rsquo;s outline. Reviewers sort of liked it but rejected our submissions because the produced partition does not have well-defined properties, such as optimal outline-tracking, minimum number of cells, lower bound on covered locations, etc.</description>
+      <guid>https://npiccolotto.com/project/tiles/</guid>
+      <description>&lt;p&gt;I am sharing one early project in my Ph.D. that I could not get published. I think it is kind of cute and it would be a shame if I&amp;rsquo;d just delete it. It&amp;rsquo;s a way to overlay spatial locations by non-overlapping grid cells which are aligned only on one axis. The other axis is free so as to better capture the point cloud&amp;rsquo;s outline. Reviewers sort of liked it but rejected our submissions because the produced partition does not have well-defined properties, such as optimal outline-tracking, minimum number of cells, lower bound on covered locations, etc. I came up with this algorithm after attending a computational geometry class, where similar 1D scanning algorithms are used to find, e.g., line intersections (&amp;ldquo;sweep line&amp;rdquo;). We evaluated the algorithm with quality metrics on real data and found that it led consistently to fewer cells&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, but interestingly the match to the point cloud&amp;rsquo;s outline can become worse than on a normal grid with smaller cells.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Ph.D.</title>
-      <link>https://npiccolotto.com/ph.d./</link>
+      <title>Ph.D. Thesis</title>
+      <link>https://npiccolotto.com/publication/phd/</link>
       <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/ph.d./</guid>
-      <description>I defended my Ph.D.! You can find my thesis here, if you are interested.
-The context of my research was a statistical analysis method that one could summarize as &amp;ldquo;Principal Component Analysis for Temporal or Spatial Data&amp;rdquo;. The method has certain properties that can improve/ease the analysis and modeling of temporal/spatial datasets, but it does not come for free: Challenges when applying the method are the intricate and vast parameter space and the amount of components to compare.</description>
+      <guid>https://npiccolotto.com/publication/phd/</guid>
+      <description>&lt;p&gt;I &lt;a href=&#34;https://www.cvast.tuwien.ac.at/news/2024-07/cheers-nikolaus-successful-phd-defense-and-new-adventures&#34;&gt;defended&lt;/a&gt; my Ph.D.! You can find my thesis &lt;a href=&#34;https://npiccolotto.com/media/phd-thesis.pdf&#34;&gt;here&lt;/a&gt;, if you are interested.&lt;/p&gt;&#xA;&lt;p&gt;The context of my research was a statistical analysis method that one could summarize as &amp;ldquo;Principal Component Analysis for Temporal or Spatial Data&amp;rdquo;. The method has certain properties that can improve/ease the analysis and modeling of temporal/spatial datasets, but it does not come for free: Challenges when applying the method are the intricate and vast parameter space and the amount of components to compare. We tackled these in the individual &lt;a href=&#34;https://npiccolotto.com/publication/&#34;&gt;publications&lt;/a&gt; by developing specialized interactive visualizations coupled with appropriate data mining algorithms (visual analytics).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>App-wide CLI Configuration in Python</title>
-      <link>https://npiccolotto.com/app-wide-cli-configuration-in-python/</link>
+      <link>https://npiccolotto.com/post/app-wide-cli-configuration-in-python/</link>
       <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/app-wide-cli-configuration-in-python/</guid>
-      <description>Recently I had the situation where I had a Python-based program to be used in a command line interface (CLI). But the program had many configuration options and I wanted a flexible way to deal with defaults and overriding them, while changing as little code as possible. I didn&amp;rsquo;t find great results on Google&amp;rsquo;s first page, so I thought I write it up here.
-The problem with a reasonably large Python program, where code is distributed into several modules, is that we cannot really just pass a config dictionary around.</description>
+      <guid>https://npiccolotto.com/post/app-wide-cli-configuration-in-python/</guid>
+      <description>&lt;p&gt;Recently I had the situation where I had a Python-based program to be used in a command line interface (CLI). But the program had many configuration options and I wanted a flexible way to deal with defaults and overriding them, while changing as little code as possible. I didn&amp;rsquo;t find great results on Google&amp;rsquo;s first page, so I thought I write it up here.&lt;/p&gt;&#xA;&lt;p&gt;The problem with a reasonably large Python program, where code is distributed into several modules, is that we cannot really just pass a &lt;code&gt;config&lt;/code&gt; dictionary around. There are too many functions, and it&amp;rsquo;s really annoying. So the first improvement is to export the configuration from variables in a &lt;code&gt;config&lt;/code&gt; module. That&amp;rsquo;s better, but now we have to change the source code every time we want to change the program&amp;rsquo;s configuration. Not ideal. But there&amp;rsquo;s a somewhat neat solution with Python built-ins.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My first mechanical keyboard, and how you can get one too</title>
-      <link>https://npiccolotto.com/my-first-mechanical-keyboard-and-how-you-can-get-one-too/</link>
+      <link>https://npiccolotto.com/post/my-first-mechanical-keyboard-and-how-you-can-get-one-too/</link>
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/my-first-mechanical-keyboard-and-how-you-can-get-one-too/</guid>
-      <description>People in my Twitter stream would post pictures of their workplace every once in a while. More often than not, the picture would feature a fancy keyboard. I would then search the internet about it, get intringued, and leave it at that. But recently I went for it.
-I’ll first list some advantages of custom mechanical keyboards, and then do my best to walk you through the process of getting your own.</description>
+      <guid>https://npiccolotto.com/post/my-first-mechanical-keyboard-and-how-you-can-get-one-too/</guid>
+      <description>&lt;p&gt;People in my Twitter stream would post pictures of their workplace every once in a while. More often than not, the picture would feature a fancy keyboard. I would then search the internet about it, get intringued, and leave it at that. But recently I went for it.&lt;/p&gt;&#xA;&lt;p&gt;I’ll first list some advantages of custom mechanical keyboards, and then do my best to walk you through the process of getting your own. For rookies this is harder than you think.&lt;/p&gt;&#xA;&lt;p&gt;So why would you want one?&lt;/p&gt;&#xA;&lt;p&gt;First, because you can control every piece of hardware inside it. There’s a multitude of of &lt;a href=&#34;https://www.pcgamer.com/best-mechanical-switches-for-gaming/&#34;&gt;switches&lt;/a&gt; to choose from, they differ in how hard you need to press them, in their haptic feedback, in their noisiness, and other things. There’s an endless supply of &lt;a href=&#34;https://kbdfans.cn/collections/keycaps&#34;&gt;keycaps&lt;/a&gt; available. You can choose the PCB based on which layout, connector or LEDs you like. You can change any part of the whole to make it &lt;em&gt;your&lt;/em&gt; keyboard.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Travel with Spotify</title>
-      <link>https://npiccolotto.com/travel-with-spotify/</link>
+      <link>https://npiccolotto.com/project/travel-with-spotify/</link>
       <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/travel-with-spotify/</guid>
-      <description>When I travel I like to get a feeling for the music from the place I will visit. Who are the romantic singers one should know? What was the popular boyband in the 90s? For a recent trip I copied artist names from a Wikipedia page into the Spotify search, and that clearly doesn&amp;rsquo;t scale.
-Prior Art There are several playlists from Spotify for kind of this purpose (&amp;ldquo;The Needle&amp;rdquo;), but they give me popular music in that place, ie.</description>
+      <guid>https://npiccolotto.com/project/travel-with-spotify/</guid>
+      <description>&lt;p&gt;When I travel I like to get a feeling for the music from the place I will visit. Who are the romantic singers one should know? What was the popular boyband in the 90s? For a recent trip I copied artist names from a Wikipedia page into the Spotify search, and that clearly doesn&amp;rsquo;t scale.&lt;/p&gt;&#xA;&lt;h5 id=&#34;prior-art&#34;&gt;Prior Art&lt;/h5&gt;&#xA;&lt;p&gt;There are several playlists from Spotify for kind of this purpose (&amp;ldquo;The Needle&amp;rdquo;), but they give me popular music in that place, ie. what people listen to. It&amp;rsquo;s not necessarily &lt;em&gt;from&lt;/em&gt; there nor a good summary.&lt;/p&gt;&#xA;&lt;p&gt;Then there are playlists from &lt;a href=&#34;http://everynoise.com/&#34;&gt;Every Noise&lt;/a&gt; that may come close, like &lt;a href=&#34;http://everynoise.com/engenremap-finnishedm.html&#34;&gt;Finnish EDM&lt;/a&gt;, but they are grouped by genre. Someone from Italy could make Finnish EDM by accident and show up in that playlist.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Inspecting React Children</title>
-      <link>https://npiccolotto.com/inspecting-react-children/</link>
+      <link>https://npiccolotto.com/post/inspecting-react-children/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/inspecting-react-children/</guid>
-      <description>Suppose you write a frontend framework in React, like Bootstrap. (If it’s for the web or react-native doesn’t matter for the argument.) There are components for different text styles (MediumText, SmallText…), for popular control elements (Dropdown, Button…) and so on. You want this to be modular and composable, so you pass a different text component to the Button instead of setting a size property on it. After all, the button size depends only on the content, why would you have a large button with small text inside?</description>
+      <guid>https://npiccolotto.com/post/inspecting-react-children/</guid>
+      <description>&lt;p&gt;Suppose you write a frontend framework in React, like Bootstrap. (If it’s for the web or react-native doesn’t matter for the argument.) There are components for different text styles (MediumText, SmallText…), for popular control elements (Dropdown, Button…) and so on. You want this to be modular and composable, so you pass a different text component to the Button instead of setting a size property on it. After all, the button size depends only on the content, why would you have a large button with small text inside?&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-jsx&#34; data-lang=&#34;jsx&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Button&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;SmallText&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;I&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;am&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;small&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;button&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;SmallText&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;Button&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;But now there’s a problem. A button with small text should have less padding than with larger text. How does it know without a property?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Glitch</title>
-      <link>https://npiccolotto.com/glitch/</link>
+      <link>https://npiccolotto.com/project/glitch/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/glitch/</guid>
-      <description>You probably came across some visuals that can be categorized as Glitch Art. For instance, it’s heavily used in Pony Island as you modify the code and break out of the haunted arcade machine.
-I generally like this style a lot and wanted to find out what needs to be done to glitch some images of classic art. As somebody already did it for the PNG format, I focused on JPEG.</description>
+      <guid>https://npiccolotto.com/project/glitch/</guid>
+      <description>&lt;p&gt;You probably came across some visuals that can be categorized as &lt;a href=&#34;https://en.wikipedia.org/wiki/Glitch_art&#34;&gt;Glitch Art&lt;/a&gt;. For instance, it’s heavily used in &lt;a href=&#34;https://store.steampowered.com/app/405640/Pony_Island/&#34;&gt;Pony Island&lt;/a&gt; as you modify the code and break out of the haunted arcade machine.&lt;/p&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/7vLzSh1UKgs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;I generally like this style a lot and wanted to find out what needs to be done to glitch some images of classic art. As somebody already did it for &lt;a href=&#34;https://ucnv.github.io/pnglitch/&#34;&gt;the PNG format&lt;/a&gt;, I focused on JPEG.&lt;/p&gt;&#xA;&lt;p&gt;How does one go about it? I figured it’s easiest to overwrite the file content here and there (a technique known as databending). So naturally, first I looked for some specs of the JPEG file format. There is no free authoritative source, as far as I know, so you puzzle everything together using a hex editor and &lt;a href=&#34;https://www.w3.org/Graphics/JPEG/jfif3.pdf&#34;&gt;the&lt;/a&gt; &lt;a href=&#34;http://vip.sugovica.hu/Sardi/kepnezo/JPEG%20File%20Layout%20and%20Format.htm&#34;&gt;internet&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Correct Calculator</title>
-      <link>https://npiccolotto.com/correct-calculator/</link>
+      <link>https://npiccolotto.com/project/correct-calculator/</link>
       <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/correct-calculator/</guid>
-      <description>Bugs are a long-standing problem in the software industry: Invisible characters crash iOS Messages. FaceTime enables microphone before the call starts.. An integer underflow causes Gandhi to be super-aggressive in the original Civilization. There are many more examples.
-One way to achieve code correctness that was always mysterious to me is formal verification: You prove logically that the code does what you claim. (NB: It’s not the only nor the best nor most efficient way to achieve the goal.</description>
+      <guid>https://npiccolotto.com/project/correct-calculator/</guid>
+      <description>&lt;p&gt;Bugs are a long-standing problem in the software industry: &lt;a href=&#34;https://appleinsider.com/articles/18/05/09/black-dot-unicode-bug-crashes-ios-messages-app-using-invisible-characters&#34;&gt;Invisible characters crash iOS Messages&lt;/a&gt;. &lt;a href=&#34;https://www.nytimes.com/2019/01/29/technology/facetime-glitch-apple.html&#34;&gt;FaceTime enables microphone before the call starts.&lt;/a&gt;. &lt;a href=&#34;https://www.geek.com/games/why-gandhi-is-always-a-warmongering-jerk-in-civilization-1608515/&#34;&gt;An integer underflow causes Gandhi to be super-aggressive in the original Civilization&lt;/a&gt;. There are many more examples.&lt;/p&gt;&#xA;&lt;p&gt;One way to achieve code correctness that was always mysterious to me is formal verification: You prove logically that the code does what you claim. (NB: It’s not the only nor the best nor most efficient way to achieve the goal.) &lt;a href=&#34;https://coq.inria.fr/&#34;&gt;Coq&lt;/a&gt; is a proof assistant that can help with this. You define functions, and lemmas that define properties of that functions, which you then prove.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Building a Relay-compatible GraphQL Server</title>
-      <link>https://npiccolotto.com/building-a-relay-compatible-graphql-server/</link>
+      <link>https://npiccolotto.com/post/building-a-relay-compatible-graphql-server/</link>
       <pubDate>Fri, 03 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/building-a-relay-compatible-graphql-server/</guid>
-      <description>Read it over at the Zalando Tech Blog.</description>
+      <guid>https://npiccolotto.com/post/building-a-relay-compatible-graphql-server/</guid>
+      <description>&lt;p&gt;Read it over at the &lt;a href=&#34;https://engineering.zalando.com/posts/2017/02/building-a-relay-compatible-graphql-server.html&#34;&gt;Zalando Tech Blog&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>symdiff: prevent dead css</title>
-      <link>https://npiccolotto.com/symdiff-prevent-dead-css/</link>
+      <link>https://npiccolotto.com/project/symdiff-prevent-dead-css/</link>
       <pubDate>Mon, 04 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/symdiff-prevent-dead-css/</guid>
-      <description>Some time ago I wrote a gulp plugin to enforce clean CSS in your frontend build. The idea, which I have from Github, is to break said build when the sets of classes in CSS and templates are not equal. This way you make sure you’re always actually using the styles you define and keep the amount of classes in your templates to a minimum.
-I find it very useful and as of time of writing some 230 people on Github agree with me.</description>
+      <guid>https://npiccolotto.com/project/symdiff-prevent-dead-css/</guid>
+      <description>&lt;p&gt;Some time ago I wrote a &lt;a href=&#34;https://github.com/zalando/gulp-check-unused-css&#34;&gt;gulp plugin&lt;/a&gt; to enforce clean CSS in your frontend build. The idea, which I have from &lt;a href=&#34;http://markdotto.com/2014/07/23/githubs-css/#linting&#34;&gt;Github&lt;/a&gt;, is to break said build when the sets of classes in CSS and templates are not equal. This way you make sure you’re always actually using the styles you define and keep the amount of classes in your templates to a minimum.&lt;/p&gt;&#xA;&lt;p&gt;I find it very useful and as of time of writing some 230 people on Github agree with me. The plugin has a few limitations though:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Gulp only&lt;/li&gt;&#xA;&lt;li&gt;vanilla CSS only, which is not too much of an issue, but still&lt;/li&gt;&#xA;&lt;li&gt;HTML only, possibly with Angular&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;This lead to the situation where I wasn’t sure if I could use my own software because in the next project I used Handlebars templates. Oops. And what if I chose React/JSX?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Footnotes in pure CSS</title>
-      <link>https://npiccolotto.com/footnotes-in-pure-css/</link>
+      <link>https://npiccolotto.com/post/footnotes-in-pure-css/</link>
       <pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/footnotes-in-pure-css/</guid>
-      <description>Being a web developer is as much a blessing as it is a curse. One moment you’re reading an article about the most untradable players in the NBA by your favorite basketball author, the next you’re creeping around the footnote implementation of their site and wondering if Javascript is really necessary there.1
-Of course it isn’t. There are games written completely in CSS. And they are also the solution to our problem.</description>
+      <guid>https://npiccolotto.com/post/footnotes-in-pure-css/</guid>
+      <description>&lt;p&gt;Being a web developer is as much a blessing as it is a curse. One moment you’re reading an article about the &lt;a href=&#34;http://grantland.com/features/2015-nba-trade-value-part-3-the-final-countdown/&#34;&gt;most untradable players in the NBA&lt;/a&gt; by your favorite basketball author, the next you’re creeping around the footnote implementation of their site and wondering if Javascript is really necessary there.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&#xA;&lt;p&gt;Of course it isn’t. &lt;a href=&#34;http://cssdeck.com/labs/css-panic-game&#34;&gt;There&lt;/a&gt; &lt;a href=&#34;http://codepen.io/ziga-miklic/pen/Fagmh&#34;&gt;are&lt;/a&gt; games written completely in CSS. And they are also the solution to our problem. Both examples rely on differently styled or hidden, but still accessible &lt;code&gt;input&lt;/code&gt; controls.&lt;/p&gt;&#xA;&lt;p&gt;One way to achieve the latter is to surround the &lt;code&gt;input&lt;/code&gt; with a &lt;code&gt;label&lt;/code&gt;, then hide the &lt;code&gt;input&lt;/code&gt;. Clicking the content will trigger a click on the invisible checkbox as well:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>underlin.es</title>
-      <link>https://npiccolotto.com/underlin.es/</link>
+      <link>https://npiccolotto.com/project/underlin.es/</link>
       <pubDate>Sun, 15 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/underlin.es/</guid>
-      <description>You know all the CSS generators like CSSmatic or CSS arrow please? I was looking for something similar, but for Medium-style text underlines (using background-image) and, strangely, unable to find it. So here it is: underlin.es.
-It’s called “underlin.es” like it was hosted on underlin.es, but it’s not. Originally I had the intention to, but at 1:30 AM I just wanted to get it done.</description>
+      <guid>https://npiccolotto.com/project/underlin.es/</guid>
+      <description>&lt;p&gt;You know all the CSS generators like &lt;a href=&#34;http://www.cssmatic.com/&#34;&gt;CSSmatic&lt;/a&gt; or &lt;a href=&#34;http://cssarrowplease.com/&#34;&gt;CSS arrow please&lt;/a&gt;? I was looking for something similar, but for &lt;a href=&#34;https://medium.com/&#34;&gt;Medium&lt;/a&gt;-style text underlines (using &lt;code&gt;background-image&lt;/code&gt;) and, strangely, unable to find it. So here it is: &lt;a href=&#34;http://prayerslayer.github.io/underlines/&#34;&gt;underlin.es&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It’s called “underlin.es” like it was hosted on &lt;a href=&#34;http://underlin.es/&#34;&gt;underlin.es&lt;/a&gt;, but it’s not. Originally I had the intention to, but at 1:30 AM I just wanted to get it done.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Diploma</title>
-      <link>https://npiccolotto.com/diploma/</link>
+      <link>https://npiccolotto.com/project/diploma/</link>
       <pubDate>Fri, 22 Feb 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/diploma/</guid>
-      <description>My thesis project: A semantically-aided user assistance system for a composite information visualization system.</description>
+      <guid>https://npiccolotto.com/project/diploma/</guid>
+      <description>&lt;p&gt;My thesis project: A semantically-aided user assistance system for a composite information visualization system.&lt;/p&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Ji5DDW-2P_Q?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
-    
     <item>
       <title>FurPle</title>
-      <link>https://npiccolotto.com/furple/</link>
+      <link>https://npiccolotto.com/project/furple/</link>
       <pubDate>Fri, 22 Feb 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/furple/</guid>
-      <description>Back from the days in university: In a two-week seminar we built an app for Microsoft&amp;rsquo;s giant screen-as-a-table. The idea is to make furniture planning possible without physically moving furniture.</description>
+      <guid>https://npiccolotto.com/project/furple/</guid>
+      <description>&lt;p&gt;Back from the days in university: In a two-week seminar we built an app for Microsoft&amp;rsquo;s giant screen-as-a-table. The idea is to make furniture planning possible without physically moving furniture.&lt;/p&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/u4w23j7x35c?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
-    
     <item>
       <title>Tophat 2K</title>
-      <link>https://npiccolotto.com/tophat-2k/</link>
+      <link>https://npiccolotto.com/project/tophat-2k/</link>
       <pubDate>Fri, 22 Feb 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/tophat-2k/</guid>
-      <description>Back from the days in university: In the seminar for haptic interaction we (Fabian Prager, Christopher Bellmann and me) built a tangible user interface that ought to help with private car sharing. Done with an Arduino of course.</description>
+      <guid>https://npiccolotto.com/project/tophat-2k/</guid>
+      <description>&lt;p&gt;Back from the days in university: In the seminar for haptic interaction we (Fabian Prager, Christopher Bellmann and me) built a tangible user interface that ought to help with private car sharing. Done with an Arduino of course.&lt;/p&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/1Rs-caKYULo?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
-    
+    <item>
+      <title>On Combined Visual Cluster and Set Analysis</title>
+      <link>https://npiccolotto.com/publication/on-combined-visual-cluster-and-set-analysis/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:45 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/on-combined-visual-cluster-and-set-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UnDRground Tubes: Exploring Spatial Data With Multidimensional Projections and Set Visualization</title>
+      <link>https://npiccolotto.com/publication/undrground-tubes-exploring-spatial-data-with-multidimensional-projections-and-set-visualization/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:45 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/undrground-tubes-exploring-spatial-data-with-multidimensional-projections-and-set-visualization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Type Agnostic Visual Sensitivity Analysis</title>
+      <link>https://npiccolotto.com/publication/data-type-agnostic-visual-sensitivity-analysis/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:44 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/data-type-agnostic-visual-sensitivity-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visual Interactive Parameter Selection for Temporal Blind Source Separation</title>
+      <link>https://npiccolotto.com/publication/visual-interactive-parameter-selection-for-temporal-blind-source-separation/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:44 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/visual-interactive-parameter-selection-for-temporal-blind-source-separation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multi-Ensemble Visual Analytics via Fuzzy Sets</title>
+      <link>https://npiccolotto.com/publication/multi-ensemble-visual-analytics-via-fuzzy-sets/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:43 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/multi-ensemble-visual-analytics-via-fuzzy-sets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visual Parameter Space Exploration in Time and Space</title>
+      <link>https://npiccolotto.com/publication/visual-parameter-space-exploration-in-time-and-space/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:43 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/visual-parameter-space-exploration-in-time-and-space/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TBSSvis: Visual Analytics for Temporal Blind Source Separation</title>
+      <link>https://npiccolotto.com/publication/tbssvis-visual-analytics-for-temporal-blind-source-separation/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:42 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/tbssvis-visual-analytics-for-temporal-blind-source-separation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visual Parameter Selection for Spatial Blind Source Separation</title>
+      <link>https://npiccolotto.com/publication/visual-parameter-selection-for-spatial-blind-source-separation/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:42 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/visual-parameter-selection-for-spatial-blind-source-separation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guide Me in Analysis: A Framework for Guidance Designers</title>
+      <link>https://npiccolotto.com/publication/guide-me-in-analysis-a-framework-for-guidance-designers/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:40 +0100</pubDate>
+      <guid>https://npiccolotto.com/publication/guide-me-in-analysis-a-framework-for-guidance-designers/</guid>
+      <description></description>
+    </item>
     <item>
       <title></title>
       <link>https://npiccolotto.com/imprint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://npiccolotto.com/imprint/</guid>
-      <description>Verantwortlich für Design und Inhalt:
-Nikolaus Piccolotto
-Nordbahnstrasse 21/23, 1020 Wien
-hallo@npiccolotto.com</description>
+      <description>&lt;p&gt;Verantwortlich für Design und Inhalt:&lt;/p&gt;&#xA;&lt;p&gt;Nikolaus Piccolotto&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;mailto:hallo@npiccolotto.com&#34;&gt;hallo@npiccolotto.com&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Data Type Agnostic Visual Sensitivity Analysis</title>
-      <link>https://npiccolotto.com/data-type-agnostic-visual-sensitivity-analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/data-type-agnostic-visual-sensitivity-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Guide Me in Analysis: A Framework for Guidance Designers</title>
-      <link>https://npiccolotto.com/guide-me-in-analysis-a-framework-for-guidance-designers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/guide-me-in-analysis-a-framework-for-guidance-designers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multi-Ensemble Visual Analytics via Fuzzy Sets</title>
-      <link>https://npiccolotto.com/multi-ensemble-visual-analytics-via-fuzzy-sets/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/multi-ensemble-visual-analytics-via-fuzzy-sets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On Combined Visual Cluster and Set Analysis</title>
-      <link>https://npiccolotto.com/on-combined-visual-cluster-and-set-analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/on-combined-visual-cluster-and-set-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TBSSvis: Visual Analytics for Temporal Blind Source Separation</title>
-      <link>https://npiccolotto.com/tbssvis-visual-analytics-for-temporal-blind-source-separation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/tbssvis-visual-analytics-for-temporal-blind-source-separation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UnDRground Tubes: Exploring Spatial Data With Multidimensional Projections and Set Visualization</title>
-      <link>https://npiccolotto.com/undrground-tubes-exploring-spatial-data-with-multidimensional-projections-and-set-visualization/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/undrground-tubes-exploring-spatial-data-with-multidimensional-projections-and-set-visualization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visual Interactive Parameter Selection for Temporal Blind Source Separation</title>
-      <link>https://npiccolotto.com/visual-interactive-parameter-selection-for-temporal-blind-source-separation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/visual-interactive-parameter-selection-for-temporal-blind-source-separation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visual Parameter Selection for Spatial Blind Source Separation</title>
-      <link>https://npiccolotto.com/visual-parameter-selection-for-spatial-blind-source-separation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/visual-parameter-selection-for-spatial-blind-source-separation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visual Parameter Space Exploration in Time and Space</title>
-      <link>https://npiccolotto.com/visual-parameter-space-exploration-in-time-and-space/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://npiccolotto.com/visual-parameter-space-exploration-in-time-and-space/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
